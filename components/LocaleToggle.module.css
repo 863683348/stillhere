@@ -1,0 +1,33 @@
+.toggle {
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-full);
+  overflow: hidden;
+  background: var(--surface-raised);
+}
+
+.option,
+.active {
+  appearance: none;
+  border: 0;
+  background: transparent;
+  font: inherit;
+  font-size: 0.78rem;
+  letter-spacing: 0.02em;
+  padding: 0.3rem 0.7rem;
+  cursor: pointer;
+  color: var(--text-secondary);
+  transition:
+    color var(--dur-fast) var(--ease-gentle),
+    background-color var(--dur-fast) var(--ease-gentle);
+}
+
+.active {
+  color: var(--text-inverse);
+  background: var(--accent);
+}
+
+.option:hover {
+  color: var(--text-primary);
+}

@@ -1,15 +1,17 @@
 import Link from 'next/link';
 import { getDictionary } from '@/lib/i18n';
+import { resolveLocale } from '@/lib/locale-server';
 import { Lamp } from './Lamp';
 import { ThemeToggle } from './ThemeToggle';
+import { LocaleToggle } from './LocaleToggle';
 import styles from './SiteHeader.module.css';
 
 /**
  * Deliberately thin. The home page is allowed exactly one call to action
  * (uiux §6.2), so "Pricing" here is a quiet text link, not a second button.
  */
-export function SiteHeader() {
-  const t = getDictionary();
+export async function SiteHeader() {
+  const t = getDictionary(await resolveLocale());
 
   return (
     <header className={styles.header}>
@@ -23,6 +25,7 @@ export function SiteHeader() {
           <Link href="/pricing" className={styles.navLink}>
             {t.nav.pricing}
           </Link>
+          <LocaleToggle />
           <ThemeToggle label={t.nav.toggleTheme} />
         </nav>
       </div>

@@ -3,22 +3,25 @@ import Link from 'next/link';
 import { Check, Infinity as InfinityIcon } from 'lucide-react';
 import { MarketingShell } from '@/components/MarketingShell';
 import { getDictionary } from '@/lib/i18n';
+import { resolveLocale } from '@/lib/locale-server';
 import styles from './page.module.css';
 
-const t = getDictionary();
-
-export const metadata: Metadata = {
-  title: t.pricing.meta.title,
-  description: t.pricing.meta.description,
-  alternates: { canonical: '/pricing' },
-  openGraph: {
-    url: '/pricing',
-    title: `${t.pricing.meta.title} · ${t.brand.name}`,
+export async function generateMetadata(): Promise<Metadata> {
+  const t = getDictionary(await resolveLocale());
+  return {
+    title: t.pricing.meta.title,
     description: t.pricing.meta.description,
-  },
-};
+    alternates: { canonical: '/pricing' },
+    openGraph: {
+      url: '/pricing',
+      title: `${t.pricing.meta.title} · ${t.brand.name}`,
+      description: t.pricing.meta.description,
+    },
+  };
+}
 
-export default function PricingPage() {
+export default async function PricingPage() {
+  const t = getDictionary(await resolveLocale());
   const { heading, intro, tiers, recommended, promise, footnote } = t.pricing;
 
   return (

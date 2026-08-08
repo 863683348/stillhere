@@ -4,6 +4,7 @@ import type { LucideIcon } from 'lucide-react';
 import { Lamp } from '@/components/Lamp';
 import { MarketingShell } from '@/components/MarketingShell';
 import { getDictionary } from '@/lib/i18n';
+import { resolveLocale } from '@/lib/locale-server';
 import styles from './page.module.css';
 
 const VALUE_ICONS: Record<string, LucideIcon> = {
@@ -12,8 +13,8 @@ const VALUE_ICONS: Record<string, LucideIcon> = {
   export: Download,
 };
 
-export default function HomePage() {
-  const t = getDictionary();
+export default async function HomePage() {
+  const t = getDictionary(await resolveLocale());
   const { hero, trust, value, honesty, closing } = t.home;
 
   const trustItems = [

@@ -4,15 +4,18 @@ import { ArrowLeft } from 'lucide-react';
 import { Lamp } from '@/components/Lamp';
 import { MarketingShell } from '@/components/MarketingShell';
 import { getDictionary } from '@/lib/i18n';
+import { resolveLocale } from '@/lib/locale-server';
 
-const t = getDictionary();
+export async function generateMetadata(): Promise<Metadata> {
+  const t = getDictionary(await resolveLocale());
+  return {
+    title: t.notFound.title,
+    robots: { index: false, follow: true },
+  };
+}
 
-export const metadata: Metadata = {
-  title: t.notFound.title,
-  robots: { index: false, follow: true },
-};
-
-export default function NotFound() {
+export default async function NotFound() {
+  const t = getDictionary(await resolveLocale());
   const { heading, body, cta } = t.notFound;
 
   return (

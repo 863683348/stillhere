@@ -1,36 +1,39 @@
 import type { Metadata, Viewport } from 'next';
 import { ThemeProvider } from '@/components/ThemeProvider';
-import { getDictionary } from '@/lib/i18n';
+import { LocaleProvider } from '@/components/LocaleProvider';
+import { getDictionary, type Locale } from '@/lib/i18n';
+import { resolveLocale } from '@/lib/locale-server';
 import { THEME_INIT_SCRIPT } from '@/lib/theme';
 import './globals.css';
 
-const t = getDictionary();
-
-export const metadata: Metadata = {
-  metadataBase: new URL('https://stillherememory.com'),
-  title: {
-    default: t.home.meta.title,
-    template: `%s · ${t.brand.name}`,
-  },
-  description: t.home.meta.description,
-  applicationName: t.brand.name,
-  alternates: { canonical: '/' },
-  openGraph: {
-    type: 'website',
-    siteName: t.brand.name,
-    locale: 'en_US',
-    url: '/',
-    title: t.home.meta.title,
+export async function generateMetadata(): Promise<Metadata> {
+  const t = getDictionary(await resolveLocale());
+  return {
+    metadataBase: new URL('https://stillherememory.com'),
+    title: {
+      default: t.home.meta.title,
+      template: `%s · ${t.brand.name}`,
+    },
     description: t.home.meta.description,
-  },
-  twitter: {
-    card: 'summary_large_image',
-    title: t.home.meta.title,
-    description: t.home.meta.description,
-  },
-  robots: { index: true, follow: true },
-  formatDetection: { telephone: false, address: false, email: false },
-};
+    applicationName: t.brand.name,
+    alternates: { canonical: '/' },
+    openGraph: {
+      type: 'website',
+      siteName: t.brand.name,
+      locale: 'zh_CN',
+      url: '/',
+      title: t.home.meta.title,
+      description: t.home.meta.description,
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: t.home.meta.title,
+      description: t.home.meta.description,
+    },
+    robots: { index: true, follow: true },
+    formatDetection: { telephone: false, address: false, email: false },
+  };
+}
 
 export const viewport: Viewport = {
   width: 'device-width',
@@ -45,13 +48,16 @@ export const viewport: Viewport = {
   ],
 };
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default async function RootLayout({ children }: { children: React.ReactNode }) {
+  const locale: Locale = await resolveLocale();
+  const t = getDictionary(locale);
+
   return (
     /*
       suppressHydrationWarning: the inline script below writes data-theme onto
       <html> before React hydrates. That is the intended behaviour, not drift.
     */
-    <html lang="en" suppressHydrationWarning>
+    <html lang={locale} suppressHydrationWarning>
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
@@ -65,7 +71,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <a className="skip-link" href="#main">
           {t.nav.skipToContent}
         </a>
-        <ThemeProvider>{children}</ThemeProvider>
+        <LocaleProvider initialLocale={locale}>
+          <ThemeProvider>{children}</ThemeProvider>
+        </LocaleProvider>
       </body>
     </html>
   );

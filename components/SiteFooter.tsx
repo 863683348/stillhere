@@ -1,10 +1,11 @@
 import Link from 'next/link';
 import { getDictionary } from '@/lib/i18n';
+import { resolveLocale } from '@/lib/locale-server';
 import { Lamp } from './Lamp';
 import styles from './SiteFooter.module.css';
 
-export function SiteFooter() {
-  const t = getDictionary();
+export async function SiteFooter() {
+  const t = getDictionary(await resolveLocale());
   const year = new Date().getFullYear();
 
   return (

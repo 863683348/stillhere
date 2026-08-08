@@ -28,27 +28,40 @@ npm run build
 
 Node 20+ is required (developed against Node 22).
 
-`npm install` reaches the network for `next/font/google`, which downloads and
-self-hosts Newsreader and Inter at build time. An offline `next build` will fail
-on that step; see "Fonts" below for the offline fallback.
+`npm install` needs network access for the npm registry. Fonts are loaded at
+runtime via a `<link>` to Google Fonts (see "Fonts"), so `next build` itself
+makes no font requests and works offline.
 
 ---
 
 ## What is in here so far
 
-Increment 1 — scaffold, design token system, landing page.
+Increment 1 + 2 — scaffold, design tokens, landing page, and the private surface
+(Google sign-in, F1 persona creation, F2 AI reflection chat).
 
-| Route        | Rendering | Notes                                                 |
-| ------------ | --------- | ----------------------------------------------------- |
-| `/`          | SSG       | Hero, trust row, how-it-works, AI disclosure, closing |
-| `/pricing`   | SSG       | Free / Remember / Forever                             |
-| `/privacy`   | SSG       | Commitment scaffold — binding text pending counsel    |
-| `/terms`     | SSG       | Commitment scaffold — binding text pending counsel    |
-| `/app/new`   | CSR       | Placeholder for F1 persona creation (increment 2)     |
-| `robots.txt` | generated | Blocks the training-crawler list in `lib/site.ts`     |
-| `sitemap.xml`| generated | Public routes only                                    |
+| Route                | Rendering | Notes                                          |
+| -------------------- | --------- | ---------------------------------------------- |
+| `/`                  | SSG       | Hero, trust row, how-it-works, AI disclosure   |
+| `/pricing`           | SSG       | Free / Remember / Forever                      |
+| `/privacy`           | SSG       | Commitment scaffold — binding text pending counsel |
+| `/terms`             | SSG       | Commitment scaffold — binding text pending counsel |
+| `/app`               | SSR+auth  | Dashboard — your people                        |
+| `/app/new`           | CSR+auth  | F1 — create a persona                         |
+| `/app/[id]`          | SSR+auth  | F2 — talk with the reflection (streaming)      |
+| `/api/auth/*`        | dynamic   | Auth.js v5 Google OAuth handlers              |
+| `/api/persons`       | dynamic   | F1 list + create                              |
+| `/api/persons/[id]`  | dynamic   | F1 read / update / delete                     |
+| `/api/chat`          | dynamic   | F2 streaming chat via DeepSeek                 |
+| `robots.txt`         | generated | Blocks the training-crawler list in `lib/site.ts` |
+| `sitemap.xml`        | generated | Public routes only                            |
 
-Not built yet: auth, chat, memory, media, payments, the remaining legal pages.
+Payments, media upload, and the remaining legal pages are not built yet.
+
+### Environment variables
+
+Increment 2 needs four secrets (Google OAuth, Neon Postgres, DeepSeek). None are
+in the code. See **`ENV-SETUP.md`** for a step-by-step, and `.env.example` for the
+variable names. On Vercel these go in **Settings → Environment Variables**.
 
 ---
 
@@ -128,15 +141,15 @@ React state, so there is no hydration mismatch and no mounted-guard flicker.
 
 ## Fonts
 
-`next/font/google` self-hosts Newsreader (serif headings, weight 400 — a lighter
-serif carries more weight here than a bold sans) and Inter (body and UI). They
-are exposed as `--font-newsreader` and `--font-inter` and consumed through
-`--font-serif` / `--font-sans` in `styles/tokens.css`.
+Newsreader (serif headings, weight 400 — a lighter serif carries more weight here
+than a bold sans) and Inter (body and UI) are loaded at runtime via a `<link>` to
+Google Fonts in `app/layout.tsx`, then exposed through `--font-serif` /
+`--font-sans` in `styles/tokens.css`. No build-time download means `next build`
+works offline.
 
-If you need a fully offline build, replace the two `next/font/google` calls in
-`app/layout.tsx` with a `<link rel="stylesheet">` to Google Fonts, or vendor the
-woff2 files into `public/` and use `next/font/local`. Nothing else changes,
-because everything downstream reads the two CSS variables.
+If you would rather self-host, replace the `<link>` with `next/font/local` and
+vendor the woff2 files into `public/`. Nothing downstream changes, because
+everything reads the two CSS variables.
 
 ---
 

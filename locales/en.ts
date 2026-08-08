@@ -1,5 +1,6 @@
 /**
- * StillHere — English copy (v1.0 ships English only; see spec §9).
+ * StillHere — English copy. Default locale is Chinese (zh); English is the second
+ * supported language. The switch mechanism lives in lib/i18n.ts + lib/locale-server.ts.
  *
  * Voice rules (uiux §10): speak like a friend who has been through it.
  * No exclamation marks. No marketing verbs. Never "resurrect", "immortal",
@@ -147,6 +148,54 @@ export const en = {
     back: 'Back to the beginning',
   },
 
+  app: {
+    meta: {
+      title: 'Your people',
+      description: 'The people you talk with on StillHere.',
+    },
+    greeting: 'The light is on.',
+    newPerson: 'New person',
+    signOut: 'Sign out',
+    disclaimer:
+      'This is an AI reflection, shaped by your memories. It is not them.',
+    empty: {
+      title: 'No one here yet',
+      body: 'Begin with the person you miss most. It takes about a minute.',
+      cta: 'Begin',
+    },
+    new: {
+      meta: {
+        title: 'Begin',
+        description: 'Tell us who you would like to talk with.',
+      },
+      heading: 'Who would you like to talk with?',
+      intro: 'Three things to start: their name, how you were related, and what you remember. Everything else can wait.',
+      name: 'Their name',
+      namePlaceholder: 'What did you call them?',
+      relationship: 'How were you related',
+      relationshipPlaceholder: 'e.g. my mother, my partner, a dear friend',
+      memories: 'What do you remember',
+      memoriesPlaceholder:
+        'The small things — what they called you, what they always said, what they worried about.',
+      tone: 'The way they spoke',
+      tonePlaceholder: 'Warm and a little shy? Blunt and funny? Calm in a crisis?',
+      writingSample: 'A sample of their voice (optional)',
+      writingSamplePlaceholder: 'A line they often said, or how they signed messages.',
+      submit: 'Save and begin',
+      saving: 'Saving…',
+      error: 'Something went quiet. Please try again.',
+    },
+    chat: {
+      placeholder: 'Say what is on your mind',
+      send: 'Send',
+      empty: 'The first words are always the hardest. Start wherever you are.',
+      you: 'You',
+      them: 'Reflection',
+      back: 'Back to your people',
+      thinking: '…',
+    },
+  },
+
   legal: {
     privacy: {
       title: 'Privacy',
@@ -196,4 +245,11 @@ export const en = {
   },
 } as const;
 
-export type Dictionary = typeof en;
+type Widen<T> = T extends string
+  ? string
+  : T extends readonly (infer U)[]
+  ? readonly Widen<U>[]
+  : { -readonly [K in keyof T]: Widen<T[K]> };
+
+/** Structural (widened) shape of the dictionary — the contract `zh` must satisfy. */
+export type Dictionary = Widen<typeof en>;
