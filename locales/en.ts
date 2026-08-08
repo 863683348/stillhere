@@ -16,6 +16,8 @@ export const en = {
     pricing: 'Pricing',
     skipToContent: 'Skip to content',
     toggleTheme: 'Switch between light and dark',
+    signInGoogle: 'Continue with Google',
+    enter: 'Enter',
   },
 
   home: {
