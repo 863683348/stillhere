@@ -164,6 +164,7 @@ export const zh: Dictionary = {
       people: '人物',
       chat: '聊天',
       newPerson: '新的人',
+      settings: '个人设置',
       photos: '相册',
       social: '社交',
       creation: '创作',
@@ -208,6 +209,28 @@ export const zh: Dictionary = {
       them: '映照',
       back: '回到你的人',
       thinking: '…',
+    },
+    settings: {
+      heading: '个人设置',
+      displayName: '显示名称',
+      email: '邮箱',
+      save: '保存更改',
+      saved: '已保存',
+      subscription: {
+        heading: '订阅计划',
+        body: '暂无活跃订阅',
+        cta: '查看套餐',
+      },
+      signOut: {
+        heading: '退出登录',
+        body: '退出当前账号',
+      },
+      deleteAccount: {
+        heading: '删除账户',
+        body: '此操作不可撤销。你确定吗？',
+        cta: '删除账户',
+        confirm: '再按一次确认',
+      },
     },
   },
 

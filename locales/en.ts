@@ -167,6 +167,7 @@ export const en = {
       people: 'Your people',
       chat: 'Chat',
       newPerson: 'New person',
+      settings: 'Settings',
       photos: 'Photos',
       social: 'Social',
       creation: 'Creation',
@@ -213,6 +214,28 @@ export const en = {
       them: 'Reflection',
       back: 'Back to your people',
       thinking: '…',
+    },
+    settings: {
+      heading: 'Settings',
+      displayName: 'Display name',
+      email: 'Email',
+      save: 'Save changes',
+      saved: 'Saved',
+      subscription: {
+        heading: 'Subscription',
+        body: 'No active subscription',
+        cta: 'View plans',
+      },
+      signOut: {
+        heading: 'Sign out',
+        body: 'Leave this account',
+      },
+      deleteAccount: {
+        heading: 'Delete account',
+        body: 'This cannot be undone. Are you sure?',
+        cta: 'Delete account',
+        confirm: 'Press again to confirm',
+      },
     },
   },
 

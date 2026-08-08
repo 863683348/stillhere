@@ -16,6 +16,7 @@ import {
   LogOut,
   Menu,
   X,
+  Settings,
 } from 'lucide-react';
 import { useState } from 'react';
 import { Lamp } from '@/components/Lamp';
@@ -60,6 +61,7 @@ export function AppSidebar({
     { key: 'people', href: '/app', icon: Users, label: t.app.sidebar.people },
     { key: 'chat', href: '/app', icon: MessageCircle, label: t.app.sidebar.chat },
     { key: 'newPerson', href: '/app/new', icon: UserPlus, label: t.app.sidebar.newPerson },
+    { key: 'settings', href: '/app/settings', icon: Settings, label: t.app.sidebar.settings },
   ];
 
   const secondary: NavItem[] = [
