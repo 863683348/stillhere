@@ -1,0 +1,11 @@
+/* ==========================================================================
+   StillHere — global stylesheet entry
+   Split into three layers so each file stays small and single-purpose:
+     tokens      → the only file allowed to hold literal colour values
+     typography  → the serif/sans type scale
+     base        → reset, page shell, shared primitives
+   ========================================================================== */
+
+@import '../styles/tokens.css';
+@import '../styles/typography.css';
+@import '../styles/base.css';

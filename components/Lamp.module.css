@@ -1,0 +1,119 @@
+/* ==========================================================================
+   Lamp — the brand anchor.
+   A small warm light, left on for someone who has not come home yet.
+   uiux §5: a point of light, never a butterfly / star / feather / wing.
+   ========================================================================== */
+
+.lamp {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: var(--lamp-size);
+  height: var(--lamp-size);
+  flex: none;
+  color: var(--accent);
+}
+
+/* Soft glow behind the flame. A radial wash, not a neon box-shadow. */
+.halo {
+  position: absolute;
+  inset: 50%;
+  width: 240%;
+  height: 240%;
+  translate: -50% -50%;
+  border-radius: var(--radius-full);
+  background: radial-gradient(
+    circle closest-side,
+    var(--accent-glow) 0%,
+    var(--accent-glow) 22%,
+    transparent 72%
+  );
+  pointer-events: none;
+}
+
+.flame {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+}
+
+/* --------------------------------------------------------------------------
+   Variants
+   Keyframes only — the resting state of every element is already visible,
+   so nothing disappears if the animation never runs.
+   -------------------------------------------------------------------------- */
+
+/* Hero: the light comes up out of the dark over 1.2s, then keeps breathing. */
+.ignite .halo {
+  animation:
+    lamp-ignite var(--dur-ignite) var(--ease-gentle) both,
+    lamp-breathe var(--dur-breath) var(--ease-gentle) var(--dur-ignite) infinite;
+}
+
+.ignite .flame {
+  animation: lamp-ignite var(--dur-ignite) var(--ease-gentle) both;
+}
+
+.ignite .ring {
+  animation: lamp-ring var(--dur-slow) var(--ease-gentle) var(--dur-ignite) both;
+}
+
+/* Loading / waiting. A breath, never a spinner. */
+.breathe .halo {
+  animation: lamp-breathe var(--dur-breath) var(--ease-gentle) infinite;
+}
+
+/* "Thinking" indicator. A faint guttering, never three bouncing dots. */
+.flicker .flame {
+  animation: lamp-flicker 1600ms var(--ease-gentle) infinite;
+}
+
+.flicker .halo {
+  animation: lamp-flicker 1600ms var(--ease-gentle) infinite;
+}
+
+@keyframes lamp-ignite {
+  from {
+    opacity: 0;
+    scale: 0.86;
+  }
+  to {
+    opacity: 1;
+    scale: 1;
+  }
+}
+
+@keyframes lamp-breathe {
+  0%,
+  100% {
+    opacity: 0.82;
+    scale: 1;
+  }
+  50% {
+    opacity: 1;
+    scale: 1.06;
+  }
+}
+
+@keyframes lamp-flicker {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  45% {
+    opacity: 0.55;
+  }
+}
+
+/* Opacity only — CSS transform-origin on SVG children is inconsistent
+   across engines, and the ring reads better fading in than scaling in. */
+@keyframes lamp-ring {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

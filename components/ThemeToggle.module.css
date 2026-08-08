@@ -1,0 +1,50 @@
+.toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: var(--tap-min);
+  height: var(--tap-min);
+  border: 1px solid transparent;
+  border-radius: var(--radius-full);
+  background: transparent;
+  color: var(--text-secondary);
+  cursor: pointer;
+  transition:
+    color var(--dur-fast) var(--ease-gentle),
+    background-color var(--dur-fast) var(--ease-gentle),
+    border-color var(--dur-fast) var(--ease-gentle);
+}
+
+.toggle:hover {
+  color: var(--text-primary);
+  background: var(--surface-sunken);
+  border-color: var(--border-subtle);
+}
+
+/*
+  Which icon shows is decided by CSS from the [data-theme] attribute that the
+  pre-paint script sets. Both icons exist in the markup on the server and the
+  client, so the correct one is visible on first paint with no mismatch.
+*/
+.iconDark {
+  display: none;
+}
+
+:global([data-theme='dark']) .iconLight {
+  display: none;
+}
+
+:global([data-theme='dark']) .iconDark {
+  display: block;
+}
+
+/* No-JS / pre-hydration fallback, mirroring tokens.css */
+@media (prefers-color-scheme: dark) {
+  :global(:root:not([data-theme='light'])) .iconLight {
+    display: none;
+  }
+
+  :global(:root:not([data-theme='light'])) .iconDark {
+    display: block;
+  }
+}

@@ -1,0 +1,153 @@
+/* ==========================================================================
+   StillHere — Design Tokens
+   Source of truth: stillhere-spec.md §6 / stillhere-03-uiux.md §3.2
+
+   RULE: this file is the ONLY place a literal colour may appear.
+   Every component references var(--token). No exceptions.
+   ========================================================================== */
+
+:root {
+  color-scheme: light;
+
+  /* ---------- Surfaces ---------- */
+  --surface-base: #faf8f5; /* warm white — page background, never pure #fff */
+  --surface-raised: #ffffff; /* cards */
+  --surface-sunken: #f2eee8; /* inputs / chat bubbles */
+  --surface-overlay: rgba(28, 25, 23, 0.4);
+
+  /* ---------- Text ---------- */
+  --text-primary: #2a2521; /* warm black-brown, never pure #000 */
+  --text-secondary: #6b615a;
+  --text-tertiary: #9c9188;
+  --text-inverse: #faf8f5;
+
+  /* ---------- Accent (amber · candlelight) ---------- */
+  --accent: #c8873e;
+  --accent-hover: #b07530;
+  --accent-soft: #f5e9d9;
+  --accent-glow: rgba(200, 135, 62, 0.18);
+
+  /* ---------- Semantic ---------- */
+  --safe: #6b8e6b; /* sage — privacy / safety cues */
+  --safe-soft: #e8efe6;
+  --caution: #b5654a; /* terracotta — crisis card, low saturation */
+  --caution-soft: #f7e8e3;
+
+  /* ---------- Borders ---------- */
+  --border-subtle: #e8e1d8;
+  --border-strong: #d3c8bb;
+
+  /* ---------- Elevation (deliberately faint) ---------- */
+  --shadow-sm: 0 1px 2px rgba(42, 37, 33, 0.04);
+  --shadow-md: 0 4px 12px rgba(42, 37, 33, 0.06);
+  --shadow-glow: 0 0 32px var(--accent-glow);
+
+  /* ---------- Radius ---------- */
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
+  --radius-full: 999px;
+
+  /* ---------- Spacing (≈1.5× a conventional SaaS scale) ---------- */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 18px;
+  --space-5: 28px;
+  --space-6: 40px;
+  --space-7: 64px;
+  --space-8: 96px;
+
+  /* ---------- Motion (half a beat slower than usual) ---------- */
+  --ease-gentle: cubic-bezier(0.22, 1, 0.36, 1);
+  --dur-fast: 240ms;
+  --dur-base: 400ms;
+  --dur-slow: 600ms;
+  --dur-ignite: 1200ms;
+  --dur-breath: 5600ms;
+
+  /* ---------- Type families ----------
+     Fonts are loaded via <link> in app/layout.tsx (Google Fonts CDN, display=swap).
+     Self-host with next/font/local if a fully offline build is ever required. */
+  --font-serif: 'Newsreader', 'Source Serif 4', Georgia, 'Times New Roman', serif;
+  --font-sans: 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
+
+  /* ---------- Layout ---------- */
+  --measure: 68ch; /* readable line length cap */
+  --page-max: 1120px;
+  --tap-min: 44px; /* WCAG 2.5.5 minimum touch target */
+  --z-header: 100;
+  --z-crisis: 900; /* crisis card must outrank chat stream — spec §7.1 F8 */
+}
+
+/* --------------------------------------------------------------------------
+   Dark theme — "night", not "death". Warm ink-brown, never pure black.
+   Applied by the pre-paint script in app/layout.tsx.
+   -------------------------------------------------------------------------- */
+[data-theme='dark'] {
+  color-scheme: dark;
+
+  --surface-base: #1a1917;
+  --surface-raised: #24221f;
+  --surface-sunken: #14130f;
+  --surface-overlay: rgba(0, 0, 0, 0.55);
+
+  --text-primary: #ede7df;
+  --text-secondary: #a79e94;
+  --text-tertiary: #756c63;
+  --text-inverse: #1a1917;
+
+  --accent: #e0a45e; /* lifted at night — candlelight reads brighter in the dark */
+  --accent-hover: #edb878;
+  --accent-soft: #33291c;
+  --accent-glow: rgba(224, 164, 94, 0.22);
+
+  --safe: #8fae8f;
+  --safe-soft: #232b22;
+  --caution: #d08066;
+  --caution-soft: #33221d;
+
+  --border-subtle: #322e29;
+  --border-strong: #45403a;
+
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 4px 14px rgba(0, 0, 0, 0.36);
+  --shadow-glow: 0 0 40px var(--accent-glow);
+}
+
+/* --------------------------------------------------------------------------
+   No-JS / pre-hydration fallback: follow the OS unless the user pinned light.
+   Peak usage is late at night — a white page at 2am is an imposition.
+   -------------------------------------------------------------------------- */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) {
+    color-scheme: dark;
+
+    --surface-base: #1a1917;
+    --surface-raised: #24221f;
+    --surface-sunken: #14130f;
+    --surface-overlay: rgba(0, 0, 0, 0.55);
+
+    --text-primary: #ede7df;
+    --text-secondary: #a79e94;
+    --text-tertiary: #756c63;
+    --text-inverse: #1a1917;
+
+    --accent: #e0a45e;
+    --accent-hover: #edb878;
+    --accent-soft: #33291c;
+    --accent-glow: rgba(224, 164, 94, 0.22);
+
+    --safe: #8fae8f;
+    --safe-soft: #232b22;
+    --caution: #d08066;
+    --caution-soft: #33221d;
+
+    --border-subtle: #322e29;
+    --border-strong: #45403a;
+
+    --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.3);
+    --shadow-md: 0 4px 14px rgba(0, 0, 0, 0.36);
+    --shadow-glow: 0 0 40px var(--accent-glow);
+  }
+}

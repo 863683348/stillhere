@@ -1,0 +1,36 @@
+.page {
+  max-width: var(--measure);
+  padding-block: var(--space-8);
+}
+
+.draftNote {
+  margin-top: var(--space-5);
+  padding: var(--space-4);
+  border-left: 2px solid var(--accent);
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+  background: var(--surface-sunken);
+}
+
+.points {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+  margin-top: var(--space-6);
+  padding: 0;
+  list-style: none;
+}
+
+.point {
+  display: grid;
+  grid-template-columns: 18px minmax(0, 1fr);
+  gap: var(--space-3);
+  align-items: start;
+  font-size: 16px;
+  line-height: 1.75;
+  color: var(--text-primary);
+}
+
+.pointIcon {
+  margin-top: 6px;
+  color: var(--safe);
+}
