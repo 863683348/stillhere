@@ -20,11 +20,20 @@ export async function SiteFooter() {
           <Link href="/pricing" className={styles.link}>
             {t.footer.links.pricing}
           </Link>
+          <Link href="/faq" className={styles.link}>
+            {t.footer.links.faq}
+          </Link>
+          <Link href="/blog" className={styles.link}>
+            {t.footer.links.blog}
+          </Link>
           <Link href="/privacy" className={styles.link}>
             {t.footer.links.privacy}
           </Link>
           <Link href="/terms" className={styles.link}>
             {t.footer.links.terms}
+          </Link>
+          <Link href="/contact" className={styles.link}>
+            {t.footer.links.contact}
           </Link>
         </nav>
 

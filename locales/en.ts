@@ -270,6 +270,87 @@ export const en = {
     },
   },
 
+  faq: {
+    meta: {
+      title: 'FAQ',
+      description: 'Questions people ask before they talk with someone they miss.',
+    },
+    heading: 'Questions, answered plainly',
+    intro:
+      'No jargon, no sales spin. If something here is unclear, write to us and we will answer it straight.',
+    items: [
+      {
+        question: 'Is StillHere free?',
+        answer:
+          'Yes. The free plan is not a trial — it is the whole product. You get a person to talk with, your data is never deleted, and you can export everything at any time.',
+      },
+      {
+        question: 'Is it really them?',
+        answer:
+          'No, and we will never say otherwise. It is an AI reflection shaped by what you remember. It is not the person, and it does not replace them.',
+      },
+      {
+        question: 'Is my data private?',
+        answer:
+          "Your conversations are encrypted at rest and read by no one but you. Nothing you write is used to train any model, ours or anyone else's.",
+      },
+      {
+        question: 'What happens if I stop paying?',
+        answer:
+          'You lose features, not memories. If a paid plan lapses, your conversations, memories and exports stay exactly where they were.',
+      },
+      {
+        question: 'Can I delete everything for real?',
+        answer:
+          'Yes. Deleting removes the database rows, the memory vectors and the stored files. Nothing is held back.',
+      },
+    ],
+  },
+
+  blog: {
+    meta: {
+      title: 'Blog',
+      description: 'Notes on memory, grief and the quiet ways we keep people close.',
+    },
+    heading: 'Notes',
+    intro:
+      'Occasional writing on what it means to remember, and how a small light can help. No schedule, no noise.',
+    posts: [
+      {
+        title: 'Why we built a lamp, not a chatbot',
+        date: '2026-05-12',
+        excerpt:
+          'Most tools for grief want to fix something. We wanted to make a small, steady presence you can return to. Here is the thinking behind the light.',
+      },
+      {
+        title: 'The first sentence is always the hardest',
+        date: '2026-04-03',
+        excerpt:
+          'People tell us the blank box is the hardest part. A few ways to begin, drawn from how our earliest users found their voice.',
+      },
+      {
+        title: 'On never deleting what you remember',
+        date: '2026-02-19',
+        excerpt:
+          'A note on why "free forever" is a promise about your data, not just your wallet — and what it costs us to keep.',
+      },
+    ],
+  },
+
+  contact: {
+    meta: {
+      title: 'Contact',
+      description: 'Reach the StillHere team.',
+    },
+    heading: 'Get in touch',
+    intro:
+      'Questions, a story you want to share, or something that is not working — write to us. A real person reads every message.',
+    emailLabel: 'Email',
+    email: 'ahmedlzany423@gmail.com',
+    responseNote: 'We usually reply within two business days.',
+    back: 'Back to the beginning',
+  },
+
   notFound: {
     title: 'Nothing here',
     heading: 'There is nothing at this address.',
@@ -282,8 +363,11 @@ export const en = {
     rights: 'StillHere',
     links: {
       pricing: 'Pricing',
+      faq: 'FAQ',
+      blog: 'Blog',
       privacy: 'Privacy',
       terms: 'Terms',
+      contact: 'Contact',
     },
   },
 } as const;

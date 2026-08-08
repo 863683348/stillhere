@@ -1,0 +1,51 @@
+.wrap {
+  padding-block: var(--space-8);
+  max-width: var(--measure);
+}
+
+.intro {
+  margin-top: var(--space-4);
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--space-2);
+  margin-top: var(--space-6);
+  padding: var(--space-5);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  background: var(--surface-sunken);
+}
+
+.label {
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-tertiary);
+}
+
+.email {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  font-family: var(--font-serif);
+  font-size: 22px;
+  color: var(--text-primary);
+  text-decoration: none;
+  transition: color var(--dur-fast) var(--ease-gentle);
+}
+
+.email:hover {
+  color: var(--accent);
+}
+
+.emailIcon {
+  color: var(--accent);
+}
+
+.note {
+  margin: 0;
+}

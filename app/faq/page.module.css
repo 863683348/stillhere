@@ -1,0 +1,37 @@
+.head {
+  padding-block: var(--space-8) var(--space-4);
+}
+
+.intro {
+  margin-top: var(--space-4);
+  max-width: var(--measure);
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-5);
+  margin: 0;
+  max-width: var(--measure);
+}
+
+.item {
+  border-top: 1px solid var(--border-subtle);
+  padding-top: var(--space-5);
+}
+
+.question {
+  margin: 0;
+  font-family: var(--font-serif);
+  font-size: 20px;
+  line-height: 1.4;
+  font-weight: 400;
+  color: var(--text-primary);
+}
+
+.answer {
+  margin: var(--space-3) 0 0;
+  font-size: 16px;
+  line-height: 1.75;
+  color: var(--text-secondary);
+}

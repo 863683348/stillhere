@@ -11,8 +11,11 @@ type Entry = {
 const ROUTES: Entry[] = [
   { path: '/', changeFrequency: 'weekly', priority: 1 },
   { path: '/pricing', changeFrequency: 'monthly', priority: 0.8 },
+  { path: '/faq', changeFrequency: 'monthly', priority: 0.5 },
+  { path: '/blog', changeFrequency: 'monthly', priority: 0.5 },
   { path: '/privacy', changeFrequency: 'yearly', priority: 0.3 },
   { path: '/terms', changeFrequency: 'yearly', priority: 0.3 },
+  { path: '/contact', changeFrequency: 'yearly', priority: 0.3 },
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {
