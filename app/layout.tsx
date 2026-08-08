@@ -52,6 +52,15 @@ export async function generateMetadata(): Promise<Metadata> {
     },
     robots: { index: true, follow: true },
     formatDetection: { telephone: false, address: false, email: false },
+    // GSC / Bing verification. Leave the env vars unset until the user pastes the
+    // codes from Search Console / Bing Webmaster; Next omits the meta tag when
+    // undefined, so there is no empty/placeholder tag in the meantime.
+    verification: {
+      google: process.env.GOOGLE_SITE_VERIFICATION,
+      other: process.env.BING_SITE_VERIFICATION
+        ? { 'msvalidate.01': process.env.BING_SITE_VERIFICATION }
+        : undefined,
+    },
   };
 }
 
