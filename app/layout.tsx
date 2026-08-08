@@ -1,10 +1,30 @@
 import type { Metadata, Viewport } from 'next';
 import { ThemeProvider } from '@/components/ThemeProvider';
 import { LocaleProvider } from '@/components/LocaleProvider';
+import { JsonLd } from '@/components/JsonLd';
 import { getDictionary, type Locale } from '@/lib/i18n';
 import { resolveLocale } from '@/lib/locale-server';
+import { SITE_URL } from '@/lib/site';
 import { THEME_INIT_SCRIPT } from '@/lib/theme';
 import './globals.css';
+
+/** Global, language-independent structured data (P0-1). */
+const ORG_JSON_LD = {
+  '@context': 'https://schema.org',
+  '@type': 'Organization',
+  name: 'StillHere',
+  url: SITE_URL,
+  description:
+    'A private space to talk with an AI reflection shaped by your own memories of someone you miss.',
+  sameAs: [],
+};
+
+const WEBSITE_JSON_LD = {
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  name: 'StillHere',
+  url: SITE_URL,
+};
 
 export async function generateMetadata(): Promise<Metadata> {
   const t = getDictionary(await resolveLocale());
@@ -48,7 +68,11 @@ export const viewport: Viewport = {
   ],
 };
 
-export default async function RootLayout({ children }: { children: React.ReactNode }) {
+export default async function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   const locale: Locale = await resolveLocale();
   const t = getDictionary(locale);
 
@@ -68,6 +92,8 @@ export default async function RootLayout({ children }: { children: React.ReactNo
         <script dangerouslySetInnerHTML={{ __html: THEME_INIT_SCRIPT }} />
       </head>
       <body>
+        <JsonLd data={ORG_JSON_LD} />
+        <JsonLd data={WEBSITE_JSON_LD} />
         <a className="skip-link" href="#main">
           {t.nav.skipToContent}
         </a>

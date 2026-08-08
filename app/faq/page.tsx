@@ -1,24 +1,46 @@
 import type { Metadata } from 'next';
 import { MarketingShell } from '@/components/MarketingShell';
+import { JsonLd } from '@/components/JsonLd';
 import { getDictionary } from '@/lib/i18n';
-import { resolveLocale } from '@/lib/locale-server';
+import { resolvePageLocale, buildAlternates } from '@/lib/seo';
 import styles from './page.module.css';
 
-export async function generateMetadata(): Promise<Metadata> {
-  const t = getDictionary(await resolveLocale());
+export async function generateMetadata({
+  searchParams,
+}: {
+  searchParams: Promise<{ lang?: string }>;
+}): Promise<Metadata> {
+  const locale = await resolvePageLocale(searchParams);
+  const t = getDictionary(locale);
   return {
     title: t.faq.meta.title,
     description: t.faq.meta.description,
-    alternates: { canonical: '/faq' },
+    alternates: buildAlternates('/faq', locale),
   };
 }
 
-export default async function FaqPage() {
-  const t = getDictionary(await resolveLocale());
+export default async function FaqPage({
+  searchParams,
+}: {
+  searchParams: Promise<{ lang?: string }>;
+}) {
+  const locale = await resolvePageLocale(searchParams);
+  const t = getDictionary(locale);
   const { heading, intro, items } = t.faq;
+
+  const faqJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: items.map((it) => ({
+      '@type': 'Question',
+      name: it.question,
+      acceptedAnswer: { '@type': 'Answer', text: it.answer },
+    })),
+  };
 
   return (
     <MarketingShell>
+      <JsonLd data={faqJsonLd} />
       <section className={`container ${styles.head}`}>
         <h1 className="h1">{heading}</h1>
         <p className={`lead ${styles.intro}`}>{intro}</p>

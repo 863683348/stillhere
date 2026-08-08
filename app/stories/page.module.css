@@ -1,0 +1,80 @@
+/* Stories (F13) */
+
+.wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-block: var(--space-7) var(--space-8);
+}
+
+.heading {
+  text-align: center;
+  margin-bottom: var(--space-3);
+}
+
+.intro {
+  max-width: 56ch;
+  text-align: center;
+  margin-bottom: var(--space-6);
+}
+
+.grid {
+  width: 100%;
+  max-width: 920px;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-4);
+  margin-bottom: var(--space-8);
+}
+
+@media (min-width: 720px) {
+  .grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.card {
+  padding: var(--space-5);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  background: var(--surface-raised);
+}
+
+.quote {
+  font-family: var(--font-serif);
+  font-size: 18px;
+  line-height: 1.5;
+  color: var(--text-primary);
+  text-wrap: balance;
+}
+
+.story {
+  margin-top: var(--space-3);
+  font-size: 14px;
+  color: var(--text-secondary);
+}
+
+.by {
+  margin-top: var(--space-3);
+  font-size: 13px;
+  color: var(--text-tertiary);
+}
+
+.empty {
+  grid-column: 1 / -1;
+  text-align: center;
+  color: var(--text-tertiary);
+  padding: var(--space-6);
+}
+
+.submitBlock {
+  width: 100%;
+  max-width: 720px;
+  padding-top: var(--space-7);
+  border-top: 1px solid var(--border-subtle);
+}
+
+.submitHeading {
+  text-align: center;
+  margin-bottom: var(--space-5);
+}

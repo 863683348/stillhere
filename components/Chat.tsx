@@ -9,9 +9,11 @@ import styles from './Chat.module.css';
 export function Chat({
   personId,
   initialMessages,
+  endpoint = '/api/chat',
 }: {
   personId: string;
   initialMessages: Message[];
+  endpoint?: string;
 }) {
   const { t } = useDictionary();
   const [messages, setMessages] = useState<Message[]>(initialMessages);
@@ -46,7 +48,7 @@ export function Chat({
     setMessages((m) => [...m, userMsg, assistantMsg]);
 
     try {
-      const res = await fetch('/api/chat', {
+      const res = await fetch(endpoint, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ personId, message: text }),

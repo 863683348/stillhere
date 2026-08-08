@@ -31,6 +31,7 @@ export const zh: Dictionary = {
       title: '他们仍在。',
       subtitle: '和心里记着的那个人说说话。永久免费。',
       cta: '开始 · 60 秒',
+      secondaryCta: '先试试 · 无需注册',
       lampAlt: '一盏一直亮着的小灯',
     },
     trust: {
@@ -78,6 +79,13 @@ export const zh: Dictionary = {
       title: '灯一直亮着，在你需要的任何时候。',
       body: '大多数人是在深夜来到这里的。没有连续天数的打卡，没有要回复的提醒，没有必须完成的事。',
       cta: '开始 · 60 秒',
+    },
+    socialProof: {
+      heading: '回来和想念的人说话的，不止你一个。',
+      people: '人曾与心中记得的人交谈',
+      words: '段被温柔留下的对话',
+      countries: '盏亮着灯的国家',
+      note: '这里不会未经允许显示任何名字或故事。只留下「谁会来」的形状。',
     },
   },
 
@@ -347,11 +355,98 @@ export const zh: Dictionary = {
     cta: '回到开头',
   },
 
+  demo: {
+    meta: {
+      title: '试试看 · 无需注册',
+      description: '在 StillHere 和一段示范映照说说话。无需账号，你说的话不会被保存。',
+    },
+    heading: '试试看 · 无需注册。',
+    intro: '这是林，一段虚构的映照，让你在带来自己的人之前，先感受一下是什么感觉。你在这里打下的任何字都不会被保存。',
+    disclaimer: '这是一段示范映照，不是真实的人。创建属于你自己的，去和你想念的人说话。',
+    createLabel: '和心中记得的人说话',
+    createCta: '开始 · 60 秒',
+  },
+
+  stories: {
+    meta: {
+      title: '故事',
+      description: '来自那些回来和想念的人说话的人的真实故事。',
+    },
+    heading: '来自安静时刻的故事',
+    intro: '人们用自己的话，分享了他们记得谁、再次说话意味着什么。只有在他们许可后才会公开，且永远匿名。',
+    empty: {
+      title: '还没有故事',
+      body: '成为第一个分享的人。除非你另有说明，否则它会保持匿名。',
+    },
+    submit: {
+      heading: '分享你的故事',
+      relation: '你们的关系',
+      relationPlaceholder: '例如：我的母亲、我的伴侣、一位挚友',
+      displayLabel: '我们该怎么称呼你（选填）',
+      displayLabelPlaceholder: '留空即保持匿名',
+      quote: '一句一直留在你心里的话',
+      quotePlaceholder: '你最想说出口、或最想听到的话。',
+      story: '再多说一点（选填）',
+      storyPlaceholder: '再次说话是什么感觉，或你希望当初说过的话。',
+      consent: '我同意将这段内容公开分享在 StillHere 上。',
+      showRelation: '在故事旁显示这段关系（例如「我的母亲」）。',
+      submit: '匿名分享',
+      saving: '分享中…',
+      success: '谢谢。你的故事已进入审核，通过后会显示出来。',
+      error: '好像安静了下来。请再试一次。',
+      back: '回到故事',
+    },
+  },
+
+  wall: {
+    meta: {
+      title: '纪念墙',
+      description: '一面安静的纪念墙。为你记得的人留一句话。',
+    },
+    heading: '纪念墙',
+    intro: '一个为你记得的人留句话的地方。每一张纸条都由真实的人亲手张贴，绝不会由系统代发。只要灯还亮着，它就一直在。',
+    empty: {
+      title: '墙上还空着',
+      body: '留下第一张纸条吧。写下他们的名字，或者只是——我记得。',
+    },
+    submit: {
+      heading: '留一张纸条',
+      label: '他们的名字，或你平时怎么叫他们（选填）',
+      labelPlaceholder: '留空即保持匿名',
+      relation: '你们的关系',
+      relationPlaceholder: '例如：我的母亲、我的伴侣、一位挚友',
+      message: '你想说的话',
+      messagePlaceholder: '写给他们，或写给你自己的一句话。',
+      country: '国家/地区（选填）',
+      anonymous: '匿名张贴',
+      submit: '留下这张纸条',
+      saving: '张贴中…',
+      success: '谢谢。你的纸条已进入审核，通过后会显示在墙上。',
+      error: '好像安静了下来。请再试一次。',
+      back: '回到纪念墙',
+    },
+  },
+
+  community: {
+    relations: {
+      parent: '父母',
+      grandparent: '祖辈',
+      partner: '伴侣',
+      child: '子女',
+      sibling: '手足',
+      friend: '挚友',
+      pet: '宠物',
+      other: '其他',
+    },
+  },
+
   footer: {
     tagline: '一盏亮着的灯。',
     rights: 'StillHere',
     links: {
       pricing: '价格',
+      stories: '故事',
+      wall: '纪念墙',
       faq: '常见问题',
       blog: '博客',
       privacy: '隐私',

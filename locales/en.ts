@@ -30,6 +30,7 @@ export const en = {
       title: "They're still here.",
       subtitle: 'Talk with the one your heart remembers. Free forever.',
       cta: 'Begin · 60 seconds',
+      secondaryCta: 'Try it first · no sign up',
       lampAlt: 'A small light, left on',
     },
     trust: {
@@ -78,6 +79,13 @@ export const en = {
       title: 'The light is on whenever you need it.',
       body: 'Most people come here late at night. There is no streak to keep, no reminder to answer, nothing to finish.',
       cta: 'Begin · 60 seconds',
+    },
+    socialProof: {
+      heading: 'You are not the only one who came back to talk.',
+      people: 'people have spoken with someone they remember',
+      words: 'conversations held, and kept',
+      countries: 'countries where the light is on',
+      note: 'No names, no stories shown here without permission. Just the shape of who shows up.',
     },
   },
 
@@ -358,11 +366,98 @@ export const en = {
     cta: 'Back to the beginning',
   },
 
+  demo: {
+    meta: {
+      title: 'Try it — no sign up',
+      description: 'Talk with a demo reflection on StillHere. No account needed; nothing you say is saved.',
+    },
+    heading: 'Try it — no sign up needed.',
+    intro: 'This is Lin, a fictional reflection, so you can feel what it is like before you bring someone of your own. Nothing you type here is saved.',
+    disclaimer: 'This is a demo persona, not a real person. Create your own to talk with someone you miss.',
+    createLabel: 'Talk with someone you remember',
+    createCta: 'Begin · 60 seconds',
+  },
+
+  stories: {
+    meta: {
+      title: 'Stories',
+      description: 'Real stories from people who came back to talk with someone they remember.',
+    },
+    heading: 'Stories from the quiet hours',
+    intro: 'People have shared, in their own words, who they remember and what it meant to talk again. Shared only with their permission, and always anonymous.',
+    empty: {
+      title: 'No stories yet',
+      body: 'Be the first to share. It stays anonymous unless you say otherwise.',
+    },
+    submit: {
+      heading: 'Share your story',
+      relation: 'How were you related',
+      relationPlaceholder: 'e.g. my mother, my partner, a dear friend',
+      displayLabel: 'What should we call you (optional)',
+      displayLabelPlaceholder: 'Leave blank to stay anonymous',
+      quote: 'One line that stays with you',
+      quotePlaceholder: 'The thing you would most want to say, or hear.',
+      story: 'Tell a little more (optional)',
+      storyPlaceholder: 'What it was like to talk again, or what you wish you had said.',
+      consent: 'I give permission to share this publicly on StillHere.',
+      showRelation: 'Show the relationship (e.g. "my mother") with the story.',
+      submit: 'Share anonymously',
+      saving: 'Sharing…',
+      success: 'Thank you. Your story is in review and will appear once approved.',
+      error: 'Something went quiet. Please try again.',
+      back: 'Back to stories',
+    },
+  },
+
+  wall: {
+    meta: {
+      title: 'The Wall',
+      description: 'A quiet wall of remembrance. Leave a line for someone you remember.',
+    },
+    heading: 'The wall',
+    intro: 'A place to leave a line for someone you remember. Each note is posted by a real person, never by the system. It stays up as long as the light is on.',
+    empty: {
+      title: 'The wall is empty',
+      body: 'Leave the first note. Say their name, or just that you remember.',
+    },
+    submit: {
+      heading: 'Leave a note',
+      label: 'Their name or what you called them (optional)',
+      labelPlaceholder: 'Leave blank to stay anonymous',
+      relation: 'How were you related',
+      relationPlaceholder: 'e.g. my mother, my partner, a dear friend',
+      message: 'What would you like to say',
+      messagePlaceholder: 'A line for them, or for yourself.',
+      country: 'Country (optional)',
+      anonymous: 'Post anonymously',
+      submit: 'Leave this note',
+      saving: 'Leaving…',
+      success: 'Thank you. Your note is in review and will appear on the wall once approved.',
+      error: 'Something went quiet. Please try again.',
+      back: 'Back to the wall',
+    },
+  },
+
+  community: {
+    relations: {
+      parent: 'Parent',
+      grandparent: 'Grandparent',
+      partner: 'Partner',
+      child: 'Child',
+      sibling: 'Sibling',
+      friend: 'Friend',
+      pet: 'Pet',
+      other: 'Other',
+    },
+  },
+
   footer: {
     tagline: 'A light left on.',
     rights: 'StillHere',
     links: {
       pricing: 'Pricing',
+      stories: 'Stories',
+      wall: 'The Wall',
       faq: 'FAQ',
       blog: 'Blog',
       privacy: 'Privacy',

@@ -1,10 +1,13 @@
 import Link from 'next/link';
+import { headers } from 'next/headers';
+import type { Metadata } from 'next';
 import { Ban, BookOpen, Download, Lock, MessageCircle, ShieldCheck } from 'lucide-react';
 import type { LucideIcon } from 'lucide-react';
 import { Lamp } from '@/components/Lamp';
 import { MarketingShell } from '@/components/MarketingShell';
 import { getDictionary } from '@/lib/i18n';
-import { resolveLocale } from '@/lib/locale-server';
+import { resolvePageLocale, buildAlternates } from '@/lib/seo';
+import { getStats, recordGeo, formatStat } from '@/lib/community';
 import styles from './page.module.css';
 
 const VALUE_ICONS: Record<string, LucideIcon> = {
@@ -13,9 +16,34 @@ const VALUE_ICONS: Record<string, LucideIcon> = {
   export: Download,
 };
 
-export default async function HomePage() {
-  const t = getDictionary(await resolveLocale());
-  const { hero, trust, value, honesty, closing } = t.home;
+export async function generateMetadata({
+  searchParams,
+}: {
+  searchParams: Promise<{ lang?: string }>;
+}): Promise<Metadata> {
+  const locale = await resolvePageLocale(searchParams);
+  const t = getDictionary(locale);
+  return {
+    title: t.home.meta.title,
+    description: t.home.meta.description,
+    alternates: buildAlternates('/', locale),
+    robots: { index: true, follow: true },
+  };
+}
+
+export default async function HomePage({
+  searchParams,
+}: {
+  searchParams: Promise<{ lang?: string }>;
+}) {
+  const t = getDictionary(await resolvePageLocale(searchParams));
+  const { hero, trust, value, honesty, closing, socialProof } = t.home;
+
+  const stats = await getStats();
+  const incoming = await headers();
+  const country =
+    incoming.get('cf-ipcountry') || incoming.get('x-vercel-ip-country') || null;
+  await recordGeo(country);
 
   const trustItems = [
     { key: 'privacy', icon: Lock, ...trust.privacy },
@@ -37,9 +65,14 @@ export default async function HomePage() {
         <h1 className={`h1 ${styles.heroTitle}`}>{hero.title}</h1>
         <p className={`lead ${styles.heroSubtitle}`}>{hero.subtitle}</p>
 
-        <Link href="/app/new" className={`btn btn-primary ${styles.heroCta}`}>
-          {hero.cta}
-        </Link>
+        <div className={styles.heroActions}>
+          <Link href="/app/new" className={`btn btn-primary ${styles.heroCta}`}>
+            {hero.cta}
+          </Link>
+          <Link href="/demo" className={`btn ${styles.heroCtaSecondary}`}>
+            {hero.secondaryCta}
+          </Link>
+        </div>
 
         <ul className={styles.trust} aria-label={trust.heading}>
           {trustItems.map(({ key, icon: Icon, label, detail }) => (
@@ -74,6 +107,26 @@ export default async function HomePage() {
       <section className={`container ${styles.honesty}`}>
         <p className={styles.honestyQuote}>{honesty.quote}</p>
         <p className={`caption ${styles.honestyNote}`}>{honesty.note}</p>
+      </section>
+
+      {/* ---------- Social proof (F16) ---------- */}
+      <section className={`container ${styles.socialProof}`}>
+        <h2 className="h2">{socialProof.heading}</h2>
+        <div className={styles.socialGrid}>
+          <div className={styles.stat}>
+            <span className={styles.statNum}>{formatStat(stats.people, 50)}</span>
+            <span className={styles.statLabel}>{socialProof.people}</span>
+          </div>
+          <div className={styles.stat}>
+            <span className={styles.statNum}>{formatStat(stats.words, 1000)}</span>
+            <span className={styles.statLabel}>{socialProof.words}</span>
+          </div>
+          <div className={styles.stat}>
+            <span className={styles.statNum}>{formatStat(stats.countries, 10)}</span>
+            <span className={styles.statLabel}>{socialProof.countries}</span>
+          </div>
+        </div>
+        <p className={`caption ${styles.socialNote}`}>{socialProof.note}</p>
       </section>
 
       {/* ---------- Closing ---------- */}

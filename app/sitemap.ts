@@ -16,6 +16,9 @@ const ROUTES: Entry[] = [
   { path: '/privacy', changeFrequency: 'yearly', priority: 0.3 },
   { path: '/terms', changeFrequency: 'yearly', priority: 0.3 },
   { path: '/contact', changeFrequency: 'yearly', priority: 0.3 },
+  { path: '/demo', changeFrequency: 'monthly', priority: 0.6 },
+  { path: '/stories', changeFrequency: 'weekly', priority: 0.5 },
+  { path: '/wall', changeFrequency: 'weekly', priority: 0.5 },
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -26,5 +29,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     lastModified,
     changeFrequency,
     priority,
+    alternates: {
+      languages: {
+        'zh-CN': `${SITE_URL}${path}`,
+        en: `${SITE_URL}${path}?lang=en`,
+      },
+    },
   }));
 }

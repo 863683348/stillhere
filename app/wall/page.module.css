@@ -1,0 +1,70 @@
+/* Wall (F15) — a quiet, chronological wall of notes */
+
+.wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-block: var(--space-7) var(--space-8);
+}
+
+.heading {
+  text-align: center;
+  margin-bottom: var(--space-3);
+}
+
+.intro {
+  max-width: 56ch;
+  text-align: center;
+  margin-bottom: var(--space-6);
+}
+
+.wall {
+  width: 100%;
+  max-width: 720px;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+  margin-bottom: var(--space-8);
+}
+
+.note {
+  padding: var(--space-5) var(--space-5) var(--space-4);
+  border-left: 3px solid var(--accent);
+  border-radius: 0 var(--radius-md) var(--radius-md) 0;
+  background: var(--surface-raised);
+}
+
+.message {
+  font-family: var(--font-serif);
+  font-size: 18px;
+  line-height: 1.55;
+  color: var(--text-primary);
+  white-space: pre-wrap;
+  text-wrap: balance;
+}
+
+.by {
+  margin-top: var(--space-3);
+  font-size: 13px;
+  color: var(--text-tertiary);
+}
+
+.empty {
+  text-align: center;
+  color: var(--text-tertiary);
+  padding: var(--space-6);
+  border: 1px dashed var(--border-strong);
+  border-radius: var(--radius-md);
+}
+
+.submitBlock {
+  width: 100%;
+  max-width: 720px;
+  padding-top: var(--space-7);
+  border-top: 1px solid var(--border-subtle);
+}
+
+.submitHeading {
+  text-align: center;
+  margin-bottom: var(--space-5);
+}

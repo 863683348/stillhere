@@ -2,20 +2,29 @@ import type { Metadata } from 'next';
 import { Mail } from 'lucide-react';
 import { MarketingShell } from '@/components/MarketingShell';
 import { getDictionary } from '@/lib/i18n';
-import { resolveLocale } from '@/lib/locale-server';
+import { resolvePageLocale, buildAlternates } from '@/lib/seo';
 import styles from './page.module.css';
 
-export async function generateMetadata(): Promise<Metadata> {
-  const t = getDictionary(await resolveLocale());
+export async function generateMetadata({
+  searchParams,
+}: {
+  searchParams: Promise<{ lang?: string }>;
+}): Promise<Metadata> {
+  const locale = await resolvePageLocale(searchParams);
+  const t = getDictionary(locale);
   return {
     title: t.contact.meta.title,
     description: t.contact.meta.description,
-    alternates: { canonical: '/contact' },
+    alternates: buildAlternates('/contact', locale),
   };
 }
 
-export default async function ContactPage() {
-  const t = getDictionary(await resolveLocale());
+export default async function ContactPage({
+  searchParams,
+}: {
+  searchParams: Promise<{ lang?: string }>;
+}) {
+  const t = getDictionary(await resolvePageLocale(searchParams));
   const { heading, intro, emailLabel, email, responseNote } = t.contact;
 
   return (
