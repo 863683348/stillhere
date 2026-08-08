@@ -16,6 +16,19 @@ export async function generateMetadata({
     title: t.contact.meta.title,
     description: t.contact.meta.description,
     alternates: buildAlternates('/contact', locale),
+    openGraph: {
+      url: '/contact',
+      title: `${t.contact.meta.title} · ${t.brand.name}`,
+      description: t.contact.meta.description,
+      type: 'website',
+      siteName: t.brand.name,
+      locale: locale === 'en' ? 'en_US' : 'zh_CN',
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: `${t.contact.meta.title} · ${t.brand.name}`,
+      description: t.contact.meta.description,
+    },
   };
 }
 

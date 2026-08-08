@@ -20,6 +20,19 @@ export async function generateMetadata({
     description: t.stories.meta.description,
     alternates: buildAlternates('/stories', locale),
     robots: { index: true, follow: true },
+    openGraph: {
+      url: '/stories',
+      title: `${t.stories.meta.title} · ${t.brand.name}`,
+      description: t.stories.meta.description,
+      type: 'website',
+      siteName: t.brand.name,
+      locale: locale === 'en' ? 'en_US' : 'zh_CN',
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: `${t.stories.meta.title} · ${t.brand.name}`,
+      description: t.stories.meta.description,
+    },
   };
 }
 

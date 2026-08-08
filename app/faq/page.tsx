@@ -16,6 +16,19 @@ export async function generateMetadata({
     title: t.faq.meta.title,
     description: t.faq.meta.description,
     alternates: buildAlternates('/faq', locale),
+    openGraph: {
+      url: '/faq',
+      title: `${t.faq.meta.title} · ${t.brand.name}`,
+      description: t.faq.meta.description,
+      type: 'website',
+      siteName: t.brand.name,
+      locale: locale === 'en' ? 'en_US' : 'zh_CN',
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: `${t.faq.meta.title} · ${t.brand.name}`,
+      description: t.faq.meta.description,
+    },
   };
 }
 
