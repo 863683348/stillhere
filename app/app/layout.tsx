@@ -1,10 +1,6 @@
 import { redirect } from 'next/navigation';
 import { auth } from '@/auth';
-import { ThemeToggle } from '@/components/ThemeToggle';
-import { SignOutButton } from '@/components/SignOutButton';
-import { LocaleToggle } from '@/components/LocaleToggle';
-import { Lamp } from '@/components/Lamp';
-import Link from 'next/link';
+import { AppSidebar } from '@/components/AppSidebar';
 import { getDictionary } from '@/lib/i18n';
 import { resolveLocale } from '@/lib/locale-server';
 import styles from './layout.module.css';
@@ -22,20 +18,12 @@ export default async function AppLayout({ children }: { children: React.ReactNod
 
   return (
     <div className={styles.shell}>
-      <header className={styles.header}>
-        <Link href="/app" className={styles.brand}>
-          <Lamp size={22} variant="still" />
-          <span>{t.brand.name}</span>
-        </Link>
-        <div className={styles.actions}>
-          <LocaleToggle />
-          <ThemeToggle label={t.nav.toggleTheme} />
-          <SignOutButton label={t.app.signOut} />
-        </div>
-      </header>
-      <main id="main" className={styles.main}>
-        {children}
-      </main>
+      <AppSidebar t={t} session={session} />
+      <div className={styles.content}>
+        <main id="main" className={styles.main}>
+          {children}
+        </main>
+      </div>
     </div>
   );
 }
