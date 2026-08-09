@@ -1,6 +1,7 @@
 import { NextResponse } from 'next/server';
 import { buildSystemPrompt, DEEPSEEK_MODEL } from '@/lib/deepseek';
 import { DEMO_PERSON } from '@/lib/demo-persona';
+import { rateLimit, clientIp } from '@/lib/rate-limit';
 
 export const dynamic = 'force-dynamic';
 
@@ -10,18 +11,35 @@ const STREAM_HEADERS = {
   'X-Accel-Buffering': 'no',
 };
 
+const MAX_MESSAGE_LEN = 2000;
+const MAX_TOKENS = 300;
+
 /**
  * Public, no-signup demo chat (F14). Reuses the F2 engine but:
  *  - requires no session
  *  - never persists anything (no addMessage)
  *  - always answers as the fictional DEMO_PERSON
  * The UI labels this clearly so visitors know it is a demo, not a real persona.
+ *
+ * Abuse guard: this is the most exposed endpoint on the site (no auth), so it
+ * gets a per-IP throttle (5/min) plus a small max_tokens cap.
  */
 export async function POST(req: Request) {
+  const rl = rateLimit(`demo:${clientIp(req)}`, 5, 60_000);
+  if (!rl.ok) {
+    return NextResponse.json(
+      { error: 'Too many requests. Please wait a moment and try again.' },
+      { status: 429, headers: { 'Retry-After': String(rl.retryAfterSeconds) } },
+    );
+  }
+
   const body = (await req.json().catch(() => null)) as Record<string, unknown> | null;
   const message = typeof body?.message === 'string' ? body.message.trim() : '';
   if (!message) {
     return NextResponse.json({ error: 'message is required' }, { status: 400 });
+  }
+  if (message.length > MAX_MESSAGE_LEN) {
+    return NextResponse.json({ error: 'message is too long' }, { status: 400 });
   }
 
   const apiKey = process.env.DEEPSEEK_API_KEY;
@@ -48,6 +66,7 @@ export async function POST(req: Request) {
             ],
             stream: true,
             temperature: 0.8,
+            max_tokens: MAX_TOKENS,
           }),
         });
 

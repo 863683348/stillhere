@@ -38,6 +38,24 @@ const securityHeaders = [
   },
 ];
 
+/**
+ * Static-asset / page caching strategy (keeps Fast Origin Transfer near zero):
+ *  - icon.svg: immutable for a year (it only changes with a redeploy)
+ *  - opengraph-image: 1 day (also covered by the export cacheControl in the file)
+ *  - sitemap/robots: 1 day (metadata routes are regenerated per deploy)
+ *  - public marketing pages: 60s browser + 10min CDN s-maxage — static content
+ *    that the edge should serve instead of the origin
+ *  - /app/* (logged-in surface): explicitly no-store — private, per-user pages
+ *    must never be cached by the CDN
+ */
+const assetCacheHeaders = [{ key: 'Cache-Control', value: 'public, max-age=31536000, immutable' }];
+const ogCacheHeaders = [{ key: 'Cache-Control', value: 'public, max-age=86400, immutable' }];
+const pageCacheHeaders = [{ key: 'Cache-Control', value: 'public, max-age=60, s-maxage=600' }];
+const privateNoStore = [
+  { key: 'Cache-Control', value: 'private, no-store, max-age=0' },
+  { key: 'X-Robots-Tag', value: 'noindex, nofollow' },
+];
+
 const nextConfig: NextConfig = {
   reactStrictMode: true,
   poweredByHeader: false,
@@ -47,8 +65,27 @@ const nextConfig: NextConfig = {
       // Spec §4: the whole application surface is private and must not be indexed.
       {
         source: '/app/:path*',
-        headers: [{ key: 'X-Robots-Tag', value: 'noindex, nofollow' }],
+        headers: privateNoStore,
       },
+      // ── caching layer ────────────────────────────────────────────────────
+      { source: '/icon.svg', headers: assetCacheHeaders },
+      { source: '/opengraph-image', headers: ogCacheHeaders },
+      { source: '/opengraph-image/:size*', headers: ogCacheHeaders },
+      { source: '/sitemap.xml', headers: ogCacheHeaders },
+      { source: '/robots.txt', headers: ogCacheHeaders },
+      // Public static marketing pages: let the CDN hold them.
+      { source: '/', headers: pageCacheHeaders },
+      { source: '/faq', headers: pageCacheHeaders },
+      { source: '/blog', headers: pageCacheHeaders },
+      { source: '/pricing', headers: pageCacheHeaders },
+      { source: '/contact', headers: pageCacheHeaders },
+      { source: '/privacy', headers: pageCacheHeaders },
+      { source: '/terms', headers: pageCacheHeaders },
+      { source: '/stories', headers: pageCacheHeaders },
+      { source: '/wall', headers: pageCacheHeaders },
+      { source: '/demo', headers: pageCacheHeaders },
+      { source: '/login', headers: pageCacheHeaders },
+      { source: '/faq/:path*', headers: pageCacheHeaders },
     ];
   },
 };

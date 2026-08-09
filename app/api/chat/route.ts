@@ -2,6 +2,7 @@ import { NextResponse } from 'next/server';
 import { auth } from '@/auth';
 import { getPerson, addMessage } from '@/lib/persons';
 import { buildSystemPrompt, DEEPSEEK_MODEL } from '@/lib/deepseek';
+import { rateLimit } from '@/lib/rate-limit';
 
 export const dynamic = 'force-dynamic';
 
@@ -11,10 +12,23 @@ const STREAM_HEADERS = {
   'X-Accel-Buffering': 'no',
 };
 
+const MAX_MESSAGE_LEN = 4000;
+const MAX_TOKENS = 500;
+
 export async function POST(req: Request) {
   const session = await auth();
   if (!session?.user?.email) {
     return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
+  }
+
+  // Per-user throttle: 20 chats/min keeps a logged-in client from hammering
+  // the paid DeepSeek upstream through this route.
+  const rl = rateLimit(`chat:${session.user.email}`, 20, 60_000);
+  if (!rl.ok) {
+    return NextResponse.json(
+      { error: 'Too many requests. Please wait a moment and try again.' },
+      { status: 429, headers: { 'Retry-After': String(rl.retryAfterSeconds) } },
+    );
   }
 
   const body = (await req.json().catch(() => null)) as Record<string, unknown> | null;
@@ -22,6 +36,9 @@ export async function POST(req: Request) {
   const message = typeof body?.message === 'string' ? body.message.trim() : '';
   if (!personId || !message) {
     return NextResponse.json({ error: 'personId and message are required' }, { status: 400 });
+  }
+  if (message.length > MAX_MESSAGE_LEN) {
+    return NextResponse.json({ error: 'message is too long' }, { status: 400 });
   }
 
   const person = await getPerson(personId, session.user.email);
@@ -61,6 +78,7 @@ export async function POST(req: Request) {
             ],
             stream: true,
             temperature: 0.8,
+            max_tokens: MAX_TOKENS,
           }),
         });
 

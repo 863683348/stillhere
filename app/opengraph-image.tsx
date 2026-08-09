@@ -3,6 +3,9 @@ import { ImageResponse } from 'next/og';
 export const alt = 'StillHere — a private space to remember';
 export const size = { width: 1200, height: 630 };
 export const contentType = 'image/png';
+// One day: social scrapers and previewers hammer this endpoint; the image only
+// changes with a redeploy, so caching it keeps Fast Origin Transfer near zero.
+export const cacheControl = 'public, max-age=86400, immutable';
 
 /**
  * Branded social-share card. Latin-only copy on purpose: the next/og renderer
