@@ -14,6 +14,8 @@ const STREAM_HEADERS = {
 const MAX_MESSAGE_LEN = 2000;
 const MAX_TOKENS = 300;
 const DAILY_DEMO_QUOTA = 50;
+/** Per-window cap enforced client-side (sessionStorage) + re-checked here. */
+const WINDOW_TURNS = 10;
 
 /**
  * Public, no-signup demo chat (F14). Reuses the F2 engine but:
@@ -23,8 +25,8 @@ const DAILY_DEMO_QUOTA = 50;
  * The UI labels this clearly so visitors know it is a demo, not a real persona.
  *
  * Abuse guard: this is the most exposed endpoint on the site (no auth), so it
- * gets a per-IP throttle (5/min) + a per-IP daily budget (50/day) + a small
- * max_tokens cap.
+ * gets a per-IP throttle (5/min) + a per-IP daily budget (50/day) + a per-window
+ * cap (10 turns, carried via `x-demo-turns`) + a small max_tokens cap.
  */
 export async function POST(req: Request) {
   const ip = clientIp(req);
@@ -34,6 +36,17 @@ export async function POST(req: Request) {
     return NextResponse.json(
       { error: 'Too many requests. Please wait a moment and try again.' },
       { status: 429, headers: { 'Retry-After': String(rl.retryAfterSeconds) } },
+    );
+  }
+
+  // Per-window cap: the client sends its sessionStorage counter with each
+  // request; reject once it passes the 10-turn budget. (Client UI also blocks
+  // input at 10 — this header check is the server-side backstop.)
+  const turnsHeader = Number(req.headers.get('x-demo-turns'));
+  if (Number.isFinite(turnsHeader) && turnsHeader > WINDOW_TURNS) {
+    return NextResponse.json(
+      { error: `This demo visit is limited to ${WINDOW_TURNS} conversations.` },
+      { status: 429 },
     );
   }
 

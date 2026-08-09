@@ -44,7 +44,15 @@ export default async function DemoPage({
         </p>
 
         <div className={styles.chatShell}>
-          <Chat personId="demo" initialMessages={initial} endpoint="/api/chat/demo" />
+          <Chat
+            personId="demo"
+            initialMessages={initial}
+            endpoint="/api/chat/demo"
+            maxTurns={10}
+            turnsNote={t.demo.turnsNote}
+            turnsLeftTemplate={t.demo.turnsLeft}
+            turnsExhausted={t.demo.turnsExhausted}
+          />
         </div>
 
         <div className={styles.cta}>
