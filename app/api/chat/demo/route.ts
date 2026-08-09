@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server';
 import { buildSystemPrompt, DEEPSEEK_MODEL } from '@/lib/deepseek';
 import { DEMO_PERSON } from '@/lib/demo-persona';
-import { rateLimit, clientIp } from '@/lib/rate-limit';
+import { rateLimit, dailyQuota, clientIp } from '@/lib/rate-limit';
 
 export const dynamic = 'force-dynamic';
 
@@ -13,6 +13,7 @@ const STREAM_HEADERS = {
 
 const MAX_MESSAGE_LEN = 2000;
 const MAX_TOKENS = 300;
+const DAILY_DEMO_QUOTA = 50;
 
 /**
  * Public, no-signup demo chat (F14). Reuses the F2 engine but:
@@ -22,14 +23,29 @@ const MAX_TOKENS = 300;
  * The UI labels this clearly so visitors know it is a demo, not a real persona.
  *
  * Abuse guard: this is the most exposed endpoint on the site (no auth), so it
- * gets a per-IP throttle (5/min) plus a small max_tokens cap.
+ * gets a per-IP throttle (5/min) + a per-IP daily budget (50/day) + a small
+ * max_tokens cap.
  */
 export async function POST(req: Request) {
-  const rl = rateLimit(`demo:${clientIp(req)}`, 5, 60_000);
+  const ip = clientIp(req);
+
+  const rl = rateLimit(`demo:${ip}`, 5, 60_000);
   if (!rl.ok) {
     return NextResponse.json(
       { error: 'Too many requests. Please wait a moment and try again.' },
       { status: 429, headers: { 'Retry-After': String(rl.retryAfterSeconds) } },
+    );
+  }
+
+  const dq = dailyQuota(`demo:${ip}`, DAILY_DEMO_QUOTA);
+  if (!dq.ok) {
+    return NextResponse.json(
+      {
+        error: `You have used today's demo limit (${DAILY_DEMO_QUOTA}). It resets at midnight UTC.`,
+        remaining: 0,
+        resetsAt: dq.resetsAt,
+      },
+      { status: 429 },
     );
   }
 

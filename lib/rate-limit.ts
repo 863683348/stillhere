@@ -65,3 +65,44 @@ export function clientIp(req: Request): string {
   }
   return req.headers.get('x-real-ip') ?? 'unknown';
 }
+
+// ── Daily quota (natural-day budget, e.g. "300 chats per day") ───────────────
+
+type DailyBucket = { count: number; day: string };
+
+const dailyStore = new Map<string, DailyBucket>();
+
+/** Current UTC calendar day key, e.g. "2026-08-09". Resets at midnight UTC. */
+function dayKey(now: Date): string {
+  return now.toISOString().slice(0, 10);
+}
+
+export interface DailyQuotaResult {
+  ok: boolean;
+  remaining: number;
+  /** ISO timestamp of when the quota resets (next UTC midnight). */
+  resetsAt: string;
+}
+
+/**
+ * Natural-day quota: allows `max` calls per UTC calendar day per `key`.
+ * In-memory (single instance) — same trade-off as `rateLimit`.
+ */
+export function dailyQuota(key: string, max: number): DailyQuotaResult {
+  const now = new Date();
+  const day = dayKey(now);
+  const resetsAt = new Date(now);
+  resetsAt.setUTCHours(24, 0, 0, 0);
+
+  const bucket = dailyStore.get(key);
+  if (!bucket || bucket.day !== day) {
+    dailyStore.set(key, { count: 1, day });
+    return { ok: true, remaining: max - 1, resetsAt: resetsAt.toISOString() };
+  }
+
+  bucket.count += 1;
+  if (bucket.count > max) {
+    return { ok: false, remaining: 0, resetsAt: resetsAt.toISOString() };
+  }
+  return { ok: true, remaining: max - bucket.count, resetsAt: resetsAt.toISOString() };
+}

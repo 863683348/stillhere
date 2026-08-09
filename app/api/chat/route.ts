@@ -2,7 +2,7 @@ import { NextResponse } from 'next/server';
 import { auth } from '@/auth';
 import { getPerson, addMessage } from '@/lib/persons';
 import { buildSystemPrompt, DEEPSEEK_MODEL } from '@/lib/deepseek';
-import { rateLimit } from '@/lib/rate-limit';
+import { rateLimit, dailyQuota } from '@/lib/rate-limit';
 
 export const dynamic = 'force-dynamic';
 
@@ -14,6 +14,7 @@ const STREAM_HEADERS = {
 
 const MAX_MESSAGE_LEN = 4000;
 const MAX_TOKENS = 500;
+const DAILY_CHAT_QUOTA = 300;
 
 export async function POST(req: Request) {
   const session = await auth();
@@ -21,13 +22,26 @@ export async function POST(req: Request) {
     return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
   }
 
-  // Per-user throttle: 20 chats/min keeps a logged-in client from hammering
-  // the paid DeepSeek upstream through this route.
+  // Layer 1 — per-user throttle: 20 chats/min stops a client from hammering
+  // the paid DeepSeek upstream in a burst.
   const rl = rateLimit(`chat:${session.user.email}`, 20, 60_000);
   if (!rl.ok) {
     return NextResponse.json(
       { error: 'Too many requests. Please wait a moment and try again.' },
       { status: 429, headers: { 'Retry-After': String(rl.retryAfterSeconds) } },
+    );
+  }
+
+  // Layer 2 — per-user daily budget: nobody gets unlimited conversations.
+  const dq = dailyQuota(`chat:${session.user.email}`, DAILY_CHAT_QUOTA);
+  if (!dq.ok) {
+    return NextResponse.json(
+      {
+        error: `You have used today's conversation limit (${DAILY_CHAT_QUOTA}). It resets at midnight UTC.`,
+        remaining: 0,
+        resetsAt: dq.resetsAt,
+      },
+      { status: 429 },
     );
   }
 
