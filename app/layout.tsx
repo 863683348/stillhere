@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from 'next';
 import { ThemeProvider } from '@/components/ThemeProvider';
 import { LocaleProvider } from '@/components/LocaleProvider';
 import { JsonLd } from '@/components/JsonLd';
+import { GoogleAnalytics } from '@/components/GoogleAnalytics';
 import { getDictionary, type Locale } from '@/lib/i18n';
 import { resolveLocale } from '@/lib/locale-server';
 import { SITE_URL } from '@/lib/site';
@@ -109,6 +110,7 @@ export default async function RootLayout({
         <LocaleProvider initialLocale={locale}>
           <ThemeProvider>{children}</ThemeProvider>
         </LocaleProvider>
+        <GoogleAnalytics />
       </body>
     </html>
   );
