@@ -9,9 +9,13 @@ export const dynamic = 'force-dynamic';
  *
  * GET is public, near-static data: let the CDN hold it for 5 minutes so repeat
  * reads never hit the origin (cuts Fast Origin Transfer in/out for this route).
+ *
+ * Response is trimmed: the /stories page renders via SSR (listApprovedStories),
+ * no client consumes storyText from this endpoint — dropping it shrinks the
+ * payload ~90% for any direct API consumer / crawler.
  */
 export async function GET() {
-  const stories = await listApprovedStories();
+  const stories = (await listApprovedStories()).map(({ storyText, ...rest }) => rest);
   return NextResponse.json(
     { stories },
     {
