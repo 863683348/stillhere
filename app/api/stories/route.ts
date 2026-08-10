@@ -15,7 +15,16 @@ export const dynamic = 'force-dynamic';
  * payload ~90% for any direct API consumer / crawler.
  */
 export async function GET() {
-  const stories = (await listApprovedStories()).map(({ storyText, ...rest }) => rest);
+  // Pick fields explicitly (avoids the destructured-unused-var lint), omitting
+  // storyText to keep the payload ~90% smaller for API consumers / crawlers.
+  const stories = (await listApprovedStories()).map((s) => ({
+    id: s.id,
+    relation: s.relation,
+    displayLabel: s.displayLabel,
+    quote: s.quote,
+    showRelation: s.showRelation,
+    createdAt: s.createdAt,
+  }));
   return NextResponse.json(
     { stories },
     {
