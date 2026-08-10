@@ -50,7 +50,9 @@ const securityHeaders = [
  */
 const assetCacheHeaders = [{ key: 'Cache-Control', value: 'public, max-age=31536000, immutable' }];
 const ogCacheHeaders = [{ key: 'Cache-Control', value: 'public, max-age=86400, immutable' }];
-const pageCacheHeaders = [{ key: 'Cache-Control', value: 'public, max-age=60, s-maxage=600' }];
+// Marketing pages are near-static (stats update on a 5-min cache); the edge can
+// hold them for an hour, cutting origin re-renders from ~144 to ~24 per page/day.
+const pageCacheHeaders = [{ key: 'Cache-Control', value: 'public, max-age=60, s-maxage=3600' }];
 const privateNoStore = [
   { key: 'Cache-Control', value: 'private, no-store, max-age=0' },
   { key: 'X-Robots-Tag', value: 'noindex, nofollow' },
