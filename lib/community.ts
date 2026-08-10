@@ -197,11 +197,52 @@ export async function getStats(): Promise<SiteStats> {
   };
 }
 
+// ── Cached variants (kept in-process; fine for a single-region Vercel app) ────
+
+const STATS_TTL_MS = 5 * 60_000; // 5 minutes
+let statsCache: { data: SiteStats; at: number } | null = null;
+
+/**
+ * getStats() with a short in-memory TTL: N visitors within 5 minutes share a
+ * single query instead of each issuing 3 SELECTs. Falls back to live data on
+ * expiry; callers should still wrap in try/catch.
+ */
+export async function getStatsCached(): Promise<SiteStats> {
+  const now = Date.now();
+  if (statsCache && now - statsCache.at < STATS_TTL_MS) {
+    return statsCache.data;
+  }
+  const data = await getStats();
+  statsCache = { data, at: now };
+  return data;
+}
+
+let geoDay = '';
+let geoSeenToday = new Set<string>();
+
+/**
+ * recordGeo() deduplicated per country per UTC day: the first visitor from a
+ * country each day issues the INSERT; everyone else that day skips the SQL
+ * entirely (the DB row is already a no-op upsert, so this saves round-trips).
+ */
+export async function recordGeoCached(countryCode?: string | null): Promise<void> {
+  if (!countryCode || countryCode.length !== 2) return;
+  const day = new Date().toISOString().slice(0, 10);
+  if (geoDay !== day) {
+    geoDay = day;
+    geoSeenToday = new Set();
+  }
+  const key = countryCode.toUpperCase();
+  if (geoSeenToday.has(key)) return;
+  geoSeenToday.add(key);
+  await recordGeo(key);
+}
+
+/** Record a country once (upsert; repeated countries are a no-op). */
 export async function recordGeo(countryCode?: string | null): Promise<void> {
   if (!countryCode || countryCode.length !== 2) return;
   await ensureSchema();
   const sql = getSql();
-  // Upsert: the same country appearing again is a no-op.
   await sql`
     INSERT INTO geo_seen (country_code) VALUES (${countryCode.toUpperCase()})
     ON CONFLICT (country_code) DO NOTHING

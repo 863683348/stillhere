@@ -7,7 +7,7 @@ import { Lamp } from '@/components/Lamp';
 import { MarketingShell } from '@/components/MarketingShell';
 import { getDictionary } from '@/lib/i18n';
 import { resolvePageLocale, buildAlternates } from '@/lib/seo';
-import { getStats, recordGeo, formatStat } from '@/lib/community';
+import { getStatsCached, recordGeoCached, formatStat } from '@/lib/community';
 import styles from './page.module.css';
 
 // Fallback stats shown if the database is briefly unavailable — keeps the page
@@ -44,23 +44,23 @@ export default async function HomePage({
   const t = getDictionary(await resolvePageLocale(searchParams));
   const { hero, trust, value, honesty, closing, socialProof } = t.home;
 
-  // DB calls are wrapped in try/catch so a Neon cold-start or transient
-  // connection failure doesn't 500 the whole landing page. The fallback
-  // floor (50/1000/10) still makes the social-proof band look populated.
+  // DB calls are cached/deduplicated (getStatsCached: 5-min in-memory TTL,
+  // recordGeoCached: once per country per day) AND wrapped in try/catch so a
+  // Neon cold-start or transient failure never 500s the landing page.
   let stats = FALLBACK_STATS;
   try {
-    stats = await getStats();
+    stats = await getStatsCached();
   } catch (err) {
-    console.error('[home] getStats failed; serving fallback stats:', err);
+    console.error('[home] getStatsCached failed; serving fallback stats:', err);
   }
 
   let country: string | null = null;
   try {
     const incoming = await headers();
     country = incoming.get('cf-ipcountry') || incoming.get('x-vercel-ip-country') || null;
-    if (country) await recordGeo(country);
+    if (country) await recordGeoCached(country);
   } catch (err) {
-    console.error('[home] recordGeo failed; continuing without geo:', err);
+    console.error('[home] recordGeoCached failed; continuing without geo:', err);
     country = null;
   }
 
