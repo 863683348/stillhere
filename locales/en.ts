@@ -470,7 +470,6 @@ export const en = {
       stories: 'Stories',
       wall: 'The Wall',
       faq: 'FAQ',
-      blog: 'Blog',
       privacy: 'Privacy',
       terms: 'Terms',
       contact: 'Contact',

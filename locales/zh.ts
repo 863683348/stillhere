@@ -459,7 +459,6 @@ export const zh: Dictionary = {
       stories: '故事',
       wall: '纪念墙',
       faq: '常见问题',
-      blog: '博客',
       privacy: '隐私',
       terms: '条款',
       contact: '联系我们',
