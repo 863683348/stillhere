@@ -6,10 +6,20 @@ export const dynamic = 'force-dynamic';
 /**
  * GET /api/tributes — public list of approved tributes only.
  * POST /api/tributes — anonymous submission; always lands as 'pending'.
+ *
+ * GET is public, near-static data: let the CDN hold it for 5 minutes so repeat
+ * reads never hit the origin (cuts Fast Origin Transfer in/out for this route).
  */
 export async function GET() {
   const tributes = await listApprovedTributes();
-  return NextResponse.json({ tributes });
+  return NextResponse.json(
+    { tributes },
+    {
+      headers: {
+        'Cache-Control': 'public, s-maxage=300, stale-while-revalidate=300',
+      },
+    },
+  );
 }
 
 export async function POST(req: Request) {

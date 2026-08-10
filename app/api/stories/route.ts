@@ -6,10 +6,20 @@ export const dynamic = 'force-dynamic';
 /**
  * GET /api/stories — public list of approved stories only.
  * POST /api/stories — anonymous submission; always lands as 'pending'.
+ *
+ * GET is public, near-static data: let the CDN hold it for 5 minutes so repeat
+ * reads never hit the origin (cuts Fast Origin Transfer in/out for this route).
  */
 export async function GET() {
   const stories = await listApprovedStories();
-  return NextResponse.json({ stories });
+  return NextResponse.json(
+    { stories },
+    {
+      headers: {
+        'Cache-Control': 'public, s-maxage=300, stale-while-revalidate=300',
+      },
+    },
+  );
 }
 
 export async function POST(req: Request) {
