@@ -24,6 +24,9 @@ export async function SiteHeader() {
           <Link href="/pricing" className={styles.navLink}>
             {t.nav.pricing}
           </Link>
+          <Link href="/blog" className={styles.navLink}>
+            {t.nav.blog}
+          </Link>
           {session ? (
             <Link href="/app" className={styles.navLink}>
               {t.nav.enter}

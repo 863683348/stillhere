@@ -15,6 +15,7 @@ export const zh: Dictionary = {
 
   nav: {
     pricing: '价格',
+    blog: '博客',
     skipToContent: '跳到正文',
     toggleTheme: '切换浅色与深色',
     signInGoogle: '使用 Google 登录',

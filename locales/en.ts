@@ -14,6 +14,7 @@ export const en = {
 
   nav: {
     pricing: 'Pricing',
+    blog: 'Blog',
     skipToContent: 'Skip to content',
     toggleTheme: 'Switch between light and dark',
     signInGoogle: 'Continue with Google',

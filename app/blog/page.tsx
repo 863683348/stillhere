@@ -42,6 +42,10 @@ export default async function BlogPage({
   const t = getDictionary(locale);
   const { heading, intro, posts } = t.blog;
 
+  // Newest first — never rely on the dictionary array order; sort explicitly
+  // so future posts appended at the end of the file still show up on top.
+  const sortedPosts = [...posts].sort((a, b) => b.date.localeCompare(a.date));
+
   const blogJsonLd = {
     '@context': 'https://schema.org',
     '@type': 'CollectionPage',
@@ -60,7 +64,7 @@ export default async function BlogPage({
 
       <section className="container">
         <ul className={styles.list}>
-          {posts.map((post) => (
+          {sortedPosts.map((post) => (
             <li key={post.title} className={styles.item}>
               <article>
                 <h2 className={`h3 ${styles.title}`}>{post.title}</h2>
