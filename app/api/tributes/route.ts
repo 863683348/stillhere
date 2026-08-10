@@ -1,25 +1,19 @@
 import { NextResponse } from 'next/server';
 import { createTribute, listApprovedTributes, isValidRelation } from '@/lib/community';
 
-export const dynamic = 'force-dynamic';
+// ISR for the public GET: Vercel caches the response on the CDN for 300s.
+// (Manual Cache-Control headers get stripped on serverless functions — this is
+// the supported way to cache a Route Handler response. `force-dynamic` would
+// override this, so it must NOT be set here.)
+export const revalidate = 300;
 
 /**
  * GET /api/tributes — public list of approved tributes only.
  * POST /api/tributes — anonymous submission; always lands as 'pending'.
- *
- * GET is public, near-static data: let the CDN hold it for 5 minutes so repeat
- * reads never hit the origin (cuts Fast Origin Transfer in/out for this route).
  */
 export async function GET() {
   const tributes = await listApprovedTributes();
-  return NextResponse.json(
-    { tributes },
-    {
-      headers: {
-        'Cache-Control': 'public, s-maxage=300, stale-while-revalidate=300',
-      },
-    },
-  );
+  return NextResponse.json({ tributes });
 }
 
 export async function POST(req: Request) {
