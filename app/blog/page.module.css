@@ -21,8 +21,18 @@
   padding-block: var(--space-5);
 }
 
+.link {
+  display: block;
+  color: inherit;
+}
+
+.link:hover .title {
+  color: var(--accent);
+}
+
 .title {
   margin: 0;
+  transition: color var(--dur-fast) var(--ease-gentle);
 }
 
 .date {

@@ -1,9 +1,11 @@
 import type { Metadata } from 'next';
+import Link from 'next/link';
 import { MarketingShell } from '@/components/MarketingShell';
 import { JsonLd } from '@/components/JsonLd';
 import { getDictionary } from '@/lib/i18n';
 import { resolvePageLocale, buildAlternates } from '@/lib/seo';
 import { SITE_URL } from '@/lib/site';
+import { BLOG_POSTS } from '@/lib/blog/posts';
 import styles from './page.module.css';
 
 export async function generateMetadata({
@@ -40,11 +42,11 @@ export default async function BlogPage({
 }) {
   const locale = await resolvePageLocale(searchParams);
   const t = getDictionary(locale);
-  const { heading, intro, posts } = t.blog;
+  const { heading, intro } = t.blog;
 
-  // Newest first — never rely on the dictionary array order; sort explicitly
-  // so future posts appended at the end of the file still show up on top.
-  const sortedPosts = [...posts].sort((a, b) => b.date.localeCompare(a.date));
+  // Newest first — never rely on the data file's array order; sort explicitly
+  // so future posts appended at the end still show up on top.
+  const sortedPosts = [...BLOG_POSTS].sort((a, b) => b.date.localeCompare(a.date));
 
   const blogJsonLd = {
     '@context': 'https://schema.org',
@@ -64,15 +66,20 @@ export default async function BlogPage({
 
       <section className="container">
         <ul className={styles.list}>
-          {sortedPosts.map((post) => (
-            <li key={post.title} className={styles.item}>
-              <article>
-                <h2 className={`h3 ${styles.title}`}>{post.title}</h2>
-                <p className={`caption ${styles.date}`}>{post.date}</p>
-                <p className={`body-secondary ${styles.excerpt}`}>{post.excerpt}</p>
-              </article>
-            </li>
-          ))}
+          {sortedPosts.map((post) => {
+            const lang = locale === 'en' ? post.en : post.zh;
+            return (
+              <li key={post.slug} className={styles.item}>
+                <Link href={`/blog/${post.slug}`} className={styles.link}>
+                  <article>
+                    <h2 className={`h3 ${styles.title}`}>{lang.title}</h2>
+                    <p className={`caption ${styles.date}`}>{post.date}</p>
+                    <p className={`body-secondary ${styles.excerpt}`}>{lang.excerpt}</p>
+                  </article>
+                </Link>
+              </li>
+            );
+          })}
         </ul>
       </section>
     </MarketingShell>

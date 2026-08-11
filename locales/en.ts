@@ -324,26 +324,6 @@ export const en = {
     heading: 'Notes',
     intro:
       'Occasional writing on what it means to remember, and how a small light can help. No schedule, no noise.',
-    posts: [
-      {
-        title: 'Why we built a lamp, not a chatbot',
-        date: '2026-05-12',
-        excerpt:
-          'Most tools for grief want to fix something. We wanted to make a small, steady presence you can return to. Here is the thinking behind the light.',
-      },
-      {
-        title: 'The first sentence is always the hardest',
-        date: '2026-04-03',
-        excerpt:
-          'People tell us the blank box is the hardest part. A few ways to begin, drawn from how our earliest users found their voice.',
-      },
-      {
-        title: 'On never deleting what you remember',
-        date: '2026-02-19',
-        excerpt:
-          'A note on why "free forever" is a promise about your data, not just your wallet — and what it costs us to keep.',
-      },
-    ],
   },
 
   contact: {
