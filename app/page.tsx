@@ -31,6 +31,7 @@ export async function generateMetadata({
   return {
     title: t.home.meta.title,
     description: t.home.meta.description,
+    keywords: t.home.meta.keywords,
     alternates: buildAlternates('/', locale),
     robots: { index: true, follow: true },
   };

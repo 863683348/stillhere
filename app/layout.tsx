@@ -36,6 +36,7 @@ export async function generateMetadata(): Promise<Metadata> {
       template: `%s · ${t.brand.name}`,
     },
     description: t.home.meta.description,
+    keywords: t.home.meta.keywords,
     applicationName: t.brand.name,
     alternates: { canonical: '/' },
     openGraph: {

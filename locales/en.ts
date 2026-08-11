@@ -26,6 +26,8 @@ export const en = {
       title: "StillHere — They're still here.",
       description:
         'Talk with the one your heart remembers. A private AI reflection shaped by your own memories. Free forever, and your conversations are never deleted.',
+      keywords:
+        'AI remembrance companion, keep their voice, memory keeper, grief reflection, digital memorial, remember a loved one, AI shaped by your memories, pet memory, talk with memories, StillHere',
     },
     hero: {
       title: "They're still here.",
@@ -92,9 +94,11 @@ export const en = {
 
   pricing: {
     meta: {
-      title: 'Pricing',
+      title: 'Pricing — Free AI remembrance companion',
       description:
         'StillHere is free forever, and your memories are never deleted. Paid plans only cover what we newly generate — never what you already remember.',
+      keywords:
+        'StillHere pricing, free AI companion, memorial AI plans, grief support subscription, memory keeper cost',
     },
     heading: 'Free forever means forever.',
     intro:
@@ -281,8 +285,10 @@ export const en = {
 
   faq: {
     meta: {
-      title: 'FAQ',
+      title: 'FAQ — About StillHere',
       description: 'Questions people ask before they talk with someone they miss.',
+      keywords:
+        'StillHere FAQ, is it private, AI grief companion questions, how memory AI works, is it free',
     },
     heading: 'Questions, answered plainly',
     intro:
@@ -320,6 +326,8 @@ export const en = {
     meta: {
       title: 'Blog',
       description: 'Notes on memory, grief and the quiet ways we keep people close.',
+      keywords:
+        'memory and grief notes, keeping loved ones close, remembrance journal, grief reflection writing',
     },
     heading: 'Notes',
     intro:
@@ -330,6 +338,7 @@ export const en = {
     meta: {
       title: 'Contact',
       description: 'Reach the StillHere team.',
+      keywords: 'contact StillHere, StillHere support, help with memory companion',
     },
     heading: 'Get in touch',
     intro:
@@ -351,6 +360,7 @@ export const en = {
     meta: {
       title: 'A preview — no sign up',
       description: 'See what a StillHere conversation sounds like. No account needed; nothing you type is sent anywhere.',
+      keywords: 'StillHere preview, try AI memory companion, see how a reflection sounds, AI demo',
     },
     heading: 'A short example.',
     intro: 'This is what a StillHere conversation can sound like — a scripted preview, not a live reply.',
@@ -373,6 +383,7 @@ export const en = {
     meta: {
       title: 'Stories',
       description: 'Real stories from people who came back to talk with someone they remember.',
+      keywords: 'remembrance stories, keeping memories alive, grief healing, people who remember',
     },
     heading: 'Stories from the quiet hours',
     intro: 'People have shared, in their own words, who they remember and what it meant to talk again. Shared only with their permission, and always anonymous.',
@@ -404,6 +415,7 @@ export const en = {
     meta: {
       title: 'The Wall',
       description: 'A quiet wall of remembrance. Leave a line for someone you remember.',
+      keywords: 'online memorial wall, leave a message for someone, remembrance wall, digital memorial',
     },
     heading: 'The wall',
     intro: 'A place to leave a line for someone you remember. Each note is posted by a real person, never by the system. It stays up as long as the light is on.',

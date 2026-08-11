@@ -18,6 +18,7 @@ export async function generateMetadata({
   return {
     title: t.wall.meta.title,
     description: t.wall.meta.description,
+    keywords: t.wall.meta.keywords,
     alternates: buildAlternates('/wall', locale),
     robots: { index: true, follow: true },
     openGraph: {

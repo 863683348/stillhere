@@ -17,6 +17,7 @@ export async function generateMetadata({
   return {
     title: t.pricing.meta.title,
     description: t.pricing.meta.description,
+    keywords: t.pricing.meta.keywords,
     alternates: buildAlternates('/pricing', locale),
     openGraph: {
       url: '/pricing',

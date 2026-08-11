@@ -18,6 +18,7 @@ export async function generateMetadata({
   return {
     title: t.stories.meta.title,
     description: t.stories.meta.description,
+    keywords: t.stories.meta.keywords,
     alternates: buildAlternates('/stories', locale),
     robots: { index: true, follow: true },
     openGraph: {

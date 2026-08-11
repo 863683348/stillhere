@@ -24,6 +24,7 @@ export async function generateMetadata(): Promise<Metadata> {
   return {
     title: t.demo.meta.title,
     description: t.demo.meta.description,
+    keywords: t.demo.meta.keywords,
     alternates: buildAlternates('/demo', DEFAULT_LOCALE),
     robots: { index: true, follow: true },
   };

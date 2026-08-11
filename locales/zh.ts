@@ -27,6 +27,8 @@ export const zh: Dictionary = {
       title: 'StillHere — 他们仍在。',
       description:
         '和心里记着的那个人说说话。由你自己的记忆塑造的、私密的 AI 映照。永久免费，你的对话永远不会被删除。',
+      keywords:
+        'AI 思念陪伴, 纪念 AI, 记忆保存, 留住声音, 数字纪念, 缅怀工具, 想念的人, 宠物记忆, 永不删除的回忆, StillHere',
     },
     hero: {
       title: '他们仍在。',
@@ -92,9 +94,10 @@ export const zh: Dictionary = {
 
   pricing: {
     meta: {
-      title: '价格',
+      title: '价格 — 永久免费的 AI 思念陪伴',
       description:
         'StillHere 永久免费，你的记忆永不删除。付费方案只覆盖我们新生成的东西——绝不覆盖你已经记得的。',
+      keywords: 'StillHere 价格, 免费 AI 陪伴, 纪念 AI 收费, 缅怀订阅, 记忆保存费用',
     },
     heading: '永久免费，就是永远。',
     intro: '免费方案不是试用，也不是某个更好版本的阉割版。它是整个产品立身其上的承诺。',
@@ -274,8 +277,9 @@ export const zh: Dictionary = {
 
   faq: {
     meta: {
-      title: '常见问题',
+      title: '常见问题 — 关于 StillHere',
       description: '人们在和想念的人说话之前常问的问题。',
+      keywords: 'StillHere 常见问题, 是否私密, AI 缅怀 问答, 记忆 AI 怎么用, 免费吗',
     },
     heading: '问题，直说就好',
     intro: '没有术语，也没有推销。如果这里有什么说不清的，写信给我们，我们会直说。',
@@ -311,6 +315,7 @@ export const zh: Dictionary = {
     meta: {
       title: '博客',
       description: '关于记忆、失去，以及我们默默把人留在身边的那些方式。',
+      keywords: '记忆与失去, 把人留在身边, 缅怀随笔, 思念书写',
     },
     heading: '随记',
     intro: '偶尔写一点——关于“记得”意味着什么，以及一盏小灯能怎样帮上忙。没有更新表，也没有打扰。',
@@ -320,6 +325,7 @@ export const zh: Dictionary = {
     meta: {
       title: '联系我们',
       description: '联系 StillHere 团队。',
+      keywords: '联系 StillHere, StillHere 客服, 记忆陪伴帮助',
     },
     heading: '和我们聊聊',
     intro: '有疑问、想分享一段故事，还是什么东西不好用了——写信给我们。每一封都有真人读。',
@@ -340,6 +346,7 @@ export const zh: Dictionary = {
     meta: {
       title: '先看看 · 无需注册',
       description: '看看 StillHere 的对话是什么样的。无需账号，你打的字不会发给任何人。',
+      keywords: 'StillHere 预览, 试试 AI 记忆陪伴, 看看对话什么样, AI 演示',
     },
     heading: '先看看一段对话。',
     intro: '这是 StillHere 对话会有的样子——一段预设的示例，不是实时回复。',
@@ -362,6 +369,7 @@ export const zh: Dictionary = {
     meta: {
       title: '故事',
       description: '来自那些回来和想念的人说话的人的真实故事。',
+      keywords: '纪念故事, 把人留在身边, 治愈, 想念的人',
     },
     heading: '来自安静时刻的故事',
     intro: '人们用自己的话，分享了他们记得谁、再次说话意味着什么。只有在他们许可后才会公开，且永远匿名。',
@@ -393,6 +401,7 @@ export const zh: Dictionary = {
     meta: {
       title: '纪念墙',
       description: '一面安静的纪念墙。为你记得的人留一句话。',
+      keywords: '在线纪念墙, 留一句话, 缅怀墙, 数字纪念',
     },
     heading: '纪念墙',
     intro: '一个为你记得的人留句话的地方。每一张纸条都由真实的人亲手张贴，绝不会由系统代发。只要灯还亮着，它就一直在。',

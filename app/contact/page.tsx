@@ -15,6 +15,7 @@ export async function generateMetadata({
   return {
     title: t.contact.meta.title,
     description: t.contact.meta.description,
+    keywords: t.contact.meta.keywords,
     alternates: buildAlternates('/contact', locale),
     openGraph: {
       url: '/contact',

@@ -15,6 +15,7 @@ export async function generateMetadata({
   return {
     title: t.faq.meta.title,
     description: t.faq.meta.description,
+    keywords: t.faq.meta.keywords,
     alternates: buildAlternates('/faq', locale),
     openGraph: {
       url: '/faq',
