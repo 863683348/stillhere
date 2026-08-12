@@ -692,6 +692,74 @@ export const BLOG_POSTS: BlogPost[] = [
       ],
     },
   },
+  {
+    slug: 'set-up-first-memory-capsule-5-minutes',
+    date: '2026-08-12',
+    en: {
+      title: 'Set up your first memory capsule in 5 minutes',
+      excerpt:
+        'A memory capsule is one person, a few specific details, and a place you can return to. A calm, five-minute walkthrough for creating your first one on StillHere.',
+      body: `<h2>What a memory capsule is</h2>
+<p>A memory capsule is the smallest container of remembering: one person you miss, three or four specific details about them, and a place you can come back to. No life story required, no perfect writing. Just the details that made them them.</p>
+<h2>The five-minute setup</h2>
+<p>Open the app, start a new capsule, and answer only what comes easily. Start with the name. Then the detail you would hate to forget: the phrase, the habit, the way they did something ordinary. Add one voice note if you have the patience, a single sentence in your own words. That is enough.</p>
+<p>You do not need to fill every field. An empty field is not homework. A capsule with one true detail is worth more than a complete one that feels like paperwork.</p>
+<h2>Keep it small on purpose</h2>
+<ul>
+<li>One person, not a list. Focus is what makes it returnable.</li>
+<li>Specific over general. "The joke she told at every wedding" beats "she was funny".</li>
+<li>Write the way you talk. If it sounds like you, it will hold.</li>
+</ul>
+<h2>Return to it, gently</h2>
+<p>The capsule does its job when you come back to it, on a hard day or a quiet one, and the details are still there waiting. That is the whole point of StillHere: not to fix grief, but to keep the small, specific things close in a way you can return to.</p>`,
+      faq: [
+        {
+          q: 'What should go into a memory capsule?',
+          a: 'One person, a few specific details that made them them, and anything you would hate to forget. Small and true beats long and generic.',
+        },
+        {
+          q: 'Do I need to write a lot?',
+          a: 'No. A single specific detail is enough to start. You can add more over time; the capsule grows with you.',
+        },
+        {
+          q: 'Can I create more than one capsule?',
+          a: 'Yes. Each capsule is one person, so you can create as many as you need, whenever you are ready.',
+        },
+      ],
+    },
+    zh: {
+      title: '5 分钟创建你的第一个记忆胶囊',
+      excerpt:
+        '记忆胶囊就是一个人、几个具体的细节、一个你随时能回来的地方。一篇安静的 5 分钟上手指南，教你在 StillHere 上创建第一个。',
+      body: `<h2>记忆胶囊是什么</h2>
+<p>记忆胶囊是"记得"的最小容器：一个你想念的人、三四个关于他们的具体细节、一个你能常回来的地方。不需要完整生平，不需要漂亮的文字。只要那些让他们成为他们的细节。</p>
+<h2>5 分钟搭建步骤</h2>
+<p>打开应用，新建一个胶囊，只回答那些自然浮现的内容。先写下名字。然后写下你最不想忘记的那个细节：那句话、那个习惯、他们做某件平凡事的方式。有耐心的话，加一条语音，或者一句你自己的话。这就够了。</p>
+<p>不需要填满每一个字段。空的字段不是作业。一个只有一个真实细节的胶囊，比一个填满却像填表的强。</p>
+<h2>刻意保持小而具体</h2>
+<ul>
+<li>一个人，不是一份名单。专注才让它值得回来。</li>
+<li>具体胜过笼统。"每场婚礼她都讲的那个笑话"，好过"她很幽默"。</li>
+<li>用你说话的方式写。如果它读起来像你，它就留得住。</li>
+</ul>
+<h2>轻轻地，常回来</h2>
+<p>胶囊的意义，在于你回来的时候——在一个难熬的日子，或一个安静的傍晚——那些细节还在那里等你。这就是 StillHere 的全部：不是修补悲伤，而是让那些细小而具体的事，以你能回来的方式，一直留在身边。</p>`,
+      faq: [
+        {
+          q: '记忆胶囊里应该放什么？',
+          a: '一个人、几个让他们成为他们的具体细节、任何你不想忘记的东西。小而真实，胜过长而笼统。',
+        },
+        {
+          q: '需要写很多吗？',
+          a: '不需要。一个具体的细节就足够开始。之后随时可以补充，胶囊会和你一起生长。',
+        },
+        {
+          q: '可以创建多个胶囊吗？',
+          a: '可以。每个胶囊对应一个人，你需要多少就建多少，任何时候都可以。',
+        },
+      ],
+    },
+  },
 ];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
