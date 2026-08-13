@@ -760,6 +760,82 @@ export const BLOG_POSTS: BlogPost[] = [
       ],
     },
   },
+  {
+    slug: 'import-photos-and-voice-into-capsule',
+    date: '2026-08-13',
+    en: {
+      title: 'Import photos and voice notes into a capsule',
+      excerpt:
+        'Text remembers facts, a photo remembers a moment, a voice note remembers the person. How to add photos and voice to a StillHere memory capsule, what to pick, and what to skip.',
+      body: `<h2>Why photos and voice belong in a capsule</h2>
+<p>Text remembers facts. A photo remembers a moment, and a voice note remembers the person, the tone, the way a sentence ended. A memory capsule built on text alone stays flat. Add a photo and a voice note and it becomes something you can feel again. This is the one upgrade worth doing for the people you miss most.</p>
+<h2>What to import, and what to skip</h2>
+<p>Pick the photo that actually carries the person: the one where they are mid-laugh, not the posed one. One photo beats ten. For voice, a single sentence in their own words, or yours about them, carries more than a long recording. Skip blurry shots, group photos where you cannot find them, and audio with a lot of background noise. Quality over quantity is the whole trick.</p>
+<ul>
+<li>One photo that captures their expression, not their pose</li>
+<li>One voice note: a sentence, a phrase, a laugh, thirty seconds is plenty</li>
+<li>Skip duplicates and low-quality files, they dilute what matters</li>
+</ul>
+<h2>How importing works in StillHere</h2>
+<p>Open the capsule, tap the add button, choose the photo from your gallery or camera roll. For voice, hold to record, or import an existing clip. Everything is attached to that one person, stored privately, visible only to you. The photo sits with the text, the voice note plays inline, and the capsule becomes a small room you can walk back into.</p>
+<h2>What changes when you add them</h2>
+<p>Text says what you remember. The photo shows it. The voice brings back the sound of them. Together they do what none of them can do alone: make a person present again for a moment. That is the entire point of a memory capsule, and photos and voice are the fastest way to get there.</p>`,
+      faq: [
+        {
+          q: 'What kind of photo should I add to a capsule?',
+          a: 'One photo that captures their expression, mid-laugh or mid-sentence, beats ten posed ones. Quality over quantity. Skip blurry shots and group photos where you cannot clearly find them.',
+        },
+        {
+          q: 'How long should a voice note be?',
+          a: 'Thirty seconds is plenty. A single sentence in their own words, or yours about them, carries more than a long recording. The tone matters more than the length.',
+        },
+        {
+          q: 'Are the photos and voice notes private?',
+          a: 'Yes. Everything in a capsule is stored privately and visible only to you. Nothing is shared or published unless you explicitly choose to share a capsule.',
+        },
+        {
+          q: 'Can I add media to an existing capsule?',
+          a: 'Yes. Open the capsule, tap add, and attach a photo or record a voice note at any time. Capsules are meant to grow as you remember more.',
+        },
+      ],
+    },
+    zh: {
+      title: '把照片和语音存进记忆胶囊',
+      excerpt:
+        '文字记住事实，照片记住瞬间，语音记住人本身。怎么往 StillHere 记忆胶囊里加照片和语音、选什么、跳过什么。',
+      body: `<h2>为什么照片和语音该进胶囊</h2>
+<p>文字记住事实。照片记住一个瞬间，语音记住一个人：语气、语调、一句话结束的方式。只靠文字的胶囊是平的。加一张照片、一条语音，它就变成你能再次感觉到的东西。这是最值得为你想念的人做的升级。</p>
+<h2>导什么，不导什么</h2>
+<p>选那张真正带着人的照片：笑到一半的那张，而不是摆好姿势的那张。一张胜过十张。语音方面，一句话、用他们自己的话，或者你关于他们的话，比一段长录音更有分量。跳过模糊的照片、找不到人的合影、背景噪音大的音频。质量优先于数量，这就是全部诀窍。</p>
+<ul>
+<li>一张捕捉到表情的照片，而不是姿势</li>
+<li>一条语音：一句话、一个短语、一声笑，三十秒足够</li>
+<li>跳过重复和低质量文件，它们会稀释真正重要的东西</li>
+</ul>
+<h2>在 StillHere 里怎么导入</h2>
+<p>打开胶囊，点添加按钮，从相册选择照片。语音按住录音，或导入已有的片段。所有内容都挂在同一个人名下，私密存储，只有你可见。照片和文字放在一起，语音可以内联播放，胶囊变成一个你随时能走回去的小房间。</p>
+<h2>加上之后，什么变了</h2>
+<p>文字说出你记得的事。照片展示它。语音带回他们的声音。三者合在一起，做到了任何单一形式都做不到的事：让一个人重新在场片刻。这就是记忆胶囊的全部意义，而照片和语音是抵达那里最快的路。</p>`,
+      faq: [
+        {
+          q: '胶囊里该放什么样的照片？',
+          a: '一张捕捉到表情的照片，笑到一半、说到一半，胜过十张摆拍的。质量优先于数量。跳过模糊的照片和找不到人的合影。',
+        },
+        {
+          q: '语音要多长？',
+          a: '三十秒足够。他们自己的一句话，或者你关于他们的一句话，比一段长录音更有分量。语气比时长重要。',
+        },
+        {
+          q: '照片和语音是私密的吗？',
+          a: '是。胶囊里的所有内容都是私密存储，只有你可见。除非你明确选择分享某个胶囊，否则不会分享或公开任何内容。',
+        },
+        {
+          q: '能给已有的胶囊加媒体吗？',
+          a: '能。任何时候打开胶囊，点添加，附上照片或录一条语音。胶囊本来就是用来随着你记得更多而成长的。',
+        },
+      ],
+    },
+  },
 ];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
