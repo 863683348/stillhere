@@ -952,7 +952,114 @@ export const BLOG_POSTS: BlogPost[] = [
       ],
     },
   },
+  {
+    slug: 'export-your-words-always',
+    date: '2026-08-15',
+    en: {
+      title: "Export Everything You Wrote, and Why You Always Can",
+      excerpt: "Two years ago I switched note apps. I'd used the old one for four years, over two thousand notes, and the export was a format nightmare. I burned a whole weekend on it and still lost a few dozen entries completely. After that weekend one thing became clear: an app that won't let you take your own data out isn't keeping your memories safe. It's holding them hostage.",
+      body: `<p>Two years ago I switched note apps. I'd used the old one for four years, over two thousand notes, and the export was a format nightmare. I burned a whole weekend on it and still lost a few dozen entries completely. After that weekend one thing became clear: an app that won't let you take your own data out isn't keeping your memories safe. It's holding them hostage.</p>
+<p>When we built StillHere, my first rule was simple. **Every word you write can be exported in one click, any time. We never lock you in.**</p>
+<h2>Why being able to leave matters so much</h2>
+<p>Data portability sounds like jargon. Strip it down and it's plain language: these are my words, and when I want to leave, I leave with them.</p>
+<p>It gives you three things.</p>
+<p>First, **peace of mind**. Knowing you can take everything out at any moment is what lets you write freely in the first place. No fear that a platform redesign, a shutdown, or a new phone will erase your memories. Second, **freedom to switch**. A tool is a servant, not a master. Use it today, swap it tomorrow, and walk out with your data. No memory gets held as collateral. Third, **the legal layer**. GDPR spells out the right to data portability. Your data belongs to you. That's a right, not a favor from the platform.</p>
+<h2>Choosing a format: Markdown, JSON, and plain text</h2>
+<p>One export format would never be enough, because the formats serve different jobs. StillHere supports three, each with its own purpose.</p>
+<p>**Markdown** is the best all-around choice. It's readable, open it and you see clean text and headings. It's portable, almost every notes app, blog, and writing tool understands it. Choose it if you plan to keep writing somewhere else.</p>
+<p>**JSON** is for preserving structure. Timestamps, tags, and links stay intact as structured data. It suits technical people, or anyone preparing a bulk migration or building their own backup system.</p>
+<p>**Plain text** is the final safety net. No format dependency at all, open it a hundred years from now and your words are still there. Pick it for archiving, or when the only thing that matters is that the text survives.</p>
+<p>Three formats isn't a flex. It's the same promise delivered three ways: give you back what you wrote, shaped the way you want it.</p>
+<h2>What you can do after exporting</h2>
+<p>Most people treat export as a moving-day thing. It's actually useful every week.</p>
+<ul>
+<li>**Local backups**: export Markdown once a month, drop it on your own drive or cloud, and say goodbye to cloud-only storage</li>
+<li>**Migration**: switching platforms or tools, export then import, no gaps in between</li>
+<li>**Print a book**: turn a year of journal entries into a PDF, bind it, and you get a real book on your shelf</li>
+<li>**Review**: feed the JSON to your own script, count how many words you wrote, find out when you write most</li>
+</ul>
+<p>The data is yours, and so are these uses. Our job is just to hand it over.</p>
+<h2>The StillHere export promise</h2>
+<p>Here's the commitment in writing:</p>
+<ul>
+<li>One-click export of everything, in Markdown, JSON, or plain text</li>
+<li>Full content, timestamps, and tags included, nothing truncated, nothing sanitized, nothing cherry-picked</li>
+<li>Export is free forever, no subscription, no request process</li>
+<li>Your data is never used to train models, more in <a href="/blog/your-words-are-not-training-data">Your Words Are Not Training Data</a></li>
+</ul>
+<p>These terms aren't complicated, because this should be the default, not a selling point.</p>`,
+      faq: [
+        {
+                "q": "Q: Does exporting cost anything?",
+                "a": "A: No. Export is a basic right, not a premium feature. Free forever, available anytime."
+        },
+        {
+                "q": "Q: Is the exported file processed in any way?",
+                "a": "A: No. Export packs up your data as-is. No analysis, no sanitizing, no rewriting."
+        },
+        {
+                "q": "Q: What happens to my data if StillHere ever shuts down?",
+                "a": "A: You're never trapped. Exporting whenever you want is already your capability. And if that day ever came, we'd announce it well in advance, so everyone has plenty of time to take their memories with them."
+        },
+        {
+                "q": "Q: Should I pick Markdown or JSON?",
+                "a": "A: If you want to keep writing somewhere else, Markdown. If you want full structure for migration or backup, JSON. If you can't decide, export both, they take no space."
+        }
+],
+    },
+    zh: {
+      title: "你写下的每一个字，永远都能带走",
+      excerpt: "两年前我换过一次笔记软件。旧应用用了四年，两千多条笔记，导出的时候被格式卡住，折腾了整整一个周末，最后还有几十条内容彻底读不出来。那个周末之后我想通了一件事：一个不让你带走自己数据的应用，本质上是在托管你的记忆，而不是为你保管记忆。",
+      body: `<p>两年前我换过一次笔记软件。旧应用用了四年，两千多条笔记，导出的时候被格式卡住，折腾了整整一个周末，最后还有几十条内容彻底读不出来。那个周末之后我想通了一件事：一个不让你带走自己数据的应用，本质上是在托管你的记忆，而不是为你保管记忆。</p>
+<p>现在做 StillHere，我给自己立的第一条规矩就是：**用户写的每一个字，随时可以一键导出，永远不锁死。**</p>
+<h2>为什么"随时能带走"这么重要</h2>
+<p>数据可携带，听起来像个技术术语，其实就是一句大白话：这是我写的字，我想走的时候就能带着走。</p>
+<p>它带来三样东西。</p>
+<p>第一是**安全感**。知道自己随时能拿走，写的时候才敢真正放开。你不用担心哪天平台改版、产品停摆、或者自己换了手机，那些回忆就没了。第二是**换平台的自由**。工具是仆人，不是主人。今天用它，明天想换，带着数据走，没有任何一段记忆被扣下当人质。第三是**法律层面**。GDPR 明确写了数据可携带权，你的数据属于你，这是权利，不是平台的施舍。</p>
+<h2>格式怎么选：Markdown、JSON 和纯文本</h2>
+<p>导出不能只给一种格式，因为用途不同，格式要求也不同。StillHere 支持三种，各有各的用处。</p>
+<p>**Markdown** 是最好的通用格式。可读，打开就是干净的文字和标题；可迁移，几乎所有笔记、博客、写作工具都认它。想带走之后继续用，选它。</p>
+<p>**JSON** 是给"保结构"用的。时间戳、标签、关联关系，全部保留成结构化数据。适合技术背景的人，或者准备做批量迁移、备份到自己的系统里。</p>
+<p>**纯文本** 是最后一道保险。没有任何格式依赖，一百年后打开也还是你的字。适合归档，适合那些"只想确保文字永远在"的人。</p>
+<p>三种格式，不是技术上的炫耀，是同一个承诺的不同兑现方式：按你想要的样子，把你写的东西还给你。</p>
+<h2>导出之后能干什么</h2>
+<p>很多人以为导出数据是"搬家"才用的事，其实日常就有用。</p>
+<ul>
+<li>**本地备份**：一个月导一次 Markdown，存进自己的硬盘或者网盘，和"云端即一切"说再见</li>
+<li>**迁移**：换平台、换工具，导出再导入，全程没有断点</li>
+<li>**打印成册**：把一年的日记导成 PDF，打印装订，变成书架上真实存在的书</li>
+<li>**回顾**：JSON 数据喂给自己写的脚本，统计自己写了多少字、最常深夜记录</li>
+</ul>
+<p>数据是你的，这些用法也是你的。我们只负责把它交到你手里。</p>
+<h2>StillHere 的导出承诺</h2>
+<p>具体承诺写在这里，白纸黑字：</p>
+<ul>
+<li>所有内容一键导出，Markdown / JSON / 纯文本三种格式任选</li>
+<li>导出包含完整内容、时间戳和标签，不截断、不脱敏、不挑挑拣拣</li>
+<li>导出功能永久免费，不需要订阅，也不需要申请</li>
+<li>你的数据不被用来训练模型，详见<a href="/blog/your-words-are-not-training-data">《你的文字不是训练数据》</a></li>
+</ul>
+<p>这些条款不复杂，因为我们觉得这本来就该是标配，而不是卖点。</p>
+<h2>常见问题</h2>
+<p>**Q：导出会收费吗？**</p>
+<p>A：不会。导出是基础权利，不是增值功能，永久免费，随时可用。</p>
+<p>**Q：导出的文件会不会被处理？**</p>
+<p>A：不会。导出只是把你的数据原样打包，不经过任何分析、脱敏或改写。</p>
+<p>**Q：如果哪天 StillHere 不运营了，我的数据怎么办？**</p>
+<p>A：你不会被困住。随时导出带走，这是你本来就有的能力。万一真有那一天，也会提前足够的时间通知，让每个人都能从容带走自己的回忆。</p>
+<p>**Q：Markdown 和 JSON 该选哪个？**</p>
+<p>A：想继续在别处写作，选 Markdown；想完整保留结构做迁移或备份，选 JSON。拿不准就两个都导，反正不占地方。</p>
+<p>**Q：导出的数据包含图片吗？**</p>
+<p>A：包含。图片文件和文字内容会一起导出，路径在文档里列清楚，方便你归档或重新组织。</p>
+<h2>记忆该由你保管</h2>
+<p>那些深夜写下的话，那些怕忘了所以记下来的小事，它们值不值得被一个"未知何时会停服的应用"锁着？答案是显而易见的。数据可携带不是功能列表里的一项，是信任的底线。你写的每一个字，永远都能带走。</p>
+<p>**<a href="/">现在就把你的回忆导出一份试试 →</a>**</p>`,
+      faq: [],
+    },
+  },
+
 ];
+
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
   return BLOG_POSTS.find((p) => p.slug === slug);
