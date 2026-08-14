@@ -9,6 +9,30 @@ import { SITE_URL } from '@/lib/site';
 import { BLOG_POSTS, getPostBySlug } from '@/lib/blog/posts';
 import styles from './page.module.css';
 
+// 相关文章：按标题+摘要英文单词重合度取 3 篇（排除自身），供底部内链
+function getRelatedPosts(slug: string, limit = 3): typeof BLOG_POSTS {
+  const current = getPostBySlug(slug);
+  if (!current) return [];
+  const tokenize = (s: string) =>
+    new Set(
+      (s || '')
+        .toLowerCase()
+        .replace(/[^a-z0-9\s]/g, ' ')
+        .split(/\s+/)
+        .filter((w) => w.length > 3)
+    );
+  const curTokens = tokenize(current.en.title + ' ' + current.en.excerpt);
+  const scored = BLOG_POSTS.filter((p) => p.slug !== slug)
+    .map((p) => {
+      const t = tokenize(p.en.title + ' ' + p.en.excerpt);
+      let score = 0;
+      curTokens.forEach((w) => { if (t.has(w)) score++; });
+      return { p, score };
+    })
+    .sort((a, b) => b.score - a.score || (a.p.date < b.p.date ? 1 : -1));
+  return scored.slice(0, limit).map((s) => s.p);
+}
+
 export function generateStaticParams() {
   return BLOG_POSTS.map((p) => ({ slug: p.slug }));
 }
@@ -112,6 +136,29 @@ export default async function BlogPostPage({
             ))}
           </section>
         ) : null}
+        {(() => {
+          const related = getRelatedPosts(slug);
+          if (!related.length) return null;
+          return (
+            <section className={styles.related} aria-label={locale === 'en' ? 'Related notes' : '相关阅读'}>
+              <h2 className="h2">{locale === 'en' ? 'Related notes' : '相关阅读'}</h2>
+              <ul className={styles.relatedList}>
+                {related.map((p) => {
+                  const rl = locale === 'en' ? p.en : p.zh;
+                  const href = locale === 'en' ? `/blog/${p.slug}?lang=en` : `/blog/${p.slug}`;
+                  return (
+                    <li key={p.slug}>
+                      <Link href={href} className={styles.relatedLink}>
+                        {rl.title}
+                      </Link>
+                      <p className="caption">{p.date}</p>
+                    </li>
+                  );
+                })}
+              </ul>
+            </section>
+          );
+        })()}
         <p className={styles.cta}>
           <Link href="/" className="btn btn-primary">
             {t.home.hero.cta}

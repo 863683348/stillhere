@@ -92,6 +92,35 @@
   margin: 0;
 }
 
+.related {
+  margin-top: var(--space-10);
+  padding-top: var(--space-6);
+  border-top: 1px solid var(--border-subtle);
+}
+
+.relatedList {
+  list-style: none;
+  margin: var(--space-4) 0 0;
+  padding: 0;
+  display: grid;
+  gap: var(--space-4);
+}
+
+.relatedLink {
+  color: var(--text-primary);
+  border-bottom: 1px solid transparent;
+  transition: color var(--dur-fast) var(--ease-gentle), border-color var(--dur-fast) var(--ease-gentle);
+}
+
+.relatedLink:hover {
+  color: var(--accent);
+  border-bottom-color: var(--border-strong);
+}
+
+.relatedList p {
+  margin: var(--space-1) 0 0;
+}
+
 .cta {
   margin-top: var(--space-10);
 }
