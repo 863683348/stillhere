@@ -836,6 +836,122 @@ export const BLOG_POSTS: BlogPost[] = [
       ],
     },
   },
+  {
+    slug: 'share-capsule-with-family',
+    date: '2026-08-14',
+    en: {
+      title: 'Share a capsule with family — privately',
+      excerpt:
+        'A capsule holds things you would not say at a dinner table. How to share a memory capsule with family privately: one person, one piece, and what to keep back.',
+      body: `<h2>A capsule is private before it is anything else</h2>
+<p>You built the capsule for yourself, probably at an hour when nobody else was awake. Then a cousin asks what you remember about Grandma, and suddenly you want to share a memory capsule with family privately, without it becoming a group thread or a post that strangers can read. That instinct is right. A capsule holds the kind of detail you would not say out loud at a dinner table, and it should stay behind a door you control.</p>
+<p>So the starting position is simple: nothing is shared. Not with our team, not with your family, not by accident. If something leaves your account, it is because you carried it out yourself.</p>
+<h2>What private capsule sharing actually means</h2>
+<p>Private capsule sharing is not a broadcast with a smaller audience. It is closer to handing someone a letter and sitting there while they read it. Three things are worth being clear about before you do it.</p>
+<ul>
+<li>You choose the person. One name, not the family group by default.</li>
+<li>You choose the piece. A single memory, one photo, one paragraph, rather than the whole capsule.</li>
+<li>You can stop at any point. What you have not sent stays yours.</li>
+</ul>
+<p>The longer reasoning behind how this is built sits in <a href="/blog/private-by-design">private by design</a>.</p>
+<h2>How to share memories with family securely, one person at a time</h2>
+<p>The practical version, in the order that tends to work:</p>
+<ul>
+<li>Pick one relative. Usually the one who can hear his name without changing the subject.</li>
+<li>Read the capsule yourself first. You will find a line or two you are not ready to hand over yet.</li>
+<li>Copy or export only that part. A plain file you send directly is easier to live with than a link you cannot take back.</li>
+<li>Use a channel your family already uses for family things, and say what it is before they open it.</li>
+<li>Say what you want back. "You do not have to reply" is a complete sentence.</li>
+</ul>
+<p>That last step matters more than it sounds. Relatives often read a shared memory as an invitation to fix your grief, so they arrive with advice. Telling them what you need, a read rather than a response, keeps the whole thing gentle.</p>
+<h2>What to share and what to hold back</h2>
+<p>Some of what is in a capsule is not for anyone. The argument you never resolved. The version of him only you saw. Holding those back is not dishonesty, it is the reason the capsule works at all. Once a capsule has been edited for an audience, it stops being a place where you can be unguarded.</p>
+<p>A rough sort, if it helps:</p>
+<ul>
+<li>Share: stories, small habits, the way she answered the phone, the photo everyone already loves.</li>
+<li>Hold: unfinished conflict, private guilt, whatever you say to him at two in the morning.</li>
+<li>Ask first: anything about a living relative who never agreed to be in it.</li>
+</ul>
+<h2>If sharing goes badly</h2>
+<p>Sometimes you send it and the reply lands wrong. Someone corrects your memory, or goes quiet for a week, or turns it into a story about themselves. This happens, and it does not mean you were wrong to try. Two people can remember the same person differently and both be telling the truth. Close the thread, go back to the capsule, and write the line you wish they had said. The capsule will not argue with you.</p>
+<h2>Keep it yours</h2>
+<p>A capsule you can share is more useful than one you never open, and a capsule you can keep private is the only kind worth building. Both are true at the same time. Start one at stillherememory.com, see how the privacy works on the <a href="/privacy">privacy page</a>, or read the rest of the <a href="/blog">notes</a> when it is late and you would like some company.</p>`,
+      faq: [
+        {
+          q: 'Can my family see my capsule if I have not shared it?',
+          a: 'No. A capsule is private by default and visible only to you. Nothing is sent to a relative unless you copy, export or send it yourself.',
+        },
+        {
+          q: 'What is the safest way to share memories with family securely?',
+          a: 'Send one piece to one person, in a channel your family already trusts, and tell them what it is before they open it. A plain file sent directly is easier to control than a link that can be forwarded.',
+        },
+        {
+          q: 'Should I share the whole capsule?',
+          a: 'Usually not. One memory or one photo gives a relative what they came for, and it lets you keep the parts that are only yours. A capsule edited for an audience stops being useful to you.',
+        },
+        {
+          q: 'What if a relative remembers it differently?',
+          a: 'That is normal. Two people can hold different versions of the same person and both be honest. Your capsule stays your record, and you can add their version to it if you want to.',
+        },
+      ],
+    },
+    zh: {
+      title: '私密地把胶囊分享给家人',
+      excerpt:
+        '胶囊里装着你在饭桌上不会说出口的细节。怎么把记忆胶囊私密地分享给家人：一个人、一小段，以及哪些该留给自己。',
+      body: `<h2>胶囊首先是私密的</h2>
+<p>你做这个胶囊是给自己的，大概是在别人都睡了的某个时刻。后来表姐问你还记得奶奶什么，你忽然想私密分享记忆里的那一段，把记忆胶囊分享给家人，但又不想它变成一个家庭群聊，或者一条陌生人能看到的帖子。这个直觉是对的。胶囊里装着你在饭桌上不会说出口的细节，它应该待在一扇由你控制的门后面。</p>
+<p>所以起点很简单：什么都没有被分享。没有给我们团队，没有给你的家人，也不会因为误触而发生。如果有东西离开了你的账号，那是你自己把它带出去的。</p>
+<h2>私密分享记忆到底意味着什么</h2>
+<p>私密分享不是"观众更少的广播"。它更接近把一封信递给某个人，然后坐在旁边看他读完。动手之前，有三件事值得先说清楚。</p>
+<ul>
+<li>人由你选。一个名字，而不是默认发到家庭群。</li>
+<li>内容由你选。一段记忆、一张照片、一个段落，而不是整个胶囊。</li>
+<li>你随时可以停。没发出去的，仍然是你的。</li>
+</ul>
+<p>关于这件事背后更长的思考，写在<a href="/blog/private-by-design">私密是设计本身</a>里。</p>
+<h2>怎么安全地把记忆分享给家人，一次一个人</h2>
+<p>实际操作的顺序，通常这样最顺：</p>
+<ul>
+<li>挑一个亲人。一般是那个听到他名字不会立刻换话题的人。</li>
+<li>先自己把胶囊读一遍。你会发现有一两句，你还没准备好交出去。</li>
+<li>只复制或导出那一部分。直接发一个文件，比发一个收不回的链接更让人安心。</li>
+<li>用家里本来就在用的渠道发，并且在他们点开之前先说清楚这是什么。</li>
+<li>说出你想要什么回应。"你不用回我"本身就是一句完整的话。</li>
+</ul>
+<p>最后这一步比听起来要紧。亲人往往把你分享的记忆读成一个"请帮我修好悲伤"的请求，于是带着建议来了。提前告诉他们你需要的只是"读一下"而不是"回一段"，整件事就会温和很多。</p>
+<h2>分享什么，留下什么</h2>
+<p>胶囊里有些东西不属于任何人。那场没有和解的争吵。只有你见过的那个版本的他。把这些留下来不是不诚实，恰恰是胶囊之所以有用的原因。一旦胶囊是为观众修过的，它就不再是那个你可以不设防的地方了。</p>
+<p>如果需要一个粗略的分法：</p>
+<ul>
+<li>可以分享：故事、小习惯、她接电话的方式、大家本来就喜欢的那张照片。</li>
+<li>留给自己：没结束的冲突、私下的愧疚、你凌晨两点对他说的那些话。</li>
+<li>先问一句：任何涉及在世亲人、而对方并未同意出现在里面的内容。</li>
+</ul>
+<h2>如果分享的结果不好</h2>
+<p>有时候你发出去了，回来的话却落错了地方。有人纠正你的记忆，有人沉默一个星期，有人把它变成关于自己的故事。这会发生，但不说明你不该试。两个人可以记得同一个人的不同版本，而且都在说真话。关掉对话，回到胶囊，把你希望他们说的那句话自己写下来。胶囊不会跟你争。</p>
+<h2>它仍然是你的</h2>
+<p>一个你能分享的胶囊，比一个你从不打开的胶囊有用；而一个你能保持私密的胶囊，才是唯一值得做的那种。这两句同时成立。到 stillherememory.com 建一个，在<a href="/privacy">隐私页面</a>看看它是怎么运作的，或者在夜深、想要一点陪伴的时候，读读其他<a href="/blog">随记</a>。</p>`,
+      faq: [
+        {
+          q: '我没有分享，家人能看到我的胶囊吗？',
+          a: '不能。胶囊默认是私密的，只有你可见。除非你自己复制、导出或发送，否则不会有任何内容到达亲人那里。',
+        },
+        {
+          q: '把记忆安全地分享给家人，最稳妥的方式是什么？',
+          a: '一次只把一小段发给一个人，用家里本来就信任的渠道，并在对方点开之前说清楚这是什么。直接发一个文件，比一个可以被转发的链接更好控制。',
+        },
+        {
+          q: '要不要把整个胶囊分享出去？',
+          a: '通常不需要。一段记忆或一张照片，已经能给亲人他想要的东西，同时让你留住只属于你的部分。为观众修改过的胶囊，对你自己就不再有用了。',
+        },
+        {
+          q: '如果亲人记得的不一样怎么办？',
+          a: '这很正常。两个人可以持有同一个人的不同版本，而且都是诚实的。你的胶囊仍然是你的记录，如果你愿意，也可以把他们的版本加进去。',
+        },
+      ],
+    },
+  },
 ];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
