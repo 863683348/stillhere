@@ -42,7 +42,8 @@ export async function generateMetadata(): Promise<Metadata> {
     openGraph: {
       type: 'website',
       siteName: t.brand.name,
-      locale: 'zh_CN',
+      locale: 'en_US',
+      alternateLocale: ['zh_CN'],
       url: '/',
       title: t.home.meta.title,
       description: t.home.meta.description,
