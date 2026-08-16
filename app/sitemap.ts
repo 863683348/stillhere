@@ -40,8 +40,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority,
     alternates: {
       languages: {
-        'zh-CN': `${SITE_URL}${path}`,
-        en: `${SITE_URL}${path}?lang=en`,
+        'zh-CN': `${SITE_URL}${path}?lang=zh`,
+        en: `${SITE_URL}${path}`,
+        'x-default': `${SITE_URL}${path}`,
       },
     },
   }));
