@@ -1056,6 +1056,7 @@ export const BLOG_POSTS: BlogPost[] = [
 <p>**<a href="/">现在就把你的回忆导出一份试试 →</a>**</p>`,
       faq: [],
     },
+  },
   {
     slug: 'use-stillhere-on-phone-vs-desktop',
     date: '2026-08-16',
@@ -1118,8 +1119,97 @@ export const BLOG_POSTS: BlogPost[] = [
       ],
     },
   },
-  },
 
+  {
+    slug: 'adjust-reflection-tone',
+    date: '2026-08-17',
+    en: {
+      title: 'Adjust the Reflection Tone: Gentler or More Direct',
+      excerpt: 'StillHere lets you tune how the AI speaks back to you — gentler or more direct. Here is what each mode actually sounds like, when to use it, and why changing tone never touches your entries.',
+      body: `StillHere's reply tone is not fixed. You can make the AI gentler or more direct, depending on what you want to hear today. This guide covers how tone settings work, what changes when you move the slider, and why 'gentler' does not mean 'vague'.
+
+## Why tune the tone at all
+
+The same person wants different words on different days. At 2am, you need to be held — a softer sentence does more than a lecture. In the afternoon, you might want it direct, no detours. Tone settings are the remote control for that. It does not change the content, it changes the way things are said.
+
+## What gentler mode sounds like
+
+Gentler mode responds slower and softer. It leans on 'I hear you' and 'that genuinely sounds hard', meeting the feeling first, then easing into anything else. It does not rush to advice unless you ask.
+
+Good for: late nights, hard days, the early weeks after a loss.
+
+## What direct mode sounds like
+
+Direct mode is shorter and more grounded. Fewer cushions, more substance: 'That reading is fair, and here is another angle.' It assumes you want clarity right now, not comfort.
+
+Good for: daytime, when you want a next step, when you have been grieving a while and want a hand pulling you up.
+
+## How to change it: three seconds in settings
+
+Open settings, find 'reply tone', and drag the slider between gentler and more direct. Middle is the default. The difference shows within a few exchanges.
+
+Change it anytime, it applies immediately, and it never touches what you have written. Tone is a filter on the conversation, not part of the memory.
+
+## Gentler is not vague, direct is not cold
+
+A common worry: gentler mode means robotic soothing, direct mode means ice. Both are actually listening to you seriously, just by different routes. Gentler puts the feeling first, direct puts the facts first. Use whichever you need today.
+
+**Does changing tone affect my entries?** No. Tone only shapes how the AI responds. Everything you write stays exactly as it is, never rewritten or analyzed.
+
+**Which mode is better?** Neither is better; each fits a moment. Many people run direct by day and gentler by night, or just switch on how they feel.
+
+**Does the tone change on its own?** The default is warm and neutral. Once you set it, it stays at your preference until you move it again.
+
+Want to feel the difference? Open
+
+**[StillHere](/) settings, set the tone where it fits you, and write down what you want to say today.**`,
+      faq: [],
+    },
+    zh: {
+      title: '调整回应的语气：更温柔或更直接',
+      excerpt: 'StillHere 可以调 AI 回话的语气，更温柔或更直接。这篇讲清两种模式实际听起来什么样、什么时候用哪个，以及为什么调语气绝不会碰你的内容。',
+      body: `StillHere 的回应语气不是写死的。你可以把 AI 的回话调得更温柔，也可以调得更直接——取决于今天你想听什么。这篇讲清楚语气设置怎么调、调了之后会怎么变，以及为什么“温柔”不等于“敷衍”。
+
+## 为什么要调语气
+
+同一个人，在不同日子里想听的话不一样。深夜emo的时候，需要的是被接住的感觉，一句软一点的话比一句讲道理的话有用得多；而白天想振作的时候，你可能希望它直接一点，别绕弯子。
+
+语气设置就是给你这个遥控器。它不是改内容，是改说话的方式。
+
+## 温柔模式是什么样的
+
+温柔模式下，回应会更慢、更软。它多用“我听到你了”“这确实不容易”这类句式，先接住情绪，再慢慢说别的。它不会急着给你建议，除非你问。
+
+适合：深夜、难过的时候、刚失去某个人没多久的时候。
+
+## 直接模式是什么样的
+
+直接模式下，回应更短、更实。它少铺垫，直接给观点：“你现在这样想也没错，但还有另一个角度。”它默认你此刻想要的是清醒，不是安慰。
+
+适合：白天、想要行动建议的时候、已经难过了一段时间、想被拉一把的时候。
+
+## 怎么调：设置里三秒搞定
+
+打开设置，找到“回应语气”，在“更温柔”和“更直接”之间拖一个滑杆就行。滑杆中间是默认值，两端的差别在几次对话里就能明显感觉到。
+
+随时可以改，改了立即生效，不影响你写下的任何内容。语气只是对话的滤镜，不是记忆的一部分。
+
+## 温柔不是敷衍，直接不是冷
+
+一个常见的误会：温柔模式=机器人式安抚，直接模式=冷冰冰。其实两者都在认真对待你，只是路径不同。温柔是把情绪放前面，直接是把事实放前面。你需要哪个，就用哪个。
+
+**调语气会影响我写的内容吗？** 不会。语气只影响 AI 怎么回应你，你写下的每一个字都原样保留，不会被改写或分析。
+
+**哪个模式更好？** 没有更好，只有更适合当下。建议白天直接、晚上温柔，或者按心情随时切。
+
+**语气会变吗？** 默认值温和偏中性。你手动调过之后，就固定在你的偏好上，直到你再改。
+
+想试试不同语气吗？打开
+
+**[StillHere](/) 设置页，把语气调到你觉得舒服的位置，再写下今天想说的话。**`,
+      faq: [],
+    },
+  },
 ];
 
 
