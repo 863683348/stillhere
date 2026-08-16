@@ -7,11 +7,11 @@ import { zh, en, type Dictionary } from '@/locales';
  *   components. Client components must never import the server-only resolveLocale
  *   (that one pulls in next/headers and would break the client bundle).
  * - The active locale is carried in the `locale` cookie, set by <LocaleToggle>.
- * - DEFAULT_LOCALE is 'zh' (the product's primary audience).
+ * - DEFAULT_LOCALE is 'en' (primary audience is English; zh served via ?lang=zh).
  */
 export const SUPPORTED_LOCALES = ['zh', 'en'] as const;
 export type Locale = (typeof SUPPORTED_LOCALES)[number];
-export const DEFAULT_LOCALE: Locale = 'zh';
+export const DEFAULT_LOCALE: Locale = 'en';
 export const LOCALE_COOKIE = 'locale';
 
 const dictionaries: Record<Locale, Dictionary> = { zh, en };
