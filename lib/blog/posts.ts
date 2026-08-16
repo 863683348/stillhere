@@ -1056,6 +1056,68 @@ export const BLOG_POSTS: BlogPost[] = [
 <p>**<a href="/">现在就把你的回忆导出一份试试 →</a>**</p>`,
       faq: [],
     },
+  {
+    slug: 'use-stillhere-on-phone-vs-desktop',
+    date: '2026-08-16',
+    en: {
+      title: 'Use StillHere on Phone vs Desktop: Where Memories Live Best',
+      excerpt: 'StillHere works on any screen, but the experience changes depending on whether you open it on your phone or your desktop. Here is when each device makes sense, and how to pick the right one for the memory you are about to write.',
+      body: `<p>I opened StillHere on my phone this morning. The screen was small, the notifications were loud, and I forgot why I had picked it up in the first place. A week later I sat at my desk, opened it on a proper keyboard, and wrote three entries before I realized how much time had passed.</p>
+<p>The app does not care where you use it. It is just a place to keep words. But the way you use it changes depending on the device in front of you, and knowing that difference makes the whole experience better.</p>
+<h2>Phone: quick captures, real moments</h2>
+<p>Your phone is always with you. That is the whole point. When something happens that you want to remember — a comment your child made, a weird cloud, a meal that looked better than it tasted — you can open StillHere and type it before the feeling fades.</p>
+<p>The mobile experience is built for this. The interface stays out of the way. You open it, you write, you close it. There is no pressure to make it perfect. A sentence is enough. A fragment is enough.</p>
+<p>I use my phone for things that happen fast. A conversation snippet. A photo caption I want to keep. A thought that would otherwise disappear by dinner.</p>
+<h2>Desktop: longer writes, deeper reflection</h2>
+<p>When I sit down at my computer, I am usually looking for something else. I am not waiting for a moment to strike. I am deciding to write. That changes the whole rhythm.</p>
+<p>The desktop lets me think longer. I can revisit an old entry, rewrite a paragraph, connect two memories that I did not see as related when I first wrote them. The bigger screen means I can keep more context open at once.</p>
+<p>I use the desktop for entries that matter. Not because they are more important, but because I give them more time. A memory I want to get right. A reflection I want to sit with.</p>
+<h2>What syncs, what stays local</h2>
+<p>StillHere keeps your entries in sync across devices. Write something on your phone, find it on your desktop. Start something on your desk, finish it on the train. The data moves with you, not the other way around.</p>
+<p>That means you can treat the two devices as one continuous space. Your phone is the pocket version. Your desktop is the desk version. They are the same library, just accessed differently.</p>
+<h2>When to use which</h2>
+<p>There is no rule that says you have to pick one. Use both. Use whichever one is nearby when the memory happens. Use the desktop when you have twenty minutes to spare. Use the phone when you have twenty seconds.</p>
+<p>The habit that matters is not the device. It is the act of writing something down before you forget it. The device is just the tool you happen to have in your hand.</p>
+<h2>One memory, two screens</h2>
+<p>Sometimes I write something on my phone and later open it on my desktop to add more. Sometimes I start on my desk and finish on the couch. Both are normal. Both are part of the same record.</p>
+<p>StillHere does not judge how you use it. It only cares that you show up and write. Wherever you are, whatever screen is in front of you, the memory stays.</p>
+<p>**<a href="/">Start writing your memories today →</a>**</p>`,
+      faq: [
+        { q: 'Does StillHere sync between my phone and computer?', a: 'Yes. Entries written on one device appear on the other automatically, as long as you are signed in to the same account.' },
+        { q: 'Can I edit an entry I started on my phone later on my desktop?', a: 'Absolutely. Every entry is available on every device, and you can edit it anywhere without losing anything.' },
+        { q: 'Does the mobile version have all the same features?', a: 'The core writing and browsing experience is the same. Some interface details adjust for smaller screens, but no content is hidden.' },
+      ],
+    },
+    zh: {
+      title: 'StillHere 手机版 vs 桌面版：记忆该在哪写',
+      excerpt: 'StillHere 在手机和电脑上都能用，但体验完全不同。这篇讲清楚什么时候用哪个设备，以及为什么两个都用才是最好的习惯。',
+      body: `<p>今天早上我在手机上打开了 StillHere。屏幕很小，通知很吵，我甚至忘了自己为什么打开它。一周后我坐在电脑前，用实体键盘写了三条记录，才意识到时间已经过了多久。</p>
+<p>这个应用不在乎你在哪里用。它只是一个存放文字的地方。但你在不同设备上用的方式确实不一样，了解这一点会让整个体验好很多。</p>
+<h2>手机：快速捕捉，真实瞬间</h2>
+<p>手机随时都在你身边。这才是它的意义所在。当你想记住一件事——孩子说的话、一片奇怪的云、一顿看起来比吃起来更好的饭——你可以打开 StillHere，在感觉消失之前把内容写下来。</p>
+<p>移动端的设计就是为这个场景服务的。界面不抢戏。打开、写、关掉。不需要把它写得完美。一个句子就够了，一个片段也够。</p>
+<p>我用手机记那些发生得很快的东西。一段对话。一张想保留的照片说明。一个不到晚饭就会忘掉的念头。</p>
+<h2>桌面：长文写作，深度思考</h2>
+<p>当我坐到电脑前，我通常是在找别的事情做。我不是在等某个瞬间出现，我是在决定要写。这改变了整个节奏。</p>
+<p>桌面让我能想得更久。我可以回头看一条旧记录，重写一个段落，把两条我之前没意识到的记忆连起来。更大的屏幕意味着我能同时看到更多的上下文。</p>
+<p>我用桌面写那些需要认真对待的内容。不是因为它们更重要，而是因为我愿意花更多时间在上面。一段我想写好的记忆。一段我想慢慢咀嚼的反思。</p>
+<h2>同步机制：手机和桌面互通</h2>
+<p>StillHere 会在设备之间同步你的记录。在手机写的东西，在电脑上立刻能看到。在 desk 上开始写的，在地铁上也能继续。数据跟着你走，而不是反过来。</p>
+<p>这意味着你可以把两个设备当成一个连续的空间。手机是口袋版，桌面是书桌版。它们是同一本书，只是打开方式不同。</p>
+<h2>什么时候用哪个</h2>
+<p>没有规则说你必须选一个。两个都用。哪个设备在身边就用哪个。有二十分钟就用桌面，有二十秒就用手机。</p>
+<p>真正重要的习惯不是选设备，而是在忘记之前把东西写下来。设备只是你手里恰好有的工具。</p>
+<h2>一条记忆，两块屏幕</h2>
+<p>我有时在手机写一条，后来在桌面打开补内容。有时在 desk 开始写，在沙发上完成。两种都正常，都是同一条记录的一部分。</p>
+<p>StillHere 不在乎你怎么用。它只在乎你有没有出现、有没有写。不管你在哪，不管面前的屏幕多大，记忆都会留下。</p>
+<p>**<a href="/">现在开始记录你的记忆 →</a>**</p>`,
+      faq: [
+        { q: 'StillHere 能在手机和电脑之间同步吗？', a: '可以。只要登录同一个账号，手机写的记录会自动出现在电脑上。' },
+        { q: '我在手机上开始写的记录，能在电脑上继续编辑吗？', a: '当然可以。所有记录在所有设备上都可用，你可以在任何地方编辑，不会丢失任何内容。' },
+        { q: '手机版的功能和桌面版一样吗？', a: '核心写作和浏览体验完全一致。界面细节会根据小屏幕调整，但不会有内容被隐藏。' },
+      ],
+    },
+  },
   },
 
 ];
