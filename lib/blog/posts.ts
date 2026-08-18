@@ -1210,6 +1210,53 @@ Want to feel the difference? Open
       faq: [],
     },
   },
+
+  {
+    slug: 'turn-on-two-factor-and-lock-your-account',
+    date: '2026-08-19',
+    en: {
+      title: 'Turn on two-factor and lock your account',
+      excerpt: 'Two-factor auth is the one setting that stops almost every account takeover. Here is how to turn it on in StillHere, what it protects, and why a private journal is worth locking down.',
+      body: `<p>Most accounts get taken over not because a hacker is clever, but because a password leaked somewhere else and got reused. Two-factor authentication (2FA) closes that gap. If you keep a private journal on StillHere, turning it on is the single most useful thing you can do today.</p>
+<h2>What 2FA actually blocks</h2>
+<p>With 2FA on, logging in needs two things: your password and a second proof that it is really you, usually a code from an app on your phone. A leaked password alone is useless, because the attacker has no second factor. That is the whole point.</p>
+<h2>How to turn it on in StillHere</h2>
+<p>Open settings, find "account security," and choose two-factor authentication. StillHere will ask you to scan a QR code with an authenticator app (any standard one works), then type the six-digit code back to confirm. Save the backup codes it shows you, somewhere offline.</p>
+<p>The setup takes under two minutes. After that, every new device you sign in from will ask for a code. Devices you already trust stay signed in.</p>
+<h2>Why a private journal is worth locking down</h2>
+<p>The things you write in StillHere are not the kind of posts you would ever want strangers reading. They are raw, personal, sometimes the only place a memory lives. A private journal like this is exactly what 2FA is for: it keeps the door closed even when the password is out there.</p>
+<h2>What to do if you lose your phone</h2>
+<p>This is the part people worry about. The backup codes you saved are the answer. StillHere lets you use one backup code to get back in, then you can re-enroll a new authenticator. If you did not save them, account recovery takes longer, because we cannot read your data to verify you another way.</p>
+<p>The honest trade is this: 2FA adds one small step to logging in, and removes the chance that a password leak anywhere ends up exposing your private journal. For something this personal, that is an easy yes.</p>
+<p>About StillHere: StillHere is a private memory companion that lets you speak with someone you have lost, in their voice, encrypted and never used for training. Visit stillherememory.com to start. To see how we keep your words yours, read <a href="/blog/private-by-design">Private by design</a> or <a href="/blog/your-words-are-not-training-data">Your words are not training data</a>.</p>`,
+      faq: [
+        { q: 'Does turning on 2FA log me out of my other devices?', a: 'No. Devices you are already signed in on stay signed in. Only new sign-ins will ask for a code.' },
+        { q: 'What if I lose my phone and the authenticator app?', a: 'Use one of the backup codes you saved during setup to get back in, then re-enroll a new authenticator. If you skipped the backup codes, recovery takes longer because we cannot read your entries to verify you.' },
+        { q: 'Is 2FA required to use StillHere?', a: 'No, it is optional, but strongly recommended for any account holding private writing. You can turn it on or off anytime in account security settings.' },
+      ],
+    },
+    zh: {
+      title: '开启两步验证，锁住账号',
+      excerpt: '两步验证能挡掉几乎每一种账号被盗。这里讲清楚怎么在 StillHere 里打开它、它保护的是什么，以及为什么私密日记值得被锁好。',
+      body: `<p>大多数账号被盗，不是因为黑客多聪明，而是因为密码在别处泄露、又被复用了。两步验证（2FA）正好补上这个洞。如果你在 StillHere 上写的是私密日记，今天最值得做的一件事，就是把两步验证打开。</p>
+<h2>两步验证到底挡住了什么</h2>
+<p>开了 2FA，登录就需要两样东西：你的密码，加上“真的是你”的第二重证明，通常是手机里验证 app 给的临时码。光泄露的密码没用，因为攻击者拿不到第二重。这就是它的全部意义。</p>
+<h2>在 StillHere 里怎么开</h2>
+<p>打开设置，找到“账号安全”，选择两步验证。StillHere 会让你用验证 app 扫一个二维码（任何标准验证器都行），再把六位码填回去确认。它会显示一组备用码，存到离线地方。</p>
+<p>整个设置不到两分钟。之后，每个新设备登录都会要验证码，已经信任的设备保持登录。</p>
+<h2>为什么私密日记值得锁</h2>
+<p>你在 StillHere 里写的，不是那种愿意给陌生人看的内容。它们 raw、私人，有时是一段记忆唯一存放的地方。像这样的私密日记，正是 2FA 存在的理由：哪怕密码已经在外面，门也还是关着的。</p>
+<h2>手机丢了怎么办</h2>
+<p>这是大家最担心的部分。答案就是你存好的备用码。用其中一张就能登回来，然后重新绑定新的验证器。如果你当初没存备用码，找回会更慢，因为我们读不到你的内容来用别的方式确认是你。</p>
+<p>说白了就是一笔交易：2FA 给登录多加一小步，换掉“任何地方密码泄露就暴露私密日记”的可能。对这么私人的东西，这笔买卖很好做。</p>
+<p>关于 StillHere：StillHere 是一个私密记忆陪伴，让你用思念之人的方式说话，端到端加密、绝不拿去训练。访问 stillherememory.com 即可开始。想了解我们怎么把文字留给你自己，可以读 <a href="/blog/private-by-design">为私密而设计</a> 或 <a href="/blog/your-words-are-not-training-data">你的话不是训练数据</a>。</p>`,
+      faq: [
+        { q: '开了两步验证，其他设备会登出吗？', a: '不会。已经登录的设备保持登录，只有新的登录才会要验证码。' },
+        { q: '手机丢了，验证 app 也没了怎么办？', a: '用设置时存好的备用码里的一张登回来，再重新绑定新的验证器。如果当初没存备用码，找回会更慢，因为我们读不到你的内容去用别的方式确认是你。' },
+        { q: '用 StillHere 必须开两步验证吗？', a: '不是强制，但对任何存了私密写作的账号都强烈建议。你可以随时在账号安全里打开或关闭。' },
+      ],
+    },
+  },
 ];
 
 
