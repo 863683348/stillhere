@@ -1267,3 +1267,47 @@ export function getPostBySlug(slug: string): BlogPost | undefined {
 export function getAllPostSlugs(): string[] {
   return BLOG_POSTS.map((p) => p.slug);
 }
+  ,
+  {
+    slug: 'set-yearly-reminder-revisit-memory',
+    date: '2026-08-20',
+    en: {
+      title: 'Set a yearly reminder to revisit a memory',
+      excerpt: 'Yearly reminders help you stay connected to what matters. Here is how to set one in StillHere, why it works, and what to do when the reminder arrives.',
+      body: `<p>Memory fades not because it is unimportant, but because life moves fast. A yearly reminder is a small tool that fights that drift — not by forcing you to remember everything, but by giving you a scheduled moment to return to what matters.</p>
+<h2>What a yearly reminder actually does</h2>
+<p>A yearly reminder is not a obligation. It is an invitation. It does not say "you must remember this perfectly." It says "this moment is worth returning to, once a year." That distinction matters, because guilt is the enemy of memory work. You remember better when you choose to, not when you feel you should.</p>
+<h2>How to set one in StillHere</h2>
+<p>Open StillHere and go to the memory you want to revisit. Look for the reminder option — it is usually near the memory details or in the settings menu. Set it to recur yearly on a date that feels right: the anniversary of a moment, a birthday, or simply a day you know you will be reflective. Save it. The reminder will arrive like any other notification, but the content behind it is yours.</p>
+<h2>What to do when the reminder arrives</h2>
+<p>When the reminder appears, do not treat it as a chore. Sit with it. Read the memory. Notice what feels different from last year — what has changed, what has stayed the same, what you had forgotten. You do not need to write anything new. Sometimes the act of reading is enough. Sometimes it is not, and that is also okay.</p>
+<h2>Why this works</h2>
+<p>Yearly reminders work because they respect the rhythm of grief and memory. We do not process loss in a straight line. We circle back. A scheduled reminder gives that circling a structure, so it does not depend on motivation or chance. It becomes a practice, not a project.</p>
+<p>About StillHere: StillHere is a private memory companion that lets you speak with someone you have lost, in their voice, encrypted and never used for training. Visit stillherememory.com to start. To learn how we keep your words yours, read <a href="/blog/private-by-design">Private by design</a>.</p>`,
+      faq: [
+        { q: 'Do I have to respond to the reminder every year?', a: 'No. The reminder is an invitation, not a requirement. You can skip a year and come back later. The point is availability, not obligation.' },
+        { q: 'What if I do not want to remember on that date?', a: 'You can change the date or delete the reminder at any time. The system is yours to control. If the date feels wrong, pick a different one.' },
+        { q: 'Can I set reminders for multiple memories?', a: 'Yes. You can set yearly reminders for as many memories as you like. Each reminder is independent and can have its own date.' },
+      ],
+    },
+    zh: {
+      title: '设置年度提醒，重温一段记忆',
+      excerpt: '年度提醒帮助你与重要的人保持联系。这里讲清楚怎么在 StillHere 里设置它、它为什么有效，以及提醒到来时该怎么做。',
+      body: `<p>记忆褪色不是因为不重要，而是因为生活走得太快。年度提醒是一个小而有力的工具——它不强迫你记住一切，而是给你一个 scheduled 的时刻，回到那些值得回望的东西。</p>
+<h2>年度提醒真正的作用</h2>
+<p>年度提醒不是义务，是邀请。它不说"你必须完美地记住"，而是说"这一刻值得每年回来一次"。这个区别很重要，因为愧疚是记忆工作的敌人。你更愿意记起的东西，是在你选择的时候，而不是你觉得应该的时候。</p>
+<h2>在 StillHere 里怎么设置</h2>
+<p>打开 StillHere，进入你想重温的记忆。找到提醒选项——通常在记忆详情或设置菜单里。设置为每年重复，选一个你觉得有意义的日期：某个时刻的周年、一个生日，或者 simply 你知道自己会反思的那一天。保存。提醒会像普通通知一样到来，但背后的内容是你自己的。</p>
+<h2>提醒到来时该做什么</h2>
+<p>提醒出现时，不要把它当成任务。坐下来，阅读那段记忆。注意什么和去年不同——什么变了，什么没变，什么你忘记了。你不一定要写新内容。有时阅读本身就够了。有时不够，那也没关系。</p>
+<h2>为什么这有效</h2>
+<p>年度提醒有效，因为它尊重哀悼和记忆的节奏。我们不是在直线中处理失去的。我们是在循环中前进。一个 scheduled 的提醒给这个循环提供了结构，让它不依赖动力或运气。它成为一种 practice，不是一个 project。</p>
+<p>关于 StillHere：StillHere 是一个私密记忆陪伴，让你用思念之人的方式说话，端到端加密、绝不拿去训练。访问 stillherememory.com 即可开始。想了解我们怎么把文字留给你自己，可以读 <a href="/blog/private-by-design">为私密而设计</a>。</p>`,
+      faq: [
+        { q: '我必须每年都对提醒做出回应吗？', a: '不用。提醒是邀请，不是要求。你可以跳过一年，之后再来。重点是可获得性，不是义务。' },
+        { q: '如果那天我不想记起怎么办？', a: '你可以随时更改日期或删除提醒。系统由你控制。如果日期不对，换一个。' },
+        { q: '我可以为多个记忆设置提醒吗？', a: '可以。你可以为任意数量的记忆设置年度提醒。每个提醒是独立的，可以有不同的日期。' },
+      ],
+    },
+  },
+];
