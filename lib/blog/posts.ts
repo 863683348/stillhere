@@ -1310,4 +1310,71 @@ export function getAllPostSlugs(): string[] {
       ],
     },
   },
+
+{
+    slug: 'how-long-does-capsule-stay',
+    date: '2026-08-21',
+    en: {
+      title: 'How Long Does a Capsule Stay After You Stop Paying',
+      excerpt: 'When your subscription ends, your capsule does not disappear immediately. Here is what you need to know about the grace period, archiving, and data retention.',
+      body: `<p>When you stop paying for StillHere, your capsule does not disappear immediately. We understand this is a sensitive topic, so here is what you need to know.</p>
+<h2>The Grace Period</h2>
+<p>After your subscription ends, you have a 30-day grace period. During this time: your capsule remains accessible, you can still read and interact with your memories, and no data is deleted.</p>
+<h2>After the Grace Period</h2>
+<p>Once the 30 days pass: your capsule enters archived status, you can still access it by logging in, but we begin the deletion process.</p>
+<h2>Data Retention Policy</h2>
+<ul>
+  <li>Days 1-30: Full access, no changes</li>
+  <li>Days 31-60: Archived status, read-only access</li>
+  <li>Days 61-90: Deletion process begins</li>
+  <li>Day 90: All personal data is permanently deleted</li>
+</ul>
+<h2>What You Can Do</h2>
+<ol>
+  <li>Export your memories before your subscription ends</li>
+  <li>Extend your subscription at any time to keep your capsule active</li>
+  <li>Download an encrypted backup to your own device</li>
+</ol>
+<h2>FAQ</h2>
+<p><strong>Can I reactivate my capsule after deletion?</strong> No. Once data is deleted, it cannot be recovered. Please export before your subscription ends.</p>
+<p><strong>Does the encryption key get deleted too?</strong> Yes. Without the key, your data cannot be decrypted even if fragments remain.</p>
+<p><strong>Can I pause my subscription instead of canceling?</strong> Yes. Pausing keeps your capsule active without charging you.</p>`,
+      faq: [
+        { q: 'Can I reactivate my capsule after deletion?', a: 'No. Once data is deleted, it cannot be recovered. Please export before your subscription ends.' },
+        { q: 'Does the encryption key get deleted too?', a: 'Yes. Without the key, your data cannot be decrypted even if fragments remain.' },
+        { q: 'Can I pause my subscription instead of canceling?', a: 'Yes. Pausing keeps your capsule active without charging you.' },
+      ],
+    },
+    zh: {
+      title: '停止付费后胶囊还能保留多久',
+      excerpt: '停止支付后，您的胶囊不会立即消失。以下是关于宽限期、归档和数据保留政策的详细说明。',
+      body: `<p>停止支付 StillHere 费用后，您的胶囊不会立即消失。我们理解这是敏感话题，所以以下是您需要了解的信息。</p>
+<h2>宽限期</h2>
+<p>订阅结束后，您有 30 天的宽限期。在此期间：您的胶囊仍可访问，您仍然可以阅读和与您的记忆互动，不会删除任何数据。</p>
+<h2>宽限期之后</h2>
+<p>30 天后：您的胶囊进入"归档"状态，您仍然可以通过登录访问它，但是，我们开始删除流程。</p>
+<h2>数据保留政策</h2>
+<ul>
+  <li>第 1-30 天：完全访问，无变化</li>
+  <li>第 31-60 天：归档状态，只读访问</li>
+  <li>第 61-90 天：开始删除流程</li>
+  <li>第 90 天：所有个人数据永久删除</li>
+</ul>
+<h2>您可以做什么</h2>
+<ol>
+  <li>在订阅结束前导出您的记忆</li>
+  <li>随时延长订阅以保持胶囊活跃</li>
+  <li>将加密备份下载到您的设备</li>
+</ol>
+<h2>常见问题</h2>
+<p><strong>删除后我能重新激活胶囊吗？</strong> 不能。数据删除后无法恢复。请在订阅结束前导出。</p>
+<p><strong>加密密钥也会被删除吗？</strong> 是的。没有密钥，即使有片段也无法解密您的数据。</p>
+<p><strong>我可以暂停订阅而不是取消吗？</strong> 可以。暂停会保持胶囊活跃而不会收费。</p>`,
+      faq: [
+        { q: '删除后我能重新激活胶囊吗？', a: '不能。数据删除后无法恢复。请在订阅结束前导出。' },
+        { q: '加密密钥也会被删除吗？', a: '是的。没有密钥，即使有片段也无法解密您的数据。' },
+        { q: '我可以暂停订阅而不是取消吗？', a: '可以。暂停会保持胶囊活跃而不会收费。' },
+      ],
+    },
+  }
 ];
