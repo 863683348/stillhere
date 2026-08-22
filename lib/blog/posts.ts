@@ -1367,12 +1367,9 @@ en: {
     },
   },
 ];
-
-export function getAllPostSlugs(): string[] {
-  return BLOG_POSTS.map((p) => p.slug);
+export function getPostBySlug(slug: string): BlogPost | undefined {
+  return BLOG_POSTS.find((p) => p.slug === slug);
 }
-}
-];
 
 export function getAllPostSlugs(): string[] {
   return BLOG_POSTS.map((p) => p.slug);
