@@ -4,7 +4,7 @@ import { LocaleProvider } from '@/components/LocaleProvider';
 import { JsonLd } from '@/components/JsonLd';
 import { GoogleAnalytics } from '@/components/GoogleAnalytics';
 import { getDictionary, type Locale } from '@/lib/i18n';
-import { resolveLocale } from '@/lib/locale-server';
+import { resolveStaticLocale } from '@/lib/locale-server';
 import { SITE_URL } from '@/lib/site';
 import { THEME_INIT_SCRIPT } from '@/lib/theme';
 import './globals.css';
@@ -28,7 +28,7 @@ const WEBSITE_JSON_LD = {
 };
 
 export async function generateMetadata(): Promise<Metadata> {
-  const t = getDictionary(await resolveLocale());
+  const t = getDictionary(resolveStaticLocale());
   return {
     metadataBase: new URL('https://stillherememory.com'),
     title: {
@@ -85,7 +85,7 @@ export default async function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
-  const locale: Locale = await resolveLocale();
+  const locale: Locale = resolveStaticLocale();
   const t = getDictionary(locale);
 
   return (

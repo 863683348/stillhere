@@ -1,0 +1,44 @@
+{
+  "headers": [
+    {
+      "source": "/",
+      "headers": [{ "key": "Cache-Control", "value": "public, s-maxage=3600, stale-while-revalidate=86400" }]
+    },
+    {
+      "source": "/blog/:path*",
+      "headers": [{ "key": "Cache-Control", "value": "public, s-maxage=3600, stale-while-revalidate=86400" }]
+    },
+    {
+      "source": "/faq/:path*",
+      "headers": [{ "key": "Cache-Control", "value": "public, s-maxage=3600, stale-while-revalidate=86400" }]
+    },
+    {
+      "source": "/pricing/:path*",
+      "headers": [{ "key": "Cache-Control", "value": "public, s-maxage=3600, stale-while-revalidate=86400" }]
+    },
+    {
+      "source": "/contact/:path*",
+      "headers": [{ "key": "Cache-Control", "value": "public, s-maxage=3600, stale-while-revalidate=86400" }]
+    },
+    {
+      "source": "/privacy/:path*",
+      "headers": [{ "key": "Cache-Control", "value": "public, s-maxage=3600, stale-while-revalidate=86400" }]
+    },
+    {
+      "source": "/terms/:path*",
+      "headers": [{ "key": "Cache-Control", "value": "public, s-maxage=3600, stale-while-revalidate=86400" }]
+    },
+    {
+      "source": "/stories/:path*",
+      "headers": [{ "key": "Cache-Control", "value": "public, s-maxage=3600, stale-while-revalidate=86400" }]
+    },
+    {
+      "source": "/wall/:path*",
+      "headers": [{ "key": "Cache-Control", "value": "public, s-maxage=3600, stale-while-revalidate=86400" }]
+    },
+    {
+      "source": "/demo/:path*",
+      "headers": [{ "key": "Cache-Control", "value": "public, s-maxage=3600, stale-while-revalidate=86400" }]
+    }
+  ]
+}
