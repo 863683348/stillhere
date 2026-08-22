@@ -1257,21 +1257,10 @@ Want to feel the difference? Open
       ],
     },
   },
-];
-
-
-export function getPostBySlug(slug: string): BlogPost | undefined {
-  return BLOG_POSTS.find((p) => p.slug === slug);
-}
-
-export function getAllPostSlugs(): string[] {
-  return BLOG_POSTS.map((p) => p.slug);
-}
-  ,
   {
     slug: 'set-yearly-reminder-revisit-memory',
     date: '2026-08-20',
-    en: {
+en: {
       title: 'Set a yearly reminder to revisit a memory',
       excerpt: 'Yearly reminders help you stay connected to what matters. Here is how to set one in StillHere, why it works, and what to do when the reminder arrives.',
       body: `<p>Memory fades not because it is unimportant, but because life moves fast. A yearly reminder is a small tool that fights that drift — not by forcing you to remember everything, but by giving you a scheduled moment to return to what matters.</p>
@@ -1376,5 +1365,15 @@ export function getAllPostSlugs(): string[] {
         { q: '我可以暂停订阅而不是取消吗？', a: '可以。暂停会保持胶囊活跃而不会收费。' },
       ],
     },
-  }
+  },
 ];
+
+export function getAllPostSlugs(): string[] {
+  return BLOG_POSTS.map((p) => p.slug);
+}
+}
+];
+
+export function getAllPostSlugs(): string[] {
+  return BLOG_POSTS.map((p) => p.slug);
+}
