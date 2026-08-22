@@ -265,6 +265,7 @@ export const en = {
         'You can export everything — messages, memories and media — as a plain file at any time.',
         'You can delete everything for real: database rows, vector memories and stored files.',
         'We will name every third party that processes your data, and where it is processed.',
+        'We use Google AdSense to display advertisements. Google AdSense uses cookies, including the DART cookie, to serve ads based on your prior visits. You may opt out of personalized advertising by visiting <a href=\"https://www.google.com/settings/ads\" target=\"_blank\" rel=\"noopener\">Google Ads Settings</a> or by visiting the <a href=\"http://www.networkadvertising.org/choices/\" target=\"_blank\" rel=\"noopener\">Network Advertising Initiative opt-out page</a>.',
       ],
     },
     terms: {

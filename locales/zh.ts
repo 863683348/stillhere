@@ -258,6 +258,7 @@ export const zh: Dictionary = {
         '你可以随时把一切——消息、记忆、媒体——导出成一份纯文本文件。',
         '你可以真正地删除一切：数据库行、向量记忆、存储的文件。',
         '我们会列出每一个处理你数据的第三方，以及处理发生的地点。',
+        '我们使用 Google AdSense 展示广告。Google AdSense 使用 Cookie（包括 DART Cookie）根据您的访问记录投放广告。您可以通过访问 <a href=\"https://www.google.com/settings/ads\" target=\"_blank\" rel=\"noopener\">Google Ads 设置</a> 或 <a href=\"http://www.networkadvertising.org/choices/\" target=\"_blank\" rel=\"noopener\">网络广告倡议退出页面</a> 选择退出个性化广告。',
       ],
     },
     terms: {
