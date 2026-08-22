@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import { headers } from 'next/headers';
 import type { Metadata } from 'next';
 import { Ban, BookOpen, Download, Lock, MessageCircle, ShieldCheck } from 'lucide-react';
 import type { LucideIcon } from 'lucide-react';
@@ -7,7 +6,7 @@ import { Lamp } from '@/components/Lamp';
 import { MarketingShell } from '@/components/MarketingShell';
 import { getDictionary } from '@/lib/i18n';
 import { resolvePageLocale, buildAlternates } from '@/lib/seo';
-import { getStatsCached, recordGeoCached, formatStat } from '@/lib/community';
+import { getStatsCached, formatStat } from '@/lib/community';
 import styles from './page.module.css';
 
 // Fallback stats shown if the database is briefly unavailable — keeps the page
@@ -20,6 +19,23 @@ const VALUE_ICONS: Record<string, LucideIcon> = {
   memory: BookOpen,
   export: Download,
 };
+
+/**
+ * Geo beacon: the landing page is statically pre-rendered (no headers() during
+ * SSR — that would force every render dynamic and nullify the CDN cache
+ * headers). Country stats are recorded from the client via POST /api/geo,
+ * which reads x-vercel-ip-country at the edge.
+ */
+function GeoBeacon() {
+  return (
+    // eslint-disable-next-line @next/next/no-sync-scripts
+    <script
+      dangerouslySetInnerHTML={{
+        __html: `fetch('/api/geo',{method:'POST',keepalive:true}).catch(()=>{});`,
+      }}
+    />
+  );
+}
 
 export async function generateMetadata({
   searchParams,
@@ -45,24 +61,14 @@ export default async function HomePage({
   const t = getDictionary(await resolvePageLocale(searchParams));
   const { hero, trust, value, honesty, closing, socialProof } = t.home;
 
-  // DB calls are cached/deduplicated (getStatsCached: 5-min in-memory TTL,
-  // recordGeoCached: once per country per day) AND wrapped in try/catch so a
-  // Neon cold-start or transient failure never 500s the landing page.
+  // DB calls are cached/deduplicated (getStatsCached: 5-min in-memory TTL) AND
+  // wrapped in try/catch so a Neon cold-start or transient failure never 500s
+  // the landing page.
   let stats = FALLBACK_STATS;
   try {
     stats = await getStatsCached();
   } catch (err) {
     console.error('[home] getStatsCached failed; serving fallback stats:', err);
-  }
-
-  let country: string | null = null;
-  try {
-    const incoming = await headers();
-    country = incoming.get('cf-ipcountry') || incoming.get('x-vercel-ip-country') || null;
-    if (country) await recordGeoCached(country);
-  } catch (err) {
-    console.error('[home] recordGeoCached failed; continuing without geo:', err);
-    country = null;
   }
 
   const trustItems = [
@@ -159,6 +165,7 @@ export default async function HomePage({
           </Link>
         </div>
       </section>
+      <GeoBeacon />
     </MarketingShell>
   );
 }
