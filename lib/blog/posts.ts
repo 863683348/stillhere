@@ -1366,6 +1366,112 @@ en: {
       ],
     },
   },
+  {
+    slug: 'draft-vs-published-memory',
+    date: '2026-08-22',
+    en: {
+      title: 'Draft vs. Published Memory: Understanding StillHere Statuses',
+      excerpt: 'When you write a memory in StillHere, it can exist in two states: draft or published. Understanding the difference helps you decide when to share and when to keep private.',
+      body: `<p>When you write a memory in StillHere, it can exist in two states: draft or published. Understanding the difference helps you decide when to share and when to keep private.</p>
+<h2>What is a Draft?</h2>
+<p>A draft is your private working space. It's where you:</p>
+<ul>
+  <li>Start writing without pressure</li>
+  <li>Edit and revise freely</li>
+  <li>Keep thoughts that aren't ready to share</li>
+  <li>Test different ways to express feelings</li>
+</ul>
+<p>Drafts are invisible to others. Only you can see them. They don't appear in your capsule timeline until you publish.</p>
+<h2>What is a Published Memory?</h2>
+<p>A published memory is one you've chosen to make part of your permanent record. When published:</p>
+<ul>
+  <li>It appears in your capsule timeline</li>
+  <li>It can be shared with selected people</li>
+  <li>It becomes part of your archived story</li>
+  <li>It's protected by your encryption</li>
+</ul>
+<p>Published memories are the ones you want to keep — for yourself, for your loved ones, or for future you.</p>
+<h2>When to Keep Something as a Draft</h2>
+<ul>
+  <li>You're still processing emotions</li>
+  <li>The memory feels incomplete</li>
+  <li>You're not sure how you'll feel about it later</li>
+  <li>It's too raw to share yet</li>
+  <li>You want to revisit it before deciding</li>
+</ul>
+<h2>When to Publish</h2>
+<ul>
+  <li>You've reviewed it and feel at peace with it</li>
+  <li>You want to preserve it for the future</li>
+  <li>You're ready to share it with someone specific</li>
+  <li>It feels complete and meaningful to you</li>
+</ul>
+<h2>The Grace Period</h2>
+<p>Even after publishing, you can change your mind. Drafts and unpublished memories follow the same retention policy as published content — 90 days after subscription ends before deletion begins.</p>
+<h2>FAQ</h2>
+<p><strong>Can I convert a draft to published anytime?</strong> Yes. Simply click publish when you're ready.</p>
+<p><strong>Do drafts count toward my storage limit?</strong> Yes. All memories, draft or published, count toward your capsule storage.</p>
+<p><strong>Can others see my drafts?</strong> No. Drafts are strictly private.</p>
+<p><strong>What happens to drafts if I cancel my subscription?</strong> They follow the same 90-day grace period as published memories.</p>`,
+      faq: [
+        { q: 'Can I convert a draft to published anytime?', a: 'Yes. Simply click publish when you\'re ready.' },
+        { q: 'Do drafts count toward my storage limit?', a: 'Yes. All memories, draft or published, count toward your capsule storage.' },
+        { q: 'Can others see my drafts?', a: 'No. Drafts are strictly private.' },
+        { q: 'What happens to drafts if I cancel my subscription?', a: 'They follow the same 90-day grace period as published memories.' },
+      ],
+    },
+    zh: {
+      title: '草稿与已发布记忆：理解 StillHere 状态',
+      excerpt: '当你在 StillHere 中撰写记忆时，它可以处于两种状态：草稿或已发布。理解区别有助于你决定何时分享、何时保持私密。',
+      body: `<p>当你在 StillHere 中撰写记忆时，它可以处于两种状态：草稿或已发布。理解区别有助于你决定何时分享、何时保持私密。</p>
+<h2>什么是草稿？</h2>
+<p>草稿是你的私人工作空间。在这里你可以：</p>
+<ul>
+  <li>无压力地开始写作</li>
+  <li>自由编辑和修改</li>
+  <li>保留尚未准备好分享的想法</li>
+  <li>尝试不同的方式表达感受</li>
+</ul>
+<p>草稿对其他人不可见。只有你能看到。在发布之前，它们不会出现在你的胶囊时间线中。</p>
+<h2>什么是已发布记忆？</h2>
+<p>已发布记忆是你选择成为永久记录一部分的记忆。发布后：</p>
+<ul>
+  <li>它出现在你的胶囊时间线中</li>
+  <li>可以与选定的人分享</li>
+  <li>成为你存档故事的一部分</li>
+  <li>受你的加密保护</li>
+</ul>
+<p>已发布记忆是你想要保留的——为自己、为所爱之人、为未来的你。</p>
+<h2>何时保持草稿状态</h2>
+<ul>
+  <li>你仍在处理情绪</li>
+  <li>记忆感觉不完整</li>
+  <li>不确定以后对此的感受</li>
+  <li>太过原始，尚不能分享</li>
+  <li>想在决定前重新审视</li>
+</ul>
+<h2>何时发布</h2>
+<ul>
+  <li>你已审阅过，感到安心</li>
+  <li>想为未来保存它</li>
+  <li>准备好与特定的人分享</li>
+  <li>对你来说感觉完整且有意义</li>
+</ul>
+<h2>宽限期</h2>
+<p>即使发布后，你也可以改变主意。草稿和未发布记忆遵循与发布内容相同的保留政策——订阅结束后 90 天开始删除。</p>
+<h2>常见问题</h2>
+<p><strong>我可以随时将草稿转为已发布吗？</strong> 可以。只需在你准备好时点击发布。</p>
+<p><strong>草稿算入我的存储限额吗？</strong> 算。所有记忆，无论是草稿还是已发布，都计入你的胶囊存储。</p>
+<p><strong>别人能看到我的草稿吗？</strong> 不能。草稿严格私密。</p>
+<p><strong>如果我取消订阅，草稿会怎样？</strong> 它们遵循与已发布记忆相同的 90 天宽限期。</p>`,
+      faq: [
+        { q: '我可以随时将草稿转为已发布吗？', a: '可以。只需在你准备好时点击发布。' },
+        { q: '草稿算入我的存储限额吗？', a: '算。所有记忆，无论是草稿还是已发布，都计入你的胶囊存储。' },
+        { q: '别人能看到我的草稿吗？', a: '不能。草稿严格私密。' },
+        { q: '如果我取消订阅，草稿会怎样？', a: '它们遵循与已发布记忆相同的 90 天宽限期。' },
+      ],
+    },
+  },
 ];
 export function getPostBySlug(slug: string): BlogPost | undefined {
   return BLOG_POSTS.find((p) => p.slug === slug);
