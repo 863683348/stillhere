@@ -1490,6 +1490,31 @@ en: {
     }
   },
 
+  {
+    slug: "organize-memory-person-year",
+    date: "2026-08-24",
+    en: {
+      title: "Organize Memories by Person or by Year",
+      excerpt: "Two approaches to organizing your memory capsules: by person or by year. Find the system that works for you.",
+      body: "<h2>Two Ways to Organize: By Person or By Year</h2><p><strong>By Person</strong><br>Group all memories related to one person together. This works well if: You have capsules for multiple people, each person has many memories, or you want to explore one relationship deeply at a time.</p><p>Pros: Clear boundaries, easy to focus on one relationship<br>Cons: Hard to see how relationships evolved over time</p><p><strong>By Year</strong><br>Group memories by when they were created or when the events happened. This works well if: You want to see how your grief changed over time, you're tracking anniversaries and milestones, or you prefer chronological storytelling.</p><p>Pros: Shows evolution, connects related events<br>Cons: Can mix memories about different people</p><h2>Combining Both Approaches</h2><p>Most users find success using both systems together: primary organization by person (separate capsules for each person), secondary organization within each capsule sorted by date or tag.</p><h2>Practical Organization Tips</h2><ul><li>Use consistent naming: Name your capsules clearly</li><li>Tag strategically: Add tags like birthday, holiday, everyday, sad, happy</li><li>Set a regular review rhythm: Once a month, look through your recent entries</li><li>Don't over-organize: If it takes more than 5 minutes to organize, simplify</li><li>Trust your intuition: If you naturally feel like organizing by year, do it</li></ul>",
+      faq: [
+        { q: "Can I change my organization system later?", a: "Yes. You can reorganize anytime. Most platforms let you move memories between capsules and change tags freely." },
+        { q: "What if I have memories about multiple people in one entry?", a: "Tag it with all relevant people. Organization should serve you, not complicate your life." },
+        { q: "Should I organize before or after creating memories?", a: "Create first, organize later. Perfectionism about organization can block the vulnerable act of sharing your grief." },
+      ]
+    },
+    zh: {
+      title: "按人或按年整理记忆",
+      excerpt: "两种组织记忆胶囊的方法：按人或按年。找到适合你的系统。",
+      body: "<h2>两种组织方式：按人或按年</h2><p><strong>按人</strong><br>将与一个人相关的所有记忆分组在一起。这适用于：你有多个人的胶囊、每个人都有许多记忆、或你想一次深入探索一段关系。</p><p>优点：清晰的边界，易于专注于一段关系<br>缺点：难以看到关系随时间的演变</p><p><strong>按年</strong><br>按创建时间或事件发生的时间分组记忆。这适用于：你想看到你的悲伤如何随时间变化、跟踪周年纪念和里程碑、或喜欢编年史叙事。</p><p>优点：显示演变，连接相关事件<br>缺点：可能混合关于不同人的记忆</p><h2>结合两种方法</h2><p>大多数用户发现两种系统一起使用效果最好：主要组织按人（每个人单独的胶囊），次要组织在每个胶囊内按日期或标签排序。</p><h2>实用组织技巧</h2><ul><li>使用一致命名：清晰命名你的胶囊</li><li>策略性标签：添加标签如生日、节日、日常、悲伤、快乐</li><li>设定定期回顾节奏：每月一次，查看你最近的条目</li><li>不要过度组织：如果组织花费超过 5 分钟，简化</li><li>信任你的直觉：如果你自然感觉按年组织，就做它</li></ul>",
+      faq: [
+        { q: "我以后可以改变组织系统吗？", a: "可以。你可以随时重新组织。大多数平台让你自由地在胶囊之间移动记忆和更改标签。" },
+        { q: "如果我在一个条目中有多个人的记忆怎么办？", a: "用所有相关的人标记它。组织应该服务你，而不是复杂化你的生活。" },
+        { q: "我应该在创建记忆之前还是之后组织？", a: "先创建，后组织。关于组织的完美主义可能阻碍分享你悲伤的脆弱行为。" },
+      ]
+    }
+  },
+
 ];
 export function getPostBySlug(slug: string): BlogPost | undefined {
   return BLOG_POSTS.find((p) => p.slug === slug);
