@@ -1474,15 +1474,19 @@ en: {
   },
 
   {
-    id: 20,
     slug: "stuck-use-prompt-me-feature",
-    title: { zh: "卡住了？用给我提示功能", en: "Stuck? Use the Prompt Me Feature" },
     date: "2026-08-23",
-    excerpt: { zh: "写作卡壳时，AI 提示功能如何帮你继续", en: "How the AI prompt feature helps you continue when writer's block hits." },
-    category: "writing-tips",
-    body: {
-      en: "<h2>When Writer's Block Hits</h2><p>We've all been there — staring at a blank memory, knowing you want to write something but not knowing where to start.</p><h2>How Prompt Me Works</h2><p>Our AI prompt feature analyzes your previous memories and suggests relevant starting points. It's not a complete ghostwritten entry — it's a nudge to get you moving.</p><h2>Tips for Using Prompts</h2><ul><li>Use prompts as starting points, not final drafts</li><li>Personalize the AI suggestion with your own voice</li><li>Don't overthink — just start writing</li></ul>",
-      zh: "<h2>写作卡壳怎么办？</h2><p>我们都经历过——盯着空白记忆，知道想写点什么但不知从何开始。</p><h2>给我提示功能如何工作</h2><p>AI 提示功能分析你之前的记忆，建议相关的起点。这不是完整的代写——它是让你动笔的推动。</p><h2>使用提示的技巧</h2><ul><li>把提示作为起点，不是终稿</li><li>用你自己的声音个性化 AI 建议</li><li>不要过度思考——先开始写</li></ul>"
+    en: {
+      title: "Stuck? Use the Prompt Me Feature",
+      excerpt: "How the AI prompt feature helps you continue when writer's block hits.",
+      body: "<h2>When Writer's Block Hits</h2><p>We've all been there — staring at a blank memory, knowing you want to write something but not knowing where to start.</p><h2>How Prompt Me Works</h2><p>Our AI prompt feature analyzes your previous memories and suggests relevant starting points. It's not a complete ghostwritten entry — it's a nudge to get you moving.</p><h2>Tips for Using Prompts</h2><ul><li>Use prompts as starting points, not final drafts</li><li>Personalize the AI suggestion with your own voice</li><li>Don't overthink — just start writing</li></ul>",
+      faq: []
+    },
+    zh: {
+      title: "卡住了？用给我提示功能",
+      excerpt: "写作卡壳时，AI 提示功能如何帮你继续",
+      body: "<h2>写作卡壳怎么办？</h2><p>我们都经历过——盯着空白记忆，知道想写点什么但不知从何开始。</p><h2>给我提示功能如何工作</h2><p>AI 提示功能分析你之前的记忆，建议相关的起点。这不是完整的代写——它是让你动笔的推动。</p><h2>使用提示的技巧</h2><ul><li>把提示作为起点，不是终稿</li><li>用你自己的声音个性化 AI 建议</li><li>不要过度思考——先开始写</li></ul>",
+      faq: []
     }
   },
 
