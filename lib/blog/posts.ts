@@ -1537,6 +1537,30 @@ en: {
         { q: "可以在手机上用语音转文字吗？", a: "可以。iOS 和 Android 都内置了语音输入。" }
       ]
     }
+  },
+  {
+    slug: "keep-private-memory-pet",
+    date: "2026-08-26",
+    en: {
+      title: "Keep a Private Memory of a Pet",
+      excerpt: "Digital memorials let you hold onto a pet's memory without sharing it with the world.",
+      body: "<h2>Why Keep a Private Memorial?</h2><p>Sometimes a memory is too personal to share. A pet's final days, a quiet moment at home, a private grief — these belong to you, not to social media. StillHere lets you create a private digital memorial that only you can access.</p><h2>What You Can Keep</h2><ul><li>A written tribute with your own words</li><li>Photos that capture the moment</li><li>Private notes about what they meant to you</li><li>A date reminder for anniversaries</li></ul><h2>The Value of Privacy</h2><p>A private memorial removes the pressure to perform grief. You don't need likes or comments. You don't need to explain why you're sad. It's just you and the memory, exactly as you want it.</p><h2>When to Go Private</h2><p>Not every memorial needs to be public. Some are for family only. Some are for you alone. That's okay. StillHere respects both choices.</p><h2>A Gentle Reminder</h2><p>Keeping a private memory doesn't mean you're hiding anything. It means you're protecting something precious. The memory exists because the bond was real. That doesn't change because you choose to keep it quiet.</p>",
+      faq: [
+        { q: "Can anyone see my private memorial?", a: "No. Private memorials are only visible to you." },
+        { q: "Can I make a memorial public later?", a: "Yes. You can change the privacy setting at any time." },
+        { q: "Is there a limit to private memorials?", a: "No. You can create as many as you need." }
+      ]
+    },
+    zh: {
+      title: "为宠物保留一份私密纪念",
+      excerpt: "数字纪念让你可以在不分享给世界的情况下珍藏宠物的记忆。",
+      body: "<h2>为什么保留私密纪念？</h2><p>有些记忆太过私人，不适合分享。宠物生命的最后时光、家中的安静时刻、私人的悲伤——这些属于你，不属于社交媒体。StillHere 让你可以创建只有你自己能访问的私密数字纪念。</p><h2>你可以保留什么</h2><ul><li>用你自己的文字写下的纪念文</li><li>捕捉那个瞬间的照片</li><li>关于它们对你意义的私密笔记</li><li>纪念日的日期提醒</li></ul><h2>隐私的价值</h2><p>私密纪念消除了表演悲伤的压力。你不需要点赞或评论。你不需要解释为什么难过。只是你和记忆，正如你所希望的那样。</p><h2>何时选择私密</h2><p>不是每个纪念都需要公开。有些只属于家人。有些只属于你。这没关系。StillHere 尊重两种选择。</p><h2>一句温柔的提醒</h2><p>保留私密记忆并不意味着你在隐藏什么。这意味着你在保护珍贵的东西。记忆存在是因为那段羁绊是真实的。这不会因为你选择保持安静而改变。</p>",
+      faq: [
+        { q: "任何人都能看到我的私密纪念吗？", a: "不能。私密纪念只对你自己可见。" },
+        { q: "我以后可以改成公开吗？", a: "可以。你可以随时更改隐私设置。" },
+        { q: "私密纪念有限制吗？", a: "没有。你可以根据需要创建任意数量。" }
+      ]
+    }
   }
 ];
 export function getPostBySlug(slug: string): BlogPost | undefined {
