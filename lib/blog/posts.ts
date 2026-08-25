@@ -1515,6 +1515,29 @@ en: {
     }
   },
 
+
+    {
+    slug: "use-voice-to-text-instead-of-typing",
+    date: "2026-08-25",
+    en: {
+      title: "Use Voice-to-Text Instead of Typing",
+      excerpt: "Voice-to-text has reached the point where it's often faster than typing.",
+      body: "<h2>Why Voice-to-Text Is Worth Trying</h2><p>Most people speak at 150 words per minute. Even with pauses and corrections, voice typing can outpace average typing speed — around 40 words per minute for most people.</p><h2>The Four Reasons</h2><ul><li>Speed: dictation is 2-3x faster than typing</li><li>Accessibility: easier on hands and wrists</li><li>Natural flow: thoughts come out more fluidly when speaking</li><li>Multitasking: capture ideas while walking or cooking</li></ul><h2>A Gentle Reminder</h2><p>Voice input still needs editing. Read back what you dictated and refine it. The goal is to capture more of your thinking — not to stop writing altogether.</p>",
+      faq: [
+        { q: "Is voice-to-text accurate?", a: "Modern tools are 90-95% accurate for clear speech in quiet environments." },
+        { q: "Can I use voice-to-text on my phone?", a: "Yes. Both iOS and Android have built-in voice typing." }
+      ]
+    },
+    zh: {
+      title: "用语音转文字，代替打字",
+      excerpt: "语音转文字已经发展到通常比打字更快的程度。",
+      body: "<h2>为什么值得试试语音转文字</h2><p>大多数人每分钟说 150 个字。即使算上停顿和修改，语音输入也能超过平均打字速度——大多数人每分钟约 40 个字。</p><h2>四个理由</h2><ul><li>速度：口述比打字快 2-3 倍</li><li>无障碍：对手和手腕更友好</li><li>自然流畅：说话时思路更容易连贯</li><li>多任务：走路或做饭时也能记录想法</li></ul><h2>一句温柔的提醒</h2><p>语音输入仍然需要编辑。把你口述的内容读回来再润色。目标是捕捉更多思考——而不是完全停止书写。</p>",
+      faq: [
+        { q: "语音转文字准确吗？", a: "在安静环境中，现代工具的清晰语音准确率可达 90-95%。" },
+        { q: "可以在手机上用语音转文字吗？", a: "可以。iOS 和 Android 都内置了语音输入。" }
+      ]
+    }
+  }
 ];
 export function getPostBySlug(slug: string): BlogPost | undefined {
   return BLOG_POSTS.find((p) => p.slug === slug);
