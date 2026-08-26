@@ -1,16 +1,24 @@
+'use client';
+
 import Link from 'next/link';
-import { auth } from '@/auth';
-import { getDictionary } from '@/lib/i18n';
-import { resolveLocale } from '@/lib/locale-server';
+import { useSession } from 'next-auth/react';
+import { useDictionary } from './LocaleProvider';
 import { Lamp } from './Lamp';
 import { ThemeToggle } from './ThemeToggle';
 import { LocaleToggle } from './LocaleToggle';
 import { SignInButton } from './SignInButton';
 import styles from './SiteHeader.module.css';
 
-export async function SiteHeader() {
-  const t = getDictionary(await resolveLocale());
-  const session = await auth();
+/**
+ * Client component on purpose: the public/marketing pages are statically
+ * pre-rendered (CDN-cacheable), so we must NOT read cookies()/auth() server-side
+ * here — that would force every marketing page dynamic and nullify the
+ * vercel.json Cache-Control headers. Locale comes from <LocaleProvider> and the
+ * sign-in state from useSession() (fetched in the browser).
+ */
+export function SiteHeader() {
+  const { t } = useDictionary();
+  const { data: session } = useSession();
 
   return (
     <header className={styles.header}>

@@ -13,8 +13,11 @@ export const en = {
   },
 
   nav: {
+    home: 'Home',
     pricing: 'Pricing',
     blog: 'Blog',
+    prevNote: 'Previous note',
+    nextNote: 'Next note',
     skipToContent: 'Skip to content',
     toggleTheme: 'Switch between light and dark',
     signInGoogle: 'Continue with Google',

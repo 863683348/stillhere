@@ -1,25 +1,23 @@
 import type { Metadata } from 'next';
 import { MarketingShell } from '@/components/MarketingShell';
 import { StoryForm } from '@/components/StoryForm';
-import { getDictionary } from '@/lib/i18n';
-import { resolvePageLocale, buildAlternates } from '@/lib/seo';
-import { listApprovedStories } from '@/lib/community';
+import { getDictionary, DEFAULT_LOCALE } from '@/lib/i18n';
+import { buildAlternates } from '@/lib/seo';
+import { listApprovedStoriesCached } from '@/lib/community';
 import styles from './page.module.css';
 
-export const dynamic = 'force-dynamic';
+// ISR: statically pre-rendered and revalidated hourly; the DB read is cached via
+// unstable_cache (5 min) so this page serves from the CDN (vercel.json s-maxage)
+// instead of every request hitting the origin + Neon.
+export const revalidate = 3600;
 
-export async function generateMetadata({
-  searchParams,
-}: {
-  searchParams: Promise<{ lang?: string }>;
-}): Promise<Metadata> {
-  const locale = await resolvePageLocale(searchParams);
-  const t = getDictionary(locale);
+export async function generateMetadata(): Promise<Metadata> {
+  const t = getDictionary(DEFAULT_LOCALE);
   return {
     title: t.stories.meta.title,
     description: t.stories.meta.description,
     keywords: t.stories.meta.keywords,
-    alternates: buildAlternates('/stories', locale),
+    alternates: buildAlternates('/stories', DEFAULT_LOCALE),
     robots: { index: true, follow: true },
     openGraph: {
       url: '/stories',
@@ -27,7 +25,7 @@ export async function generateMetadata({
       description: t.stories.meta.description,
       type: 'website',
       siteName: t.brand.name,
-      locale: locale === 'en' ? 'en_US' : 'zh_CN',
+      locale: 'en_US',
     },
     twitter: {
       card: 'summary_large_image',
@@ -37,13 +35,16 @@ export async function generateMetadata({
   };
 }
 
-export default async function StoriesPage({
-  searchParams,
-}: {
-  searchParams: Promise<{ lang?: string }>;
-}) {
-  const t = getDictionary(await resolvePageLocale(searchParams));
-  const stories = await listApprovedStories();
+export default async function StoriesPage() {
+  const t = getDictionary(DEFAULT_LOCALE);
+  // Cached DB read; fall back to an empty list if Neon is cold/unreachable so
+  // the ISR prerender (and the live page) never 500s.
+  let stories: Awaited<ReturnType<typeof listApprovedStoriesCached>> = [];
+  try {
+    stories = await listApprovedStoriesCached();
+  } catch (err) {
+    console.error('[stories] listApprovedStoriesCached failed; serving empty list:', err);
+  }
   const relations = t.community.relations as unknown as Record<string, string>;
 
   return (

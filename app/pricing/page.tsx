@@ -3,22 +3,17 @@ import Link from 'next/link';
 import { Check, Infinity as InfinityIcon } from 'lucide-react';
 import { MarketingShell } from '@/components/MarketingShell';
 import { JsonLd } from '@/components/JsonLd';
-import { getDictionary } from '@/lib/i18n';
-import { resolvePageLocale, buildAlternates } from '@/lib/seo';
+import { getDictionary, DEFAULT_LOCALE } from '@/lib/i18n';
+import { buildAlternates } from '@/lib/seo';
 import styles from './page.module.css';
 
-export async function generateMetadata({
-  searchParams,
-}: {
-  searchParams: Promise<{ lang?: string }>;
-}): Promise<Metadata> {
-  const locale = await resolvePageLocale(searchParams);
-  const t = getDictionary(locale);
+export async function generateMetadata(): Promise<Metadata> {
+  const t = getDictionary(DEFAULT_LOCALE);
   return {
     title: t.pricing.meta.title,
     description: t.pricing.meta.description,
     keywords: t.pricing.meta.keywords,
-    alternates: buildAlternates('/pricing', locale),
+    alternates: buildAlternates('/pricing', DEFAULT_LOCALE),
     openGraph: {
       url: '/pricing',
       title: `${t.pricing.meta.title} · ${t.brand.name}`,
@@ -27,13 +22,8 @@ export async function generateMetadata({
   };
 }
 
-export default async function PricingPage({
-  searchParams,
-}: {
-  searchParams: Promise<{ lang?: string }>;
-}) {
-  const locale = await resolvePageLocale(searchParams);
-  const t = getDictionary(locale);
+export default function PricingPage() {
+  const t = getDictionary(DEFAULT_LOCALE);
   const { heading, intro, tiers, recommended, promise, footnote } = t.pricing;
 
   const productJsonLd = {
@@ -46,7 +36,7 @@ export default async function PricingPage({
       '@type': 'Offer',
       name: tier.name,
       price: tier.price.replace(/[^\d.]/g, '') || '0',
-      priceCurrency: locale === 'en' ? 'USD' : 'CNY',
+      priceCurrency: 'USD',
       availability: 'https://schema.org/InStock',
       description: tier.features.map((f) => f.text).join('; '),
     })),

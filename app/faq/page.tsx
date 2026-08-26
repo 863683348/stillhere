@@ -1,29 +1,24 @@
 import type { Metadata } from 'next';
 import { MarketingShell } from '@/components/MarketingShell';
 import { JsonLd } from '@/components/JsonLd';
-import { getDictionary } from '@/lib/i18n';
-import { resolvePageLocale, buildAlternates } from '@/lib/seo';
+import { getDictionary, DEFAULT_LOCALE } from '@/lib/i18n';
+import { buildAlternates } from '@/lib/seo';
 import styles from './page.module.css';
 
-export async function generateMetadata({
-  searchParams,
-}: {
-  searchParams: Promise<{ lang?: string }>;
-}): Promise<Metadata> {
-  const locale = await resolvePageLocale(searchParams);
-  const t = getDictionary(locale);
+export async function generateMetadata(): Promise<Metadata> {
+  const t = getDictionary(DEFAULT_LOCALE);
   return {
     title: t.faq.meta.title,
     description: t.faq.meta.description,
     keywords: t.faq.meta.keywords,
-    alternates: buildAlternates('/faq', locale),
+    alternates: buildAlternates('/faq', DEFAULT_LOCALE),
     openGraph: {
       url: '/faq',
       title: `${t.faq.meta.title} · ${t.brand.name}`,
       description: t.faq.meta.description,
       type: 'website',
       siteName: t.brand.name,
-      locale: locale === 'en' ? 'en_US' : 'zh_CN',
+      locale: 'en_US',
     },
     twitter: {
       card: 'summary_large_image',
@@ -33,13 +28,8 @@ export async function generateMetadata({
   };
 }
 
-export default async function FaqPage({
-  searchParams,
-}: {
-  searchParams: Promise<{ lang?: string }>;
-}) {
-  const locale = await resolvePageLocale(searchParams);
-  const t = getDictionary(locale);
+export default function FaqPage() {
+  const t = getDictionary(DEFAULT_LOCALE);
   const { heading, intro, items } = t.faq;
 
   const faqJsonLd = {

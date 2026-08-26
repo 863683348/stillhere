@@ -16,6 +16,88 @@
   border-bottom-color: var(--border-strong);
 }
 
+.breadcrumb {
+  margin-bottom: var(--space-4);
+}
+
+.breadcrumbList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-2);
+  font-size: 13px;
+}
+
+.breadcrumbLink {
+  color: var(--text-secondary);
+  border-bottom: 1px solid transparent;
+  transition: color var(--dur-fast) var(--ease-gentle), border-color var(--dur-fast) var(--ease-gentle);
+}
+
+.breadcrumbLink:hover {
+  color: var(--text-primary);
+  border-bottom-color: var(--border-strong);
+}
+
+.breadcrumbSep {
+  color: var(--text-tertiary);
+  user-select: none;
+}
+
+.breadcrumbCurrent {
+  color: var(--text-secondary);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: min(420px, 70vw);
+}
+
+.pager {
+  margin-top: var(--space-10);
+  padding-top: var(--space-6);
+  border-top: 1px solid var(--border-subtle);
+  display: flex;
+  justify-content: space-between;
+  gap: var(--space-6);
+}
+
+.pagerLink {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+  color: var(--text-primary);
+  border-bottom: 1px solid transparent;
+  transition: color var(--dur-fast) var(--ease-gentle), border-color var(--dur-fast) var(--ease-gentle);
+}
+
+.pagerLink:hover {
+  color: var(--accent);
+  border-bottom-color: var(--border-strong);
+}
+
+.pagerNext {
+  text-align: right;
+}
+
+.pagerLabel {
+  color: var(--text-secondary);
+}
+
+.pagerTitle {
+  font-family: var(--font-serif);
+  font-size: 17px;
+  line-height: 1.4;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
 .date {
   margin: 0 0 var(--space-2);
 }

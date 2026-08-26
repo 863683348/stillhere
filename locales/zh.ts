@@ -14,8 +14,11 @@ export const zh: Dictionary = {
   },
 
   nav: {
+    home: '首页',
     pricing: '价格',
     blog: '博客',
+    prevNote: '上一篇',
+    nextNote: '下一篇',
     skipToContent: '跳到正文',
     toggleTheme: '切换浅色与深色',
     signInGoogle: '使用 Google 登录',

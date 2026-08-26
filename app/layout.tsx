@@ -1,4 +1,5 @@
 import type { Metadata, Viewport } from 'next';
+import { SessionProvider } from 'next-auth/react';
 import { ThemeProvider } from '@/components/ThemeProvider';
 import { LocaleProvider } from '@/components/LocaleProvider';
 import { JsonLd } from '@/components/JsonLd';
@@ -109,9 +110,11 @@ export default async function RootLayout({
         <a className="skip-link" href="#main">
           {t.nav.skipToContent}
         </a>
-        <LocaleProvider initialLocale={locale}>
-          <ThemeProvider>{children}</ThemeProvider>
-        </LocaleProvider>
+        <SessionProvider>
+          <LocaleProvider initialLocale={locale}>
+            <ThemeProvider>{children}</ThemeProvider>
+          </LocaleProvider>
+        </SessionProvider>
         <GoogleAnalytics />
       </body>
     </html>

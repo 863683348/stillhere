@@ -1,11 +1,17 @@
+'use client';
+
 import Link from 'next/link';
-import { getDictionary } from '@/lib/i18n';
-import { resolveLocale } from '@/lib/locale-server';
+import { useDictionary } from './LocaleProvider';
 import { Lamp } from './Lamp';
 import styles from './SiteFooter.module.css';
 
-export async function SiteFooter() {
-  const t = getDictionary(await resolveLocale());
+/**
+ * Client component: same reason as SiteHeader — keeps cookies() out of the
+ * statically pre-rendered marketing pages so vercel.json caching applies.
+ * Locale is read from <LocaleProvider> (client-side switching).
+ */
+export function SiteFooter() {
+  const { t } = useDictionary();
   const year = new Date().getFullYear();
 
   return (

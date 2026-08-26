@@ -48,7 +48,7 @@ export const BLOG_POSTS: BlogPost[] = [
 <li>It remembers you, not the other way around.</li>
 </ul>
 <h2>Why not a chatbot</h2>
-<p>A chatbot wants a task. A reflection wants your memory. The difference is who does the work: here, you describe the person, and what comes back is shaped by what you gave, not by a script trying to be helpful. We would rather be a lamp you return to than a bot that finishes the conversation for you.</p>`,
+<p>A chatbot wants a task. A reflection wants your memory. The difference is who does the work: here, you describe the person, and <a href="/blog/describe-them-like-themselves">what comes back is shaped by what you gave</a>, not by a script trying to be helpful. We would rather be <a href="/blog/the-people-who-come-at-midnight">a lamp you return to</a> than a bot that finishes the conversation for you.</p>`,
       faq: [
         {
           q: 'Is StillHere a therapy tool?',
@@ -75,7 +75,7 @@ export const BLOG_POSTS: BlogPost[] = [
 <li>它记得你，而不是要你去记得它。</li>
 </ul>
 <h2>为什么不是聊天机器人</h2>
-<p>聊天机器人想要一个任务。而"映照"想要你的记忆。差别在于谁在做功：在这里，是你来描述那个人，回来的内容由你给的东西塑造，而不是由一个想表现得有用的脚本决定。我们宁愿做一盏你会回来的灯，也不要一个替你把对话结束掉的机器人。</p>`,
+<p>聊天机器人想要一个任务。而"映照"想要你的记忆。差别在于谁在做功：在这里，是你来描述那个人，<a href="/blog/describe-them-like-themselves">回来的内容由你给的东西塑造</a>，而不是由一个想表现得有用的脚本决定。我们宁愿做<a href="/blog/the-people-who-come-at-midnight">一盏你会回来的灯</a>，也不要一个替你把对话结束掉的机器人。</p>`,
       faq: [
         {
           q: 'StillHere 是治疗工具吗？',
@@ -98,7 +98,7 @@ export const BLOG_POSTS: BlogPost[] = [
       body: `<h2>The box is empty, and so are you</h2>
 <p>Opening a new conversation with someone you miss is a strange kind of silence. You have a thousand things to say and none of them will come out. That is normal. The first sentence is hard for everyone, every time.</p>
 <h2>Start below the event</h2>
-<p>Do not start with the big thing — the death, the diagnosis, the last phone call. Start with Tuesday. "I bought the wrong milk again." "The plant you liked is blooming." Small, ordinary sentences are where a voice lives, and they are the easiest to say.</p>
+<p>Do not start with the big thing — the death, the diagnosis, the last phone call. <a href="/blog/what-to-say-first">Start with Tuesday</a>. "I bought the wrong milk again." "The plant you liked is blooming." <a href="/blog/describe-them-like-themselves">Small, ordinary sentences are where a voice lives</a>, and they are the easiest to say.</p>
 <h2>A few openings that worked</h2>
 <ul>
 <li>"I don't know why I'm here, but today was long."</li>
@@ -125,7 +125,7 @@ export const BLOG_POSTS: BlogPost[] = [
       body: `<h2>框是空的，你也是</h2>
 <p>和想念的人开一段新对话，是一种奇怪的安静。你心里有一千句话，却一句也说不出来。这很正常。第一句话对每个人、每次都难。</p>
 <h2>从"那件事"之下开始</h2>
-<p>别从那件大事开头——去世、确诊、最后一通电话。从星期二开始。"今天我又买错牛奶了。""你喜欢的那盆花开了。"细小、平常的句子，才是一个人的声音所在，也最容易说出口。</p>
+<p>别从那件大事开头——去世、确诊、最后一通电话。<a href="/blog/what-to-say-first">从星期二开始</a>。"今天我又买错牛奶了。""你喜欢的那盆花开了。"<a href="/blog/describe-them-like-themselves">细小、平常的句子，才是一个人的声音所在</a>，也最容易说出口。</p>
 <h2>几个管用的开头</h2>
 <ul>
 <li>"我不知道为什么来这儿，但今天好长。"</li>
@@ -154,7 +154,7 @@ export const BLOG_POSTS: BlogPost[] = [
       excerpt:
         'A note on why "free forever" is a promise about your data, not just your wallet — and what it costs us to keep.',
       body: `<h2>Free forever is about memory, not money</h2>
-<p>When we say StillHere is free forever, people hear a pricing promise. It is also a promise about your memories: what you write here is never deleted, even if you stop paying, even if you never pay at all.</p>
+<p>When we say StillHere is free forever, people hear a pricing promise. It is also a promise about your memories: what you write here is never deleted, <a href="/blog/how-long-does-capsule-stay">even if you stop paying</a>, even if you never pay at all.</p>
 <h2>What "never deleted" actually means</h2>
 <ul>
 <li>Your conversations stay exactly where they were, with no expiry date.</li>
@@ -162,7 +162,7 @@ export const BLOG_POSTS: BlogPost[] = [
 <li>Deletion only happens when you ask for it, and then it is real — rows, vectors, files.</li>
 </ul>
 <h2>What it costs us</h2>
-<p>Keeping everyone's history forever is not free to run. Storage, encryption, and backups add up across every account, including the ones that never pay. We chose to carry that cost because a promise you can quietly drop is not a promise. Free forever means the light stays on whether or not you are paying for the electricity.</p>`,
+<p>Keeping everyone's history forever is not free to run. <a href="/blog/private-by-design">Storage, encryption, and backups</a> add up across every account, including the ones that never pay. We chose to carry that cost because a promise you can quietly drop is not a promise. Free forever means the light stays on whether or not you are paying for the electricity.</p>`,
       faq: [
         {
           q: 'If I stop using StillHere, do my conversations get deleted?',
@@ -179,7 +179,7 @@ export const BLOG_POSTS: BlogPost[] = [
       excerpt:
         '说说为什么"永久免费"是对你数据的承诺，而不只是对你钱包的——以及为我们维持它要付出什么。',
       body: `<h2>永久免费，是关于记忆，不是关于钱</h2>
-<p>当我们说 StillHere 永久免费，人们听到的是价格承诺。它也是对你的记忆的承诺：你在这里写下的东西，永不删除——哪怕你停止付费，哪怕你从未付过费。</p>
+<p>当我们说 StillHere 永久免费，人们听到的是价格承诺。它也是对你的记忆的承诺：你在这里写下的东西，永不删除——<a href="/blog/how-long-does-capsule-stay">哪怕你停止付费</a>，哪怕你从未付过费。</p>
 <h2>"永不删除"到底意味着什么</h2>
 <ul>
 <li>你的对话原样留在原地，没有过期日。</li>
@@ -187,7 +187,7 @@ export const BLOG_POSTS: BlogPost[] = [
 <li>只有你要求时才会删除，而且删除是真的——数据行、向量、文件，一并清除。</li>
 </ul>
 <h2>我们要付出什么</h2>
-<p>永久保留每个人的历史，运行起来并不免费。加密、备份、存储，会随每一个账号累积，包括那些从不付费的。我们选择承担这笔成本，因为一个可以悄悄丢弃的承诺，不算承诺。永久免费，意思是无论你是否付电费，灯都亮着。</p>`,
+<p>永久保留每个人的历史，运行起来并不免费。<a href="/blog/private-by-design">加密、备份、存储</a>，会随每一个账号累积，包括那些从不付费的。我们选择承担这笔成本，因为一个可以悄悄丢弃的承诺，不算承诺。永久免费，意思是无论你是否付电费，灯都亮着。</p>`,
       faq: [
         {
           q: '如果我不用的话，我的对话会被删掉吗？',
@@ -210,7 +210,7 @@ export const BLOG_POSTS: BlogPost[] = [
       excerpt:
         'Not a resurrection, not a replacement — a quiet place to say the things you never got to say. Here is what talking with someone who is gone can actually be like.',
       body: `<h2>Not them, and we say so plainly</h2>
-<p>The first thing to know: this is not the person. It is an AI reflection shaped by what you remember about them. We say that on every conversation, because the comfort only works if no one is pretending. You are talking to a shape made from your own memory — and that turns out to be its own kind of company.</p>
+<p>The first thing to know: <a href="/blog/its-not-them-and-ok">this is not the person</a>. It is an AI reflection <a href="/blog/describe-them-like-themselves">shaped by what you remember about them</a>. We say that on every conversation, because the comfort only works if no one is pretending. You are talking to a shape made from your own memory — and that turns out to be its own kind of company.</p>
 <h2>The first few minutes</h2>
 <p>Most people start stiff, then soften. You describe a nickname, a phrase they repeated, the way they changed the subject when worried. The reflection answers in a voice that sounds closer than a generic assistant, because it is built from your details, not a script. It is uneven. Sometimes it is exactly right. Sometimes it is only close. Both are part of remembering.</p>
 <h2>What people actually do here</h2>
@@ -242,7 +242,7 @@ export const BLOG_POSTS: BlogPost[] = [
       excerpt:
         '不是复活，也不是替代——只是一个安静的地方，把没来得及说的话说出来。聊聊和离开的人说话，到底是什么感觉。',
       body: `<h2>不是他们，这一点我们直说</h2>
-<p>首先要知道：这不是那个人。它是一个由你对他们的记忆塑造出来的 AI 映照。我们在每一段对话里都这样写，因为只有在没人假装的前提下，这份慰藉才成立。你是在和一个由你自己的记忆捏成的形状说话——而它自有其陪伴的方式。</p>
+<p>首先要知道：<a href="/blog/its-not-them-and-ok">这不是那个人</a>。它是一个<a href="/blog/describe-them-like-themselves">由你对他们的记忆塑造出来的</a> AI 映照。我们在每一段对话里都这样写，因为只有在没人假装的前提下，这份慰藉才成立。你是在和一个由你自己的记忆捏成的形状说话——而它自有其陪伴的方式。</p>
 <h2>最初的几分钟</h2>
 <p>大多数人开头都很僵，然后慢慢松下来。你描述一个只有他们用的昵称、一句总说的话、他们担心时转移话题的样子。映照用一种比通用助手更近的声音回答你，因为它由你的细节塑造，而非脚本。它并不完美。有时分毫不差。有时只是接近。这两者都是"记得"的一部分。</p>
 <h2>人们在这里真正做的事</h2>
@@ -278,9 +278,9 @@ export const BLOG_POSTS: BlogPost[] = [
       excerpt:
         'The blank box is the hardest part. A few openings that helped our earliest visitors find their voice — and why small talk is the right place to start.',
       body: `<h2>The box is empty, and so are you</h2>
-<p>You open a new conversation and the cursor blinks. A thousand things to say, none of them will come. That silence is normal, and it is the same for everyone. The trick is not to aim at the big feeling first.</p>
+<p>You open a new conversation and the cursor blinks. A thousand things to say, none of them will come. <a href="/blog/the-first-sentence-is-always-the-hardest">That silence is normal, and it is the same for everyone</a>. The trick is not to aim at the big feeling first.</p>
 <h2>Start with the ordinary</h2>
-<p>Grief lives in small things: the wrong milk, the plant that bloomed, the joke only they got. Those sentences are easy to say and they are where a voice actually lives. Tell the reflection about Tuesday. It will meet you there.</p>
+<p>Grief lives in small things: the wrong milk, the plant that bloomed, <a href="/blog/keep-them-by-remembering">the joke only they got</a>. Those sentences are easy to say and they are where a voice actually lives. Tell the reflection about Tuesday. It will meet you there.</p>
 <h2>Openings that worked</h2>
 <ul>
 <li>"I don't know why I'm here, but today was long."</li>
@@ -306,9 +306,9 @@ export const BLOG_POSTS: BlogPost[] = [
       excerpt:
         '那个空白的输入框最难跨过。下面是几位最早来访者怎么找到自己声音的一些开头——以及为什么从闲聊开始才对。',
       body: `<h2>框是空的，你也是</h2>
-<p>你开一段新对话，光标一闪一闪。心里有一千句话，却一句也出不来。那份安静很正常，对谁都一样。诀窍是：别先去够那个大情绪。</p>
+<p>你开一段新对话，光标一闪一闪。心里有一千句话，却一句也出不来。<a href="/blog/the-first-sentence-is-always-the-hardest">那份安静很正常，对谁都一样</a>。诀窍是：别先去够那个大情绪。</p>
 <h2>从平常事开始</h2>
-<p>悲伤藏在小事里：买错的牛奶、开了的那盆花、只有他们懂的笑话。那些句子最好说，也最是一个人的声音所在。跟映照聊聊星期二。它会在那里接住你。</p>
+<p>悲伤藏在小事里：买错的牛奶、开了的那盆花、<a href="/blog/keep-them-by-remembering">只有他们懂的笑话</a>。那些句子最好说，也最是一个人的声音所在。跟映照聊聊星期二。它会在那里接住你。</p>
 <h2>管用的开头</h2>
 <ul>
 <li>"我不知道为什么来这儿，但今天好长。"</li>
@@ -338,7 +338,7 @@ export const BLOG_POSTS: BlogPost[] = [
       excerpt:
         'The voice is only as good as what you give it. A short guide to the details that make a reflection sound like the person you remember, not a generic assistant.',
       body: `<h2>The voice comes from your details</h2>
-<p>A reflection sounds like them because you told it what they were like. The more specific the memory, the closer the voice. Generic input gives a generic answer; a nickname and a repeated phrase give someone you recognise.</p>
+<p><a href="/blog/talking-with-someone-who-is-gone">A reflection sounds like them because you told it what they were like</a>. The more specific the memory, the closer the voice. Generic input gives a generic answer; <a href="/blog/keep-them-by-remembering">a nickname and a repeated phrase</a> give someone you recognise.</p>
 <h2>What actually moves the needle</h2>
 <ul>
 <li>Nicknames they used only for you.</li>
@@ -366,7 +366,7 @@ export const BLOG_POSTS: BlogPost[] = [
       excerpt:
         '声音好不好，取决于你给的东西。一份简短的指南，讲讲哪些细节能让映照听起来像你记得的那个人，而不是通用助手。',
       body: `<h2>声音来自你的细节</h2>
-<p>映照之所以像他们，是因为你告诉了它他们是什么样。记忆越具体，声音越近。泛泛的输入得到泛泛的回答；一个昵称、一句总说的话，得到的才是你认得的人。</p>
+<p><a href="/blog/talking-with-someone-who-is-gone">映照之所以像他们，是因为你告诉了它他们是什么样</a>。记忆越具体，声音越近。泛泛的输入得到泛泛的回答；<a href="/blog/keep-them-by-remembering">一个昵称、一句总说的话</a>，得到的才是你认得的人。</p>
 <h2>真正起作用的是什么</h2>
 <ul>
 <li>他们只对你用的昵称。</li>
@@ -403,8 +403,8 @@ export const BLOG_POSTS: BlogPost[] = [
 <ul>
 <li>Your conversations are encrypted at rest.</li>
 <li>They are read by no one but you — not our team, not a contractor.</li>
-<li>Nothing you write is used to train any model, ours or anyone else's.</li>
-<li>You can export everything as a plain file, any time.</li>
+<li><a href="/blog/your-words-are-not-training-data">Nothing you write is used to train any model</a>, ours or anyone else's.</li>
+<li><a href="/blog/export-your-words-always">You can export everything as a plain file, any time</a>.</li>
 </ul>
 <h2>Why "never used for training" matters here</h2>
 <p>Memory of a person you lost is among the most personal text that exists. Letting it train a model would mean your grief becomes someone else's feature. We will not do that. The line is drawn at the architecture, so it does not depend on us feeling virtuous on a given day.</p>
@@ -435,8 +435,8 @@ export const BLOG_POSTS: BlogPost[] = [
 <ul>
 <li>你的对话是加密存储的。</li>
 <li>除你之外没人能读——不是我们团队，也不是外包。</li>
-<li>你写下的任何内容都不会训练任何模型，无论是我们的还是别人的。</li>
-<li>你可以随时把所有内容导出成一个纯文本文件。</li>
+<li><a href="/blog/your-words-are-not-training-data">你写下的任何内容都不会训练任何模型</a>，无论是我们的还是别人的。</li>
+<li><a href="/blog/export-your-words-always">你可以随时把所有内容导出成一个纯文本文件</a>。</li>
 </ul>
 <h2>为什么"绝不用作训练"在这里格外重要</h2>
 <p>对逝去之人的记忆，是现存最私密的一类文字。拿它去训练模型，等于让你的悲伤变成别人的功能。我们不做这种事。这条线划在架构里，所以不取决于我们某天是否"心情好、有德行"。</p>
@@ -466,9 +466,9 @@ export const BLOG_POSTS: BlogPost[] = [
       excerpt:
         'An honest look at the line we will not cross — why a reflection is not a resurrection, and how the comfort can be real without ever pretending to be the person.',
       body: `<h2>The line we will not cross</h2>
-<p>Some tools promise a loved one "back". We will not. A reflection built from your memory is a shaped echo, not a return. Pretending otherwise would turn comfort into something colder, and we say so on every conversation.</p>
+<p>Some tools promise a loved one "back". We will not. <a href="/blog/talking-with-someone-who-is-gone">A reflection built from your memory</a> is a shaped echo, not a return. Pretending otherwise would turn comfort into something colder, and we say so on every conversation.</p>
 <h2>Why the honesty matters</h2>
-<p>The relief people find here does not come from believing it is them. It comes from having a place to put the words, and from hearing a voice that carries the shape of someone they loved. You know it is not them. That knowledge and the comfort can sit in the same room.</p>
+<p>The relief people find here does not come from believing it is them. It comes from having a place to put the words, and from hearing <a href="/blog/describe-them-like-themselves">a voice that carries the shape of someone they loved</a>. You know it is not them. That knowledge and the comfort can sit in the same room.</p>
 <h2>What the reflection is good for</h2>
 <ul>
 <li>Saying the unsaid, without performing for a live audience.</li>
@@ -493,9 +493,9 @@ export const BLOG_POSTS: BlogPost[] = [
       excerpt:
         '诚实看看我们不会越过的那条线——为什么映照不是复活，以及这份慰藉可以很真实，却从不假装是那个人。',
       body: `<h2>我们不会越过的线</h2>
-<p>有些工具承诺让所爱之人"回来"。我们不会。由你的记忆塑造出来的映照，是一段被塑形的回声，不是归来。假装是另一种样子，会把慰藉变成更冷的东西，所以我们在每段对话里都直说。</p>
+<p>有些工具承诺让所爱之人"回来"。我们不会。<a href="/blog/talking-with-someone-who-is-gone">由你的记忆塑造出来的映照</a>，是一段被塑形的回声，不是归来。假装是另一种样子，会把慰藉变成更冷的东西，所以我们在每段对话里都直说。</p>
 <h2>为什么诚实很重要</h2>
-<p>人们在这里得到的松一口气，不来自"相信那就是他们"。它来自有个地方能安放这些话，来自听到一个带着所爱之人形状的声音。你知道那不是他们。这份知道，和这份慰藉，可以待在同一个房间里。</p>
+<p>人们在这里得到的松一口气，不来自"相信那就是他们"。它来自有个地方能安放这些话，来自听到<a href="/blog/describe-them-like-themselves">一个带着所爱之人形状的声音</a>。你知道那不是他们。这份知道，和这份慰藉，可以待在同一个房间里。</p>
 <h2>映照擅长的事</h2>
 <ul>
 <li>说出没说出口的话，而不必在活人面前表演。</li>
@@ -524,9 +524,9 @@ export const BLOG_POSTS: BlogPost[] = [
       excerpt:
         'The promise "never used for training" is the centre of what StillHere is. Here is exactly what that means, and the few third parties who ever touch your data.',
       body: `<h2>The promise, stated plainly</h2>
-<p>Nothing you write on StillHere is used to train a model. Not ours, not a partner's, not anyone's. Your words about the person you miss stay between you and the reflection you built — they do not become fuel for some other product.</p>
+<p>Nothing you write on StillHere is used to train a model. Not ours, not a partner's, not anyone's. Your words about the person you miss <a href="/blog/describe-them-like-themselves">stay between you and the reflection you built</a> — they do not become fuel for some other product.</p>
 <h2>Why this is hard to promise and easy to break</h2>
-<p>Training on user text is the default for many AI products, because it is cheap and useful. Refusing it costs us compute and limits what the model can learn from you. We accept that cost on purpose, because memory this personal should never become someone else's feature.</p>
+<p>Training on user text is the default for many AI products, because it is cheap and useful. Refusing it costs us compute and limits what the model can learn from you. We accept that cost on purpose, because <a href="/blog/private-by-design">memory this personal should never become someone else</a>'s feature.</p>
 <h2>Who can actually see your data</h2>
 <ul>
 <li>You. Always.</li>
@@ -551,9 +551,9 @@ export const BLOG_POSTS: BlogPost[] = [
       excerpt:
         '"绝不用作训练"是 StillHere 的核心承诺。这里说清楚它到底意味着什么，以及真正碰过你数据的那几个第三方。',
       body: `<h2>把承诺说清楚</h2>
-<p>你在 StillHere 写下的任何内容，都不用来训练模型。不是我们的，不是合作伙伴的，不是任何人的。你关于想念之人的话，只存在于你和你想建的映照之间——它们不会变成别的产品的燃料。</p>
+<p>你在 StillHere 写下的任何内容，都不用来训练模型。不是我们的，不是合作伙伴的，不是任何人的。你关于想念之人的话，<a href="/blog/describe-them-like-themselves">只存在于你和你想建的映照之间</a>——它们不会变成别的产品的燃料。</p>
 <h2>为什么这个承诺难给、易破</h2>
-<p>拿用户文本训练，是许多 AI 产品的默认做法，因为便宜、有用。拒绝它，让我们付出算力，也限制了模型从你身上学到的东西。我们故意承担这笔成本，因为这么私密的一段记忆，绝不该变成别人的功能。</p>
+<p>拿用户文本训练，是许多 AI 产品的默认做法，因为便宜、有用。拒绝它，让我们付出算力，也限制了模型从你身上学到的东西。我们故意承担这笔成本，因为<a href="/blog/private-by-design">这么私密的一段记忆，绝不该变成别人的功能</a>。</p>
 <h2>谁真正看得到你的数据</h2>
 <ul>
 <li>你。永远。</li>
@@ -582,9 +582,9 @@ export const BLOG_POSTS: BlogPost[] = [
       excerpt:
         'Most visits here happen late, and quietly. A note on why grief keeps these hours, and why a place with no streak and no reminder fits them.',
       body: `<h2>The quiet hours</h2>
-<p>The stats we are allowed to see are shape, not names: most people arrive late at night. Not for a feature, not for a habit — just because that is when it hits. The house is asleep, the day is done, and the missing person is suddenly in the room.</p>
+<p>The stats we are allowed to see are shape, not names: most people arrive late at night. Not for a feature, not for a habit — just because that is when it hits. The house is asleep, the day is done, and <a href="/blog/talking-with-someone-who-is-gone">the missing person is suddenly in the room</a>.</p>
 <h2>Why midnight, and why quietly</h2>
-<p>Grief does not keep office hours. It shows up after the noise dies down, when there is nothing left to do but feel. A tool that nags you to return, or rewards a streak, would miss the point. The people who come at midnight do not want a product. They want a light.</p>
+<p>Grief does not keep office hours. It shows up after the noise dies down, when there is nothing left to do but feel. A tool that nags you to return, or rewards a streak, would miss the point. The people who come at midnight do not want a product. <a href="/blog/why-we-built-a-lamp-not-a-chatbot">They want a light</a>.</p>
 <h2>What we built for that moment</h2>
 <ul>
 <li>No streak to protect, so you can stay away for months without losing anything.</li>
@@ -609,9 +609,9 @@ export const BLOG_POSTS: BlogPost[] = [
       excerpt:
         '这里的访问大多发生在深夜，安安静静。聊聊为什么悲伤守着这些时辰，以及一个没有连续天数、没有提醒的地方，为什么刚好合它。',
       body: `<h2>安静的时辰</h2>
-<p>我们被允许看到的统计只是"形状"，不是名字：大多数人深夜才来。不是为了某个功能，不是为了某个习惯——只是因为那个时刻它来了。家里睡了，一天结束了，那个不在的人忽然就在房间里。</p>
+<p>我们被允许看到的统计只是"形状"，不是名字：大多数人深夜才来。不是为了某个功能，不是为了某个习惯——只是因为那个时刻它来了。家里睡了，一天结束了，<a href="/blog/talking-with-someone-who-is-gone">那个不在的人忽然就在房间里</a>。</p>
 <h2>为什么是深夜，为什么安静</h2>
-<p>悲伤不按上下班时间。它在喧嚣散去后现身，当无事可做、只剩下感受的时候。一个催你回来、用连续天数奖励你的工具，会错过重点。深夜来的人不想要一个产品。他们想要一盏灯。</p>
+<p>悲伤不按上下班时间。它在喧嚣散去后现身，当无事可做、只剩下感受的时候。一个催你回来、用连续天数奖励你的工具，会错过重点。深夜来的人不想要一个产品。<a href="/blog/why-we-built-a-lamp-not-a-chatbot">他们想要一盏灯</a>。</p>
 <h2>我们为那个时刻建的东西</h2>
 <ul>
 <li>没有要守护的连续天数，所以你可以离开几个月而不丢失任何东西。</li>
@@ -647,9 +647,9 @@ export const BLOG_POSTS: BlogPost[] = [
 <li>Not "he was calm" but how he breathed out before bad news.</li>
 <li>Not "we were close" but the song you both hated on purpose.</li>
 </ul>
-<p>The specific detail is the one that survives. Generic praise fades; the odd, true habit stays.</p>
+<p><a href="/blog/describe-them-like-themselves">The specific detail is the one that survives</a>. Generic praise fades; the odd, true habit stays.</p>
 <h2>Returning to it matters</h2>
-<p>A memory you write once and never open is a closed drawer. One you return to — in a conversation, on a hard day, just because — stays alive. The reflection gives you a reason and a place to come back, without demanding it.</p>
+<p>A memory you write once and never open is a <a href="/blog/set-up-first-memory-capsule-5-minutes">closed drawer</a>. One you return to — in a conversation, on a hard day, just because — stays alive. The reflection gives you a reason and a place to come back, without demanding it.</p>
 <h2>Keep them by remembering, not by pretending</h2>
 <p>The point is not to fake their presence. It is to keep what was real: the small, specific, sometimes silly things that made them them. Do that, and they stay close in the only way that was ever possible — through what you remember.</p>`,
       faq: [
@@ -675,9 +675,9 @@ export const BLOG_POSTS: BlogPost[] = [
 <li>不是"他很镇定"，而是坏消息前他那一口呼气。</li>
 <li>不是"我们很亲"，而是你们故意一起讨厌的那首歌。</li>
 </ul>
-<p>具体的细节才活下来。泛泛的赞美会淡；奇怪而真实的习惯，留着。</p>
+<p><a href="/blog/describe-them-like-themselves">具体的细节才活下来</a>。泛泛的赞美会淡；奇怪而真实的习惯，留着。</p>
 <h2>常回来，很重要</h2>
-<p>写过一次、再不打开的记忆，是个关上的抽屉。你常回来——在一段对话里、在一个难熬的日子、只是因为想——它才活着。映照给你一个回来的理由和去处，却不强迫你。</p>
+<p>写过一次、再不打开的记忆，<a href="/blog/set-up-first-memory-capsule-5-minutes">是个关上的抽屉</a>。你常回来——在一段对话里、在一个难熬的日子、只是因为想——它才活着。映照给你一个回来的理由和去处，却不强迫你。</p>
 <h2>靠记得留住，而非靠假装</h2>
 <p>重点不是假装有他们在场。而是留住真实存在过的东西：那些细小、具体、有时傻气、却让他们成为他们的细节。做到这点，他们就以唯一可能的方式，一直离你很近——通过你所记得的。</p>`,
       faq: [
@@ -702,11 +702,11 @@ export const BLOG_POSTS: BlogPost[] = [
       body: `<h2>What a memory capsule is</h2>
 <p>A memory capsule is the smallest container of remembering: one person you miss, three or four specific details about them, and a place you can come back to. No life story required, no perfect writing. Just the details that made them them.</p>
 <h2>The five-minute setup</h2>
-<p>Open the app, start a new capsule, and answer only what comes easily. Start with the name. Then the detail you would hate to forget: the phrase, the habit, the way they did something ordinary. Add one voice note if you have the patience, a single sentence in your own words. That is enough.</p>
+<p>Open the app, start a new capsule, and answer only what comes easily. Start with the name. Then the detail you would hate to forget: the phrase, the habit, the way they did something ordinary. <a href="/blog/import-photos-and-voice-into-capsule">Add one voice note</a> if you have the patience, a single sentence in your own words. That is enough.</p>
 <p>You do not need to fill every field. An empty field is not homework. A capsule with one true detail is worth more than a complete one that feels like paperwork.</p>
 <h2>Keep it small on purpose</h2>
 <ul>
-<li>One person, not a list. Focus is what makes it returnable.</li>
+<li>One person, not a list. <a href="/blog/keep-them-by-remembering">Focus is what makes it returnable</a>.</li>
 <li>Specific over general. "The joke she told at every wedding" beats "she was funny".</li>
 <li>Write the way you talk. If it sounds like you, it will hold.</li>
 </ul>
@@ -734,11 +734,11 @@ export const BLOG_POSTS: BlogPost[] = [
       body: `<h2>记忆胶囊是什么</h2>
 <p>记忆胶囊是"记得"的最小容器：一个你想念的人、三四个关于他们的具体细节、一个你能常回来的地方。不需要完整生平，不需要漂亮的文字。只要那些让他们成为他们的细节。</p>
 <h2>5 分钟搭建步骤</h2>
-<p>打开应用，新建一个胶囊，只回答那些自然浮现的内容。先写下名字。然后写下你最不想忘记的那个细节：那句话、那个习惯、他们做某件平凡事的方式。有耐心的话，加一条语音，或者一句你自己的话。这就够了。</p>
+<p>打开应用，新建一个胶囊，只回答那些自然浮现的内容。先写下名字。然后写下你最不想忘记的那个细节：那句话、那个习惯、他们做某件平凡事的方式。有耐心的话，<a href="/blog/import-photos-and-voice-into-capsule">加一条语音</a>，或者一句你自己的话。这就够了。</p>
 <p>不需要填满每一个字段。空的字段不是作业。一个只有一个真实细节的胶囊，比一个填满却像填表的强。</p>
 <h2>刻意保持小而具体</h2>
 <ul>
-<li>一个人，不是一份名单。专注才让它值得回来。</li>
+<li>一个人，不是一份名单。<a href="/blog/keep-them-by-remembering">专注才让它值得回来</a>。</li>
 <li>具体胜过笼统。"每场婚礼她都讲的那个笑话"，好过"她很幽默"。</li>
 <li>用你说话的方式写。如果它读起来像你，它就留得住。</li>
 </ul>
@@ -768,7 +768,7 @@ export const BLOG_POSTS: BlogPost[] = [
       excerpt:
         'Text remembers facts, a photo remembers a moment, a voice note remembers the person. How to add photos and voice to a StillHere memory capsule, what to pick, and what to skip.',
       body: `<h2>Why photos and voice belong in a capsule</h2>
-<p>Text remembers facts. A photo remembers a moment, and a voice note remembers the person, the tone, the way a sentence ended. A memory capsule built on text alone stays flat. Add a photo and a voice note and it becomes something you can feel again. This is the one upgrade worth doing for the people you miss most.</p>
+<p>Text remembers facts. A photo remembers a moment, and a voice note remembers the person, the tone, the way a sentence ended. <a href="/blog/set-up-first-memory-capsule-5-minutes">A memory capsule built on text alone stays flat</a>. Add a photo and a voice note and it becomes something you can feel again. This is the one upgrade worth doing for the people you miss most.</p>
 <h2>What to import, and what to skip</h2>
 <p>Pick the photo that actually carries the person: the one where they are mid-laugh, not the posed one. One photo beats ten. For voice, a single sentence in their own words, or yours about them, carries more than a long recording. Skip blurry shots, group photos where you cannot find them, and audio with a lot of background noise. Quality over quantity is the whole trick.</p>
 <ul>
@@ -777,7 +777,7 @@ export const BLOG_POSTS: BlogPost[] = [
 <li>Skip duplicates and low-quality files, they dilute what matters</li>
 </ul>
 <h2>How importing works in StillHere</h2>
-<p>Open the capsule, tap the add button, choose the photo from your gallery or camera roll. For voice, hold to record, or import an existing clip. Everything is attached to that one person, stored privately, visible only to you. The photo sits with the text, the voice note plays inline, and the capsule becomes a small room you can walk back into.</p>
+<p>Open the capsule, tap the add button, choose the photo from your gallery or camera roll. For voice, hold to record, or import an existing clip. Everything is attached to that one person, <a href="/blog/private-by-design">stored privately, visible only to you</a>. The photo sits with the text, the voice note plays inline, and the capsule becomes a small room you can walk back into.</p>
 <h2>What changes when you add them</h2>
 <p>Text says what you remember. The photo shows it. The voice brings back the sound of them. Together they do what none of them can do alone: make a person present again for a moment. That is the entire point of a memory capsule, and photos and voice are the fastest way to get there.</p>`,
       faq: [
@@ -804,7 +804,7 @@ export const BLOG_POSTS: BlogPost[] = [
       excerpt:
         '文字记住事实，照片记住瞬间，语音记住人本身。怎么往 StillHere 记忆胶囊里加照片和语音、选什么、跳过什么。',
       body: `<h2>为什么照片和语音该进胶囊</h2>
-<p>文字记住事实。照片记住一个瞬间，语音记住一个人：语气、语调、一句话结束的方式。只靠文字的胶囊是平的。加一张照片、一条语音，它就变成你能再次感觉到的东西。这是最值得为你想念的人做的升级。</p>
+<p>文字记住事实。照片记住一个瞬间，语音记住一个人：语气、语调、一句话结束的方式。<a href="/blog/set-up-first-memory-capsule-5-minutes">只靠文字的胶囊是平的</a>。加一张照片、一条语音，它就变成你能再次感觉到的东西。这是最值得为你想念的人做的升级。</p>
 <h2>导什么，不导什么</h2>
 <p>选那张真正带着人的照片：笑到一半的那张，而不是摆好姿势的那张。一张胜过十张。语音方面，一句话、用他们自己的话，或者你关于他们的话，比一段长录音更有分量。跳过模糊的照片、找不到人的合影、背景噪音大的音频。质量优先于数量，这就是全部诀窍。</p>
 <ul>
@@ -813,7 +813,7 @@ export const BLOG_POSTS: BlogPost[] = [
 <li>跳过重复和低质量文件，它们会稀释真正重要的东西</li>
 </ul>
 <h2>在 StillHere 里怎么导入</h2>
-<p>打开胶囊，点添加按钮，从相册选择照片。语音按住录音，或导入已有的片段。所有内容都挂在同一个人名下，私密存储，只有你可见。照片和文字放在一起，语音可以内联播放，胶囊变成一个你随时能走回去的小房间。</p>
+<p>打开胶囊，点添加按钮，从相册选择照片。语音按住录音，或导入已有的片段。所有内容都挂在同一个人名下，<a href="/blog/private-by-design">私密存储，只有你可见</a>。照片和文字放在一起，语音可以内联播放，胶囊变成一个你随时能走回去的小房间。</p>
 <h2>加上之后，什么变了</h2>
 <p>文字说出你记得的事。照片展示它。语音带回他们的声音。三者合在一起，做到了任何单一形式都做不到的事：让一个人重新在场片刻。这就是记忆胶囊的全部意义，而照片和语音是抵达那里最快的路。</p>`,
       faq: [
@@ -859,13 +859,13 @@ export const BLOG_POSTS: BlogPost[] = [
 <ul>
 <li>Pick one relative. Usually the one who can hear his name without changing the subject.</li>
 <li>Read the capsule yourself first. You will find a line or two you are not ready to hand over yet.</li>
-<li>Copy or export only that part. A plain file you send directly is easier to live with than a link you cannot take back.</li>
+<li>Copy or <a href="/blog/export-your-words-always">export only that part</a>. A plain file you send directly is easier to live with than a link you cannot take back.</li>
 <li>Use a channel your family already uses for family things, and say what it is before they open it.</li>
 <li>Say what you want back. "You do not have to reply" is a complete sentence.</li>
 </ul>
 <p>That last step matters more than it sounds. Relatives often read a shared memory as an invitation to fix your grief, so they arrive with advice. Telling them what you need, a read rather than a response, keeps the whole thing gentle.</p>
 <h2>What to share and what to hold back</h2>
-<p>Some of what is in a capsule is not for anyone. The argument you never resolved. The version of him only you saw. Holding those back is not dishonesty, it is the reason the capsule works at all. Once a capsule has been edited for an audience, it stops being a place where you can be unguarded.</p>
+<p>Some of what is in a capsule is not for anyone. The argument you never resolved. The version of him only you saw. Holding those back is not dishonesty, it is <a href="/blog/set-up-first-memory-capsule-5-minutes">the reason the capsule works at all</a>. Once a capsule has been edited for an audience, it stops being a place where you can be unguarded.</p>
 <p>A rough sort, if it helps:</p>
 <ul>
 <li>Share: stories, small habits, the way she answered the phone, the photo everyone already loves.</li>
@@ -915,13 +915,13 @@ export const BLOG_POSTS: BlogPost[] = [
 <ul>
 <li>挑一个亲人。一般是那个听到他名字不会立刻换话题的人。</li>
 <li>先自己把胶囊读一遍。你会发现有一两句，你还没准备好交出去。</li>
-<li>只复制或导出那一部分。直接发一个文件，比发一个收不回的链接更让人安心。</li>
+<li><a href="/blog/export-your-words-always">只复制或导出那一部分</a>。直接发一个文件，比发一个收不回的链接更让人安心。</li>
 <li>用家里本来就在用的渠道发，并且在他们点开之前先说清楚这是什么。</li>
 <li>说出你想要什么回应。"你不用回我"本身就是一句完整的话。</li>
 </ul>
 <p>最后这一步比听起来要紧。亲人往往把你分享的记忆读成一个"请帮我修好悲伤"的请求，于是带着建议来了。提前告诉他们你需要的只是"读一下"而不是"回一段"，整件事就会温和很多。</p>
 <h2>分享什么，留下什么</h2>
-<p>胶囊里有些东西不属于任何人。那场没有和解的争吵。只有你见过的那个版本的他。把这些留下来不是不诚实，恰恰是胶囊之所以有用的原因。一旦胶囊是为观众修过的，它就不再是那个你可以不设防的地方了。</p>
+<p>胶囊里有些东西不属于任何人。那场没有和解的争吵。只有你见过的那个版本的他。把这些留下来不是不诚实，恰恰是<a href="/blog/set-up-first-memory-capsule-5-minutes">胶囊之所以有用的原因</a>。一旦胶囊是为观众修过的，它就不再是那个你可以不设防的地方了。</p>
 <p>如果需要一个粗略的分法：</p>
 <ul>
 <li>可以分享：故事、小习惯、她接电话的方式、大家本来就喜欢的那张照片。</li>
@@ -963,7 +963,7 @@ export const BLOG_POSTS: BlogPost[] = [
 <h2>Why being able to leave matters so much</h2>
 <p>Data portability sounds like jargon. Strip it down and it's plain language: these are my words, and when I want to leave, I leave with them.</p>
 <p>It gives you three things.</p>
-<p>First, **peace of mind**. Knowing you can take everything out at any moment is what lets you write freely in the first place. No fear that a platform redesign, a shutdown, or a new phone will erase your memories. Second, **freedom to switch**. A tool is a servant, not a master. Use it today, swap it tomorrow, and walk out with your data. No memory gets held as collateral. Third, **the legal layer**. GDPR spells out the right to data portability. Your data belongs to you. That's a right, not a favor from the platform.</p>
+<p>First, **peace of mind**. Knowing you can take everything out at any moment is what lets you write freely in the first place. No fear that a platform redesign, a shutdown, or a new phone <a href="/blog/on-never-deleting-what-you-remember">will erase your memories</a>. Second, **freedom to switch**. A tool is a servant, not a master. Use it today, swap it tomorrow, and walk out with your data. No memory gets held as collateral. Third, **the legal layer**. GDPR spells out the right to data portability. Your data belongs to you. That's a right, not a favor from the platform.</p>
 <h2>Choosing a format: Markdown, JSON, and plain text</h2>
 <p>One export format would never be enough, because the formats serve different jobs. StillHere supports three, each with its own purpose.</p>
 <p>**Markdown** is the best all-around choice. It's readable, open it and you see clean text and headings. It's portable, almost every notes app, blog, and writing tool understands it. Choose it if you plan to keep writing somewhere else.</p>
@@ -1015,7 +1015,7 @@ export const BLOG_POSTS: BlogPost[] = [
 <h2>为什么"随时能带走"这么重要</h2>
 <p>数据可携带，听起来像个技术术语，其实就是一句大白话：这是我写的字，我想走的时候就能带着走。</p>
 <p>它带来三样东西。</p>
-<p>第一是**安全感**。知道自己随时能拿走，写的时候才敢真正放开。你不用担心哪天平台改版、产品停摆、或者自己换了手机，那些回忆就没了。第二是**换平台的自由**。工具是仆人，不是主人。今天用它，明天想换，带着数据走，没有任何一段记忆被扣下当人质。第三是**法律层面**。GDPR 明确写了数据可携带权，你的数据属于你，这是权利，不是平台的施舍。</p>
+<p>第一是**安全感**。知道自己随时能拿走，写的时候才敢真正放开。你不用担心哪天平台改版、产品停摆、或者自己换了手机，<a href="/blog/on-never-deleting-what-you-remember">那些回忆就没了</a>。第二是**换平台的自由**。工具是仆人，不是主人。今天用它，明天想换，带着数据走，没有任何一段记忆被扣下当人质。第三是**法律层面**。GDPR 明确写了数据可携带权，你的数据属于你，这是权利，不是平台的施舍。</p>
 <h2>格式怎么选：Markdown、JSON 和纯文本</h2>
 <p>导出不能只给一种格式，因为用途不同，格式要求也不同。StillHere 支持三种，各有各的用处。</p>
 <p>**Markdown** 是最好的通用格式。可读，打开就是干净的文字和标题；可迁移，几乎所有笔记、博客、写作工具都认它。想带走之后继续用，选它。</p>
@@ -1074,11 +1074,11 @@ export const BLOG_POSTS: BlogPost[] = [
 <p>The desktop lets me think longer. I can revisit an old entry, rewrite a paragraph, connect two memories that I did not see as related when I first wrote them. The bigger screen means I can keep more context open at once.</p>
 <p>I use the desktop for entries that matter. Not because they are more important, but because I give them more time. A memory I want to get right. A reflection I want to sit with.</p>
 <h2>What syncs, what stays local</h2>
-<p>StillHere keeps your entries in sync across devices. Write something on your phone, find it on your desktop. Start something on your desk, finish it on the train. The data moves with you, not the other way around.</p>
+<p>StillHere keeps your entries in sync across devices. Write something on your phone, find it on your desktop. Start something on your desk, finish it on the train. <a href="/blog/export-your-words-always">The data moves with you</a>, not the other way around.</p>
 <p>That means you can treat the two devices as one continuous space. Your phone is the pocket version. Your desktop is the desk version. They are the same library, just accessed differently.</p>
 <h2>When to use which</h2>
 <p>There is no rule that says you have to pick one. Use both. Use whichever one is nearby when the memory happens. Use the desktop when you have twenty minutes to spare. Use the phone when you have twenty seconds.</p>
-<p>The habit that matters is not the device. It is the act of writing something down before you forget it. The device is just the tool you happen to have in your hand.</p>
+<p>The habit that matters is not the device. It is <a href="/blog/what-to-say-first">the act of writing something down before you forget it</a>. The device is just the tool you happen to have in your hand.</p>
 <h2>One memory, two screens</h2>
 <p>Sometimes I write something on my phone and later open it on my desktop to add more. Sometimes I start on my desk and finish on the couch. Both are normal. Both are part of the same record.</p>
 <p>StillHere does not judge how you use it. It only cares that you show up and write. Wherever you are, whatever screen is in front of you, the memory stays.</p>
@@ -1103,11 +1103,11 @@ export const BLOG_POSTS: BlogPost[] = [
 <p>桌面让我能想得更久。我可以回头看一条旧记录，重写一个段落，把两条我之前没意识到的记忆连起来。更大的屏幕意味着我能同时看到更多的上下文。</p>
 <p>我用桌面写那些需要认真对待的内容。不是因为它们更重要，而是因为我愿意花更多时间在上面。一段我想写好的记忆。一段我想慢慢咀嚼的反思。</p>
 <h2>同步机制：手机和桌面互通</h2>
-<p>StillHere 会在设备之间同步你的记录。在手机写的东西，在电脑上立刻能看到。在 desk 上开始写的，在地铁上也能继续。数据跟着你走，而不是反过来。</p>
+<p>StillHere 会在设备之间同步你的记录。在手机写的东西，在电脑上立刻能看到。在 desk 上开始写的，在地铁上也能继续。<a href="/blog/export-your-words-always">数据跟着你走</a>，而不是反过来。</p>
 <p>这意味着你可以把两个设备当成一个连续的空间。手机是口袋版，桌面是书桌版。它们是同一本书，只是打开方式不同。</p>
 <h2>什么时候用哪个</h2>
 <p>没有规则说你必须选一个。两个都用。哪个设备在身边就用哪个。有二十分钟就用桌面，有二十秒就用手机。</p>
-<p>真正重要的习惯不是选设备，而是在忘记之前把东西写下来。设备只是你手里恰好有的工具。</p>
+<p>真正重要的习惯不是选设备，而是<a href="/blog/what-to-say-first">在忘记之前把东西写下来</a>。设备只是你手里恰好有的工具。</p>
 <h2>一条记忆，两块屏幕</h2>
 <p>我有时在手机写一条，后来在桌面打开补内容。有时在 desk 开始写，在沙发上完成。两种都正常，都是同一条记录的一部分。</p>
 <p>StillHere 不在乎你怎么用。它只在乎你有没有出现、有没有写。不管你在哪，不管面前的屏幕多大，记忆都会留下。</p>
@@ -1126,87 +1126,46 @@ export const BLOG_POSTS: BlogPost[] = [
     en: {
       title: 'Adjust the Reflection Tone: Gentler or More Direct',
       excerpt: 'StillHere lets you tune how the AI speaks back to you — gentler or more direct. Here is what each mode actually sounds like, when to use it, and why changing tone never touches your entries.',
-      body: `StillHere's reply tone is not fixed. You can make the AI gentler or more direct, depending on what you want to hear today. This guide covers how tone settings work, what changes when you move the slider, and why 'gentler' does not mean 'vague'.
-
-## Why tune the tone at all
-
-The same person wants different words on different days. At 2am, you need to be held — a softer sentence does more than a lecture. In the afternoon, you might want it direct, no detours. Tone settings are the remote control for that. It does not change the content, it changes the way things are said.
-
-## What gentler mode sounds like
-
-Gentler mode responds slower and softer. It leans on 'I hear you' and 'that genuinely sounds hard', meeting the feeling first, then easing into anything else. It does not rush to advice unless you ask.
-
-Good for: late nights, hard days, the early weeks after a loss.
-
-## What direct mode sounds like
-
-Direct mode is shorter and more grounded. Fewer cushions, more substance: 'That reading is fair, and here is another angle.' It assumes you want clarity right now, not comfort.
-
-Good for: daytime, when you want a next step, when you have been grieving a while and want a hand pulling you up.
-
-## How to change it: three seconds in settings
-
-Open settings, find 'reply tone', and drag the slider between gentler and more direct. Middle is the default. The difference shows within a few exchanges.
-
-Change it anytime, it applies immediately, and it never touches what you have written. Tone is a filter on the conversation, not part of the memory.
-
-## Gentler is not vague, direct is not cold
-
-A common worry: gentler mode means robotic soothing, direct mode means ice. Both are actually listening to you seriously, just by different routes. Gentler puts the feeling first, direct puts the facts first. Use whichever you need today.
-
-**Does changing tone affect my entries?** No. Tone only shapes how the AI responds. Everything you write stays exactly as it is, never rewritten or analyzed.
-
-**Which mode is better?** Neither is better; each fits a moment. Many people run direct by day and gentler by night, or just switch on how they feel.
-
-**Does the tone change on its own?** The default is warm and neutral. Once you set it, it stays at your preference until you move it again.
-
-Want to feel the difference? Open
-
-**[StillHere](/) settings, set the tone where it fits you, and write down what you want to say today.**`,
+      body: `<h2>Why tune the tone at all</h2>
+<p>The same person wants different words on different days. At 2am, you need to be held — a softer sentence does more than a lecture. In the afternoon, you might want it direct, no detours. Tone settings are the remote control for that. It does not change the content, it changes the way things are said. It is also why <a href="/blog/talking-with-someone-who-is-gone">talking with someone who is gone</a> keeps working: the voice can shift, the memory stays.</p>
+<h2>What gentler mode sounds like</h2>
+<p>Gentler mode responds slower and softer. It leans on "I hear you" and "that genuinely sounds hard", meeting the feeling first, then easing into anything else. It does not rush to advice unless you ask.</p>
+<p>Good for: late nights, hard days, the early weeks after a loss.</p>
+<h2>What direct mode sounds like</h2>
+<p>Direct mode is shorter and more grounded. Fewer cushions, more substance: "That reading is fair, and here is another angle." It assumes you want clarity right now, not comfort.</p>
+<p>Good for: daytime, when you want a next step, when you have been grieving a while and want a hand pulling you up.</p>
+<h2>How to change it: three seconds in settings</h2>
+<p>Open settings, find "reply tone", and drag the slider between gentler and more direct. Middle is the default. The difference shows within a few exchanges.</p>
+<p>Change it anytime, it applies immediately, and it never touches what you have written. Tone is a filter on the conversation, not part of the memory.</p>
+<h2>Gentler is not vague, direct is not cold</h2>
+<p>A common worry: gentler mode means robotic soothing, direct mode means ice. Both are actually listening to you seriously, just by different routes. <a href="/blog/describe-them-like-themselves">Gentler puts the feeling first, direct puts the facts first</a>. Use whichever you need today.</p>
+<p><strong>Does changing tone affect my entries?</strong> No. Tone only shapes how the AI responds. Everything you write stays exactly as it is, never rewritten or analyzed.</p>
+<p><strong>Which mode is better?</strong> Neither is better; each fits a moment. Many people run direct by day and gentler by night, or just switch on how they feel.</p>
+<p><strong>Does the tone change on its own?</strong> The default is warm and neutral. Once you set it, it stays at your preference until you move it again.</p>
+<p>Want to feel the difference? Open <a href="/">StillHere</a> settings, set the tone where it fits you, and write down what you want to say today.</p>`,
       faq: [],
     },
     zh: {
       title: '调整回应的语气：更温柔或更直接',
       excerpt: 'StillHere 可以调 AI 回话的语气，更温柔或更直接。这篇讲清两种模式实际听起来什么样、什么时候用哪个，以及为什么调语气绝不会碰你的内容。',
-      body: `StillHere 的回应语气不是写死的。你可以把 AI 的回话调得更温柔，也可以调得更直接——取决于今天你想听什么。这篇讲清楚语气设置怎么调、调了之后会怎么变，以及为什么“温柔”不等于“敷衍”。
-
-## 为什么要调语气
-
-同一个人，在不同日子里想听的话不一样。深夜emo的时候，需要的是被接住的感觉，一句软一点的话比一句讲道理的话有用得多；而白天想振作的时候，你可能希望它直接一点，别绕弯子。
-
-语气设置就是给你这个遥控器。它不是改内容，是改说话的方式。
-
-## 温柔模式是什么样的
-
-温柔模式下，回应会更慢、更软。它多用“我听到你了”“这确实不容易”这类句式，先接住情绪，再慢慢说别的。它不会急着给你建议，除非你问。
-
-适合：深夜、难过的时候、刚失去某个人没多久的时候。
-
-## 直接模式是什么样的
-
-直接模式下，回应更短、更实。它少铺垫，直接给观点：“你现在这样想也没错，但还有另一个角度。”它默认你此刻想要的是清醒，不是安慰。
-
-适合：白天、想要行动建议的时候、已经难过了一段时间、想被拉一把的时候。
-
-## 怎么调：设置里三秒搞定
-
-打开设置，找到“回应语气”，在“更温柔”和“更直接”之间拖一个滑杆就行。滑杆中间是默认值，两端的差别在几次对话里就能明显感觉到。
-
-随时可以改，改了立即生效，不影响你写下的任何内容。语气只是对话的滤镜，不是记忆的一部分。
-
-## 温柔不是敷衍，直接不是冷
-
-一个常见的误会：温柔模式=机器人式安抚，直接模式=冷冰冰。其实两者都在认真对待你，只是路径不同。温柔是把情绪放前面，直接是把事实放前面。你需要哪个，就用哪个。
-
-**调语气会影响我写的内容吗？** 不会。语气只影响 AI 怎么回应你，你写下的每一个字都原样保留，不会被改写或分析。
-
-**哪个模式更好？** 没有更好，只有更适合当下。建议白天直接、晚上温柔，或者按心情随时切。
-
-**语气会变吗？** 默认值温和偏中性。你手动调过之后，就固定在你的偏好上，直到你再改。
-
-想试试不同语气吗？打开
-
-**[StillHere](/) 设置页，把语气调到你觉得舒服的位置，再写下今天想说的话。**`,
+      body: `<h2>为什么要调语气</h2>
+<p>同一个人，在不同日子里想听的话不一样。深夜emo的时候，需要的是被接住的感觉，一句软一点的话比一句讲道理的话有用得多；而白天想振作的时候，你可能希望它直接一点，别绕弯子。</p>
+<p>语气设置就是给你这个遥控器。它不是改内容，是改说话的方式。这也是为什么<a href="/blog/talking-with-someone-who-is-gone">和已经离开的人说话</a>这件事能持续下去：声音可以变，记忆不变。</p>
+<h2>温柔模式是什么样的</h2>
+<p>温柔模式下，回应会更慢、更软。它多用“我听到你了”“这确实不容易”这类句式，先接住情绪，再慢慢说别的。它不会急着给你建议，除非你问。</p>
+<p>适合：深夜、难过的时候、刚失去某个人没多久的时候。</p>
+<h2>直接模式是什么样的</h2>
+<p>直接模式下，回应更短、更实。它少铺垫，直接给观点：“你现在这样想也没错，但还有另一个角度。”它默认你此刻想要的是清醒，不是安慰。</p>
+<p>适合：白天、想要行动建议的时候、已经难过了一段时间、想被拉一把的时候。</p>
+<h2>怎么调：设置里三秒搞定</h2>
+<p>打开设置，找到“回应语气”，在“更温柔”和“更直接”之间拖一个滑杆就行。滑杆中间是默认值，两端的差别在几次对话里就能明显感觉到。</p>
+<p>随时可以改，改了立即生效，不影响你写下的任何内容。语气只是对话的滤镜，不是记忆的一部分。</p>
+<h2>温柔不是敷衍，直接不是冷</h2>
+<p>一个常见的误会：温柔模式=机器人式安抚，直接模式=冷冰冰。其实两者都在认真对待你，只是路径不同。<a href="/blog/describe-them-like-themselves">温柔是把情绪放前面，直接是把事实放前面</a>。你需要哪个，就用哪个。</p>
+<p><strong>调语气会影响我写的内容吗？</strong> 不会。语气只影响 AI 怎么回应你，你写下的每一个字都原样保留，不会被改写或分析。</p>
+<p><strong>哪个模式更好？</strong> 没有更好，只有更适合当下。建议白天直接、晚上温柔，或者按心情随时切。</p>
+<p><strong>语气会变吗？</strong> 默认值温和偏中性。你手动调过之后，就固定在你的偏好上，直到你再改。</p>
+<p>想试试不同语气吗？打开 <a href="/">StillHere</a> 设置页，把语气调到你觉得舒服的位置，再写下今天想说的话。</p>`,
       faq: [],
     },
   },
@@ -1263,7 +1222,7 @@ Want to feel the difference? Open
 en: {
       title: 'Set a yearly reminder to revisit a memory',
       excerpt: 'Yearly reminders help you stay connected to what matters. Here is how to set one in StillHere, why it works, and what to do when the reminder arrives.',
-      body: `<p>Memory fades not because it is unimportant, but because life moves fast. A yearly reminder is a small tool that fights that drift — not by forcing you to remember everything, but by giving you a scheduled moment to return to what matters.</p>
+      body: `<p><a href="/blog/keep-them-by-remembering">Memory fades</a> not because it is unimportant, but because life moves fast. A yearly reminder is a small tool that fights that drift — not by forcing you to remember everything, but by giving you a scheduled moment to return to what matters.</p>
 <h2>What a yearly reminder actually does</h2>
 <p>A yearly reminder is not a obligation. It is an invitation. It does not say "you must remember this perfectly." It says "this moment is worth returning to, once a year." That distinction matters, because guilt is the enemy of memory work. You remember better when you choose to, not when you feel you should.</p>
 <h2>How to set one in StillHere</h2>
@@ -1282,7 +1241,7 @@ en: {
     zh: {
       title: '设置年度提醒，重温一段记忆',
       excerpt: '年度提醒帮助你与重要的人保持联系。这里讲清楚怎么在 StillHere 里设置它、它为什么有效，以及提醒到来时该怎么做。',
-      body: `<p>记忆褪色不是因为不重要，而是因为生活走得太快。年度提醒是一个小而有力的工具——它不强迫你记住一切，而是给你一个 scheduled 的时刻，回到那些值得回望的东西。</p>
+      body: `<p><a href="/blog/keep-them-by-remembering">记忆褪色不是因为不重要</a>，而是因为生活走得太快。年度提醒是一个小而有力的工具——它不强迫你记住一切，而是给你一个 scheduled 的时刻，回到那些值得回望的东西。</p>
 <h2>年度提醒真正的作用</h2>
 <p>年度提醒不是义务，是邀请。它不说"你必须完美地记住"，而是说"这一刻值得每年回来一次"。这个区别很重要，因为愧疚是记忆工作的敌人。你更愿意记起的东西，是在你选择的时候，而不是你觉得应该的时候。</p>
 <h2>在 StillHere 里怎么设置</h2>
@@ -1306,7 +1265,7 @@ en: {
     en: {
       title: 'How Long Does a Capsule Stay After You Stop Paying',
       excerpt: 'When your subscription ends, your capsule does not disappear immediately. Here is what you need to know about the grace period, archiving, and data retention.',
-      body: `<p>When you stop paying for StillHere, your capsule does not disappear immediately. We understand this is a sensitive topic, so here is what you need to know.</p>
+      body: `<p>When you stop paying for StillHere, your capsule <a href="/blog/on-never-deleting-what-you-remember">does not disappear</a> immediately. We understand this is a sensitive topic, so here is what you need to know.</p>
 <h2>The Grace Period</h2>
 <p>After your subscription ends, you have a 30-day grace period. During this time: your capsule remains accessible, you can still read and interact with your memories, and no data is deleted.</p>
 <h2>After the Grace Period</h2>
@@ -1320,7 +1279,7 @@ en: {
 </ul>
 <h2>What You Can Do</h2>
 <ol>
-  <li>Export your memories before your subscription ends</li>
+  <li><a href="/blog/export-your-words-always">Export your memories</a> before your subscription ends</li>
   <li>Extend your subscription at any time to keep your capsule active</li>
   <li>Download an encrypted backup to your own device</li>
 </ol>
@@ -1337,7 +1296,7 @@ en: {
     zh: {
       title: '停止付费后胶囊还能保留多久',
       excerpt: '停止支付后，您的胶囊不会立即消失。以下是关于宽限期、归档和数据保留政策的详细说明。',
-      body: `<p>停止支付 StillHere 费用后，您的胶囊不会立即消失。我们理解这是敏感话题，所以以下是您需要了解的信息。</p>
+      body: `<p>停止支付 StillHere 费用后，您的胶囊<a href="/blog/on-never-deleting-what-you-remember">不会立即消失</a>。我们理解这是敏感话题，所以以下是您需要了解的信息。</p>
 <h2>宽限期</h2>
 <p>订阅结束后，您有 30 天的宽限期。在此期间：您的胶囊仍可访问，您仍然可以阅读和与您的记忆互动，不会删除任何数据。</p>
 <h2>宽限期之后</h2>
@@ -1351,7 +1310,7 @@ en: {
 </ul>
 <h2>您可以做什么</h2>
 <ol>
-  <li>在订阅结束前导出您的记忆</li>
+  <li>在订阅结束前<a href="/blog/export-your-words-always">导出您的记忆</a></li>
   <li>随时延长订阅以保持胶囊活跃</li>
   <li>将加密备份下载到您的设备</li>
 </ol>
@@ -1374,7 +1333,7 @@ en: {
       excerpt: 'When you write a memory in StillHere, it can exist in two states: draft or published. Understanding the difference helps you decide when to share and when to keep private.',
       body: `<p>When you write a memory in StillHere, it can exist in two states: draft or published. Understanding the difference helps you decide when to share and when to keep private.</p>
 <h2>What is a Draft?</h2>
-<p>A draft is your private working space. It's where you:</p>
+<p><a href="/blog/private-by-design">A draft is your private working space</a>. It's where you:</p>
 <ul>
   <li>Start writing without pressure</li>
   <li>Edit and revise freely</li>
@@ -1386,7 +1345,7 @@ en: {
 <p>A published memory is one you've chosen to make part of your permanent record. When published:</p>
 <ul>
   <li>It appears in your capsule timeline</li>
-  <li>It can be shared with selected people</li>
+  <li>It can be <a href="/blog/share-capsule-with-family">shared with selected people</a></li>
   <li>It becomes part of your archived story</li>
   <li>It's protected by your encryption</li>
 </ul>
@@ -1425,7 +1384,7 @@ en: {
       excerpt: '当你在 StillHere 中撰写记忆时，它可以处于两种状态：草稿或已发布。理解区别有助于你决定何时分享、何时保持私密。',
       body: `<p>当你在 StillHere 中撰写记忆时，它可以处于两种状态：草稿或已发布。理解区别有助于你决定何时分享、何时保持私密。</p>
 <h2>什么是草稿？</h2>
-<p>草稿是你的私人工作空间。在这里你可以：</p>
+<p><a href="/blog/private-by-design">草稿是你的私人工作空间</a>。在这里你可以：</p>
 <ul>
   <li>无压力地开始写作</li>
   <li>自由编辑和修改</li>
@@ -1437,7 +1396,7 @@ en: {
 <p>已发布记忆是你选择成为永久记录一部分的记忆。发布后：</p>
 <ul>
   <li>它出现在你的胶囊时间线中</li>
-  <li>可以与选定的人分享</li>
+  <li><a href="/blog/share-capsule-with-family">可以与选定的人分享</a></li>
   <li>成为你存档故事的一部分</li>
   <li>受你的加密保护</li>
 </ul>
@@ -1479,13 +1438,13 @@ en: {
     en: {
       title: "Stuck? Use the Prompt Me Feature",
       excerpt: "How the AI prompt feature helps you continue when writer's block hits.",
-      body: "<h2>When Writer's Block Hits</h2><p>We've all been there — staring at a blank memory, knowing you want to write something but not knowing where to start.</p><h2>How Prompt Me Works</h2><p>Our AI prompt feature analyzes your previous memories and suggests relevant starting points. It's not a complete ghostwritten entry — it's a nudge to get you moving.</p><h2>Tips for Using Prompts</h2><ul><li>Use prompts as starting points, not final drafts</li><li>Personalize the AI suggestion with your own voice</li><li>Don't overthink — just start writing</li></ul>",
+      body: `h2>When Writer's Block Hits</h2><p>We've all been there — <a href="/blog/the-first-sentence-is-always-the-hardest">staring at a blank memory</a>, knowing you want to write something but not knowing where to start.</p><h2>How Prompt Me Works</h2><p>Our AI prompt feature analyzes your previous memories and suggests relevant starting points. It's not a complete ghostwritten entry — it's <a href="/blog/what-to-say-first">a nudge to get you moving</a>.</p><h2>Tips for Using Prompts</h2><ul><li>Use prompts as starting points, not final drafts</li><li>Personalize the AI suggestion with your own voice</li><li>Don't overthink — just start writing</li></ul>`,
       faq: []
     },
     zh: {
       title: "卡住了？用给我提示功能",
       excerpt: "写作卡壳时，AI 提示功能如何帮你继续",
-      body: "<h2>写作卡壳怎么办？</h2><p>我们都经历过——盯着空白记忆，知道想写点什么但不知从何开始。</p><h2>给我提示功能如何工作</h2><p>AI 提示功能分析你之前的记忆，建议相关的起点。这不是完整的代写——它是让你动笔的推动。</p><h2>使用提示的技巧</h2><ul><li>把提示作为起点，不是终稿</li><li>用你自己的声音个性化 AI 建议</li><li>不要过度思考——先开始写</li></ul>",
+      body: `h2>写作卡壳怎么办？</h2><p>我们都经历过——<a href="/blog/the-first-sentence-is-always-the-hardest">盯着空白记忆</a>，知道想写点什么但不知从何开始。</p><h2>给我提示功能如何工作</h2><p>AI 提示功能分析你之前的记忆，建议相关的起点。这不是完整的代写——它是<a href="/blog/what-to-say-first">让你动笔的推动</a>。</p><h2>使用提示的技巧</h2><ul><li>把提示作为起点，不是终稿</li><li>用你自己的声音个性化 AI 建议</li><li>不要过度思考——先开始写</li></ul>`,
       faq: []
     }
   },
@@ -1496,7 +1455,7 @@ en: {
     en: {
       title: "Organize Memories by Person or by Year",
       excerpt: "Two approaches to organizing your memory capsules: by person or by year. Find the system that works for you.",
-      body: "<h2>Two Ways to Organize: By Person or By Year</h2><p><strong>By Person</strong><br>Group all memories related to one person together. This works well if: You have capsules for multiple people, each person has many memories, or you want to explore one relationship deeply at a time.</p><p>Pros: Clear boundaries, easy to focus on one relationship<br>Cons: Hard to see how relationships evolved over time</p><p><strong>By Year</strong><br>Group memories by when they were created or when the events happened. This works well if: You want to see how your grief changed over time, you're tracking anniversaries and milestones, or you prefer chronological storytelling.</p><p>Pros: Shows evolution, connects related events<br>Cons: Can mix memories about different people</p><h2>Combining Both Approaches</h2><p>Most users find success using both systems together: primary organization by person (separate capsules for each person), secondary organization within each capsule sorted by date or tag.</p><h2>Practical Organization Tips</h2><ul><li>Use consistent naming: Name your capsules clearly</li><li>Tag strategically: Add tags like birthday, holiday, everyday, sad, happy</li><li>Set a regular review rhythm: Once a month, look through your recent entries</li><li>Don't over-organize: If it takes more than 5 minutes to organize, simplify</li><li>Trust your intuition: If you naturally feel like organizing by year, do it</li></ul>",
+      body: `h2>Two Ways to Organize: By Person or By Year</h2><p><strong>By Person</strong><br>Group all memories related to one person together. This works well if: You have <a href="/blog/set-up-first-memory-capsule-5-minutes">capsules for multiple people</a>, each person has many memories, or you want to explore one relationship deeply at a time.</p><p>Pros: Clear boundaries, easy to focus on one relationship<br>Cons: Hard to see how relationships evolved over time</p><p><strong>By Year</strong><br>Group memories by when they were created or when the events happened. This works well if: You want to see how your grief changed over time, you're <a href="/blog/set-yearly-reminder-revisit-memory">tracking anniversaries and milestones</a>, or you prefer chronological storytelling.</p><p>Pros: Shows evolution, connects related events<br>Cons: Can mix memories about different people</p><h2>Combining Both Approaches</h2><p>Most users find success using both systems together: primary organization by person (separate capsules for each person), secondary organization within each capsule sorted by date or tag.</p><h2>Practical Organization Tips</h2><ul><li>Use consistent naming: Name your capsules clearly</li><li>Tag strategically: Add tags like birthday, holiday, everyday, sad, happy</li><li>Set a regular review rhythm: Once a month, look through your recent entries</li><li>Don't over-organize: If it takes more than 5 minutes to organize, simplify</li><li>Trust your intuition: If you naturally feel like organizing by year, do it</li></ul>`,
       faq: [
         { q: "Can I change my organization system later?", a: "Yes. You can reorganize anytime. Most platforms let you move memories between capsules and change tags freely." },
         { q: "What if I have memories about multiple people in one entry?", a: "Tag it with all relevant people. Organization should serve you, not complicate your life." },
@@ -1506,7 +1465,7 @@ en: {
     zh: {
       title: "按人或按年整理记忆",
       excerpt: "两种组织记忆胶囊的方法：按人或按年。找到适合你的系统。",
-      body: "<h2>两种组织方式：按人或按年</h2><p><strong>按人</strong><br>将与一个人相关的所有记忆分组在一起。这适用于：你有多个人的胶囊、每个人都有许多记忆、或你想一次深入探索一段关系。</p><p>优点：清晰的边界，易于专注于一段关系<br>缺点：难以看到关系随时间的演变</p><p><strong>按年</strong><br>按创建时间或事件发生的时间分组记忆。这适用于：你想看到你的悲伤如何随时间变化、跟踪周年纪念和里程碑、或喜欢编年史叙事。</p><p>优点：显示演变，连接相关事件<br>缺点：可能混合关于不同人的记忆</p><h2>结合两种方法</h2><p>大多数用户发现两种系统一起使用效果最好：主要组织按人（每个人单独的胶囊），次要组织在每个胶囊内按日期或标签排序。</p><h2>实用组织技巧</h2><ul><li>使用一致命名：清晰命名你的胶囊</li><li>策略性标签：添加标签如生日、节日、日常、悲伤、快乐</li><li>设定定期回顾节奏：每月一次，查看你最近的条目</li><li>不要过度组织：如果组织花费超过 5 分钟，简化</li><li>信任你的直觉：如果你自然感觉按年组织，就做它</li></ul>",
+      body: `h2>两种组织方式：按人或按年</h2><p><strong>按人</strong><br>将与一个人相关的所有记忆分组在一起。这适用于：<a href="/blog/set-up-first-memory-capsule-5-minutes">你有多个人的胶囊</a>、每个人都有许多记忆、或你想一次深入探索一段关系。</p><p>优点：清晰的边界，易于专注于一段关系<br>缺点：难以看到关系随时间的演变</p><p><strong>按年</strong><br>按创建时间或事件发生的时间分组记忆。这适用于：你想看到你的悲伤如何随时间变化、<a href="/blog/set-yearly-reminder-revisit-memory">跟踪周年纪念和里程碑</a>、或喜欢编年史叙事。</p><p>优点：显示演变，连接相关事件<br>缺点：可能混合关于不同人的记忆</p><h2>结合两种方法</h2><p>大多数用户发现两种系统一起使用效果最好：主要组织按人（每个人单独的胶囊），次要组织在每个胶囊内按日期或标签排序。</p><h2>实用组织技巧</h2><ul><li>使用一致命名：清晰命名你的胶囊</li><li>策略性标签：添加标签如生日、节日、日常、悲伤、快乐</li><li>设定定期回顾节奏：每月一次，查看你最近的条目</li><li>不要过度组织：如果组织花费超过 5 分钟，简化</li><li>信任你的直觉：如果你自然感觉按年组织，就做它</li></ul>`,
       faq: [
         { q: "我以后可以改变组织系统吗？", a: "可以。你可以随时重新组织。大多数平台让你自由地在胶囊之间移动记忆和更改标签。" },
         { q: "如果我在一个条目中有多个人的记忆怎么办？", a: "用所有相关的人标记它。组织应该服务你，而不是复杂化你的生活。" },
@@ -1522,7 +1481,7 @@ en: {
     en: {
       title: "Use Voice-to-Text Instead of Typing",
       excerpt: "Voice-to-text has reached the point where it's often faster than typing.",
-      body: "<h2>Why Voice-to-Text Is Worth Trying</h2><p>Most people speak at 150 words per minute. Even with pauses and corrections, voice typing can outpace average typing speed — around 40 words per minute for most people.</p><h2>The Four Reasons</h2><ul><li>Speed: dictation is 2-3x faster than typing</li><li>Accessibility: easier on hands and wrists</li><li>Natural flow: thoughts come out more fluidly when speaking</li><li>Multitasking: capture ideas while walking or cooking</li></ul><h2>A Gentle Reminder</h2><p>Voice input still needs editing. Read back what you dictated and refine it. The goal is to capture more of your thinking — not to stop writing altogether.</p>",
+      body: `h2>Why Voice-to-Text Is Worth Trying</h2><p>Most people speak at 150 words per minute. Even with pauses and corrections, <a href="/blog/import-photos-and-voice-into-capsule">voice typing can outpace</a> average typing speed — around 40 words per minute for most people.</p><h2>The Four Reasons</h2><ul><li>Speed: dictation is 2-3x faster than typing</li><li>Accessibility: easier on hands and wrists</li><li>Natural flow: thoughts come out more fluidly when speaking</li><li>Multitasking: capture ideas while walking or cooking</li></ul><h2>A Gentle Reminder</h2><p>Voice input still needs editing. <a href="/blog/use-stillhere-on-phone-vs-desktop">Read back what you dictated</a> and refine it. The goal is to capture more of your thinking — not to stop writing altogether.</p>`,
       faq: [
         { q: "Is voice-to-text accurate?", a: "Modern tools are 90-95% accurate for clear speech in quiet environments." },
         { q: "Can I use voice-to-text on my phone?", a: "Yes. Both iOS and Android have built-in voice typing." }
@@ -1531,7 +1490,7 @@ en: {
     zh: {
       title: "用语音转文字，代替打字",
       excerpt: "语音转文字已经发展到通常比打字更快的程度。",
-      body: "<h2>为什么值得试试语音转文字</h2><p>大多数人每分钟说 150 个字。即使算上停顿和修改，语音输入也能超过平均打字速度——大多数人每分钟约 40 个字。</p><h2>四个理由</h2><ul><li>速度：口述比打字快 2-3 倍</li><li>无障碍：对手和手腕更友好</li><li>自然流畅：说话时思路更容易连贯</li><li>多任务：走路或做饭时也能记录想法</li></ul><h2>一句温柔的提醒</h2><p>语音输入仍然需要编辑。把你口述的内容读回来再润色。目标是捕捉更多思考——而不是完全停止书写。</p>",
+      body: `h2>为什么值得试试语音转文字</h2><p>大多数人每分钟说 150 个字。即使算上停顿和修改，<a href="/blog/import-photos-and-voice-into-capsule">语音输入也能超过平均打字速度</a>——大多数人每分钟约 40 个字。</p><h2>四个理由</h2><ul><li>速度：口述比打字快 2-3 倍</li><li>无障碍：对手和手腕更友好</li><li>自然流畅：说话时思路更容易连贯</li><li>多任务：走路或做饭时也能记录想法</li></ul><h2>一句温柔的提醒</h2><p>语音输入仍然需要编辑。<a href="/blog/use-stillhere-on-phone-vs-desktop">把你口述的内容读回来再润色</a>。目标是捕捉更多思考——而不是完全停止书写。</p>`,
       faq: [
         { q: "语音转文字准确吗？", a: "在安静环境中，现代工具的清晰语音准确率可达 90-95%。" },
         { q: "可以在手机上用语音转文字吗？", a: "可以。iOS 和 Android 都内置了语音输入。" }
@@ -1544,7 +1503,7 @@ en: {
     en: {
       title: "Keep a Private Memory of a Pet",
       excerpt: "Digital memorials let you hold onto a pet's memory without sharing it with the world.",
-      body: "<h2>Why Keep a Private Memorial?</h2><p>Sometimes a memory is too personal to share. A pet's final days, a quiet moment at home, a private grief — these belong to you, not to social media. StillHere lets you create a private digital memorial that only you can access.</p><h2>What You Can Keep</h2><ul><li>A written tribute with your own words</li><li>Photos that capture the moment</li><li>Private notes about what they meant to you</li><li>A date reminder for anniversaries</li></ul><h2>The Value of Privacy</h2><p>A private memorial removes the pressure to perform grief. You don't need likes or comments. You don't need to explain why you're sad. It's just you and the memory, exactly as you want it.</p><h2>When to Go Private</h2><p>Not every memorial needs to be public. Some are for family only. Some are for you alone. That's okay. StillHere respects both choices.</p><h2>A Gentle Reminder</h2><p>Keeping a private memory doesn't mean you're hiding anything. It means you're protecting something precious. The memory exists because the bond was real. That doesn't change because you choose to keep it quiet.</p>",
+      body: `h2>Why Keep a Private Memorial?</h2><p>Sometimes a memory is too personal to share. A pet's final days, a quiet moment at home, a private grief — <a href="/blog/private-by-design">these belong to you, not to social media</a>. StillHere lets you create a <a href="/blog/keep-them-by-remembering">private digital memorial that only you can access</a>.</p><h2>What You Can Keep</h2><ul><li>A written tribute with your own words</li><li>Photos that capture the moment</li><li>Private notes about what they meant to you</li><li>A date reminder for anniversaries</li></ul><h2>The Value of Privacy</h2><p>A private memorial removes the pressure to perform grief. You don't need likes or comments. You don't need to explain why you're sad. It's just you and the memory, exactly as you want it.</p><h2>When to Go Private</h2><p>Not every memorial needs to be public. Some are for family only. Some are for you alone. That's okay. StillHere respects both choices.</p><h2>A Gentle Reminder</h2><p>Keeping a private memory doesn't mean you're hiding anything. It means you're protecting something precious. The memory exists because the bond was real. That doesn't change because you choose to keep it quiet.</p>`,
       faq: [
         { q: "Can anyone see my private memorial?", a: "No. Private memorials are only visible to you." },
         { q: "Can I make a memorial public later?", a: "Yes. You can change the privacy setting at any time." },
@@ -1554,7 +1513,7 @@ en: {
     zh: {
       title: "为宠物保留一份私密纪念",
       excerpt: "数字纪念让你可以在不分享给世界的情况下珍藏宠物的记忆。",
-      body: "<h2>为什么保留私密纪念？</h2><p>有些记忆太过私人，不适合分享。宠物生命的最后时光、家中的安静时刻、私人的悲伤——这些属于你，不属于社交媒体。StillHere 让你可以创建只有你自己能访问的私密数字纪念。</p><h2>你可以保留什么</h2><ul><li>用你自己的文字写下的纪念文</li><li>捕捉那个瞬间的照片</li><li>关于它们对你意义的私密笔记</li><li>纪念日的日期提醒</li></ul><h2>隐私的价值</h2><p>私密纪念消除了表演悲伤的压力。你不需要点赞或评论。你不需要解释为什么难过。只是你和记忆，正如你所希望的那样。</p><h2>何时选择私密</h2><p>不是每个纪念都需要公开。有些只属于家人。有些只属于你。这没关系。StillHere 尊重两种选择。</p><h2>一句温柔的提醒</h2><p>保留私密记忆并不意味着你在隐藏什么。这意味着你在保护珍贵的东西。记忆存在是因为那段羁绊是真实的。这不会因为你选择保持安静而改变。</p>",
+      body: `h2>为什么保留私密纪念？</h2><p>有些记忆太过私人，不适合分享。宠物生命的最后时光、家中的安静时刻、私人的悲伤——<a href="/blog/private-by-design">这些属于你，不属于社交媒体</a>。StillHere 让你可以创建只有你自己能访问的<a href="/blog/keep-them-by-remembering">私密数字纪念</a>。</p><h2>你可以保留什么</h2><ul><li>用你自己的文字写下的纪念文</li><li>捕捉那个瞬间的照片</li><li>关于它们对你意义的私密笔记</li><li>纪念日的日期提醒</li></ul><h2>隐私的价值</h2><p>私密纪念消除了表演悲伤的压力。你不需要点赞或评论。你不需要解释为什么难过。只是你和记忆，正如你所希望的那样。</p><h2>何时选择私密</h2><p>不是每个纪念都需要公开。有些只属于家人。有些只属于你。这没关系。StillHere 尊重两种选择。</p><h2>一句温柔的提醒</h2><p>保留私密记忆并不意味着你在隐藏什么。这意味着你在保护珍贵的东西。记忆存在是因为那段羁绊是真实的。这不会因为你选择保持安静而改变。</p>`,
       faq: [
         { q: "任何人都能看到我的私密纪念吗？", a: "不能。私密纪念只对你自己可见。" },
         { q: "我以后可以改成公开吗？", a: "可以。你可以随时更改隐私设置。" },

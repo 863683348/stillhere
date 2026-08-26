@@ -1,3 +1,4 @@
+import { unstable_cache } from 'next/cache';
 import { getSql } from './db';
 import { ensureSchema } from './schema';
 
@@ -197,25 +198,35 @@ export async function getStats(): Promise<SiteStats> {
   };
 }
 
-// ── Cached variants (kept in-process; fine for a single-region Vercel app) ────
+// ── Cached variants (Next data cache via unstable_cache) ─────────────────────
+//
+// These are wrapped in unstable_cache (revalidate: 5 min) instead of an
+// in-process TTL so the pages that render them can be STATICALLY prerendered
+// (ISR) and served from the CDN with the vercel.json Cache-Control headers.
+// The old in-memory approach only deduped concurrent requests on one server and
+// never let Next treat the page as static — every request still hit the origin
+// and got `Cache-Control: private, no-cache, no-store` (the P0 this fixes).
 
-const STATS_TTL_MS = 5 * 60_000; // 5 minutes
-let statsCache: { data: SiteStats; at: number } | null = null;
+/** getStats() cached for 5 minutes. Callers should still wrap in try/catch. */
+export const getStatsCached = unstable_cache(
+  async (): Promise<SiteStats> => getStats(),
+  ['site-stats'],
+  { revalidate: 300 },
+);
 
-/**
- * getStats() with a short in-memory TTL: N visitors within 5 minutes share a
- * single query instead of each issuing 3 SELECTs. Falls back to live data on
- * expiry; callers should still wrap in try/catch.
- */
-export async function getStatsCached(): Promise<SiteStats> {
-  const now = Date.now();
-  if (statsCache && now - statsCache.at < STATS_TTL_MS) {
-    return statsCache.data;
-  }
-  const data = await getStats();
-  statsCache = { data, at: now };
-  return data;
-}
+/** listApprovedStories() cached for 5 minutes (public /stories page). */
+export const listApprovedStoriesCached = unstable_cache(
+  async (limit = 30): Promise<Story[]> => listApprovedStories(limit),
+  ['approved-stories'],
+  { revalidate: 300 },
+);
+
+/** listApprovedTributes() cached for 5 minutes (public /wall page). */
+export const listApprovedTributesCached = unstable_cache(
+  async (limit = 60): Promise<Tribute[]> => listApprovedTributes(limit),
+  ['approved-tributes'],
+  { revalidate: 300 },
+);
 
 let geoDay = '';
 let geoSeenToday = new Set<string>();

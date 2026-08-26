@@ -3,19 +3,23 @@ import Link from 'next/link';
 import { ArrowLeft } from 'lucide-react';
 import { Lamp } from '@/components/Lamp';
 import { MarketingShell } from '@/components/MarketingShell';
-import { getDictionary } from '@/lib/i18n';
-import { resolveLocale } from '@/lib/locale-server';
+import { getDictionary, DEFAULT_LOCALE } from '@/lib/i18n';
 
+// Static-safe on purpose: a not-found.tsx that reads cookies()/headers() opts the
+// WHOLE app into dynamic rendering (the 404 boundary is part of every route's
+// tree), which nullifies CDN caching on all marketing pages. The 404 page is a
+// build-time static document in the default locale — nothing to localize at
+// request time.
 export async function generateMetadata(): Promise<Metadata> {
-  const t = getDictionary(await resolveLocale());
+  const t = getDictionary(DEFAULT_LOCALE);
   return {
     title: t.notFound.title,
     robots: { index: false, follow: true },
   };
 }
 
-export default async function NotFound() {
-  const t = getDictionary(await resolveLocale());
+export default function NotFound() {
+  const t = getDictionary(DEFAULT_LOCALE);
   const { heading, body, cta } = t.notFound;
 
   return (

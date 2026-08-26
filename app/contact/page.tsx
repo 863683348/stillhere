@@ -1,29 +1,24 @@
 import type { Metadata } from 'next';
 import { Mail } from 'lucide-react';
 import { MarketingShell } from '@/components/MarketingShell';
-import { getDictionary } from '@/lib/i18n';
-import { resolvePageLocale, buildAlternates } from '@/lib/seo';
+import { getDictionary, DEFAULT_LOCALE } from '@/lib/i18n';
+import { buildAlternates } from '@/lib/seo';
 import styles from './page.module.css';
 
-export async function generateMetadata({
-  searchParams,
-}: {
-  searchParams: Promise<{ lang?: string }>;
-}): Promise<Metadata> {
-  const locale = await resolvePageLocale(searchParams);
-  const t = getDictionary(locale);
+export async function generateMetadata(): Promise<Metadata> {
+  const t = getDictionary(DEFAULT_LOCALE);
   return {
     title: t.contact.meta.title,
     description: t.contact.meta.description,
     keywords: t.contact.meta.keywords,
-    alternates: buildAlternates('/contact', locale),
+    alternates: buildAlternates('/contact', DEFAULT_LOCALE),
     openGraph: {
       url: '/contact',
       title: `${t.contact.meta.title} · ${t.brand.name}`,
       description: t.contact.meta.description,
       type: 'website',
       siteName: t.brand.name,
-      locale: locale === 'en' ? 'en_US' : 'zh_CN',
+      locale: 'en_US',
     },
     twitter: {
       card: 'summary_large_image',
@@ -33,12 +28,8 @@ export async function generateMetadata({
   };
 }
 
-export default async function ContactPage({
-  searchParams,
-}: {
-  searchParams: Promise<{ lang?: string }>;
-}) {
-  const t = getDictionary(await resolvePageLocale(searchParams));
+export default function ContactPage() {
+  const t = getDictionary(DEFAULT_LOCALE);
   const { heading, intro, emailLabel, email, responseNote } = t.contact;
 
   return (

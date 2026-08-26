@@ -4,10 +4,16 @@ import { Ban, BookOpen, Download, Lock, MessageCircle, ShieldCheck } from 'lucid
 import type { LucideIcon } from 'lucide-react';
 import { Lamp } from '@/components/Lamp';
 import { MarketingShell } from '@/components/MarketingShell';
-import { getDictionary } from '@/lib/i18n';
-import { resolvePageLocale, buildAlternates } from '@/lib/seo';
+import { getDictionary, DEFAULT_LOCALE } from '@/lib/i18n';
+import { buildAlternates } from '@/lib/seo';
 import { getStatsCached, formatStat } from '@/lib/community';
 import styles from './page.module.css';
+
+// The landing page is statically pre-rendered (ISR, revalidated hourly) so the
+// vercel.json Cache-Control (`public, s-maxage=3600`) actually applies. The DB
+// read behind the stats band is cached separately via unstable_cache (5 min) —
+// see lib/community.ts. No searchParams/cookies()/headers() are read server-side.
+export const revalidate = 3600;
 
 // Fallback stats shown if the database is briefly unavailable — keeps the page
 // serving rather than 500-ing every visitor when Neon is cold or unreachable.
@@ -37,33 +43,23 @@ function GeoBeacon() {
   );
 }
 
-export async function generateMetadata({
-  searchParams,
-}: {
-  searchParams: Promise<{ lang?: string }>;
-}): Promise<Metadata> {
-  const locale = await resolvePageLocale(searchParams);
-  const t = getDictionary(locale);
+export async function generateMetadata(): Promise<Metadata> {
+  const t = getDictionary(DEFAULT_LOCALE);
   return {
     title: t.home.meta.title,
     description: t.home.meta.description,
     keywords: t.home.meta.keywords,
-    alternates: buildAlternates('/', locale),
+    alternates: buildAlternates('/', DEFAULT_LOCALE),
     robots: { index: true, follow: true },
   };
 }
 
-export default async function HomePage({
-  searchParams,
-}: {
-  searchParams: Promise<{ lang?: string }>;
-}) {
-  const t = getDictionary(await resolvePageLocale(searchParams));
+export default async function HomePage() {
+  const t = getDictionary(DEFAULT_LOCALE);
   const { hero, trust, value, honesty, closing, socialProof } = t.home;
 
-  // DB calls are cached/deduplicated (getStatsCached: 5-min in-memory TTL) AND
-  // wrapped in try/catch so a Neon cold-start or transient failure never 500s
-  // the landing page.
+  // DB calls are cached via unstable_cache (5 min) AND wrapped in try/catch so a
+  // Neon cold-start or transient failure never 500s the landing page.
   let stats = FALLBACK_STATS;
   try {
     stats = await getStatsCached();

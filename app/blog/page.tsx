@@ -2,31 +2,26 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { MarketingShell } from '@/components/MarketingShell';
 import { JsonLd } from '@/components/JsonLd';
-import { getDictionary } from '@/lib/i18n';
-import { resolvePageLocale, buildAlternates } from '@/lib/seo';
+import { getDictionary, DEFAULT_LOCALE } from '@/lib/i18n';
+import { buildAlternates } from '@/lib/seo';
 import { SITE_URL } from '@/lib/site';
 import { BLOG_POSTS } from '@/lib/blog/posts';
 import styles from './page.module.css';
 
-export async function generateMetadata({
-  searchParams,
-}: {
-  searchParams: Promise<{ lang?: string }>;
-}): Promise<Metadata> {
-  const locale = await resolvePageLocale(searchParams);
-  const t = getDictionary(locale);
+export async function generateMetadata(): Promise<Metadata> {
+  const t = getDictionary(DEFAULT_LOCALE);
   return {
     title: t.blog.meta.title,
     description: t.blog.meta.description,
     keywords: t.blog.meta.keywords,
-    alternates: buildAlternates('/blog', locale),
+    alternates: buildAlternates('/blog', DEFAULT_LOCALE),
     openGraph: {
       url: '/blog',
       title: `${t.blog.meta.title} · ${t.brand.name}`,
       description: t.blog.meta.description,
       type: 'website',
       siteName: t.brand.name,
-      locale: locale === 'en' ? 'en_US' : 'zh_CN',
+      locale: 'en_US',
     },
     twitter: {
       card: 'summary_large_image',
@@ -36,13 +31,8 @@ export async function generateMetadata({
   };
 }
 
-export default async function BlogPage({
-  searchParams,
-}: {
-  searchParams: Promise<{ lang?: string }>;
-}) {
-  const locale = await resolvePageLocale(searchParams);
-  const t = getDictionary(locale);
+export default function BlogPage() {
+  const t = getDictionary(DEFAULT_LOCALE);
   const { heading, intro } = t.blog;
 
   // Newest first — never rely on the data file's array order; sort explicitly
@@ -68,14 +58,13 @@ export default async function BlogPage({
       <section className="container">
         <ul className={styles.list}>
           {sortedPosts.map((post) => {
-            const lang = locale === 'en' ? post.en : post.zh;
             return (
               <li key={post.slug} className={styles.item}>
                 <Link href={`/blog/${post.slug}`} className={styles.link}>
                   <article>
-                    <h2 className={`h3 ${styles.title}`}>{lang.title}</h2>
+                    <h2 className={`h3 ${styles.title}`}>{post.en.title}</h2>
                     <p className={`caption ${styles.date}`}>{post.date}</p>
-                    <p className={`body-secondary ${styles.excerpt}`}>{lang.excerpt}</p>
+                    <p className={`body-secondary ${styles.excerpt}`}>{post.en.excerpt}</p>
                   </article>
                 </Link>
               </li>
