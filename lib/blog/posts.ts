@@ -1587,6 +1587,23 @@ en: {
       ]
     }
   }
+  ,
+  {
+    slug: 'when-grief-becomes-anger',
+    date: '2026-09-02',
+    en: {
+      title: 'When Grief Becomes Anger',
+      excerpt: 'Anger is one of the most common but least understood expressions of grief. Here is what angry grief means, and how to move through it without shame.',
+      body: `<h2>The Anger-Grief Connection</h2><p>Grief doesn't always look like sadness. Sometimes it shows up as anger — sudden, sharp, and directed at people who loved the person you lost.</p><p>If you've ever snapped at someone during a funeral, felt resentful toward friends who seem to be "moving on," or wondered why you're so irritable all the time, you're not broken. You're grieving.</p><p>But anger serves a purpose in the grieving process:</p><p><strong>It's a protective emotion.</strong> Anger creates distance between you and the pain of loss. It's easier to be mad at someone than to feel the void they left behind.</p><p><strong>It's a sign of love.</strong> The intensity of your anger often reflects the intensity of your love. You're angry because someone important is gone, and that absence hurts.</p><p><strong>It's energy.</strong> Grief is exhausting. Anger gives you a surge of energy when you feel weakest. It can help you take action, set boundaries, or simply get through the day.</p><h2>When Anger Becomes a Problem</h2><p>Anger is healthy when it helps you process loss. It becomes problematic when:</p><ul><li>You direct it at people who didn't cause the loss</li><li>It damages relationships that could support you</li><li>You use it to avoid feeling the deeper sadness</li><li>It persists long after the initial grief has settled</li></ul><p>If your anger is isolating you or causing harm, it might be time to seek support.</p><h2>How to Navigate Angry Grief</h2><p><strong>Acknowledge it.</strong> Say out loud: "I'm angry, and that's okay." Naming the emotion reduces its power to control you.</p><p><strong>Find safe outlets.</strong> Physical exercise, writing, or talking to a therapist can channel anger productively.</p><p><strong>Communicate your needs.</strong> Tell people around you: "I'm grieving, and sometimes I get angry. It's not about you."</p><p><strong>Don't blame yourself.</strong> Anger is not a failure of grief work. It's part of the process.</p><h2>The Bigger Picture</h2><p>Grief is not linear. You won't "get over" it in stages. Some days you'll feel sad, some days angry, some days numb. All of it is normal.</p><p>Your anger is not a sign that you're not grieving properly. It's a sign that you loved deeply, and that love has nowhere to go right now.</p><p>Give it time. The anger will shift, sometimes slowly, sometimes in sudden waves. But it will change.</p><p>If this sounds familiar, you might also find it helpful to read <a href="/blog/its-not-them-and-ok">why grief can make us push people away</a>.</p>`,
+      faq: []
+    },
+    zh: {
+      title: '当悲伤变成愤怒',
+      excerpt: '愤怒是悲伤最常见却最不被理解的表征之一。它意味着什么，又该如何不带羞耻地度过？',
+      body: `<h2>愤怒与悲伤的联系</h2><p>悲伤并不总是看起来像悲伤。有时它表现为愤怒——突然、尖锐，并指向那些爱你失去之人的人。</p><p>如果你曾经在葬礼上对某人发火，对似乎"继续前进"的朋友感到愤恨，或想知道为什么你总是如此易怒，你不是出了问题。你在悲伤。</p><p>但愤怒在悲伤过程中自有其意义：</p><p><strong>它是一种保护性情绪。</strong> 愤怒在你与失去带来的痛苦之间拉开距离。对某人发火，总比直面他们留下的空虚容易。</p><p><strong>它是爱的标志。</strong> 你愤怒的强度，往往映射出你爱的深度。你生气，是因为一个重要的人不在了，而这份缺席让人刺痛。</p><p><strong>它是能量。</strong> 悲伤令人精疲力竭。愤怒却在你最软弱时给你一股劲。它能帮你采取行动、划清界限，或只是熬过这一天。</p><h2>当愤怒成为问题</h2><p>愤怒若能帮你处理失落，便是健康的。当以下情况出现时，它便成了问题：</p><ul><li>你把它发泄在并未造成损失的人身上</li><li>它损害了本可以支持你的关系</li><li>你用它来回避更深的悲伤</li><li>在最初的悲伤平复之后，它依然挥之不去</li></ul><p>如果你的愤怒正在孤立你或造成伤害，也许是时候寻求支持了。</p><h2>如何安放愤怒的悲伤</h2><p><strong>承认它。</strong> 大声说出："我很生气，这没关系。" 为情绪命名，就削弱了它掌控你的力量。</p><p><strong>寻找安全的出口。</strong> 体育锻炼、书写，或与治疗师交谈，都能有建设性地疏导愤怒。</p><p><strong>表达你的需要。</strong> 告诉身边人："我在悲伤，有时我会生气。这和你无关。"</p><p><strong>不要责怪自己。</strong> 愤怒不是悲伤"做得不好"的证明，它是过程的一部分。</p><h2>更大的图景</h2><p>悲伤不是线性的。你不会在几个"阶段"里"走出来"。有些日子你悲伤，有些日子你愤怒，有些日子你麻木。这一切都正常。</p><p>你的愤怒并不意味着你悲伤得"不对"。它意味着你曾爱得深沉，而这份爱此刻无处安放。</p><p>给它时间。愤怒会改变，有时缓慢，有时如突来的浪潮。但它终会变。</p><p>如果这说中了你，也许你也会想读读 <a href="/blog/its-not-them-and-ok">为什么悲伤会让我们把人推开</a>。</p>`,
+      faq: []
+    }
+  }
 ];
 export function getPostBySlug(slug: string): BlogPost | undefined {
   return BLOG_POSTS.find((p) => p.slug === slug);
