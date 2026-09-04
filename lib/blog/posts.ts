@@ -1626,8 +1626,59 @@ en: {
         { q: '如果第一句怎么也写不出？', a: '先写日期、天气、你吃了什么。手会暖起来，等你不再表演，真正的那句就来了。' },
         { q: '写完反而更难受正常吗？', a: '有时会。先变响、才变得能对付，这很常见。信是让情绪说出来，而不是闷着。' }
       ]
+    },
+  },
+  {
+    slug: 'the-empty-chair-at-the-dinner-table',
+    date: '2026-09-04',
+    en: {
+      title: 'The empty chair at the dinner table',
+      excerpt: 'When someone is gone, the empty chair at the dinner table can take up more room than the people present. A few quiet ways to let the seat belong.',
+      body: `<h2>Why that chair takes up so much room</h2>
+<p>The empty chair at the dinner table is not really about the chair. It is about the person who used to fill it, the noise they brought, the way the room balanced when they were in it. On an ordinary evening the gap is easy to ignore. On a holiday, or a birthday, or the first meal after the funeral, it widens until no one knows where to look.</p>
+<h2>What people say, and what actually helps</h2>
+<p>Well-meaning guests reach for fixes. "At least you have each other." "He wouldn't want you sad." These land as instructions to hurry up, and they rarely fit the shape of the loss. What tends to help more is small and unforced: naming the person once, out loud, without a speech. A story about the time they burned the rice. The chair they always claimed by the window. The loss does not need solving. It needs to be allowed to sit at the table too.</p>
+<h2>Small ways to let the seat belong</h2>
+<ul>
+<li>Set the chair, or leave it empty on purpose, and let that be a quiet yes rather than a thing to explain.</li>
+<li>Put something of theirs where they used to sit, a mug, a book, a card. Not as a shrine, just as a hello.</li>
+<li>Open one story. Not a eulogy, just the odd detail nobody else would remember.</li>
+<li>Let a child ask, and answer simply. Kids handle an empty chair better when the adults do not pretend it is not there.</li>
+</ul>
+<h2>When the holiday is yours alone</h2>
+<p>Some of us eat that meal with no one across from us. The chair is empty because the whole table is ours, and the silence is its own kind of company. On those nights it can help to write the thing you would have said out loud, or to keep a private memory of them somewhere only you can open. You are not performing grief for an audience. You are just keeping the seat warm in your own way.</p>
+<p>If the empty chair is hard to carry alone, you might find it steadier to read <a href="/blog/talking-with-someone-who-is-gone">talking with someone who is gone</a>, or <a href="/blog/what-to-say-first">what to write first</a>, or <a href="/blog/keep-them-by-remembering">keeping them by remembering</a>. StillHere is a quiet place at stillherememory.com to hold what you want to say to someone who is no longer at the table, openable only by you.</p>`,
+      faq: [
+        { q: 'Should we set a place for the person who died?', a: 'Only if it helps. Some families find comfort in leaving the seat; others find it too sharp. There is no right answer, only the one that fits your table.' },
+        { q: 'How do I help a child with the empty chair?', a: 'Answer simply and let the gap be real. Children cope better when adults name the loss instead of hiding it.' },
+        { q: 'Is it normal to feel the loss more on holidays?', a: 'Yes. Meals are where a person absence is most physical. The feeling eases and returns, and both are ordinary.' },
+      ]
+    },
+    zh: {
+      title: '饭桌上的那把空椅子',
+      excerpt: '有人离开后，饭桌上的那把空椅子，往往比在座的人占去更多位置。几个安静的办法，让那把椅子有处安放。',
+      body: `<h2>为什么那把椅子占了那么多位置</h2>
+<p>饭桌上的空椅子，其实不在椅子本身。它在那个曾经坐满它的人，在ta带来的吵闹，在ta在时房间那种平衡。平常的晚上，那道空隙容易被忽略。到了节日、生日，或葬礼后的第一餐，它就拓宽，宽到没人知道该把目光放哪儿。</p>
+<h2>人们怎么说，什么才真的有用</h2>
+<p>好心的客人是来"解决"的。"好在你们还有彼此。""ta肯定不希望你难过。"这些话听来像在催你快点好，很少贴合失落的形状。更常有用的，是细小而不刻意的：把那个人名字念出声一次，不用致辞。一段ta烧糊米饭的故事。ta总占着的靠窗那把椅子。失落不需要被解决，它需要被允许也坐在桌上。</p>
+<h2>让那把椅子有处安放的小办法</h2>
+<ul>
+<li>摆上那把椅子，或者故意留空，让这成为一个安静的"是"，而不是一件要解释的事。</li>
+<li>在他们常坐的地方放点什么，一个杯子、一本书、一张卡片。不是祭坛，只是一次打招呼。</li>
+<li>讲一个故事。不是悼词，只是别人不会记得的那个奇怪细节。</li>
+<li>让孩子问，简单地答。大人若不假装椅子不在，孩子反而更接得住那道空。</li>
+</ul>
+<h2>当这个节只剩你一个人过</h2>
+<p>我们有人那餐饭桌对面空无一人。椅子空着，因为整张桌子都是自己的，而安静本身就是一种陪伴。这样的夜里，把想说出口的话写下来会有帮助，或者把关于他们的私密记忆留在只有自己能打开的地方。你不是在给谁表演悲伤，只是用自己的方式，替那把椅子留着暖。</p>
+<p>如果那把空椅子一个人扛着太沉，读读 <a href="/blog/talking-with-someone-who-is-gone">和已经离开的人说话</a>、<a href="/blog/what-to-say-first">第一次该写什么</a>，或 <a href="/blog/keep-them-by-remembering">用记忆留住他们</a>，或许会稳一些。StillHere 是 stillherememory.com 上一个安静的地方，用来安放你想对那个不再上桌的人说的话，只有你能打开。</p>`,
+      faq: [
+        { q: '该不该给离开的人摆一副碗筷？', a: '只有当你觉得舒服才摆。有些家庭留着座位感到安慰，有些觉得太刺眼。没有标准答案，只有适合你这张桌子的那个。' },
+        { q: '怎么帮孩子面对那把空椅子？', a: '简单地答，让空隙成为真实。大人若直呼失落、而非藏起它，孩子反而更接得住。' },
+        { q: '节日里更觉得失落，正常吗？', a: '正常。饭桌是那个人缺席最具体的地方。感觉会来也会退，两种都平常。' },
+      ]
     }
   }
+
 ];
 export function getPostBySlug(slug: string): BlogPost | undefined {
   return BLOG_POSTS.find((p) => p.slug === slug);
