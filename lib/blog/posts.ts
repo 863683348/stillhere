@@ -1677,6 +1677,54 @@ en: {
         { q: '节日里更觉得失落，正常吗？', a: '正常。饭桌是那个人缺席最具体的地方。感觉会来也会退，两种都平常。' },
       ]
     }
+  },
+  {
+    slug: 'talking-on-their-birthday-years-later',
+    date: '2026-09-06',
+    en: {
+      title: 'Talking to a parent on their birthday, years later',
+      excerpt: 'Years after a parent is gone, their birthday can land harder than the anniversary of their death. A quiet note on what to say, and how to say it, when no one is there to answer.',
+      body: `<h2>Why the birthday can hit harder than the death day</h2>
+<p>The anniversary of a death gets marked, almost by ritual. A parent's birthday arrives quietly, with no card to buy and no one expecting a call. Years later that silence is its own weight. You reach for the phone out of habit, then remember. The person who taught you to blow out candles is not on the other end, and the day that used to be about them now belongs to the gap.</p>
+<h2>What to say when no one answers</h2>
+<p>You do not need a speech. You need the small, specific things: the way they overcooked the noodles, the song they hummed, the advice you only now understand. Say it out loud if you are alone, or write it where only you can open it. The point is not to be heard. It is to keep the person shaped, instead of letting the date flatten them into a mark on a calendar.</p>
+<h2>A few ways the day can hold them</h2>
+<ul>
+<li>Light a candle, or make the dish they loved, without turning it into a performance.</li>
+<li>Write the sentence you would have said on the phone, and let it stay.</li>
+<li>Visit a place they liked, or just sit with the memory for the length of one cup of tea.</li>
+<li>Share one story with a sibling or a child, the odd detail nobody else would keep.</li>
+</ul>
+<h2>If the day is yours alone</h2>
+<p>Some birthdays you spend with no one across from you. That is allowed. On those mornings it can steady you to read <a href="/blog/talking-with-someone-who-is-gone">talking with someone who is gone</a>, or <a href="/blog/what-to-say-first">what to write first</a>. StillHere is a quiet place at stillherememory.com to hold what you want to say to a parent who is no longer there to hear it, openable only by you.</p>`,
+      faq: [
+        { q: 'Is it normal to feel worse on a parent\'s birthday than on the day they died?', a: 'Yes. The death day gets ritual and company; the birthday arrives alone. The quiet can weigh more because no one expects anything of you, and there is no script.' },
+        { q: 'What should I do on my late parent\'s birthday?', a: 'Whatever fits. Some cook the favorite meal, some write a note, some do nothing but remember. There is no right observance, only the one that feels true to them.' },
+        { q: 'Can I still talk to them even years later?', a: 'Of course. Talking, writing, or simply sitting with the memory is a way to keep the relationship present. StillHere gives that a private, steady place.' },
+      ]
+    },
+    zh: {
+      title: '多年后，在父母生日那天说话',
+      excerpt: '父母离开多年后，他们的生日有时比忌日更沉。几句安静的话，关于在那一天该说什么、又该怎么说，当没有人能回答。',
+      body: `<h2>为什么生日可能比忌日更沉</h2>
+<p>忌日有仪式，几乎会被记起。父母的生日却悄悄来，没有卡片要买，也没人等着你打电话。多年以后，那片安静本身就是重量。你习惯性地伸手拿手机，然后想起。那个教你吹蜡烛的人不在另一端，而本属于ta的日子，如今属于那道空。</p>
+<h2>没有回答时，该说什么</h2>
+<p>你不需要致辞。你要的是细小而具体的东西：ta把面条煮过头的方式，ta哼过的歌，你到现在才懂的叮嘱。独处时就念出声，或者写在一个只有你能打开的地方。重点不在被听见，而在让那个人保持形状，而不是让日期把ta压平成一个日历上的数字。</p>
+<h2>让那一天安放他们的几种方式</h2>
+<ul>
+<li>点一支蜡烛，或做一道ta爱吃的菜，别把它变成表演。</li>
+<li>写下你本会在电话里说的那句话，让它留在那儿。</li>
+<li>去一个ta喜欢的地方，或者只是就着一杯茶，和记忆坐一会儿。</li>
+<li>和兄弟姐妹或孩子讲一个故事，那个别人不会记得的奇怪细节。</li>
+</ul>
+<h2>当这一天只剩你一个人</h2>
+<p>有些生日你桌对面空无一人，那也OK。那样的早晨，读读 <a href="/blog/talking-with-someone-who-is-gone">和已经离开的人说话</a>、<a href="/blog/what-to-say-first">第一次该写什么</a>，或许会稳一些。StillHere 是 stillherememory.com 上一个安静的地方，用来安放你想对那个不再能听见你的父母说的话，只有你能打开。</p>`,
+      faq: [
+        { q: '在父母生日那天比忌日更难受，正常吗？', a: '正常。忌日有仪式也有人陪，生日却是独自来的。那片安静更沉，因为没人向你期待什么，也没有剧本。' },
+        { q: '我该在离世父母的生日做点什么？', a: '顺你心意。有人做那道爱吃的菜，有人写句话，有人只是记得。没有标准仪式，只有贴合ta的那个。' },
+        { q: '多年以后还能跟他们说话吗？', a: '当然。说话、写字，或者只是和记忆坐一会儿，都是让这段关系仍在的方式。StillHere 给这份想念一个私密而安稳的所在。' },
+      ]
+    }
   }
 
 ];
