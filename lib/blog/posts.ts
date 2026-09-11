@@ -1904,6 +1904,200 @@ en: {
       ],
     },
   },
+  {
+    slug: 'when-friends-stop-asking',
+    date: '2026-09-09',
+    en: {
+      title: 'When friends stop asking how you are',
+      excerpt: 'The check-ins taper off after a few weeks, and the silence can feel like being forgotten. Here is why friends pull back, what you can do about it, and why the quiet does not last.',
+      body: `<h2>The check-ins taper off, and nobody warns you</h2>
+<p>There is a loneliness that arrives after grief, and it keeps a schedule. The first weeks, the messages come. Food shows up, people call, someone offers to sit with you. Then the calls get shorter, the texts turn into reactions, and one day nobody asks. This is normal. It still hurts.</p>
+<p>Knowing why it happens does not take the sting away, but it does take the personal edge off it. The silence is rarely about you.</p>
+<h2>Why friends pull back</h2>
+<p>It is usually not that they stopped caring. It is that they ran out of things they know how to say. Grief makes people uncomfortable, discomfort makes them careful, and carefulness turns into silence. They are afraid of saying the wrong thing, so they say nothing at all, and the nothing looks exactly like not caring.</p>
+<p>There is a timing problem underneath it too. Your grief does not end when someone else's attention span does. Most people can hold space for a few weeks. Loss runs for years.</p>
+<h2>What you can do</h2>
+<p>You do not have to wait to be asked.</p>
+<ul>
+<li><strong>Reach out first.</strong> Waiting for others to initiate is the surest way to feel forgotten. Being the one who sends the first message is not a failure. It is upkeep.</li>
+<li><strong>Ask for something specific.</strong> "Can we talk for ten minutes?" is far easier to answer than "I need support". Most people freeze at abstract needs and can meet concrete ones.</li>
+<li><strong>Let people be bad at it.</strong> A friend who says the wrong thing and stays is worth more than one who says the perfect thing once and disappears.</li>
+<li><strong>Find your people.</strong> Not everyone can be your support system, and that is not a verdict on the friendship. Some friends are for ordinary days. A support group, a counselor, or one person who has been through it can carry what a whole circle cannot.</li>
+</ul>
+<h2>On the friends who did stay</h2>
+<p>Notice them. The silence gets all the attention because it is loud, but the people who kept checking in, awkwardly and imperfectly, are the ones to keep close. Tell them it mattered. Most of them have no idea they were doing anything unusual.</p>
+<h2>The silence is not forever</h2>
+<p>This phase passes. New people arrive, and some of them come through grief itself. Old friendships change shape and sometimes survive in a quieter form. The loneliness you feel now is real, but it is not a forecast. It does not tell you what your life will hold.</p>
+<h2>FAQ</h2>
+<p><strong>How long does this phase last?</strong> There is no fixed length. For some people it is months, for others a few years. The friends who stay tend to come back after the first quiet stretch, not during it.</p>
+<p><strong>Is it wrong to reach out first?</strong> No. Most people are relieved, not burdened. Being honest about what you need is a kind of strength, and it gives them something they can actually do.</p>
+<p><strong>What if it feels like no one cares?</strong> That feeling is worth taking seriously instead of arguing with. A support group or a counselor can hold the part friends cannot, and neither is a last resort.</p>
+<p>If you want a place to put the things you would say if someone asked, StillHere is built for that. stillherememory.com is quiet, private, and open whenever the silence gets loud.</p>`,
+      faq: [
+            {
+                  "q": "How long does this phase last?",
+                  "a": "There is no fixed length. For some people it is months, for others a few years. The friends who stay tend to come back after the first quiet stretch, not during it."
+            },
+            {
+                  "q": "Is it wrong to reach out first?",
+                  "a": "No. Most people are relieved, not burdened. Being honest about what you need is a kind of strength, and it gives them something they can actually do."
+            },
+            {
+                  "q": "What if it feels like no one cares?",
+                  "a": "That feeling is worth taking seriously instead of arguing with. A support group or a counselor can hold the part friends cannot, and neither is a last resort."
+            }
+      ],
+    },
+    zh: {
+      title: '当朋友不再问你近况',
+      excerpt: '头几周消息不断，之后慢慢就没人问了，那种安静容易被听成被遗忘。这篇讲清朋友为什么会退后、你可以做什么，以及这段沉默为什么不会一直持续。',
+      body: `<h2>问候慢慢停了，没人提醒过你会这样</h2>
+<p>失去之后会来一种孤独，它有时间表。头几周，消息是不断的。有人送饭，有人打电话，有人愿意来陪你坐一会。然后电话变短，消息变成点赞，某一天，就再也没人问了。这很正常。可它照样扎人。</p>
+<p>知道这是怎么回事，并不能让疼消失，但能把它从「针对我」变成「就是这样」。沉默很少是关于你的。</p>
+<h2>朋友为什么会退后</h2>
+<p>通常不是他们不在乎了，而是他们不知道该说什么。悲伤让人不自在，不自在让人变得谨慎，谨慎最后变成了沉默。他们怕说错话，于是干脆不说，而不说的样子，看起来和不在乎一模一样。</p>
+<p>底下还有一个时间差的问题。你的悲伤不会在对方的注意力用完时结束。多数人能撑住几周的陪伴，而失去要持续几年。</p>
+<h2>你可以做什么</h2>
+<p>你不必等人先开口。</p>
+<ul>
+<li><strong>主动联系。</strong>等着别人来开头，是最容易让自己觉得被忘掉的方式。先发那条消息不是失败，是维护。</li>
+<li><strong>把需求说具体。</strong>「我们能聊十分钟吗」比「我需要支持」好回答得多。抽象的需求会让人卡住，具体的请求大多数人都能接。</li>
+<li><strong>容许朋友做得不好。</strong>一个说错话却留下来的人，胜过一个把话说得漂亮、只出现一次就消失的人。</li>
+<li><strong>找到你的人。</strong>不是每个人都能成为你的支持系统，这不是对友情的判决。有些朋友是陪你过平常日子的。支持小组、咨询师，或者一个同样走过这段路的人，能接住一整圈人都接不住的部分。</li>
+</ul>
+<h2>也看看留下来的人</h2>
+<p>留意他们。沉默因为响，抢走了全部注意力；但那些笨拙地、不完美地继续问你近况的人，才是该留在身边的人。告诉他们这对你有用。他们往往并不知道自己做了什么特别的事。</p>
+<h2>沉默不是永恒的</h2>
+<p>这个阶段会过去。新的人会出现，其中一些正是通过悲伤认识的。旧的友谊会换一种形状，有时会以更安静的方式活下来。你现在感到的孤独是真的，但它不是预言，它不告诉你往后的生活会装下什么。</p>
+<h2>常见问题</h2>
+<p><strong>这个阶段会持续多久？</strong>没有固定时长。有人几个月，有人几年。留下来的那些人，往往是在头一段安静过去之后才回来，而不是在安静里。</p>
+<p><strong>主动联系是不是不好？</strong>不是。多数人是松了口气，不是被添了负担。把自己的需要说实话，是一种力量，也给了他们一件真的能做的事。</p>
+<p><strong>如果感觉没人在乎怎么办？</strong>这种感觉值得认真对待，而不是跟它讲道理。支持小组或咨询师能接住朋友接不住的那部分，他们都不是最后的退路。</p>
+<p>如果你想找一个地方，放下那些「如果有人问，你会说」的话，StillHere 就是为此做的。stillherememory.com 很安静，很私密，在沉默变得很响的时候，随时都在。</p>`,
+      faq: [
+            {
+                  "q": "这个阶段会持续多久？",
+                  "a": "没有固定时长。有人几个月，有人几年。留下来的那些人，往往是在头一段安静过去之后才回来，而不是在安静里。"
+            },
+            {
+                  "q": "主动联系是不是不好？",
+                  "a": "不是。多数人是松了口气，不是被添了负担。把自己的需要说实话，是一种力量，也给了他们一件真的能做的事。"
+            },
+            {
+                  "q": "如果感觉没人在乎怎么办？",
+                  "a": "这种感觉值得认真对待，而不是跟它讲道理。支持小组或咨询师能接住朋友接不住的那部分，他们都不是最后的退路。"
+            }
+      ],
+    },
+  },
+  {
+    slug: 'relief-that-comes-with-remembering',
+    date: '2026-09-10',
+    en: {
+      title: 'The relief that comes with remembering',
+      excerpt: 'Memory feels like something you hold on to, but remembering is often what lets you let go. Here is the difference between remembering and rumination, and a small practice for the harder days.',
+      body: `<h2>Remembering is not the same as holding on</h2>
+<p>We tend to think of memory as something we grip, something to keep tightening so nothing slips out. Sometimes the opposite is true. Remembering is what lets us let go.</p>
+<h2>The paradox of grief memory</h2>
+<p>When someone dies, everyone says to remember them. But remembering hurts. Every photo, every voice memo, every shared joke can work as a trigger, and the first months make memory feel like a series of small ambushes.</p>
+<p>There is another side to it. When you remember someone who is gone, you are not only feeling the loss. You are confirming that they mattered, and that confirmation is where the relief lives. They existed. They were loved. That love did not leave when they did.</p>
+<h2>Why remembering brings relief</h2>
+<ul>
+<li><strong>The connection persists.</strong> Remembering keeps the relationship alive in the only form it can take now.</li>
+<li><strong>The meaning is preserved.</strong> Their story does not get erased, and you are the one keeping it.</li>
+<li><strong>Love has no expiry.</strong> What you felt together is still valid, even when there is nowhere new to put it.</li>
+<li><strong>You are not the only one.</strong> Other people remember them too, and that shared memory is a kind of company.</li>
+</ul>
+<h2>Remembering versus rumination</h2>
+<p>The two can feel identical from the inside, and they lead in opposite directions.</p>
+<ul>
+<li><strong>Remembering:</strong> "I remember when we..." It brings warmth, gratitude, and something like peace.</li>
+<li><strong>Rumination:</strong> "Why did they leave?" It brings anxiety, regret, and a loop that never closes.</li>
+</ul>
+<p>The difference is intention. One is a visit. The other is an interrogation. You can choose to remember with love instead of questioning the past for an answer it will not give.</p>
+<h2>A simple practice</h2>
+<p>When the weight of the loss comes back, try this.</p>
+<ol>
+<li>Close your eyes.</li>
+<li>Recall one specific moment with them, not the whole story, just one moment.</li>
+<li>Feel whatever comes without pushing it away.</li>
+<li>Say thank you, out loud or inside.</li>
+<li>Let the memory stay with you for a moment before you move on.</li>
+</ol>
+<p>This is not about moving on. It is about carrying forward, which is a different motion and a kinder one. There is more on that in <a href="/blog/keep-them-by-remembering">keeping them by remembering</a>.</p>
+<h2>FAQ</h2>
+<p><strong>Does remembering ever stop hurting?</strong> The first seconds usually stay sharp. What changes is what you do with them and how quickly you come back.</p>
+<p><strong>How do I know if I am remembering or ruminating?</strong> Check where it leaves you. Warmth and gratitude mean you are visiting. Anxiety and a closed loop mean you are interrogating.</p>
+<p><strong>What if no memory comes?</strong> Try a smaller door: a smell, a song, a meal they liked. Memory often arrives sideways.</p>
+<p>If you want somewhere to keep the memories that matter, Still Here is built for exactly that. stillherememory.com is a quiet place to write what you remember, whenever it arrives. There are more reflections on the <a href="/blog">blog</a>, and gentler guidance in the <a href="/guides">guides</a>.</p>`,
+      faq: [
+            {
+                  "q": "Does remembering ever stop hurting?",
+                  "a": "The first seconds usually stay sharp. What changes is what you do with them and how quickly you come back."
+            },
+            {
+                  "q": "How do I know if I am remembering or ruminating?",
+                  "a": "Check where it leaves you. Warmth and gratitude mean you are visiting. Anxiety and a closed loop mean you are interrogating."
+            },
+            {
+                  "q": "What if no memory comes?",
+                  "a": "Try a smaller door: a smell, a song, a meal they liked. Memory often arrives sideways."
+            }
+      ],
+    },
+    zh: {
+      title: '记得，带来的那口气松下来',
+      excerpt: '记忆总像是要紧紧抓住的东西，但有时记住正是让你放下的方式。这篇讲清记住和反刍的区别，也给一个难熬时可以做的练习。',
+      body: `<h2>记住，不等于攥住不放</h2>
+<p>我们习惯把记忆想成一种攥紧的动作，越攥越用力，好让什么也别漏出去。有时恰好相反。记住，正是让我们放下的方式。</p>
+<h2>悲伤记忆的悖论</h2>
+<p>当某人去世时，所有人都在说要「记住他们」。但记住会疼。每张照片、每条语音、每个共同的玩笑都可能成为触发器，头几个月里，记忆像一连串小小的伏击。</p>
+<p>它还有另一面。当你记住一个已经离开的人，你不只是在感受失去，你是在确认他们曾经重要。那口气之所以能松下来，就来自这份确认。他们存在过，他们被爱过，那份爱没有随他们一起走。</p>
+<h2>为什么记住会带来那一口气</h2>
+<ul>
+<li><strong>连接还在。</strong>记住让这段关系以它现在唯一能有的形式继续活着。</li>
+<li><strong>意义被保住了。</strong>他们的故事没有被抹去，而留住它的人是你。</li>
+<li><strong>爱没有有效期。</strong>你们一起感受过的，仍然是有效的，哪怕已经没有新的地方安放它。</li>
+<li><strong>你不是唯一记得的人。</strong>还有别人也记得他们，这份共同的记忆本身就是一种陪伴。</li>
+</ul>
+<h2>记住与反刍的区别</h2>
+<p>这两件事从里面感受起来几乎一样，方向却完全相反。</p>
+<ul>
+<li><strong>记住：</strong>「我记得那时我们……」带来温暖、感激，和一种近似平静的东西。</li>
+<li><strong>反刍：</strong>「他们为什么离开？」带来焦虑、遗憾，和一个永远合不上的循环。</li>
+</ul>
+<p>区别在意图。一个是探访，一个是审讯。你可以选择带着爱去记住，而不是反复审问过去，逼它给出一个它给不了的答案。</p>
+<h2>一个简单的练习</h2>
+<p>当失去的重量又压回来时，试试这个。</p>
+<ol>
+<li>闭上眼睛。</li>
+<li>想起与他们有关的一个具体瞬间，不用整段故事，只要一个瞬间。</li>
+<li>感受随之而来的情绪，不要把它推开。</li>
+<li>说一声谢谢，出声或在心里都可以。</li>
+<li>让这个记忆陪你待一会，再继续往前走。</li>
+</ol>
+<p>这不是关于放下，而是关于带着往前走，这是另一个方向的动作，也更温和一些。这一点在<a href="/blog/keep-them-by-remembering">用记忆留住他们</a>里讲得更细。</p>
+<h2>常见问题</h2>
+<p><strong>记住会有一天不再疼吗？</strong>开头那几秒通常会一直是锐的。变的是你拿这几秒做什么，以及你多快能回来。</p>
+<p><strong>怎么知道自己是在记住还是反刍？</strong>看它把你留在哪里。温暖和感激，说明你在探访；焦虑和一个合不上的循环，说明你在审讯。</p>
+<p><strong>如果一个记忆都想不起来怎么办？</strong>换一扇小一点的门：一种气味、一首歌、一道他们爱吃的菜。记忆常常是从侧面来的。</p>
+<p>如果你想找一个地方，安放那些要紧的记忆，Still Here 就是为此做的。stillherememory.com 是一个安静的地方，随时可以写下你记得的东西，无论它什么时候回来。更多这样的记录在<a href="/blog">博客</a>，更轻的指引在<a href="/guides">指南</a>里。</p>`,
+      faq: [
+            {
+                  "q": "记住会有一天不再疼吗？",
+                  "a": "开头那几秒通常会一直是锐的。变的是你拿这几秒做什么，以及你多快能回来。"
+            },
+            {
+                  "q": "怎么知道自己是在记住还是反刍？",
+                  "a": "看它把你留在哪里。温暖和感激，说明你在探访；焦虑和一个合不上的循环，说明你在审讯。"
+            },
+            {
+                  "q": "如果一个记忆都想不起来怎么办？",
+                  "a": "换一扇小一点的门：一种气味、一首歌、一道他们爱吃的菜。记忆常常是从侧面来的。"
+            }
+      ],
+    },
+  },
 ];
 export function getPostBySlug(slug: string): BlogPost | undefined {
   return BLOG_POSTS.find((p) => p.slug === slug);
