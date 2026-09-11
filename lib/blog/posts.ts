@@ -1725,8 +1725,83 @@ en: {
         { q: '多年以后还能跟他们说话吗？', a: '当然。说话、写字，或者只是和记忆坐一会儿，都是让这段关系仍在的方式。StillHere 给这份想念一个私密而安稳的所在。' },
       ]
     }
-  }
-
+  },
+  {
+    slug: 'guilt-about-moving-on',
+    date: '2026-09-11',
+    en: {
+      title: 'Guilt About Moving On: Why It Shows Up and What to Do With It',
+      excerpt: 'Moving on is not forgetting. Here is why guilt shows up exactly when life starts to feel lighter, and three things that actually help.',
+      body: `<p>There is a specific kind of guilt that shows up not when you are stuck in grief, but when you start to move. You laugh at something and then feel bad. You have a good week and then feel like you have betrayed someone.</p>
+<p>It helps to name what is actually happening. Moving on is not forgetting. It is not ranking the person lower. It is your life reorganising itself around a loss that does not go away — and that reorganisation feels like a betrayal only because love was the thing holding you still.</p>
+<h3>Where the guilt actually comes from</h3>
+<p>Most of it is a mistaken equation: rest = loyalty, movement = leaving. Grief taught you that staying close to the pain was a way of staying close to them. So any ease feels like distance.</p>
+<p>The second source is simpler and harder to admit: other people are watching. If you are the one who is still sad, moving on means giving up a role that has become part of how you are seen.</p>
+<h3>What moving on is not</h3>
+<p>It is not a deadline. It is not closure, which is a word borrowed from paperwork and does not describe how this works. It is not a single decision you make once.</p>
+<h3>Three things that actually help</h3>
+<p><strong>Give the guilt a name when it arrives.</strong> Not "I feel awful" but "this is the loyalty reflex". Naming it turns a flood into a signal you can look at.</p>
+<p><strong>Keep a deliberate thread.</strong> A ritual, a date, a photo that stays up. When you know the connection has a place, moving forward stops feeling like abandoning it.</p>
+<p><strong>Write to them, not about them.</strong> Speaking directly, in the present tense, keeps the relationship in your life instead of in your past.</p>
+<h3>If someone you love is the one moving</h3>
+<p>Do not tell them it is time. Tell them you are glad to see them laugh. That sentence does more than any timeline.</p>
+<h3>FAQ</h3>
+<p><strong>Does moving on mean the grief is over?</strong> No. It means the grief has stopped being the only thing your days are built around.</p>
+<p><strong>Why does a good day feel worse than a bad one?</strong> Because a bad day matches the grief. A good day breaks the pattern, and the break itself is what startles you.</p>
+<p><strong>Is it disloyal to feel happy again?</strong> The people who loved you would not have wanted your happiness to end at the same time as theirs.</p>
+<p>If you want somewhere to keep writing to them, Still Here is built for exactly that — a quiet place to say the things you never got to finish.</p>`,
+      faq: [
+            {
+                  "q": "Does moving on mean the grief is over?",
+                  "a": "No. It means the grief has stopped being the only thing your days are built around."
+            },
+            {
+                  "q": "Why does a good day feel worse than a bad one?",
+                  "a": "Because a bad day matches the grief. A good day breaks the pattern, and the break itself is what startles you."
+            },
+            {
+                  "q": "Is it disloyal to feel happy again?",
+                  "a": "The people who loved you would not have wanted your happiness to end at the same time as theirs."
+            }
+      ],
+    },
+    zh: {
+      title: '向前走，却感到内疚',
+      excerpt: '往前走不是遗忘。这篇讲清为什么内疚偏偏在你开始轻松时出现，以及真正有用的三件事。',
+      body: `<p>有一种内疚，不是你卡在悲伤里的时候出现的，而是你开始往前走的时候出现的。你笑了一下，然后觉得不该笑。你这周过得不错，然后觉得自己像是背叛了谁。</p>
+<p>先把它说清楚。往前走不是遗忘，也不是把那个人在心里的位置往后排。它只是你的生活开始围绕一个不会消失的失去重新排列——而这个过程之所以像背叛，只是因为爱曾经是让你停在原地的那个东西。</p>
+<h3>内疚到底从哪来</h3>
+<p>大部分来自一个错误的等式：停在原地等于忠诚，往前等于离开。悲伤教会你，靠近疼痛就是靠近对方。所以任何一点轻松，都会被读成距离。</p>
+<p>第二个来源更简单也更难承认：有人在看着你。如果你是那个一直很伤心的人，往前走意味着放弃一个已经变成你标签的角色。</p>
+<h3>往前走不是什么</h3>
+<p>不是一个截止日期。不是释怀——那是从公文里借来的词，描述不了这件事。也不是你只做一次就完的决定。</p>
+<h3>真正有用的三件事</h3>
+<p><strong>给内疚起个名字。</strong>不是「我很难受」，而是「这是忠诚反射」。命名能把一股洪水变成你能看清楚的一个信号。</p>
+<p><strong>留一条刻意的线。</strong>一个仪式、一个日子、一张一直摆着的照片。当你知道这段连接有地方安放，往前走就不再像是抛下它。</p>
+<p><strong>写给ta，而不是写ta。</strong>用现在时直接说，能让这段关系留在你的生活里，而不是关在过去。</p>
+<h3>如果是你爱的人正在往前走</h3>
+<p>别告诉ta该走出来了。告诉ta，看到ta笑你很高兴。这一句比任何时间表都有用。</p>
+<h3>常见问题</h3>
+<p><strong>往前走意味着悲伤结束了吗？</strong>没有。它意味着悲伤不再是你每一天唯一围着转的东西。</p>
+<p><strong>为什么好日子比坏日子更难受？</strong>因为坏日子和悲伤是匹配的。好日子打破了那个模式，而打破本身才让你惊到。</p>
+<p><strong>重新感到快乐是背叛吗？</strong>爱你的人，不会希望你的快乐和他们一起结束。</p>
+<p>如果你想找个地方一直写给ta，Still Here 就是为此做的——一个安静的地方，说那些你没能说完的话。</p>`,
+      faq: [
+            {
+                  "q": "往前走意味着悲伤结束了吗？",
+                  "a": "没有。它意味着悲伤不再是你每一天唯一围着转的东西。"
+            },
+            {
+                  "q": "为什么好日子比坏日子更难受？",
+                  "a": "因为坏日子和悲伤是匹配的。好日子打破了那个模式，而打破本身才让你惊到。"
+            },
+            {
+                  "q": "重新感到快乐是背叛吗？",
+                  "a": "爱你的人，不会希望你的快乐和他们一起结束。"
+            }
+      ],
+    },
+  },
 ];
 export function getPostBySlug(slug: string): BlogPost | undefined {
   return BLOG_POSTS.find((p) => p.slug === slug);
