@@ -1802,6 +1802,108 @@ en: {
       ],
     },
   },
+  {
+    slug: 'music-and-memory',
+    date: '2026-09-12',
+    en: {
+      title: 'Music and memory: why a song undoes you',
+      excerpt: 'A song triggers grief memory faster than a photograph. Here is why sound ambushes you, what to do when it lands, and why letting it finish helps.',
+      body: `<p>A song triggers grief memory faster than a photograph, and it never asks first. You are in a supermarket, or a car, or a waiting room. Three notes land and a whole year rewrites itself. There is a reason sound ambushes you this way and pictures do not, and knowing the reason takes some of the jolt out of the next time it happens.</p>
+<h3>Why sound reaches memory first</h3>
+<p>Smell and sound sit closest to the part of the brain where emotion and memory meet. Sound arrives there without passing through the language centres that would let you argue with it. A photograph makes you think. A song makes you remember before you have decided to.</p>
+<p>It is why a person can lose the ability to recognise a face and still light up at a melody. The memory was never kept in the picture. It was kept in the feeling that came with it, and the melody goes straight to the feeling.</p>
+<h3>Why it is the song and not the words</h3>
+<p>If the lyrics were the trigger, you could brace yourself by reading them. Usually the words are not what gets you. It is the interval, the tempo, the exact texture of that recording. A cover of the same song can leave you untouched while the original flattens you, because the version itself is part of the memory.</p>
+<h3>What the body does before the mind catches up</h3>
+<p>The body reacts first. Your throat tightens, your eyes sting, your breathing changes, and only afterwards do you find words for what just happened. That order is normal. It is not a sign that you are worse at this than you should be. It is simply the shape of how memory works.</p>
+<h3>Things that help when a song lands</h3>
+<ul>
+<li><strong>Let it finish.</strong> Skipping the song does not delete the memory. It teaches you that the song is dangerous, and that makes the next meeting harder.</li>
+<li><strong>Name the year, not the loss.</strong> "This is 2019" is easier to stand inside than "this is everything I have lost".</li>
+<li><strong>Put it somewhere.</strong> A playlist for them, played on purpose, turns an ambush into a visit.</li>
+<li><strong>Tell someone the song.</strong> Saying it out loud moves it from a private jolt to a shared fact.</li>
+</ul>
+<h3>If you are the one whose song it is</h3>
+<p>When someone you love is undone by a song, do not reach for the skip button on their behalf. Sit with them through the chorus. If you want to say something afterwards, "I am glad you still have that" lands better than "are you okay".</p>
+<p>Songs also arrive at midnight, the way they do in <a href="/blog/the-people-who-come-at-midnight">the people who come at midnight</a>. The hour and the music work on the same part of you.</p>
+<h3>The song does not fade, and that is allowed</h3>
+<p>People often wait for the day the song stops hurting, and read it as failure when it does not. The song is doing its job. It is holding something that mattered enough to be held. You are not trying to make the music neutral. You are learning to stand in it without being knocked over, and that is a skill you build by practice, not by waiting.</p>
+<p>There are longer notes on grief and what it does to a day on the <a href="/blog">blog</a>.</p>
+<h3>FAQ</h3>
+<p><strong>Why does a song hit harder than a photo?</strong> Because sound reaches the emotional part of memory without passing through the thinking part first. There is nothing to argue with on the way in.</p>
+<p><strong>Should I avoid the song?</strong> Avoidance makes it louder over time. Letting it play, on purpose, turns a trap into a place you can visit.</p>
+<p><strong>Will it always hurt like this?</strong> The first seconds usually stay sharp. What changes is what you do with them, and how quickly you come back.</p>
+<p><strong>Can I use music to remember on purpose?</strong> Yes. A playlist played on a birthday or an anniversary gives the memory a time and a place instead of letting it surprise you.</p>
+<p>If you want somewhere to keep the song and the person together, Still Here is built for exactly that. stillherememory.com is a quiet place to write what the music brought back, whenever it arrives.</p>`,
+      faq: [
+            {
+                  "q": "Why does a song hit harder than a photo?",
+                  "a": "Because sound reaches the emotional part of memory without passing through the thinking part first. There is nothing to argue with on the way in."
+            },
+            {
+                  "q": "Should I avoid the song?",
+                  "a": "Avoidance makes it louder over time. Letting it play, on purpose, turns a trap into a place you can visit."
+            },
+            {
+                  "q": "Will it always hurt like this?",
+                  "a": "The first seconds usually stay sharp. What changes is what you do with them, and how quickly you come back."
+            },
+            {
+                  "q": "Can I use music to remember on purpose?",
+                  "a": "Yes. A playlist played on a birthday or an anniversary gives the memory a time and a place instead of letting it surprise you."
+            }
+      ],
+    },
+    zh: {
+      title: '音乐与记忆：为什么一首歌就把你击垮',
+      excerpt: '一首歌比一张照片更快唤回关于失去的记忆。这篇讲清声音为什么能偷袭你、被击中时可以做什么，以及为什么让它放完反而更好。',
+      body: `<p>一首歌比一张照片更快唤回关于失去的记忆，而且从不提前问你。你在超市、在车里、在候诊室，三个音落下，整整一年就在脑子里重新排了一遍。声音能这样偷袭你、照片却做不到，是有原因的；知道这个原因，下一次被击中时会稍微好受一点。</p>
+<h3>为什么声音先到记忆</h3>
+<p>嗅觉和听觉离情绪与记忆交汇的那块脑区最近。声音到那里时，不必先经过语言中枢，所以你没法在半路上跟它讲道理。照片让你先想，歌让你还没决定要记得，就已经记得了。</p>
+<p>所以一个人可能已经认不出熟悉的脸，却仍会在一段旋律里亮起来。记忆从来不在那张照片里，而在照片带来的感觉里，旋律走的是直达感觉的那条路。</p>
+<h3>为什么是这首歌，而不是歌词</h3>
+<p>如果触发点是歌词，你读一遍就能先给自己打个底。但真正击垮你的，通常不是词。是那个音程、那个速度、那个录音独有的质感。同一首歌的翻唱可能对你毫无作用，原版却让你塌下去，因为版本本身就是记忆的一部分。</p>
+<h3>身体总比脑子先反应</h3>
+<p>先是身体。喉咙发紧，眼睛发热，呼吸变了，然后你才找到词去说刚才发生了什么。这个顺序很正常。它不代表你处理得不好，它就是记忆本来的运作方式。</p>
+<h3>被一首歌击中时可以做的几件事</h3>
+<ul>
+<li><strong>让它放完。</strong>跳过这首歌并不会删掉记忆。它只会教你「这首歌很危险」，于是下一次更难面对。</li>
+<li><strong>说出年份，而不是失去。</strong>「这是 2019 年」比「这是我失去的一切」更容易站得住。</li>
+<li><strong>给它一个位置。</strong>为他们建一个歌单，主动去听，把偷袭变成探访。</li>
+<li><strong>把这首歌告诉一个人。</strong>说出来，它就从一个私人的刺痛，变成一件被分享的事实。</li>
+</ul>
+<h3>如果你爱的人正被这首歌击中</h3>
+<p>当你在意的人被一首歌击垮，别替ta按下跳过。陪ta把副歌唱完。事后想说点什么的话，「你还留着这个，我很高兴」比「你还好吗」更接得住人。</p>
+<p>歌也常在半夜来，就像<a href="/blog/the-people-who-come-at-midnight">那些在午夜到来的人</a>里写的那样。那个钟点和音乐，作用在你身上的是同一块地方。</p>
+<h3>这首歌不会变淡，这也没关系</h3>
+<p>很多人等着某天这首歌不再让人难受，真到那天没来，就以为自己失败。这首歌只是在干活，它托着一件值得被托住的事。你要做的不是让音乐变得中性，而是学会站在里面不被打倒，而这是一件练出来的事，不是等出来的事。</p>
+<p>关于失去，以及它如何改变一整天，<a href="/blog">博客</a>里还有更多这样的记录。</p>
+<h3>常见问题</h3>
+<p><strong>为什么一首歌比一张照片更狠？</strong>因为声音先到情绪，再到思考。进门的路上没有东西可以跟你讲道理。</p>
+<p><strong>要避开这首歌吗？</strong>回避只会让它越来越响。主动让它放完，才能把陷阱变成一个可以去的地方。</p>
+<p><strong>会一直这么疼吗？</strong>开头那几秒通常一直是锐的。变的是你拿这几秒做什么，以及你多快能回来。</p>
+<p><strong>可以用音乐主动去记起吗？</strong>可以。在生日或纪念日主动放一份歌单，等于给这段记忆一个时间和地点，而不是让它突然扑上来。</p>
+<p>如果你想找一个地方，把这首歌和这个人放在一起，Still Here 就是为此做的。stillherememory.com 是一个安静的地方，随时可以写下音乐带回来的东西。</p>`,
+      faq: [
+            {
+                  "q": "为什么一首歌比一张照片更狠？",
+                  "a": "因为声音先到情绪，再到思考。进门的路上没有东西可以跟你讲道理。"
+            },
+            {
+                  "q": "要避开这首歌吗？",
+                  "a": "回避只会让它越来越响。主动让它放完，才能把陷阱变成一个可以去的地方。"
+            },
+            {
+                  "q": "会一直这么疼吗？",
+                  "a": "开头那几秒通常一直是锐的。变的是你拿这几秒做什么，以及你多快能回来。"
+            },
+            {
+                  "q": "可以用音乐主动去记起吗？",
+                  "a": "可以。在生日或纪念日主动放一份歌单，等于给这段记忆一个时间和地点，而不是让它突然扑上来。"
+            }
+      ],
+    },
+  },
 ];
 export function getPostBySlug(slug: string): BlogPost | undefined {
   return BLOG_POSTS.find((p) => p.slug === slug);
