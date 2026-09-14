@@ -2140,6 +2140,48 @@ en: {
       ]
     }
   },
+{
+    "slug": "writing-quiet-therapy",
+    "date": "2026-09-13",
+    "en": {
+      "title": "Writing as a Quiet Form of Therapy",
+      "excerpt": "Writing will not make a loss smaller, but a short, regular practice can quiet the memory that keeps interrupting you. Here is how expressive writing actually works, and where it stops.",
+      "body": "<h2>Why writing works when talking does not</h2>\n<p>Some mornings the words will not come out loud. You open your mouth and the sentence collapses. That is one reason many grieving people find writing easier than talking. In the 1980s, James Pennebaker ran studies where people wrote about difficult experiences for short, structured sessions. He called the pattern expressive writing: pick a topic, write continuously for a set time, do not edit. The effects were modest but real in early studies.</p>\n<p>The honest caveat matters. Later work showed the benefits are not large and not guaranteed. Writing is not a cure, and it will not make a loss smaller. What it can do is change how often the memory interrupts you. When a moment with someone lives only in your head, it keeps asking to be replayed. Putting it on paper externalises it. The unsent letter and the Still Here recording practice are the same mechanism in two forms: you move a memory out of the loop in your mind and give it a place to sit.</p>\n<p>If you want to read more about how this fits with remembering rather than replacing, see <a href=\"/blog/its-not-them-and-ok\">our piece on what this practice is not</a>.</p>\n<h2>Writing to a person versus writing about one</h2>\n<p>There are two kinds of writing, and they feel different. Journaling for insight is writing about yourself: what you noticed, what you felt, what you are learning to carry. It is useful and it can be calm. Writing to someone is different. You address the person who died. You tell them what happened this week. You ask the question you never got to ask. This second kind is the one people describe as a conversation that finally had a place to go.</p>\n<p>You do not need to decide which is correct. Many people do both on different days. The point is to notice the difference, because writing to a person tends to surface the small specifics, the phrase they used, the thing you wish they had known, and those are what you will want later.</p>\n<h2>Fifteen minutes and a timer</h2>\n<p>Waiting until you feel like writing is a trap. Grief does not announce a convenient hour. A timer removes the decision. Set it for fifteen minutes. That is long enough to get past the first stiff sentences and short enough that it does not feel like a second job. When the timer ends, stop. You can always come back tomorrow. The constraint is the kindness: a fixed block means you are not deciding all day whether to start.</p>\n<p>If fifteen minutes feels like too much on a hard day, drop to eight. The length is less important than the regularity. A short page twice a week leaves more behind than one long page you never repeat.</p>\n<h2>One memory, not the whole story</h2>\n<p>It is tempting to write the whole relationship at once, from the beginning. That is also where people get stuck, because the whole story is too big to finish and too heavy to hold. Worse, retelling the same story over and over, especially on the anniversary of a death or a birthday, can deepen the rut instead of softening it. The mind rehearses the narrative and the sadness stays sharp.</p>\n<p>Try writing toward one specific memory instead. Not the life, just the afternoon you drove somewhere with them, or the way they made tea. A single clear scene is easier to write and easier to return to. Small and exact beats large and vague almost every time.</p>\n<h2>When the page is blank, or the day is hard</h2>\n<p>Some days you sit down and have nothing to say. Start from the senses. A scent in the kitchen, a meal they cooked, a phrase they used that you still hear. Write that one thing. It does not need to become a paragraph about loss. A single concrete detail is a valid page.</p>\n<p>On a bad day, watch for the moment writing turns into interrogation: when the questions stop being gentle and start demanding why, or when you are digging for a feeling to prove you cared enough. That is the signal to stop. Writing should not become a way to punish yourself. Close the page while it is still honest, not when it has turned cold.</p>\n<p>One more thing, and it is the part people skip. Re-reading later matters more than the writing in the moment. The page you write today is for the you in three months, or next year, who needs to be reminded that the person is still here in some form. Our <a href=\"/guides\">guides</a> walk through simple ways to keep these pages where you will actually find them.</p>\n<h2>FAQ</h2>\n<p><strong>Does writing really help, or is it just a distraction?</strong> The research suggests small, real effects for many people, not a dramatic one. Think of it as a quiet practice that lowers how often a memory interrupts you, not a treatment that removes the loss.</p>\n<p><strong>How often should I write?</strong> Two or three short sessions a week is enough for most people. A timer of fifteen minutes keeps it from becoming a chore you avoid.</p>\n<p><strong>What if I cannot finish what I am writing?</strong> Stop wherever you are. Leave the sentence mid-thought if you need to. The unfinished page is still a record, and you can return to it later or not at all.</p>",
+      "faq": [
+        {
+          "q": "Does writing really help, or is it just a distraction?",
+          "a": "The research suggests small, real effects for many people, not a dramatic one. Think of it as a quiet practice that lowers how often a memory interrupts you, not a treatment that removes the loss."
+        },
+        {
+          "q": "How often should I write?",
+          "a": "Two or three short sessions a week is enough for most people. A timer of fifteen minutes keeps it from becoming a chore you avoid."
+        },
+        {
+          "q": "What if I cannot finish what I am writing?",
+          "a": "Stop wherever you are. Leave the sentence mid-thought if you need to. The unfinished page is still a record, and you can return to it later or not at all."
+        }
+      ]
+    },
+    "zh": {
+      "title": "写作，作为一种安静的疗愈",
+      "excerpt": "写作不会让失去变小，但短而规律的书写，能让那个不断打断你的记忆安静下来。这里说说表达性写作到底怎样起作用，以及它的边界。",
+      "body": "<h2>为什么写作有时比说话更有效</h2>\n<p>有些早晨话到嘴边却说不出来，也是经历丧失的人更爱用写作的原因。彭尼贝克在八十年代让人做简短、有结构的书写，总结出表达性写作：选定话题，连续写一段固定时间，不修改。早期影响虽温和却真实。</p>\n<p>诚实说：后来研究发现好处不大，也不必然。写作不是解药，不会让失去变小，只能改变记忆打断的频率。写下来是外化，未寄出的信和 Still Here 的录音是同一机制。</p>\n<p>若想了解这与记得而非替代的关系，可读 <a href=\"/blog/its-not-them-and-ok\">我们谈这件事不是什么的那篇</a>。</p>\n<h2>写给一个人，和写关于一个人</h2>\n<p>写作有两种。为洞见的日记写给自己，平静也有用。写给某个人不同：你对着逝者说话，告诉他这周的事。第二种，是终于有了去处的对话。</p>\n<p>不必决定哪个才对。许多人不同日子两种都写。重点在觉察区别：写给一个人时，更容易浮现具体细节，他常说的那句话、你希望他知道的事，正是你日后想找回来的。</p>\n<h2>十五分钟，和一个计时器</h2>\n<p>等心情再写是陷阱。悲伤不会提前通知方便的钟点。计时器替你决定：设十五分钟，越过开头生硬几句。一响就停，明天再来。</p>\n<p>难熬的日子十五分钟太长就减到八分钟。长度不如规律。一周两页短的，胜过一页长从不重复。</p>\n<h2>写一个记忆，而不是整个故事</h2>\n<p>人总想一口气写完整段关系，这正是卡住处：故事太大写不完、太重抱不动。更麻烦的是把同一故事一遍遍重述，尤其在忌日或生日，反而把沟挖得更深，悲伤一直锋利。</p>\n<p>不如朝一个具体记忆写：某下午你和他开车去哪，或他泡茶的样子。清晰小场景更好写、更好回头读。</p>\n<h2>当空白摊在面前，或日子很难</h2>\n<p>有些日子坐下来无话可说。从感官开始：厨房的气味、他做过的菜，他常说你至今听见的那句话。就写这一件。一个具体细节，就是一页合格的纸。</p>\n<p>难熬的日子留意写作变成审问的那刻：问题不再温和，开始逼问为什么，或你为证明够在乎而挖感觉。那便是该停的信号。写作不该变惩罚自己。在还诚实时合上，而非等它变冷。</p>\n<p>常被跳过的一点：日后重读比当下写更重要。今天这页给三个月后或明年的你，那个仍要被提醒那人 still here 的你。我们的 <a href=\"/guides\">指南</a> 有简单方法，把纸页放在你真会翻到的地方。</p>\n<h2>常见问题</h2>\n<p><strong>写作真的有用吗，还是只是一种 distraction？</strong> 研究显示对许多人有微小真实影响，并非戏剧性。把它看作安静练习，降低记忆打断频率，而非消除失去的治疗。</p>\n<p><strong>我应该多久写一次？</strong> 对多数人一周两三次短书写足够。十五分钟计时器能防它变你总逃避的杂务。</p>\n<p><strong>如果写不完怎么办？</strong> 在任意处停下，需要就让句子停一半。没写完的纸仍是记录，可日后回来，也可不回。</p>",
+      "faq": [
+        {
+          "q": "写作真的有用吗，还是只是一种 distraction？",
+          "a": "研究显示对许多人有微小而真实的影响，并非戏剧性。把它看作安静的练习，降低记忆打断你的频率，而非消除失去的治疗。"
+        },
+        {
+          "q": "我应该多久写一次？",
+          "a": "对多数人，一周两三次短时间书写足够。十五分钟计时器能防止它变成你总逃避的杂务。"
+        },
+        {
+          "q": "如果写不完怎么办？",
+          "a": "在任意处停下，需要就让句子停一半。没写完的纸仍是记录，你可日后回来，也可不回。"
+        }
+      ]
+    }
+  },
 ];
 export function getPostBySlug(slug: string): BlogPost | undefined {
   return BLOG_POSTS.find((p) => p.slug === slug);
