@@ -2098,6 +2098,48 @@ en: {
       ],
     },
   },
+{
+    "slug": "supporting-a-grieving-friend",
+    "date": "2026-09-14",
+    "en": {
+      "title": "Supporting a Grieving Friend Without Words",
+      "excerpt": "When someone you love is grieving, the kindest thing is rarely a clever sentence. It is your steady presence and the small logistics you quietly remove.",
+      "body": "<p>When a friend loses someone they love, most of us freeze. We want to help but fear saying the wrong thing, so we stay silent or say too much. The useful part is almost never a clever sentence or a fix. It is your steady presence and the small logistics you quietly remove. Sitting with someone, even in silence, tells them they are not carrying this alone.</p><h2>The trap of \"let me know if you need anything\"</h2><p>This sentence sounds generous, and it is meant to be. But it hands the work back to the one person who has the least energy for it. A grieving person is already making hundreds of small decisions they did not ask for. Adding one more, the decision of what to ask for and from whom, is a burden dressed as an offer. If you want to help, decide something and name it. \"I am bringing dinner Thursday\" is worth more than ten open invitations.</p><h2>Ask a small question instead of \"how are you\"</h2><p>\"How are you\" is honest but hard to answer. The only truthful reply is enormous, and most people shrink it to \"fine\" because they do not want to manage your discomfort. Try a narrow, concrete question instead. \"Did you eat today.\" \"Can I take the dog out this afternoon.\" \"Do you want company at the appointment on Friday.\" Small questions are answerable. They let your friend stay in the present moment instead of performing for you.</p><h2>Offers that actually help</h2><p>The best offers are specific and low-commitment. They do not require the grieving person to plan, host, or reciprocate. A few that tend to land:</p><ul><li>Bring a meal that reheats, and leave it without needing to be thanked at length.</li><li>Take the dog out, or walk the kids to school, for one ordinary morning.</li><li>Sit in the same room and say nothing. Read, fold laundry, exist nearby.</li><li>Drive them to the appointment, the bank, or the place they keep avoiding.</li><li>Handle one phone call they have been dreading, if they trust you with it.</li></ul><p>None of these require the right words. They require you to show up and notice what is concrete.</p><h2>What each season asks of you</h2><p>The first two weeks are loud with casseroles and visitors. Help then by catching what others miss, the trash, the inbox, the sibling who needs a call. By month three the crowd is gone and the second wave arrives. This is when grief gets quiet and heavy, and when your steady Tuesday text means the most. At the one-year mark, the world assumes they are fine. Mark the date. Send the message. Say the name. The anniversary is rarely easy, and being remembered on it is a gift.</p><h2>What not to say, and what to say instead</h2><p>A few phrases close the door instead of opening it. \"They are in a better place\" answers a question no one asked. \"Everything happens for a reason\" turns pain into a lesson. \"At least you had time\" or \"at least it was quick\" measures a loss that should not be measured. \"I know how you feel\" swaps their grief for yours. Comparing losses ranks sorrow, and no one wins. If you are unsure, say so plainly. \"I don't know what to say, but I am here\" is enough, every time.</p><h2>Staying close without burning out</h2><p>You cannot pour from an empty cup, and a friend who disappears from exhaustion helps no one. Choose one or two things you can sustain, not ten you will abandon. A standing walk, a recurring text, a monthly visit. Tell yourself the goal is not to fix the grief but to be a calm reflection of the fact that your friend is still here, still loved, still remembered. That steadiness is the help. Look after your own rest so the friendship can last past the headlines and into the long middle, where the real support lives.</p><p>If you have already said the wrong thing, repair is simple and possible. Name it briefly, without making them comfort you. \"I said something clumsy the other day and I'm sorry.\" Then return to showing up. Most grieving people are not keeping a scorecard of your words. They remember who stayed. For more on how quiet presence fits a remembering practice, see <a href=\"/blog/its-not-them-and-ok\">what this is not</a>, or browse <a href=\"/blog\">the blog</a> and <a href=\"/guides\">the guides</a>.</p><h2>FAQ</h2><p><strong>Q: What should I do in the first few days after a death.</strong> A: Take something concrete off their plate without being asked, a meal, a ride, a phone call, and resist the urge to explain the loss. Presence beats explanation.</p><p><strong>Q: Is it okay to talk about the person who died.</strong> A: Yes. Saying their name keeps them present in the room and shows you remember them too. Most people who are grieving want the person mentioned, not avoided.</p><p><strong>Q: How do I help a friend months later when others have moved on.</strong> A: Keep a small, steady rhythm. A text on a hard day, a walk, a note near the anniversary. The long middle is when quiet support matters most.</p>",
+      "faq": [
+        {
+          "q": "What should I do in the first few days after a death",
+          "a": "Take something concrete off their plate without being asked, a meal, a ride, a phone call, and resist the urge to explain the loss. Presence beats explanation."
+        },
+        {
+          "q": "Is it okay to talk about the person who died",
+          "a": "Yes. Saying their name keeps them present in the room and shows you remember them too. Most people who are grieving want the person mentioned, not avoided."
+        },
+        {
+          "q": "How do I help a friend months later when others have moved on",
+          "a": "Keep a small, steady rhythm. A text on a hard day, a walk, a note near the anniversary. The long middle is when quiet support matters most."
+        }
+      ]
+    },
+    "zh": {
+      "title": "陪一个悲伤的朋友，不靠语言",
+      "excerpt": "当朋友失去重要的人，我们常因怕说错话而长久地沉默，或反过来说得太多而让人更累。其实最温柔的帮助很少是一句聪明的话，也不是某个现成答案，而是你稳定的陪伴，以及你悄悄替他卸下的那些具体琐事——一顿能热好的饭、遛一次狗、一趟顺路的车、一个他一直不想拨的电话。",
+      "body": "<p>朋友失去重要的人，多数人都会僵住。我们想帮忙，又怕说错话，于是沉默或说得太满。其实真正有用的很少是一句话或办法，而是你稳定的陪伴，以及你悄悄替他卸下的具体琐事。</p><h2>“有事随时找我”是一个温柔的陷阱</h2><p>这句话把力气交回最没力气的人手里。正在悲伤的人已在应付无数没主动要过的小决定，“该向谁开口”是额外负担。想帮就替他定一件事：“我周四带晚饭过来”比十句邀请实在。</p><h2>问一个小问题，而不是“你最近还好吗”</h2><p>“你最近还好吗”难答，多数人缩成“还行”。换成窄而具体的问题：“你今天吃饭了吗”“下午我帮你遛狗行吗”“周五预约陪你去吗”。小问题可答，让他留在当下。</p><h2>真正帮得上忙的，是具体的事</h2><p>最好的帮忙都具体、几乎不要求回报：带能热好的饭放下就走；遛一次狗；同屋坐着什么都不说；开车送他去预约或银行；替他拨一个拖延的电话。它们不需要你说对话，只需你出现。</p><h2>不同的阶段，需要不同的你</h2><p>头两周热闹，你补别人忽略的垃圾、邮箱。第三个月人群散了，你每周二的信息最值钱。到一年，世界当他“好了”，替他记住日子、叫出名字，被记得是礼物。</p><h2>别说这些，改说这些</h2><p>“他在更好的地方了”答了没人问的问题。“一切都是最好的安排”把痛变道理。“至少……”在称量失去。“我懂你的感受”把他的悲伤换成你的。不确定就老实说：“我不知说什么，但我在。”</p><h2>靠近，但不把自己烧干</h2><p>空杯倒不出水。选一两件能长期坚持的事，固定的散步、信息或每月探望。你不必治好悲伤，只需做一面安静的镜子，照出“他还在、仍被爱、仍被记得”。照顾好自己，让友情走进很长的中间。</p><p>若已说错话，修补很简单：简短认一下，别让他反过来安慰你，“前几天我说了句笨拙的话，抱歉”，然后继续出现。多数人不记你的话的账，只记得谁留了下来。延伸阅读：<a href=\"/blog/its-not-them-and-ok\">这篇“它不是什么”</a>、<a href=\"/blog\">博客</a>、<a href=\"/guides\">指南</a>。</p><h2>常见问题</h2><p><strong>问：头几天我该做什么。</strong> 答：不请自来替他卸下一件具体事——一顿饭、一趟车、一个电话，忍住解释失去的冲动。陪伴胜过解释。</p><p><strong>问：能提起离开的人吗。</strong> 答：能。叫出名字让他留在屋里，也说明你记得他。多数想被提起，而非被避开。</p><p><strong>问：几个月后别人走开了，怎么帮。</strong> 答：保持小而稳的节奏，难日发信息、散步、临近纪念日写纸条。安静陪伴最要紧。</p>",
+      "faq": [
+        {
+          "q": "刚失去亲人的头几天，我该做什么",
+          "a": "不请自来替他卸下一件具体的事——一顿饭、一趟车、一个电话，并且忍住想去解释这份失去的冲动。陪伴胜过解释。"
+        },
+        {
+          "q": "可以提起那个离开的人吗",
+          "a": "可以。叫出他的名字，让他留在房间里，也说明你同样记得他。多数正在悲伤的人，想被提起，而不是被避开。"
+        },
+        {
+          "q": "几个月后别人都走开了，我该怎么帮",
+          "a": "保持一个小小的、稳定的节奏。难的那天发条信息，散个步，临近纪念日写张纸条。那段很长的中间，安静的陪伴最要紧。"
+        }
+      ]
+    }
+  },
 ];
 export function getPostBySlug(slug: string): BlogPost | undefined {
   return BLOG_POSTS.find((p) => p.slug === slug);
