@@ -2182,6 +2182,92 @@ en: {
       ]
     }
   },
+  {
+    slug: 'compounded-grief-when-loss-follows-loss',
+    date: '2026-09-15',
+    en: {
+      title: 'Stacking Grief: When Loss Follows Loss',
+      excerpt: 'A second loss does not arrive on rested ground. It lands on a person still carrying the first one, and that changes what support actually helps.',
+      body: `<h2>A second loss lands on tired ground</h2>
+<p>Most support written for grief assumes one loss with room around it. When a second loss arrives before the first has settled, the usual advice stops fitting. There is no rebuilt baseline to absorb it.</p>
+<p>People in this position often describe feeling like they have lost the ability to grieve properly, as if they are doing the first loss an injustice by not finishing it. That feeling is common and it is not a failure.</p>
+<h2>Why stacking is different</h2>
+<ul>
+<li>The first loss is still unfinished, so there is no rest between them.</li>
+<li>Support networks thin out after the first loss. The people who showed up then have often gone back to normal.</li>
+<li>Rituals repeat. A second funeral in a short span carries none of the structure the first one did.</li>
+<li>Anniversaries cluster, so certain months become heavy for more than one reason at once.</li>
+</ul>
+<h2>What helps, and what does not</h2>
+<p>The advice to take it one day at a time works less well here, because each day contains more than one loss. What tends to help is narrowing further rather than planning further.</p>
+<p>Practical things that people in this situation report as useful:</p>
+<ul>
+<li>Naming the losses separately when you talk about them, instead of referring to "everything".</li>
+<li>Letting the second loss be acknowledged on its own terms, even if the first one is louder.</li>
+<li>Keeping one small routine that belongs to neither loss, so the day has something in it that is not grief.</li>
+<li>Telling one or two people specifically what you need, rather than waiting to be asked.</li>
+</ul>
+<h2>On feeling numb</h2>
+<p>Numbness after a second loss is not coldness. It is often what a person looks like when the system is protecting itself. It also tends to lift slowly rather than all at once.</p>
+<p>If it does not lift, and especially if it comes with not eating, not sleeping, or not being able to work, that is a reason to talk to a professional. Nothing in this piece replaces that.</p>
+<h2>For the people around them</h2>
+<p>The most common mistake is assuming the second loss is easier because the person has practice. Grief does not work like a skill. It is usually harder, because the reserves are gone and the support has thinned.</p>
+<p>What helps is showing up without needing the loss explained. Saying the name of the person who died. Doing something concrete instead of asking what to do.</p>
+<h2>FAQ</h2>
+<ul>
+<li><strong>Does a second loss reopen the first?</strong> It often does. That is not regression. The two losses become linked in memory, which is normal.</li>
+<li><strong>Is it wrong to grieve one more than the other?</strong> No. Different relationships carry different weight, and unequal grief is not a ranking of love.</li>
+<li><strong>How long should this take?</strong> There is no schedule. What matters more is whether the intensity is slowly easing, not whether a date has passed.</li>
+</ul>
+<p>If you want to write about both losses in one place, StillHere keeps a quiet space for that. Start on the <a href="/">home page</a>, and read more reflections on the <a href="/blog">blog</a>.</p>`,
+      faq: [
+        { q: 'Does a second loss reopen the first?', a: 'It often does. That is not regression. The two losses become linked in memory, which is normal.' },
+        { q: 'Is it wrong to grieve one more than the other?', a: 'No. Different relationships carry different weight, and unequal grief is not a ranking of love.' },
+        { q: 'How long should this take?', a: 'There is no schedule. What matters more is whether the intensity is slowly easing, not whether a date has passed.' },
+      ],
+    },
+    zh: {
+      title: '悲伤叠加：当失去接二连三',
+      excerpt: '第二次失去不是在休息好的土地上发生的。它落在还在背负第一次失去的人身上，这改变了什么样的支持真正有用。',
+      body: `<h2>第二次失去，落在疲惫的土地上</h2>
+<p>大多数关于悲伤的文字都假设只有一次失去，而且周围还有余地。当第二次失去在第一次还没落定之前到来，那些惯常建议就不适用了，因为没有一个重建好的基准去承受它。</p>
+<p>处在这个位置的人常说，自己好像失去了正常悲伤的能力，好像没能把第一次悲伤完成就是在亏欠它。这种感觉很常见，它不是失败。</p>
+<h2>为什么叠加起来不一样</h2>
+<ul>
+<li>第一次失去还没结束，两次之间没有休息。</li>
+<li>支持网络在第一次之后就变薄了。当时出现的人大多已经回到各自正常的生活。</li>
+<li>仪式重复。短时间内第二场告别，完全没有第一场那种结构感。</li>
+<li>纪念日扎堆。某些月份会因为不止一个原因同时变得沉重。</li>
+</ul>
+<h2>什么有用，什么没用</h2>
+<p>「一天一天来」在这里效果更差，因为每一天里都不止一件事。真正有帮助的往往是收得更窄，而不是把事情往前排。</p>
+<p>处在这个处境的人提到过有用的具体做法：</p>
+<ul>
+<li>谈起来的时候把两次失去分开说，不要笼统说成「所有事」。</li>
+<li>让第二次失去以它自己的分量被看见，哪怕第一次的声音更大。</li>
+<li>保留一件不属于任何一次失去的小习惯，让一天里有东西不是悲伤。</li>
+<li>直接告诉一两个人你需要什么，不要等着被问到。</li>
+</ul>
+<h2>关于麻木</h2>
+<p>第二次失去之后的麻木不是冷漠。它通常是一个人正在自我保护时的样子。它退去的方式也往往是缓慢的，不会一次消失。</p>
+<p>如果它一直不退，尤其伴随吃不下、睡不着、无法工作，那是一个去找专业人士谈一谈的理由。这篇文字不能替代那件事。</p>
+<h2>给身边的人</h2>
+<p>最常见的误解，是以为第二次会容易些，因为这个人已经练习过了。悲伤不是技能。第二次通常更难，因为储备已经用掉，支持也已经变薄。</p>
+<p>有用的是在不要求解释的情况下出现。说出那个离开的人的名字。做一件具体的事，而不是问该做什么。</p>
+<h2>常见问题</h2>
+<ul>
+<li><strong>第二次失去会重新撕开第一次吗？</strong> 经常会。这不是倒退。两次失去在记忆里被连在一起，是正常的。</li>
+<li><strong>悲伤程度不一样是错的吗？</strong> 不是。不同的关系分量不同，悲伤有轻重不代表爱有排序。</li>
+<li><strong>这个过程要多久？</strong> 没有时间表。更值得看的是强度是否在缓慢下降，而不是某个日期有没有过去。</li>
+</ul>
+<p>如果你想给两次失去留一个共同的位置，StillHere 提供了一个安静的空间。从<a href="/">首页</a>开始，也可以到<a href="/blog">博客</a>读更多文字。</p>`,
+      faq: [
+        { q: '第二次失去会重新撕开第一次吗？', a: '经常会。这不是倒退。两次失去在记忆里被连在一起，是正常的。' },
+        { q: '悲伤程度不一样是错的吗？', a: '不是。不同的关系分量不同，悲伤有轻重不代表爱有排序。' },
+        { q: '这个过程要多久？', a: '没有时间表。更值得看的是强度是否在缓慢下降，而不是某个日期有没有过去。' },
+      ],
+    },
+  },
 ];
 export function getPostBySlug(slug: string): BlogPost | undefined {
   return BLOG_POSTS.find((p) => p.slug === slug);
