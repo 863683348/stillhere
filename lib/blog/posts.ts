@@ -2268,6 +2268,69 @@ en: {
       ],
     },
   },
+  {
+    slug: 'e2e-encryption-explained',
+    date: '2026-09-17',
+    en: {
+      title: 'End-to-End Encryption, Explained Simply',
+      excerpt: 'End-to-end encryption means only you and the person you are writing to can read what is stored. Not the company, not an employee, not a subpoena against the server. Here is how it works and what it does and does not cover.',
+      body: `<p>End-to-end encryption is easier to grasp than its name suggests. It means the data leaves your device already scrambled, and only the intended recipient holds the key to unscramble it. The company running the service stores the scrambled version. Even if someone copies the whole database, they get ciphertext, not your words.</p>
+<h2>What it actually protects</h2>
+<p>It protects the content of the messages and notes: what you wrote, to whom, in what words. It does not protect the fact that you sent something, or when, or how often. Metadata is usually visible to the provider. That distinction matters when people promise you total privacy.</p>
+<h2>How the keys work</h2>
+<p>Your device creates a pair of keys: a public one that others can use to encrypt to you, and a private one that never leaves your device. When you write a note, it is encrypted with a key only you hold. When you share with someone, their public key encrypts it for them. The server passes the ciphertext around; it never has the private keys.</p>
+<h2>What end-to-end does not cover</h2>
+<ul>
+<li><strong>Device compromise:</strong> if someone has your unlocked phone, encryption does not help. The data is decrypted on your device by design.</li>
+<li><strong>Metadata:</strong> who you communicate with and when can still be recorded.</li>
+<li><strong>Forgotten keys:</strong> if you lose the private key and there is no recovery, the data is gone. That is the trade-off for provider-side secrecy.</li>
+<li><strong>What you type into other apps:</strong> encryption only covers the app that uses it.</li>
+</ul>
+<h2>Why this matters for private journaling</h2>
+<p>For a private memory space, end-to-end encryption changes the threat model. The provider cannot read the entries, sell them, or hand them over on request. The remaining risks are on your side of the screen: device access and key loss. A service that is honest about both gives you a realistic picture instead of a slogan.</p>
+<h2>FAQ</h2>
+<ul>
+<li><strong>Can the company read my journal if it is end-to-end encrypted?</strong> No. It only holds the encrypted version and has no key to decrypt it.</li>
+<li><strong>What happens if I lose my device?</strong> Without a recovery key, the journal stays encrypted and cannot be restored. Keep the recovery key somewhere safe.</li>
+<li><strong>Does end-to-end encryption stop someone with my password?</strong> No. Whoever can unlock your device or session sees the plaintext. Treat the device as part of the secret.</li>
+</ul>
+<p>StillHere stores your reflections encrypted end to end, and the key stays on your device. Start on the <a href="/">home page</a>, or read more about privacy on the <a href="/blog">blog</a>.</p>`,
+      faq: [
+        { q: 'Can the company read my journal if it is end-to-end encrypted?', a: 'No. It only holds the encrypted version and has no key to decrypt it.' },
+        { q: 'What happens if I lose my device?', a: 'Without a recovery key, the journal stays encrypted and cannot be restored. Keep the recovery key somewhere safe.' },
+        { q: 'Does end-to-end encryption stop someone with my password?', a: 'No. Whoever can unlock your device or session sees the plaintext. Treat the device as part of the secret.' },
+      ],
+    },
+    zh: {
+      title: '端到端加密，通俗讲',
+      excerpt: '端到端加密的意思是，只有你和对方能读到存储的内容。公司读不到、员工读不到、针对服务器调证也拿不到。这篇讲它怎么工作，以及它管不到什么。',
+      body: `<h2>端到端加密保护的是什么</h2>
+<p>它保护的是内容的本身：你写了什么、写给谁、用的什么词。它不保护「你发过一条消息」这个事实，也不保护发送时间和频率。这些元数据通常对服务商可见。别人把「完全隐私」挂在嘴边时，这个区别值得记住。</p>
+<h2>密钥是怎么运作的</h2>
+<p>你的设备会生成一对密钥：公钥给别人用来加密发给你，私钥永远留在你的设备上。写一条笔记时，它用只有你持有的密钥加密。要分享给某人时，对方的公钥负责加密。服务器只负责传递密文，它从来拿不到私钥。</p>
+<h2>端到端加密管不到什么</h2>
+<ul>
+<li><strong>设备被入侵：</strong>如果有人拿到你已解锁的手机，加密帮不上忙。数据在你的设备上本来就是明文，这是设计使然。</li>
+<li><strong>元数据：</strong>你和谁通信、什么时候通信，仍然可能被记录。</li>
+<li><strong>忘记密钥：</strong>私钥丢失且没有恢复手段时，数据就没了。这是「服务商也读不到」的代价。</li>
+<li><strong>你在其他 App 里输入的内容：</strong>加密只覆盖使用它的那个应用。</li>
+</ul>
+<h2>为什么这对私密记录很重要</h2>
+<p>对一个私密记忆空间来说，端到端加密改变了威胁模型。服务商读不到内容，不能出售，也不能应要求交出。剩下的风险在屏幕这一侧：设备访问和密钥丢失。把这两点讲清楚的服务，给的是现实而非口号。</p>
+<h2>常见问题</h2>
+<ul>
+<li><strong>端到端加密后，公司还能读我的日记吗？</strong> 不能。它只持有加密版本，没有解密的密钥。</li>
+<li><strong>设备丢了怎么办？</strong> 没有恢复密钥的话，日记保持加密状态，无法找回。请把恢复密钥放在安全的地方。</li>
+<li><strong>端到端加密挡得住知道我密码的人吗？</strong> 挡不住。能解锁设备或会话的人看到的就是明文。设备本身要当作秘密的一部分。</li>
+</ul>
+<p>StillHere 用端到端加密保存你的记录，密钥留在你的设备上。从<a href="/">首页</a>开始，或在<a href="/blog">博客</a>读更多关于隐私的文字。</p>`,
+      faq: [
+        { q: '端到端加密后，公司还能读我的日记吗？', a: '不能。它只持有加密版本，没有解密的密钥。' },
+        { q: '设备丢了怎么办？', a: '没有恢复密钥的话，日记保持加密状态，无法找回。请把恢复密钥放在安全的地方。' },
+        { q: '端到端加密挡得住知道我密码的人吗？', a: '挡不住。能解锁设备或会话的人看到的就是明文。设备本身要当作秘密的一部分。' },
+      ],
+    },
+  },
 ];
 export function getPostBySlug(slug: string): BlogPost | undefined {
   return BLOG_POSTS.find((p) => p.slug === slug);
