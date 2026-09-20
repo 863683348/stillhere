@@ -2331,6 +2331,34 @@ en: {
       ],
     },
   },
+  {
+    slug: 'gdpr-and-your-right-to-your-data',
+    date: '2026-09-21',
+    en: {
+      title: 'GDPR and your right to your data',
+      excerpt:
+        'The GDPR gives you specific, enforceable rights over your own data — including a right to be forgotten. Here is what those rights actually cover, and what they do not.',
+      body: `<h2>What the GDPR actually gives you</h2><p>The General Data Protection Regulation is often described as a privacy law. More precisely, it is a set of rights you can exercise against anyone holding your data in the EU. There are eight of them, and most people use three.</p><h2>The rights that matter most</h2><ul><li><strong>Access.</strong> You can ask what data a company holds about you and get a copy. They have one month to respond.</li><li><strong>Erasure.</strong> Often called the right to be forgotten. It is not absolute — it does not override legal obligations to keep records.</li><li><strong>Portability.</strong> You can request your data in a machine-readable format and take it elsewhere.</li><li><strong>Rectification.</strong> If something is wrong, you can have it corrected.</li><li><strong>Objection.</strong> You can object to processing based on legitimate interest, including some profiling.</li></ul><h2>What the right to be forgotten does not cover</h2><p>Erasure requests fail more often than people expect, and usually for good reasons. A bank has to keep transaction records. A hospital has to keep clinical notes. A company may keep a record that you were a customer if it needs it to defend a legal claim.</p><p>The right applies to data that no longer has a lawful basis to be held. It is not a switch that deletes your history everywhere.</p><h2>How to actually make a request</h2><p>Write to the company's data protection contact, state which right you are exercising, and be specific about what you want. You do not need a template or a lawyer for access, rectification, or erasure requests.</p><p>Keep a copy of the request and the date. If a month passes with no substantive response, you can escalate to your national data protection authority.</p><h2>Why this matters for what you write and store</h2><p>If you write letters, journals, or memories into a hosted service, those are personal data about you, and the same rights apply. It is worth knowing which jurisdiction the service sits in and what its deletion process actually does.</p><p>For anything you would not want adjudicated by a support ticket, local-first storage is the simpler answer. See <a href='/blog/e2e-encryption-explained'>how end-to-end encryption works</a> for the version of this that does not depend on anyone's policy.</p><h2>FAQ</h2><ul><li><strong>Can I be charged for an access request?</strong> Usually no. A fee is only allowed for manifestly unfounded or excessive requests.</li><li><strong>Does the GDPR apply outside the EU?</strong> It applies to companies processing data of people in the EU, wherever the company is based.</li><li><strong>Is deletion permanent?</strong> Not always. Companies may retain data in backups for a period, and legal retention rules can override erasure.</li></ul>`,
+      faq: [
+        { q: 'Can a company charge me for a data access request?', a: 'Generally no. A reasonable fee is only permitted for requests that are manifestly unfounded or excessive, which usually means repeated or clearly abusive ones.' },
+        { q: 'Does the right to be forgotten delete everything?', a: 'No. It removes data that no longer has a lawful basis to be held. Legal retention obligations, such as financial or medical records, override erasure requests.' },
+        { q: 'How long does a company have to respond?', a: 'One month from receiving the request, extendable by two further months for complex requests, and you must be told if an extension is used.' },
+        { q: 'Do I need a lawyer to make a request?', a: 'No. Access, rectification, erasure and portability requests can be made directly to the organisation by email or through their data protection contact.' },
+      ],
+    },
+    zh: {
+      title: 'GDPR，与你的数据权利',
+      excerpt:
+        'GDPR 赋予你对个人数据的具体、可执行的权利，包括被遗忘权。这篇讲清这些权利实际覆盖什么，以及不覆盖什么。',
+      body: `<h2>GDPR 到底给了你什么</h2><p>《通用数据保护条例》常被说成一部隐私法。更准确的说法是：它给了你一组可以针对数据持有者行使的权利。一共八项，多数人真正会用到的只有三项。</p><h2>最常用的几项权利</h2><ul><li><strong>访问权。</strong>你可以询问一家公司持有哪些关于你的数据，并索取副本。对方须在一个月内答复。</li><li><strong>删除权。</strong>常被称为被遗忘权。它不是绝对的，不能压倒保留记录的法定要求。</li><li><strong>可携带权。</strong>你可以要求以机器可读格式拿到自己的数据，并带到别处。</li><li><strong>更正权。</strong>数据有误，你可以要求更正。</li><li><strong>反对权。</strong>你可以反对基于正当利益的处理，包括某些画像分析。</li></ul><h2>被遗忘权不覆盖什么</h2><p>删除请求失败的概率比多数人预想的高，而且往往有正当理由。银行必须保留交易记录，医院必须保留临床记录，公司为了应对潜在法律主张也可能保留你的客户记录。</p><p>这项权利针对的是已经失去合法依据的数据，不是一个能在所有地方抹掉你痕迹的开关。</p><h2>怎么真正提出请求</h2><p>写信给该公司的数据保护联系人，说明你要行使哪项权利，并具体说明你要什么。访问、更正、删除这三类请求不需要模板，也不需要律师。</p><p>保留请求内容和日期。一个月过去仍无实质答复，可以向本国的数据保护机构投诉升级。</p><h2>为什么这关系到你写下的东西</h2><p>如果你把信件、日记或纪念内容写进托管服务，那些同样是关于你的个人数据，同样适用上述权利。值得先弄清服务在哪个司法辖区、它的删除流程实际做了什么。</p><p>对于任何你不想拿客服工单来裁决的内容，本地优先存储是更简单的答案。不依赖任何一方政策的那套做法，见<a href='/blog/e2e-encryption-explained'>端到端加密是怎么工作的</a>。</p><h2>常见问题</h2><ul><li><strong>访问请求会被收费吗？</strong>通常不会。只有在请求明显无理或过度时才允许收费。</li><li><strong>GDPR 在欧盟以外适用吗？</strong>只要处理的是欧盟境内个人的数据，公司注册在哪里都适用。</li><li><strong>删除是永久的吗？</strong>不一定。公司可能在备份中保留一段时间，法定留存要求也可能压过删除权。</li></ul>`,
+      faq: [
+        { q: '数据访问请求会被收费吗？', a: '一般不会。只有在请求明显无理或明显过度，比如反复提交或明显滥用时，才允许收取合理费用。' },
+        { q: '被遗忘权会删除一切吗？', a: '不会。它删除的是已经失去合法依据的数据。财务、医疗等法定留存义务会压过删除请求。' },
+        { q: '公司需要多久答复？', a: '收到请求起一个月，复杂请求可再延长两个月，且必须告知你已延长。' },
+        { q: '提请求需要律师吗？', a: '不需要。访问、更正、删除、可携带这几类请求，直接发邮件给机构或其数据保护联系人就够了。' },
+      ],
+    },
+  },
 ];
 export function getPostBySlug(slug: string): BlogPost | undefined {
   return BLOG_POSTS.find((p) => p.slug === slug);
