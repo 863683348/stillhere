@@ -2359,6 +2359,100 @@ en: {
       ],
     },
   },
+  {
+    slug: 'stillhere-vs-chatgpt-grief',
+    date: '2026-10-02',
+    en: {
+      title: 'StillHere vs ChatGPT for grief: what each one is actually for',
+      excerpt:
+        'A general chatbot is awake at 3 a.m. and answers in complete sentences. StillHere keeps what you write about one person, in one place. Here is an honest side-by-side.',
+      body: `<h2>Why the 3 a.m. conversation happens at all</h2>
+<p>Grief does not follow office hours. The stretch between two and four in the morning is when a lot of people reach for a text box, because no friend is awake and the quiet is loud. A chatbot answers immediately, never sighs, and never asks whether you are still sad about that. That immediacy is real help. Plenty of people describe the first few months as a period where they needed somewhere to put sentences that felt unacceptable out loud.</p>
+<h2>What a general chatbot is good at</h2>
+<p>A general model is broad. It can explain what acute grief does to sleep, draft a message to a coworker, reword a difficult email, or help you decide whether to attend an event. It is good at the language tasks around a loss, not at the loss itself. It can suggest grounding exercises and offer plain facts about what bereavement does to concentration and appetite.</p>
+<p>The limit shows up over time. A general chat session does not know who you are writing about unless you retell it every time. Threads scroll away. There is no structure that says this is the person, these are the stories, this is the tone I want back. You get fluent answers and no continuity.</p>
+<h2>What a grief-specific space does differently</h2>
+<p>StillHere starts from the person rather than the question. You build a small space around one of them: photos, voice, the phrases they actually used, the things they always said at dinner. Later reflections come back in that register and reference those details. The point is not to stage a conversation with them. It is to keep the texture of a specific person from flattening into generic comfort language.</p>
+<p>The second difference is tone control. You decide whether reflections come back factual and restrained, or warm and conversational. A general model picks a register for you, usually one that sounds like customer support with better grammar.</p>
+<h2>Side-by-side comparison</h2>
+<table>
+<thead><tr><th></th><th>General chatbot</th><th>StillHere</th></tr></thead>
+<tbody>
+<tr><td>Availability</td><td>Any hour, any device</td><td>Any hour, any device</td></tr>
+<tr><td>Knows who you mean</td><td>No, unless retold each session</td><td>Yes, the space is built around one person</td></tr>
+<tr><td>Where your words go</td><td>Account history tied to a model provider</td><td>Kept for you, exportable, not used to train</td></tr>
+<tr><td>Tone</td><td>Default assistant voice</td><td>Set by you, adjustable later</td></tr>
+<tr><td>Structure over time</td><td>Long scroll of threads</td><td>One record of memories and reflections</td></tr>
+<tr><td>Good for</td><td>Language tasks, facts, drafting</td><td>Remembering, revisiting, keeping</td></tr>
+</tbody>
+</table>
+<h2>Where your words end up</h2>
+<p>This is the part most people skip. Writing about a death inside a general chat product means the text sits in an account owned by a model company, subject to that company's retention and review policies. That may be fine for drafting an email. It is a different question for the letter you wrote to your father on the anniversary, or the note you left yourself about the last conversation you had.</p>
+<p>If you would not want a stranger reading it, put it somewhere you control. Anything you write here stays yours and can be exported at any time.</p>
+<h2>Using both, on purpose</h2>
+<p>They are not competitors. A general chatbot is a good tool for the practical debris that follows a death: wording for paperwork, explaining an absence to a landlord, understanding a line in a medical report. This is for the part that is not a task, the part where you are keeping someone rather than solving something. Many people do both in the same week without any conflict.</p>
+<h2>Common questions</h2>
+<ul>
+<li><strong>Can a general chatbot help with grief?</strong> It can help with the language and logistics around grief. It is not a therapist and it does not know the person you lost. Use it for sentences, not for the relationship.</li>
+<li><strong>Is this a replacement for counseling?</strong> No. It is a place to keep memories and read reflections back. If grief is interfering with sleep, work, or your ability to eat for weeks at a time, a bereavement counselor is the right call.</li>
+<li><strong>Will my writing be used to train a model?</strong> Not here. What you write stays yours and is exportable. That is the reason the product is shaped this way.</li>
+<li><strong>What if I already wrote a lot in a chat window?</strong> Copy it over. Most people start by pasting the parts they reread, then add photos and voice later. You do not have to move everything at once.</li>
+</ul>
+<h2>Where to start</h2>
+<p>If you want a place that keeps what you write about one person and hands it back in their register, start at stillherememory.com. A capsule takes about five minutes to set up, and you add to it when you feel like it rather than on a schedule. Two pieces that pair with this one: <a href='/blog/its-not-them-and-ok'>It is not them, and that is ok</a>, on why a reflection sometimes sounds off, and <a href='/blog/your-words-are-not-training-data'>Your words are not training data</a>, on what happens to what you write.</p>`,
+      faq: [
+        { q: 'Can a general chatbot help with grief?', a: 'It can help with the language and logistics around grief. It is not a therapist and it does not know the person you lost. Use it for sentences, not for the relationship.' },
+        { q: 'Is StillHere a replacement for counseling?', a: 'No. It is a place to keep memories and read reflections back. If grief is interfering with sleep, work, or your ability to eat for weeks at a time, a bereavement counselor is the right call.' },
+        { q: 'Will my writing be used to train a model?', a: 'Not here. What you write stays yours and is exportable. That is the reason the product is shaped this way.' },
+        { q: 'What if I already wrote a lot in a chat window?', a: 'Copy it over. Most people start by pasting the parts they reread, then add photos and voice later. You do not have to move everything at once.' },
+      ],
+    },
+    zh: {
+      title: '疗愈这件事，我们和 ChatGPT 的不同',
+      excerpt:
+        '通用聊天机器人凌晨三点也醒着，回答永远是一段完整的句子。StillHere 做的另一件事，是把你关于某个人的文字留在属于你的地方。这里是一份说实话的对照。',
+      body: `<h2>凌晨三点为什么会想找人说话</h2>
+<p>悲伤不按上下班时间走。凌晨两点到四点，是很多人伸手去够一个输入框的时段，朋友都睡了，安静得有点吵。聊天机器人立刻回应，不会叹气，也不会问「都这么久了你还在难过吗」。这种即时性是真的有用。很多人回忆最初几个月，都说自己需要某个地方，放那些说不出口的句子。</p>
+<h2>通用聊天机器人擅长什么</h2>
+<p>通用模型覆盖面广。它能解释丧亲期为什么睡不好，帮你起草给同事的消息，把一封难写的邮件改写得体，也能陪你想清楚某个聚会到底去不去。它擅长的是围绕这场失去的语言任务，而不是这场失去本身。它还能给你一些平复情绪的方法，也能说清丧亲对注意力和食欲的影响。</p>
+<p>时间一长，边界就出来了。通用会话不知道你在写谁，除非你每次重新讲一遍。对话流一直往下滚。没有一个结构会说这是那个人、这些是故事、这是我想要的语气。你得到的是流利的回答，和一段没有延续的关系。</p>
+<h2>专注哀伤的产品哪里不一样</h2>
+<p>StillHere 从「人」出发，而不是从「问题」出发。你围绕一个人搭一个小空间：照片、声音、他真会说的那些口头禅、他吃饭时总挂在嘴边的那几句。之后的回想会带着这个语气回来，也会提到这些细节。目的不是模拟一场对话，而是让一个具体的人不被压平成通用的安慰话术。</p>
+<p>第二个差别是语气可控。你可以选择回来的是克制、偏事实的写法，还是更亲近、更像聊天的写法。通用模型会替你定调，通常是一种语法更好的客服腔。</p>
+<h2>逐项对照</h2>
+<table>
+<thead><tr><th></th><th>通用聊天机器人</th><th>StillHere</th></tr></thead>
+<tbody>
+<tr><td>可用时间</td><td>随时、任意设备</td><td>随时、任意设备</td></tr>
+<tr><td>知道你在说谁</td><td>不知道，每次要重讲</td><td>知道，空间就是围绕那个人建的</td></tr>
+<tr><td>文字去哪了</td><td>存在模型厂商账户里</td><td>归你所有，可导出，不用于训练</td></tr>
+<tr><td>语气</td><td>默认助手腔</td><td>你自己设定，之后还能调</td></tr>
+<tr><td>长期结构</td><td>一长串对话流</td><td>一份围绕回忆的记录</td></tr>
+<tr><td>适合</td><td>语言任务、查事实、起草</td><td>记住、回访、留存</td></tr>
+</tbody>
+</table>
+<h2>你写的那些字最后去哪</h2>
+<p>这一段最容易被跳过。在一个通用聊天产品里写死亡，文字会落在一家模型公司的账户里，受它的留存与审核规则约束。起草一封邮件，这也许无所谓；但你在周年写给父亲的那封信，或者你留给自己的、关于最后一次通话的备忘，就是另一回事了。</p>
+<p>如果你不想让陌生人读到，就放在自己掌控的地方。在这里写的任何内容都归你，随时可以导出。</p>
+<h2>有意识地两个都用</h2>
+<p>它们不是竞争关系。通用聊天机器人很适合处理死亡之后那堆实务：文件措辞、跟房东解释请假、看懂报告里的医学词。StillHere 负责不成为任务的那一半，也就是你在留住一个人，而不是在解决一件事的那部分。很多人同一周里两个都用，没有任何冲突。</p>
+<h2>常见问题</h2>
+<ul>
+<li><strong>通用聊天机器人能帮上哀伤吗？</strong>它能帮上围绕哀伤的语言和事务，但它不是心理咨询，也不认识你失去的那个人。用它处理句子，别用它处理关系。</li>
+<li><strong>StillHere 能替代心理咨询吗？</strong>不能。它是存放回忆、读回回想的地方。如果悲伤连续几周影响睡眠、工作或进食，该找的是哀伤辅导。</li>
+<li><strong>我写的东西会拿去训练模型吗？</strong>这里不会。你写的归你，可导出。产品做成这样，原因就是这个。</li>
+<li><strong>我已经在聊天窗口里写了很多，怎么办？</strong>搬过来。多数人先粘贴自己反复重读的那几段，之后再补照片和声音。不用一次搬完。</li>
+</ul>
+<h2>从哪里开始</h2>
+<p>如果你想找一个地方，留住关于某个人的文字，并让它带着那个人的语气回来，可以从 stillherememory.com 开始。五分钟左右就能建好一个记忆胶囊，之后想加就加，不用排日程。配合这篇一起看的两篇：<a href='/blog/its-not-them-and-ok'>它不是他，这没关系</a>，讲为什么会想偶尔听起来不对；<a href='/blog/your-words-are-not-training-data'>你写的字不是训练数据</a>，讲你写下的东西最后去了哪里。</p>`,
+      faq: [
+        { q: '通用聊天机器人能帮上哀伤吗？', a: '它能帮上围绕哀伤的语言和事务，但它不是心理咨询，也不认识你失去的那个人。用它处理句子，别用它处理关系。' },
+        { q: 'StillHere 能替代心理咨询吗？', a: '不能。它是存放回忆、读回回想的地方。如果悲伤连续几周影响睡眠、工作或进食，该找的是哀伤辅导。' },
+        { q: '我写的东西会拿去训练模型吗？', a: '这里不会。你写的归你，可导出。产品做成这样，原因就是这个。' },
+        { q: '我已经在聊天窗口里写了很多，怎么办？', a: '搬过来。多数人先粘贴自己反复重读的那几段，之后再补照片和声音。不用一次搬完。' },
+      ],
+    },
+  },
 ];
 export function getPostBySlug(slug: string): BlogPost | undefined {
   return BLOG_POSTS.find((p) => p.slug === slug);
