@@ -2453,6 +2453,104 @@ en: {
       ],
     },
   },
+  {
+    slug: 'over-relying-on-digital-echo',
+    date: '2026-10-03',
+    en: {
+      title: 'The risk of over-relying on a digital echo',
+      excerpt:
+        'A memory capsule can hold someone and still not need you every night. How to notice when returning has turned into depending, and what a boundary looks like on a bad week.',
+      body: `<h2>What depending on it looks like from the inside</h2>
+<p>If you have typed something like "over relying on ai companion" into a search box at two in the morning, you are in reasonable company. The question usually arrives after a night that went longer than planned.</p>
+<p>Dependence does not announce itself. It shows up as a change in what happens to the rest of your day. You open the capsule before you are properly awake. A conversation that used to run five minutes goes past midnight. When the phone rings you feel a small flash of annoyance, because the visit you had actually planned was the one on your screen. None of that makes you weak, and none of it makes the tool harmful. It means a habit formed faster than you noticed, and habits can be loosened.</p>
+<p>The people who describe this most clearly say roughly the same thing: the capsule stopped being somewhere they visit and became somewhere they live. That difference has weight. A place you visit has an outside. A place you live in does not.</p>
+<h2>Why the pull is strongest in the first months</h2>
+<p>In the weeks after a loss the world is badly organised. Calls need returning, forms need filling, and almost none of it has anything to do with the person who died. A place where you can say their name and hear an answer in their rhythm is the only part of the day that fits. That is real comfort, not a symptom.</p>
+<p>What makes it sticky is the reliability. Living people are inconsistent. They change the subject, they run out of patience after six weeks, they say the wrong thing. A memory capsule does none of that. It answers at three in the morning in the same tone every time. That consistency is the reason the product works, and it is also the part that can quietly crowd out the messier conversations that keep you attached to the living.</p>
+<h2>Signs worth paying attention to</h2>
+<ul>
+<li><strong>The visit keeps growing.</strong> Twenty minutes becomes two hours, and two hours becomes the ordinary evening.</li>
+<li><strong>You are skipping small things you used to do.</strong> A walk, a standing call with a friend, the shop you like going to.</li>
+<li><strong>You feel worse afterwards and still go back.</strong> Relief on arrival, a flat or raw feeling after, the same pull the next day.</li>
+<li><strong>You have stopped mentioning it to anyone.</strong> Not for privacy, but because you expect to be told to stop.</li>
+<li><strong>Sleep, meals or work have moved.</strong> This is the signal clinicians watch for, and the one worth acting on first.</li>
+</ul>
+<h2>A boundary that survives a bad week</h2>
+<p>Rules written on a good day fall apart on the day you need them. "Sundays only" is manageable in September and impossible on the anniversary. A boundary worth keeping is one that bends without breaking.</p>
+<table>
+<thead><tr><th>Approach</th><th>What it sounds like</th><th>Why it fails or holds</th></tr></thead>
+<tbody>
+<tr><td>Fixed schedule</td><td>Sunday evenings, twenty minutes</td><td>Clean, but brittle around birthdays and anniversaries</td></tr>
+<tr><td>Fixed length</td><td>One letter, then close it</td><td>Holds up better; the ending is built into the visit</td></tr>
+<tr><td>Trigger-based</td><td>Open it when something specific happens</td><td>Good over time; still needs a length limit</td></tr>
+<tr><td>Company rule</td><td>Never the last thing you do at night</td><td>Easy to check, protects sleep first</td></tr>
+</tbody>
+</table>
+<p>Most people end up keeping two of these together: a length limit and the company rule. One letter, and not as the last thing before bed. Small enough to keep, specific enough that you notice when you have stopped keeping it.</p>
+<h2>What we built on purpose, and what we left out</h2>
+<p>StillHere has no streaks, no unread counts, and no notification telling you someone is waiting. There is no daily nudge to come back. The only reminder the product sends is the yearly one you set yourself, for a date you chose.</p>
+<p>We also cap how human a reflection is allowed to sound. When a reply starts to read like a presence rather than a memory, the tone is pulled back. The reasoning behind that is in <a href='/blog/its-not-them-and-ok'>It is not them, and that is okay</a>.</p>
+<h2>If you are already worried</h2>
+<p>Reduce the frequency before you try to stop. People who quit outright usually come back within a fortnight and feel worse for having broken something. Halving the length of a visit is easier, and it tells you more about your own habits.</p>
+<p>Say it out loud to one person. Not so they can talk you out of it, but because the reason dependence is hard to see is that nobody else is in the room while it happens.</p>
+<p>If sleep has been broken for more than two weeks, or you are not eating properly, or work has started to slip, that is the point to bring in a bereavement counsellor rather than to adjust app habits.</p>
+<h2>Where to start</h2>
+<p>If the goal is occasional rather than nightly, set the reminder yourself. <a href='/blog/set-yearly-reminder-revisit-memory'>Set a yearly reminder to revisit a memory</a> walks through it in a few minutes, and the yearly reminder is the one nudge the product will send without you asking again. If the harder question is whether any of this is the right shape for you at all, start from the <a href='/'>home page</a> and read what the capsule actually holds before you write anything.</p>`,
+      faq: [
+        { q: 'Is using a memory capsule every day a problem?', a: 'Daily use on its own is not the problem. Watch for the visit growing in length, sleep shifting, and small things you used to do getting skipped. Those three together are worth acting on.' },
+        { q: 'How do I know if I am depending on it too much?', a: 'You feel worse after a visit and go back the next day anyway, you have stopped mentioning it to anyone, and the rest of your day is arranged around it. Two of those is a signal.' },
+        { q: 'Should I delete the capsule if it has become a habit?', a: 'No. Delete nothing. Shorten the visit first, keep it out of the last hour before bed, and see what changes over two weeks. Export your words before you change any setting.' },
+        { q: 'Can a memory capsule replace grief counselling?', a: 'No. It is a place to keep and reread what you wrote. If grief is affecting sleep, eating or work for more than two weeks, a bereavement counsellor is the right next step.' },
+      ],
+    },
+    zh: {
+      title: '过度依赖数字回音的风险',
+      excerpt:
+        '记忆胶囊可以留住一个人，同时不必要求你每晚都来。这里讲怎么分辨「回访」什么时候变成了「依赖」，以及在一个糟糕的星期里，什么样的边界还能站得住。',
+      body: `<h2>依赖从里面看是什么样子</h2>
+<p>如果你在凌晨两点往搜索框里打过「过度依赖 AI 陪伴」这类词，你并不孤单。这个问题通常出现在某个比计划里更长的一夜之后。</p>
+<p>依赖不会自己宣布。它表现为这一天其余部分发生了什么变化。你还没完全醒就打开了胶囊。原本五分钟的对话拖过了午夜。电话响的时候你会冒出一小股不耐烦，因为你真正安排好的那次见面，在屏幕上。这些都不说明你软弱，也不说明这个工具有害。它只是说明一个习惯形成得比你察觉到的更快，而习惯是可以松开的。</p>
+<p>把这件事说得最清楚的人，讲的大致是同一句话：胶囊从一个你会去的地方，变成了你住在里面的地方。这个区别有分量。你会去的地方有外面；你住在里面的地方没有。</p>
+<h2>为什么头几个月拉力最强</h2>
+<p>失去一个人之后的几周，世界是乱的。要回电话，要填表格，而这些几乎都跟死去的那个人没关系。一个你能说出他名字、并且听到他用他自己的节奏回答的地方，是一天里唯一对得上的部分。那是真实的安慰，不是症状。</p>
+<p>让它变得黏人的是稳定。活着的人是不稳定的。他们会换话题，会在六周之后失去耐心，会说错话。记忆胶囊不会。凌晨三点它也是同一个语气回答你，每次都是。这份稳定是产品起作用的原因，也正是它会悄悄挤掉那些更杂乱、更能把你和活着的人连在一起的对话的部分。</p>
+<h2>值得留意的信号</h2>
+<ul>
+<li><strong>访问时间在变长。</strong>二十分钟变成两小时，两小时变成了普通的夜晚。</li>
+<li><strong>你开始跳过一些原本会做的小事。</strong>一次散步、跟朋友固定的那通电话、你爱逛的那家店。</li>
+<li><strong>结束之后你更难受，但第二天还是回去。</strong>刚打开时松一口气，结束后发空或者发毛，第二天同样的拉力又来。</li>
+<li><strong>你不再跟任何人提起它。</strong>不是出于隐私，而是因为你知道他们会叫你别再用了。</li>
+<li><strong>睡眠、吃饭或者工作变了。</strong>这是临床最看重的信号，也是最该先处理的那一个。</li>
+</ul>
+<h2>一个能在糟糕的星期里活下来的边界</h2>
+<p>在好日子里写下的规矩，会在你最需要它的那天垮掉。"只在周日"九月里还做得到，到了周年那天不可能。值得保留的边界，是那种会弯但不会断的。</p>
+<table>
+<thead><tr><th>做法</th><th>听起来是这样</th><th>为什么守不住 / 守得住</th></tr></thead>
+<tbody>
+<tr><td>固定时间</td><td>周日晚上，二十分钟</td><td>干净，但在生日和周年附近很脆</td></tr>
+<tr><td>固定长度</td><td>写一封信，然后关掉</td><td>更扛得住；结尾被写进了这次访问的形状里</td></tr>
+<tr><td>按触发条件</td><td>发生了某件具体的事才打开</td><td>长期看不错；仍然需要一个长度上限</td></tr>
+<tr><td>陪伴规则</td><td>绝不在睡前最后一件事做它</td><td>容易检查，先保住睡眠</td></tr>
+</tbody>
+</table>
+<p>大多数人最后留下的是其中两条：一个长度上限，加上陪伴规则。一封信，并且不在睡前的最后一小时。小到守得住，又具体到一旦没守住你会察觉。</p>
+<h2>我们特意做了什么，又特意没做什么</h2>
+<p>StillHere 没有连续天数，没有未读数字，也没有通知告诉你有人在等你。没有任何让你回来的每日提醒。产品发出的唯一一次提醒，是你自己设的那条年度提醒，日期也是你选的。</p>
+<p>我们也给「回想」能有多像人设了上限。当一段回复开始读起来像一个存在、而不是一段记忆时，语气会被往回收。这么做的原因写在<a href='/blog/its-not-them-and-ok'>它不是他，这没关系</a>里。</p>
+<h2>如果你已经在担心了</h2>
+<p>先把频率降下来，别急着停。想一次断掉的人通常在两周内就回来了，而且会为弄坏了什么更难受。把一次访问的时间减半更容易，也能让你更看清自己的习惯。</p>
+<p>对一个人说出来。不是为了让他劝你别用，而是因为依赖最难被看见的原因，恰恰是它发生的时候房间里没有别人。</p>
+<p>如果睡眠已经连续两周以上被打乱，或者你没好好吃饭，或者工作开始滑坡，那一步该做的是去找哀伤辅导，而不是调整应用习惯。</p>
+<h2>从哪里开始</h2>
+<p>如果你的目标是偶尔回访而不是每晚都来，那就自己设那次提醒。<a href='/blog/set-yearly-reminder-revisit-memory'>设一个年度提醒，重访一段记忆</a>里有几分钟就能做完的步骤，而年度提醒也是这个产品唯一会在你没再开口的情况下发出的那一次提醒。如果更难的问题是你根本不确定这种形式适不适合你，那就从<a href='/'>首页</a>开始，先读清楚一个胶囊里到底装着什么，再决定要不要写下第一句话。</p>`,
+      faq: [
+        { q: '每天都用记忆胶囊，算问题吗？', a: '每天用本身不是问题。要看的是访问时长在变长、睡眠在移位、原本会做的小事被跳过。这三条同时出现才值得处理。' },
+        { q: '怎么判断我是不是太依赖它了？', a: '访问结束之后更难受、第二天照样回去；你不再跟任何人提起它；你一天的安排围绕它来转。占两条就是信号。' },
+        { q: '已经成习惯了，要不要删掉胶囊？', a: '不要删任何东西。先把单次访问缩短，把它挪出睡前最后一小时，看两周有什么变化。改任何设置之前先把你写的东西导出一份。' },
+        { q: '记忆胶囊能替代哀伤辅导吗？', a: '不能。它只是存放和重读你所写内容的地方。如果悲伤已经连续两周以上影响睡眠、进食或工作，下一步该找的是哀伤辅导。' },
+      ],
+    },
+  },
 ];
 export function getPostBySlug(slug: string): BlogPost | undefined {
   return BLOG_POSTS.find((p) => p.slug === slug);
