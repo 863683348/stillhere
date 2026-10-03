@@ -2551,6 +2551,114 @@ en: {
       ],
     },
   },
+  {
+    slug: "digital-afterlife-ethics-we-follow",
+    date: "2026-10-04",
+    en: {
+      title: "Digital afterlife: the ethics we hold to",
+      excerpt: "A memory capsule is a small piece of digital afterlife, and that raises questions we would rather answer in public. Here are the limits we set for ourselves, and the ones we refused to cross.",
+      body: `<h2>Why this counts as an afterlife question</h2>
+<p>When people write about digital afterlife ethics they usually mean estate law, passwords, and what happens to a social account. A memory capsule is smaller than that and closer to home. You describe one person, and what comes back carries their phrasing and their rhythm. Two things make it sharper than a photo album: the reply arrives in sentences, and it arrives because you asked. Anything that answers in sentences gets treated as somebody, whether or not anyone meant it that way. That is person-shaped enough that ordinary software ethics do not quite cover it. So instead of a page of principles nobody reads, here is what we actually do, and the line where we stopped.</p>
+<h2>Four limits we hold to</h2>
+<p>These are not aspirations. Each one is a decision that cost us a feature.</p>
+<table>
+<thead><tr><th>Question</th><th>Our answer</th><th>What it rules out</th></tr></thead>
+<tbody>
+<tr><td>How close to their voice may a reflection sound?</td><td>Close, up to a ceiling</td><td>Nothing written as though they were in the room and answering</td></tr>
+<tr><td>Do your words train a model?</td><td>No</td><td>No training use, no resale, no ad targeting</td></tr>
+<tr><td>Who can read a capsule?</td><td>You, and people you invite</td><td>No staff browsing, no support access without your action</td></tr>
+<tr><td>What happens if you stop paying?</td><td>Capsules stay readable, and you can export</td><td>No hostage-taking, no silent deletion</td></tr>
+</tbody>
+</table>
+<p>The first row is the one people ask about most. A reflection shaped by your own words is allowed to sound like them. A reply written as though they were present and replying is not, and when a draft starts to read that way, the tone is pulled back before you ever see it.</p>
+<p>The third row is the one that decides whether any of this is safe to use at all. Nobody here reads a capsule in order to debug it. Support access happens only when you open it yourself, and the record of that stays with you rather than with us.</p>
+<h2>What we refused to build</h2>
+<ul>
+<li>Voice cloning from a short sample. A clip you upload stays a clip, and we do not synthesise a voice out of it.</li>
+<li>Predictions dressed as memory. Nothing here tells you what they would have said about a new job or a new partner.</li>
+<li>Public memorial profiles. A capsule is not a page for strangers to visit.</li>
+<li>Engagement mechanics. No streaks, no unread counts, no notification saying they are waiting.</li>
+</ul>
+<p>Every one of those would be straightforward to ship and would make the product look more capable. They also move the whole thing a step away from remembering and a step toward something we are not willing to be.</p>
+<h2>Who decides later</h2>
+<p>The difficult question is not what we allow today. It is who decides once you are gone. Our answer is that you decide, in the settings, and the default is the conservative one: if you have not named anyone, nothing is handed to anybody and the account closes quietly. We would rather lose a feature than guess at consent on your behalf.</p>
+<p>There is a second half to it. Some people never want the capsule read by anyone, family included, and that wish should be as easy to record as the opposite one. So it is a switch in the settings, not a support ticket you have to argue for.</p>
+<p>The adjacent question, whether the person should have agreed before any of this existed, is separate and harder. There is a short version in <a href='/blog/its-not-them-and-ok'>It is not them, and that is okay</a>.</p>
+<h2>If you are deciding what to keep</h2>
+<p>Keep texture rather than summary. The phrases they actually used, the things they always said at dinner, the jokes that were only funny to two people. A capsule built from those reads like somebody. One built from adjectives reads like a template, and you notice within a week.</p>
+<p>Then settle one concrete thing today, which is who gets access if you are not here to answer. If that feels too large a decision to make right now, start smaller from the <a href='/'>home page</a> and read what a capsule actually holds before you write a word.</p>`,
+      faq: [
+        {
+          q: "Is a memory capsule a form of digital afterlife?",
+          a: "A small one. It keeps words, photos and voice about one person in one place. It does not create a presence and it does not speak for them."
+        },
+        {
+          q: "Will StillHere ever write new words as if they came from the person?",
+          a: "No. Reflections are shaped by what you wrote and by how you asked them to sound. We cap how present a reply is allowed to read, and nothing is sent out in their name."
+        },
+        {
+          q: "What happens to my capsule when I am gone?",
+          a: "Whatever you have set. If you named someone, they get access; if you did not, nothing is handed over and the account closes quietly. Export your words any time so the decision never sits trapped inside one product."
+        },
+        {
+          q: "Does StillHere sell or train on what I write?",
+          a: "No. Your words are not training data, are not sold, and are not used for advertising. You can export everything you have written."
+        }
+      ]
+    },
+    zh: {
+      title: "数字来世：我们守的几条伦理",
+      excerpt: "记忆胶囊算是一小片数字来世，也因此带来一组我们宁愿公开回答的问题。这里写下我们给自己划下的界限，以及我们拒绝越过的那几条。",
+      body: `<h2>为什么这算是一个「来世」问题</h2>
+<p>人们谈数字来世的伦理时，通常指的是遗产法、密码、以及一个社交账号最后归谁。记忆胶囊比那小得多，也更贴近家里的事。你描述一个人，回来的东西带着他的说法和他的节奏。有两件事让它比一本相册更尖锐：回答是以句子的形式到来的，而且是因你开口才到来的。任何用句子回答你的东西，都会被当成「某个人」来对待，不管当初有没有人想这么做。这已经足够「像一个人」，普通软件的伦理边界不太够用。所以我们不写一篇没人读的原则声明，而是写下我们实际做的事，以及我们停在哪条线上。</p>
+<h2>我们守住的四条界限</h2>
+<p>这些不是愿景。每一条都是一个让我们少了一个功能的决定。</p>
+<table>
+<thead><tr><th>问题</th><th>我们的回答</th><th>因此排除掉什么</th></tr></thead>
+<tbody>
+<tr><td>回想能有多像他的语气？</td><td>可以像，但有上限</td><td>不写任何读起来像他本人在场回答的文字</td></tr>
+<tr><td>你写的东西会训练模型吗？</td><td>不会</td><td>不用于训练，不出售，不用于广告定向</td></tr>
+<tr><td>谁能读一个胶囊？</td><td>你，以及你邀请的人</td><td>没有员工翻阅，没有未经你操作的支持访问</td></tr>
+<tr><td>不再付费之后会怎样？</td><td>胶囊仍然可读，也可导出</td><td>不拿数据要挟，不静默删除</td></tr>
+</tbody>
+</table>
+<p>第一行是被问得最多的。由你自己的文字塑造出来的回想，可以像他；但如果一段回复读起来像他本人在场回应，那就不行。草稿一旦往那个方向走，语气会在你看到之前被收回来。</p>
+<p>第三行才决定这件事到底能不能安心用。这里没有人为了排查问题去读一个胶囊。支持访问只在你自己打开它的时候发生，而那条记录留在你手里，不在我们手里。</p>
+<h2>我们拒绝做的几件事</h2>
+<ul>
+<li>用一小段录音克隆声音。你上传的一段录音就是一段录音，我们不会从中合成出一个声音。</li>
+<li>把预测包装成记忆。这里不会告诉你，他对一份新工作或者一个新伴侣会说什么。</li>
+<li>公开的纪念主页。胶囊不是一个给陌生人来访的页面。</li>
+<li>任何黏人的机制。没有连续天数，没有未读数字，没有通知告诉你「他在等你」。</li>
+</ul>
+<p>上面每一件做起来都不难，而且都能让产品看起来更能干。但它们也都会把这件事从「记得」往旁边推一步，推到一个我们不愿意成为的样子。</p>
+<h2>以后由谁决定</h2>
+<p>最难的问题不是我们今天允许什么，而是你不在之后由谁决定。我们的回答是：由你决定，在设置里；而默认值是保守的那个——如果你没有指定任何人，就不会交给任何人，账号安静地关闭。我们宁愿少一个功能，也不愿替你猜一份同意。</p>
+<p>这件事还有另一半。有些人根本不想让任何人读到这个胶囊，家人也包括在内；而这个意愿，应该和相反的意愿一样容易登记。所以它是设置里的一个开关，不是一张需要你去争取的工单。</p>
+<p>紧挨着的另一个问题——这个人是否本该先同意过——是另一件更难的事。简短的版本写在<a href='/blog/its-not-them-and-ok'>它不是他，这没关系</a>里。</p>
+<h2>如果你正在决定留下什么</h2>
+<p>留质感，不要留概括。他真正会用的那些说法，他在饭桌上总说的那些话，只有你们两个人觉得好笑的那些梗。由这些搭起来的胶囊读起来像某个人；由形容词搭起来的读起来像模板，而你一个礼拜之内就会察觉。</p>
+<p>然后今天就把一件具体的事定下来：如果你不在、没法回答，谁能拿到访问权限。如果这件事现在定下来太大，那就从小一点的地方开始——从<a href='/'>首页</a>开始，先读清楚一个胶囊里到底装着什么，再决定要不要写下第一个字。</p>`,
+      faq: [
+        {
+          q: "记忆胶囊算一种数字来世吗？",
+          a: "算一小片。它把关于一个人的文字、照片和声音收在一处。它不制造一个存在，也不替这个人说话。"
+        },
+        {
+          q: "StillHere 会写出像是来自这个人的新文字吗？",
+          a: "不会。回想由你写下的内容、以及你要求的语气塑造。我们给回复能有多「在场」设了上限，也不会以他的名义发出任何东西。"
+        },
+        {
+          q: "我不在了之后，胶囊会怎样？",
+          a: "按你设置的来。你指定了人，他就拿到访问权限；没指定，就不交给任何人，账号安静关闭。随时导出你写的东西，这样这个决定永远不会被锁在一个产品里。"
+        },
+        {
+          q: "StillHere 会出售或用我写的内容训练吗？",
+          a: "不会。你写的不是训练数据，不会被出售，也不会用于广告。你写过的所有内容都可以导出。"
+        }
+      ]
+    }
+  },
 ];
 export function getPostBySlug(slug: string): BlogPost | undefined {
   return BLOG_POSTS.find((p) => p.slug === slug);
