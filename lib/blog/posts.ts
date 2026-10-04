@@ -2659,6 +2659,116 @@ en: {
       ]
     }
   },
+  {
+    slug: "is-this-talking-to-the-dead",
+    date: "2026-10-05",
+    en: {
+      title: "Is this 'talking to the dead'? A clear view",
+      excerpt: "The question usually arrives from someone who loves you and is a little alarmed. Here is the plain answer: what a reflection is, where we stop, and how to tell whether this is doing you any good.",
+      body: `<p>The question arrives early, usually from someone who loves you and is a little alarmed by the whole idea. Is writing here talking to the dead. Here is the plain answer, because the careful one is not much use. What happens in a capsule sits closer to a letter you never send than to a séance. You write to one person, you describe them in the words they actually used, and what comes back is shaped by what you gave. Nothing here claims to carry a message from anywhere.</p>
+<h2>What people usually mean by talking to the dead</h2>
+<p>When most people say it, they mean mediumship. A sitter, a voice, and a claim that someone on the other side answered, with a person in the middle who says they heard it. The claim is the entire point: the words did not come from the living.</p>
+<p>That is not what this is. A reflection is built from your own writing about one person and stays inside the material you provided. It does not report anything you did not tell it, and it does not speak for them. If a sentence ever arrives that reads like a message from somewhere else, that is our guardrail failing rather than a feature working, and we would want to hear about it.</p>
+<h2>What a reflection actually is</h2>
+<p>A photograph holds what was there. This holds what you wrote, and gives it back in a form that answers. That gap is where the discomfort lives, and it deserves an honest description rather than a reassuring one.</p>
+<p>We put a ceiling on how present a reply is allowed to sound. It can carry their cadence and their vocabulary. It is not allowed to read as though they are in the room answering you, because once it does, the practice stops being about your memory and starts being about our output. That limit is deliberate and it costs us a feature that demos very well. The reasoning is set out in <a href='/blog/its-not-them-and-ok'>what this is not</a>.</p>
+<h2>Four questions worth asking yourself</h2>
+<ul>
+<li>After you close the page, are you warmer, or more unsettled? The answer can change from week to week, and that in itself is normal.</li>
+<li>Are you writing to remember them, or to check whether they are still there? The second one tends to repeat without ever settling.</li>
+<li>Would you be comfortable if someone in your family read this page? Not because you owe it to anyone, only as a test of whether it is honest.</li>
+<li>Is this adding to the ways you remember them, or quietly taking their place?</li>
+</ul>
+<h2>Where we draw the line</h2>
+<table>
+<thead><tr><th>What it could do</th><th>What we do</th></tr></thead>
+<tbody>
+<tr><td>Replies shaped by your writing about them</td><td>Yes, kept under a ceiling on how present they sound</td></tr>
+<tr><td>Anything presented as a message from them</td><td>No</td></tr>
+<tr><td>A voice built out of a recording you uploaded</td><td>No</td></tr>
+<tr><td>Telling you what they would say about a new job or a new partner</td><td>No</td></tr>
+<tr><td>Notifications saying they are waiting for you</td><td>No</td></tr>
+<tr><td>A public memorial page anyone can visit</td><td>No</td></tr>
+</tbody>
+</table>
+<p>Every row on the no side is something we could ship. They are also the rows that would shift this from remembering toward something else, so they stay off the list.</p>
+<h2>How to tell whether this is helping</h2>
+<p>A remembering practice should leave you a little steadier than it found you. It does not have to feel good every time, and plenty of honest pages leave you tired. What you are watching for is the pattern over a month, not the mood after one session.</p>
+<p>If you notice yourself writing the same page again and again, looking for a feeling that never quite arrives, or if the writing has started to feel like a duty you owe them, that is the signal to stop for a while. There is no streak here to break and nothing waiting to be disappointed. Two other pieces go deeper on the edges: <a href='/blog/over-relying-on-digital-echo'>the risk of leaning on a digital echo too hard</a>, and <a href='/blog/talking-with-someone-who-is-gone'>what it feels like to write to someone who is gone</a>.</p>
+<h2>FAQ</h2>
+<p><strong>Q: So is this talking to the dead, or not?</strong> A: Not in the sense most people mean it. A reflection is generated from what you wrote about one person and stays within that. It makes no claim that anyone answered.</p>
+<p><strong>Q: Is it wrong to want this?</strong> A: Wanting to keep talking to someone you love is one of the ordinary parts of grief. The question worth asking is not whether the wanting is wrong, but whether the practice leaves you steadier over time.</p>
+<p><strong>Q: What if my family would find it strange?</strong> A: Plenty of people would. You do not have to explain it to anyone, and a capsule is private by default. If you do want to share it later, you can decide that when it is yours to decide.</p>
+<p>If you would rather read what a capsule actually holds before deciding anything at all, start at <a href='/'>the home page</a>. One paragraph is enough to begin.</p>`,
+      faq: [
+        {
+          q: "So is this talking to the dead, or not?",
+          a: "Not in the sense most people mean it. A reflection is generated from what you wrote about one person and stays within that material. It makes no claim that anyone answered."
+        },
+        {
+          q: "Is it wrong to want this?",
+          a: "Wanting to keep talking to someone you love is an ordinary part of grief. The question worth asking is not whether the wanting is wrong, but whether the practice leaves you steadier over time."
+        },
+        {
+          q: "What if my family would find it strange?",
+          a: "Plenty of people would. You do not have to explain it to anyone, and a capsule is private by default. If you want to share it later, you can decide that when it is yours to decide."
+        }
+      ]
+    },
+    zh: {
+      title: "这算「和亡者对话」吗？说清楚",
+      excerpt: "这个问题通常来自关心你的人，带着一点担心。这里给一个直白的回答：回想是什么，我们停在哪条线上，以及怎么判断这件事对你有没有用。",
+      body: `<p>这个问题来得很早，通常来自关心你的人，带着一点担心。在这里写字，算不算和亡者对话？这里给一个直白的回答，因为太周全的说法帮不上忙。胶囊里发生的事，更接近一封你没有寄出的信，而不是一场通灵。你写给一个人，用他真正会用的说法描述他，回来的东西由你给出的内容塑造。这里没有任何东西声称从别处带来了消息。</p>
+<h2>人们说「和亡者对话」时，通常指什么</h2>
+<p>多数人说这句话时，指的是灵媒：一个在场的人、一个声音、一个「另一边有人回答了」的说法，以及中间那个人声称自己听见了。这个声称就是全部重点：那些话不是来自活着的人。</p>
+<p>这里不是那样。回想由你自己写下的关于某个人的内容建成，并且不超出你给出的材料。它不会说出你没告诉过它的事，也不替这个人说话。如果哪一句读起来像是从别处带来的消息，那是我们的护栏失效了，而不是某个功能生效了，我们希望知道这件事。</p>
+<h2>回想究竟是什么</h2>
+<p>照片保存当时在场的东西。这里保存你写下的东西，并把它以「会回答」的形式还给你。让人不安的正是这个差别，所以它值得一个诚实的描述，而不是一个让人安心的描述。</p>
+<p>我们给回复能有多「在场」设了一个上限。它可以带上他的语气和他的用词，但不允许读成他本人在屋里回答你。一旦越过那条线，这件事就不再关于你的记忆，而开始关于我们产出的东西。这个上限是刻意的，它让我们少掉一个演示起来很好看的功能。理由写在<a href='/blog/its-not-them-and-ok'>它不是他，这没关系</a>里。</p>
+<h2>值得问自己的四个问题</h2>
+<ul>
+<li>关掉页面之后，你是更暖一些，还是更不安？答案会一周一周地变，这本身就是正常的。</li>
+<li>你是在记住他，还是在确认他还在？后者往往会一遍遍重复，却始终落不下来。</li>
+<li>如果家里有人读到这一页，你会自在吗？不是因为你欠谁一个交代，只是拿来试试它够不够诚实。</li>
+<li>这件事是在增加你记得他的方式，还是在悄悄取代它们？</li>
+</ul>
+<h2>我们停在哪条线上</h2>
+<table>
+<thead><tr><th>它可以做到什么</th><th>我们怎么做</th></tr></thead>
+<tbody>
+<tr><td>由你写下的内容塑造的回复</td><td>做，但压在「有多像他在场」的上限之下</td></tr>
+<tr><td>任何被说成来自他的消息</td><td>不做</td></tr>
+<tr><td>用你上传的一段录音做出一个声音</td><td>不做</td></tr>
+<tr><td>告诉你他对一份新工作、一个新伴侣会说什么</td><td>不做</td></tr>
+<tr><td>通知你「他在等你」</td><td>不做</td></tr>
+<tr><td>一个谁都能来访问的公开纪念页</td><td>不做</td></tr>
+</tbody>
+</table>
+<p>「不做」那一列里的每一项我们都做得出来。它们也正都是会把这件事从「记得」推向别处的东西，所以它们留在外面。</p>
+<h2>怎么判断这件事有没有在帮你</h2>
+<p>一个记住的练习，应该让你比打开它之前稍微稳一点。它不必每次都让你舒服，很多诚实的页面写完是累的。你该看的是一个月下来的形状，而不是某一次之后的情绪。</p>
+<p>如果你发现自己反复写同一页，寻找一个始终没到的感觉；或者写字已经变成一种你欠他的义务，那就是该停一阵的信号。这里没有连续天数可以断掉，也没有什么会失望地等你。另外两篇写得更深一些：<a href='/blog/over-relying-on-digital-echo'>过度依赖数字回音的风险</a>，以及<a href='/blog/talking-with-someone-who-is-gone'>和已经离开的人说话，是什么感觉</a>。</p>
+<h2>常见问题</h2>
+<p><strong>问：那这到底算不算和亡者对话？</strong> 答：按多数人的意思，不算。回想由你写下的关于某个人的内容生成，并且不超出那份材料。它不声称有人回答了你。</p>
+<p><strong>问：想要这个，是错的吗？</strong> 答：想继续和爱的人说话，是悲伤里很平常的一部分。值得问的不是「这个念头对不对」，而是这件事长期下来有没有让你更稳。</p>
+<p><strong>问：家里人会觉得奇怪怎么办？</strong> 答：很多人会。你不必向谁解释，胶囊默认是私密的。如果以后想分享，等到那是你能自己决定的时候再决定。</p>
+<p>如果你更想先读清楚一个胶囊里到底装着什么，再决定要不要开始，那就从<a href='/'>首页</a>看起。写一段话，就够开始了。</p>`,
+      faq: [
+        {
+          q: "那这到底算不算和亡者对话？",
+          a: "按多数人说这句话的意思，不算。回想由你写下的关于某个人的内容生成，并且不超出那份材料。它不声称有人回答了你。"
+        },
+        {
+          q: "想要这个，是错的吗？",
+          a: "想继续和爱的人说话，是悲伤里很平常的一部分。值得问的不是这个念头对不对，而是这件事长期下来有没有让你更稳。"
+        },
+        {
+          q: "家里人会觉得奇怪怎么办？",
+          a: "很多人会。你不必向谁解释，胶囊默认是私密的。如果以后想分享，等到那是你能自己决定的时候再决定。"
+        }
+      ]
+    }
+  },
 ];
 export function getPostBySlug(slug: string): BlogPost | undefined {
   return BLOG_POSTS.find((p) => p.slug === slug);
