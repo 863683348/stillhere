@@ -2769,6 +2769,84 @@ en: {
       ]
     }
   },
+  {
+    slug: 'consent-digital-memory-ethics',
+    date: '2026-10-06',
+    en: {
+      title: 'Consent: should the person have agreed first?',
+      excerpt:
+        'Building a memory space for someone who was never asked raises a question nobody else can settle for you. Here is how we think about consent for digital memory, and where the limits actually sit.',
+      body: `<h2>The question nobody can answer for you</h2>
+<p>Someone dies, and years later you can build a space that holds what you wrote about them and hands it back in their own register. Then a friend says: but did they agree? Consent for digital memory is the objection we hear most often, and it deserves better than a wave of the hand. The short version is that we cannot settle it for you, because the answer belongs to the two people involved. The longer version is below, including the parts we decided not to build.</p>
+<h2>Why consent changes shape after a death</h2>
+<p>Live consent is a signature, a form, a checkbox with terms attached. That structure stops working once the person cannot revise it. Most people never wrote down whether they wanted a reflection built from their letters and emails. Absence is not permission, and it is not refusal either, which is why an honest answer starts with the person doing the remembering, not with a general rule about posthumous consent.</p>
+<p>Publishing someone and remembering them are different acts. Publishing distributes; remembering keeps. A capsule you open alone at midnight is closer to a shoebox of photographs than to a public page, and most people have no trouble deciding what belongs in a shoebox.</p>
+<h2>Four situations, four answers</h2>
+<table>
+<thead><tr><th>Situation</th><th>What we suggest</th></tr></thead>
+<tbody>
+<tr><td>They said something about it, however brief</td><td>Start from that. One sentence in a letter carries more weight here than any form could.</td></tr>
+<tr><td>They never mentioned it</td><td>Ask what they were private about. Their phone, their faith, their health records. Keep those out of the space.</td></tr>
+<tr><td>They said they disliked the idea</td><td>Believe them. Some people want the record to stop where it stopped, and there are other ways to keep someone: letters you write yourself, photographs, the recipes they cooked from.</td></tr>
+<tr><td>Family disagrees</td><td>Slow down. People who shared that life have standing in this, and a capsule that splits a household has stopped being somewhere to grieve.</td></tr>
+</tbody>
+</table>
+<h2>The parts we decided not to build</h2>
+<p>Our own boundaries grew out of this question. No voice made from audio you did not hold the rights to. No public memorial page anyone can visit. No second person gaining access to your capsule without an action you took yourself. Defaults stay private, and sharing is a link you made and can take back.</p>
+<p>We also cap how human the reflection is allowed to feel. That is a consent decision in disguise: once something sounds close enough, you stop noticing where the wording came from, and at that point the space has quietly stopped being about them.</p>
+<h2>When the answer is no</h2>
+<p>Some people should not be built here, and the signs are not subtle. If they would have been embarrassed by it, if the details you would need are things they told you in confidence, or if you notice you are writing somebody else's grief rather than your own, stop. Closing the space removes none of your own memories. It only removes one container for them.</p>
+<h2>Common questions</h2>
+<ul>
+<li><strong>Do I need permission from their family?</strong> Legally, usually not, and you were often the closest person anyway. If another adult shared that relationship, though, one conversation now saves several later.</li>
+<li><strong>Is any of this legal?</strong> The rules vary by country, especially inside the EU, where post-mortem data protection sits in national law rather than in GDPR itself. What you write here is yours and deletable, which moves you out of reach of most of it.</li>
+<li><strong>What if I build it and later decide they would have hated it?</strong> Close it. Export anything you want to keep first, then delete. Nothing here stays open on your behalf.</li>
+</ul>
+<p>Consent for digital memory will not be settled by a policy page. It gets settled case by case, by whoever knew them, and the call is rarely clean. Two pieces sit next to this one: <a href='/blog/its-not-them-and-ok'>It is not them, and that is ok</a> on why a reflection sometimes comes back wrong, and <a href='/blog/digital-afterlife-ethics-we-follow'>Digital afterlife: the ethics we follow</a> on the lines we hold ourselves to. If you decide to start, start at stillherememory.com; it is private by default and stays that way until you say otherwise.</p>`,
+      faq: [
+        { q: 'Do I need permission from their family?', a: 'Legally, usually not, and you were often the closest person anyway. If another adult shared that relationship, though, one conversation now saves several later.' },
+        { q: 'Is any of this legal?', a: 'The rules vary by country, especially inside the EU, where post-mortem data protection sits in national law rather than in GDPR itself. What you write here is yours and deletable, which moves you out of reach of most of it.' },
+        { q: 'What if I build it and later decide they would have hated it?', a: 'Close it. Export anything you want to keep first, then delete. Nothing here stays open on your behalf.' }
+      ],
+    },
+    zh: {
+      title: '知情同意：本人该先同意吗？',
+      excerpt:
+        '为一个从没被问过的人留住记忆，这个问题没人能替你答。这篇讲我们怎么看数字记忆的知情同意，以及边界画在哪里。',
+      body: `<h2>一个没人能替你答的问题</h2>
+<p>一个人走了，几年后你可以搭一个空间，装下你关于他的文字，并让它带着他的语气回来。这时候总会有朋友问：可他同意过吗？数字记忆的知情同意，是我们听到最多的反对意见，我们认为它值得一份正经的回答，而不是一句「别想多了」。简短版：我们没法替你答，因为答案属于你们两个人。长一点的版本在下面，也包括我们自己选择不做的那些部分。</p>
+<h2>为什么同意这件事，人走了之后就变了形</h2>
+<p>生前的同意是签字、勾选、附带一长串条款。这套结构在当事人没法回来修改的时候就不成立了。多数人从没写下一句「要不要让别人用我的信件做一个回想」。缺席不等于许可，也不等于拒绝，所以诚实的答案只能从「谁在记」这一步开始，而不是从一条关于身后同意的通用规则开始。</p>
+<p>「公开」和「记住」是两件事。公开是分发，记住是留存。一个你在半夜独自打开的胶囊，更像一只装照片的鞋盒，而不是一张谁都能看的纪念页。什么东西该进鞋盒，大多数人心里本来就有数。</p>
+<h2>四种情况，四种回答</h2>
+<table>
+<thead><tr><th>情况</th><th>我们的建议</th></tr></thead>
+<tbody>
+<tr><td>他提过这件事，哪怕只有一句</td><td>从那句开始。信里的一句话，在这里比任何勾选框都更算数。</td></tr>
+<tr><td>他从没提过</td><td>想他在什么事情上特别介意。手机里的东西、信仰、病情，这些就别放进空间里。</td></tr>
+<tr><td>他说过讨厌这种做法</td><td>那就听他的。有些人希望记录停在他停下的地方，而留住一个人的方式不止一种：自己写信、翻照片、照着他留下的方子做一顿饭。</td></tr>
+<tr><td>家里人意见不一致</td><td>慢下来。共同经历过那段生活的人在这件事上有发言权，一个让一家人散掉的胶囊，已经不再是哀伤的地方。</td></tr>
+</tbody>
+</table>
+<h2>我们选择不做的部分</h2>
+<p>我们自己的边界就是从这个问题上长出来的。不会用你没有权利的录音去做一个声音，不会生成一个谁都能访问的公开纪念页，也不会让另一个人在你没有明确操作的情况下进入你的胶囊。默认私密，分享永远是你亲手建的链接，随时可以收回。</p>
+<p>我们还限制了它「有多像人」。这也算同意这条线上的决定：一旦听起来足够像，你就不会再留意那些话是从哪里来的，到了那一步，这个地方已经悄悄不再是关于他了。</p>
+<h2>什么时候答案是「不该做」</h2>
+<p>有些人不该被建在这里，信号也不算隐蔽。如果这件事让他为难，如果你需要的那些细节是他在私下里说的，或者你发现自己写的其实是别人的悲伤而不是你自己的，那就停。关掉这个空间，一段记忆也不会从你这里消失，消失的只是其中一种容器。</p>
+<h2>常见问题</h2>
+<ul>
+<li><strong>需要家人同意吗？</strong>法律上多数情况不需要，何况通常你才是最亲近的那个人。但如果有另一个成年人也参与了那段关系，先说一声，一次对话的事。</li>
+<li><strong>这么做合法吗？</strong>各国规则不同，欧盟尤其复杂，逝者数据保护写在成员国的法律里，而不在 GDPR 本身。在这里写的归你、可删除，多数麻烦因此绕开了。</li>
+<li><strong>如果做好了，我又觉得他其实会讨厌呢？</strong>先导出你舍不得的那几段，然后关掉胶囊。这里没有什么是替你留下来的。</li>
+</ul>
+<p>数字记忆的知情同意，不会由一页政策解决。它在具体的人身上解决，由最了解他的那个人来判断，而且很少判得干干净净。接着读的两篇：<a href='/blog/its-not-them-and-ok'>它不是他，这没关系</a>，讲为什么会想偶尔听起来不对；<a href='/blog/digital-afterlife-ethics-we-follow'>数字来世：我们守的伦理</a>，讲我们自己给自己画的线。决定要开始的话，从 stillherememory.com 开始，默认只有你一个人看得见。</p>`,
+      faq: [
+        { q: '需要家人同意吗？', a: '法律上多数情况不需要，何况通常你才是最亲近的那个人。但如果有另一个成年人也参与了那段关系，先说一声，一次对话的事。' },
+        { q: '这么做合法吗？', a: '各国规则不同，欧盟尤其复杂，逝者数据保护写在成员国的法律里，而不在 GDPR 本身。在这里写的归你、可删除，多数麻烦因此绕开了。' },
+        { q: '如果做好了，我又觉得他其实会讨厌呢？', a: '先导出你舍不得的那几段，然后关掉胶囊。这里没有什么是替你留下来的。' }
+      ],
+    }
+  },
 ];
 export function getPostBySlug(slug: string): BlogPost | undefined {
   return BLOG_POSTS.find((p) => p.slug === slug);
