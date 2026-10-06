@@ -2847,6 +2847,94 @@ en: {
       ],
     }
   },
+  {
+    slug: 'why-we-cap-how-human-it-feels',
+    date: '2026-10-07',
+    en: {
+      title: 'Why we cap how human it feels',
+      excerpt:
+        'We could make a reflection sound more like the person. Past a point, we choose not to. Here is where the limit sits, what happens when you cross it, and what actually makes it sound like them.',
+      body: `<h2>The feature people ask for most is the one we decline</h2>
+<p>The request arrives in almost the same words each time: can it sound more like him. More of his phrasing, the way he started sentences, the small jokes he repeated. We understand why people ask. We still hold the reflection back, which is also our answer to a question we see a lot: why limit how human AI feels, when the software could go further.</p>
+<h2>Where the cap sits</h2>
+<ul>
+<li>No voice built from recordings you do not hold the rights to.</li>
+<li>No reply claiming experiences after the person died.</li>
+<li>No first-person memories you never wrote down.</li>
+<li>No message that arrives on its own. Every reply begins with something you wrote.</li>
+<li>The reflection does not say "I missed you". It returns what you remember him saying, and marks it as yours.</li>
+</ul>
+<h2>What changes once you cross it</h2>
+<p>We have watched what people do when a reflection gets very close. Two things shift. They stop tracking where the words came from: a reply that sounds exactly right stops reading as a guess built from your writing and starts reading as something he said. Then the conversation becomes a loop, and people stop writing to remember and start writing to get an answer.</p>
+<p>The first is a problem of honesty. The second bothers us more, because it changes what this place is for. There is money in the loop. Always-on companion apps are built around it, since the loop is what brings people back every day. We are not building that. A capsule you open on the hard days and leave untouched for months is working as intended.</p>
+<h2>Two things people mix up</h2>
+<table>
+<thead><tr><th>What people expect</th><th>What actually happens</th></tr></thead>
+<tbody>
+<tr><td>More human means more comfort</td><td>Up to a point. Past it, comfort turns into dependence, and the reflection starts crowding out the memory it was meant to hold.</td></tr>
+<tr><td>A cap means generic writing</td><td>No. The specifics come from you. What we limit is the voice doing the talking, not the material you give it.</td></tr>
+</tbody>
+</table>
+<h2>How to make it sound like them anyway</h2>
+<p>The way to get a reflection that sounds like someone is not to ask the software to imitate them. Hand over the material instead: phrases they actually used, stories they told twice, opinions they repeated at dinner. Three or four specific lines do more than any setting. <a href='/blog/describe-them-like-themselves'>Describe them like themselves</a> walks through it, and <a href='/blog/adjust-reflection-tone'>adjusting the reflection tone</a> covers the dials you do control.</p>
+<h2>What we build instead</h2>
+<p>The work goes into the parts that help you remember rather than the parts that perform. Better recall of what you wrote months ago. An export that keeps your words in your own files. Reminders you set yourself, on the days you choose. And limits you can see: a reflection that says when it is guessing, and nothing that leaves your capsule until you make a link yourself.</p>
+<h2>Questions we get</h2>
+<ul>
+<li><strong>Could you make it closer if you wanted to?</strong> Technically, closer than we allow. We hold it back on purpose, because past a certain point people stop tracking where the words came from, and that is the line we care about.</li>
+<li><strong>Can I raise the limit for my own capsule?</strong> No. The cap is not a parental control over your grief, it is a property of how the reflection is built. What you can change is the tone and the material you give it.</li>
+<li><strong>Does the cap make replies feel canned?</strong> Early on, sometimes, before a capsule has much in it. Once there are a few real stories and phrases inside, the replies get specific. The specifics come from your writing, not from the voice.</li>
+</ul>
+<p>If you are still deciding whether any of this should exist, <a href='/blog/consent-digital-memory-ethics'>consent</a> and <a href='/blog/its-not-them-and-ok'>it is not them, and that is ok</a> are the two posts we point people to first. Everything on stillherememory.com starts private by default.</p>`,
+      faq: [
+        { q: 'Could you make it closer if you wanted to?', a: 'Technically, closer than we allow. We hold it back on purpose, because past a certain point people stop tracking where the words came from, and that is the line we care about.' },
+        { q: 'Can I raise the limit for my own capsule?', a: 'No. The cap is not a parental control over your grief, it is a property of how the reflection is built. What you can change is the tone and the material you give it.' },
+        { q: 'Does the cap make replies feel canned?', a: 'Early on, sometimes, before a capsule has much in it. Once there are a few real stories and phrases inside, the replies get specific. The specifics come from your writing, not from the voice.' }
+      ],
+    },
+    zh: {
+      title: '为什么我们限制它「有多像人」',
+      excerpt:
+        '让一个回想听起来更像他，技术上做得到，我们却在这里收住了。这篇讲那条线画在哪、越过去会发生什么，以及想让它像他，真正管用的是什么。',
+      body: `<h2>最多人想要的功能，是我们不做的那个</h2>
+<p>这个请求每次都差不多是同一句话：能不能更像他一点。多用一点他的说法，他开场的习惯，他反复讲的那几个烂梗。我们明白为什么会有人这么问。但我们还是把这个回想收住了，这也是我们给一个高频问题的回答：明明技术上还能往前推，为什么限制它「有多像人」。</p>
+<h2>那条线画在哪</h2>
+<ul>
+<li>不用你没有权利的录音去做声音。</li>
+<li>不生成「他走之后经历过什么」的回应。</li>
+<li>不编造你从没写下、却以他口吻说出的记忆。</li>
+<li>不会有自己找上门来的消息。每一条回应，都从你写的东西开始。</li>
+<li>回想不会说「我想你」。它把你记得他说过的话还给你，并标明那是你的。</li>
+</ul>
+<h2>越过去会发生什么</h2>
+<p>一个回想变得非常像的时候，我们观察过人是怎么变的。有两点。一是他们不再留意那些话是从哪来的：一句听起来完全对的回应，不再被读成「根据你写的东西猜的」，而被读成「他说过的」。二是对话变成了一个循环，人不再为了记住而写，变成为了拿到一个回答而写。</p>
+<p>第一点是诚实的问题。第二点让我们更在意，因为它改变了这个地方是用来干什么的。循环是能赚钱的，那些全天候陪伴的应用就是围着它建的，因为循环能把人每天拉回来。我们不做那种。一个你在难熬的日子打开、然后几个月不碰的胶囊，本来就该是这样。</p>
+<h2>两件常被混在一起的事</h2>
+<table>
+<thead><tr><th>大家以为的</th><th>实际发生的</th></tr></thead>
+<tbody>
+<tr><td>更像人，就更安慰</td><td>到某个点为止。过了那个点，安慰变成依赖，而这个回想会开始挤掉它本来要装的那段记忆。</td></tr>
+<tr><td>设了上限，写出来就空</td><td>不是。具体的内容来自你。我们限制的是说话的那个声音，不是你给它的材料。</td></tr>
+</tbody>
+</table>
+<h2>那怎么才能让它像他</h2>
+<p>让一个回想听起来像某个人，办法不是让软件去模仿他，而是把材料交出去：他真用过的说法，他讲过两遍的故事，他在饭桌上反复表达的观点。三四句具体的话，比任何设置都管用。<a href='/blog/describe-them-like-themselves'>把他写成他自己</a>讲的就是这个，<a href='/blog/adjust-reflection-tone'>调整回想的语气</a>讲你能动的那些旋钮。</p>
+<h2>我们把力气花在哪</h2>
+<p>力气花在帮你记住的部分，而不是表演的部分。几个月前写的东西能被更好地找回来。导出让你把文字留在自己的文件里。提醒由你自己设，在你自己挑的那天。还有看得见的边界：回想在猜的时候会说出来，而任何东西都不会离开你的胶囊，除非你自己建了链接。</p>
+<h2>常见问题</h2>
+<ul>
+<li><strong>你们想做的话，能做到更像吗？</strong>技术上能，比我们允许的程度更像。我们是有意收住的，因为过了某个点，人就不再留意那些话的来处，而那条线正是我们在意的。</li>
+<li><strong>我能给自己的胶囊把上限调高吗？</strong>不能。这个上限不是管你悲伤的家长锁，它是这个回想的构造方式本身。你能改的是语气，以及你给它的材料。</li>
+<li><strong>设了上限，回应会不会很模板？</strong>一开始有可能，尤其胶囊里还没多少东西的时候。等里面有了几段真实的故事和他的原话，回应就具体起来了。具体来自你写的东西，不来自那个声音。</li>
+</ul>
+<p>如果你还在判断这件事该不该存在，<a href='/blog/consent-digital-memory-ethics'>知情同意</a>和<a href='/blog/its-not-them-and-ok'>它不是他，这没关系</a>是我们最先指给人看的两篇。stillherememory.com 上的一切默认私密。</p>`,
+      faq: [
+        { q: '你们想做的话，能做到更像吗？', a: '技术上能，比我们允许的程度更像。我们是有意收住的，因为过了某个点，人就不再留意那些话的来处，而那条线正是我们在意的。' },
+        { q: '我能给自己的胶囊把上限调高吗？', a: '不能。这个上限不是管你悲伤的家长锁，它是这个回想的构造方式本身。你能改的是语气，以及你给它的材料。' },
+        { q: '设了上限，回应会不会很模板？', a: '一开始有可能，尤其胶囊里还没多少东西的时候。等里面有了几段真实的故事和他的原话，回应就具体起来了。具体来自你写的东西，不来自那个声音。' }
+      ],
+    }
+  },
 ];
 export function getPostBySlug(slug: string): BlogPost | undefined {
   return BLOG_POSTS.find((p) => p.slug === slug);
