@@ -2935,6 +2935,48 @@ en: {
       ],
     }
   },
+  {
+    "slug": "uncanny-valley-of-a-too-perfect-voice",
+    "date": "2026-10-08",
+    "en": {
+      "title": "The uncanny valley of a too-perfect voice",
+      "excerpt": "A voice can match the pitch and accent yet still feel wrong. The gap often sits in timing, context, and the impossible expectation created when generated speech sounds almost familiar.",
+      "body": "<h2>Why an uncanny valley AI voice can feel wrong</h2>\n<p>An uncanny valley AI voice can be technically impressive and still make your shoulders tighten. The pitch is close. The accent lands. Then a pause comes half a beat late, or a familiar laugh appears after a sentence the person would never have used. A rough imitation stays safely on the side of imitation. A near-perfect voice asks your memory to treat it as familiar, then breaks that promise in tiny ways.</p>\n<p>That reaction does not mean you used the tool badly. It is your memory noticing a mismatch. You remember more than sound waves: who they were speaking to, what usually made them hesitate, which jokes earned that laugh, and when silence was the whole answer. A model can copy surface patterns without carrying that history.</p>\n<h2>The details people hear before they can name them</h2>\n<ul>\n<li>Timing: a pause arrives in a place where they would have answered quickly</li>\n<li>Breath: the sentence is too even, with none of the small effort in an old recording</li>\n<li>Emotion: warmth appears on a practical sentence, or calm arrives where they used to sound impatient</li>\n<li>Word choice: the accent is right but the phrase belongs to somebody else</li>\n<li>Imperfection: the throat-clear, stumble, or unfinished ending that made the original voice recognisable is gone</li>\n</ul>\n<p>Any one detail can be small. Together they make the voice feel close in the wrong direction. People often call that feeling eerie, but sometimes it is quieter than fear. It can sound tidy, polished, and simply not theirs.</p>\n<h2>Why too-perfect hurts more than rough</h2>\n<p>An old voicemail has limits you can see. It belongs to one Tuesday, one room, one conversation. You know the recording cannot answer a new question. A generated voice changes the contract because it responds now. Once it can say a sentence that was never recorded, accuracy of tone starts to look like accuracy of thought, and those are different things.</p>\n<p>The closer the sound gets, the easier it is to overlook where the words came from. Then one wrong line can land with more force than a robotic reading would. This is why <a href='/blog/why-we-cap-how-human-it-feels'>we cap how human a reflection feels</a>. The distance is not a defect we forgot to fix. It helps keep memory and generation in separate boxes.</p>\n<h2>A safer way to use voice around memory</h2>\n<table>\n<thead><tr><th>Material</th><th>What it is good for</th><th>Boundary to keep</th></tr></thead>\n<tbody>\n<tr><td>Original recording</td><td>Returning to a specific moment</td><td>Keep the date and context with it</td></tr>\n<tr><td>Transcript</td><td>Saving the words when audio is hard to hear</td><td>Mark uncertain words rather than filling them in</td></tr>\n<tr><td>Generated reading</td><td>Hearing text you wrote aloud</td><td>Label it clearly and do not present it as an original recording</td></tr>\n<tr><td>Written reflection</td><td>Finding themes across your own memories</td><td>Keep visible that the wording is generated from your material</td></tr>\n</tbody>\n</table>\n<p>If you use a voice tool beside a capsule, start with something short and ordinary. Do not begin with a farewell you wish you had received. Try a recipe note or a familiar description, listen once, and notice your body before editing settings. If you feel pulled to make it closer after every pass, that is useful information. Stop before the editing session turns into a hunt for one impossible version.</p>\n<h2>When a voice lands badly</h2>\n<ul>\n<li>Close the audio instead of replaying it to prove you can tolerate it</li>\n<li>Write down the exact mismatch, such as pacing or a phrase they would not use</li>\n<li>Return to an original recording if hearing their voice is what you wanted</li>\n<li>Switch to text if the sound is crowding out the memory</li>\n<li>Tell someone you trust if the experience keeps following you after you close it</li>\n</ul>\n<p>There is no score for getting through a difficult clip. A tool can be wrong for you even when somebody else finds it comforting. The capsule remains yours if you never use generated audio at all. <a href='/blog/describe-them-like-themselves'>Describe them like themselves</a> focuses on details you know, while <a href='/blog/its-not-them-and-ok'>It is not them, and that is okay</a> keeps the central boundary in view.</p>\n<h2>Questions people ask</h2>\n<ul>\n<li><strong>Why can a nearly accurate voice feel worse than an inaccurate one?</strong> A rough voice is easy to recognise as an imitation. A nearly accurate one invites a stronger expectation, so a misplaced pause or unfamiliar phrase becomes more noticeable.</li>\n<li><strong>Should I stop if a generated voice makes me uneasy?</strong> Yes. Close it and return only if you want to. Keep the original recording or transcript instead; remembering does not require an interactive voice.</li>\n<li><strong>Does StillHere try to make a perfect voice copy?</strong> No. StillHere keeps a visible gap between a reflection and the person you remember. Specificity should come from your memories, not from pretending the system is them.</li>\n</ul>\n<p>On stillherememory.com, a reflection is meant to help you revisit what you remember without claiming the voice as a new source of truth. <a href='/'>Start privately</a>, or read the <a href='/blog'>memory and boundaries articles</a> first.</p>",
+      "faq": [
+        {
+          "q": "Why can a nearly accurate voice feel worse than an inaccurate one?",
+          "a": "A rough voice is easy to recognise as an imitation. A nearly accurate one invites a stronger expectation, so a misplaced pause or unfamiliar phrase becomes more noticeable."
+        },
+        {
+          "q": "Should I stop if a generated voice makes me uneasy?",
+          "a": "Yes. Close it and return only if you want to. Keep the original recording or transcript instead; remembering does not require an interactive voice."
+        },
+        {
+          "q": "Does StillHere try to make a perfect voice copy?",
+          "a": "No. StillHere keeps a visible gap between a reflection and the person you remember. Specificity should come from your memories, not from pretending the system is them."
+        }
+      ]
+    },
+    "zh": {
+      "title": "太像人的声音，那道不适谷",
+      "excerpt": "一个声音可以把音高和口音学得很像，却还是不对。问题常藏在节奏、语境，以及生成语音几乎熟悉时带来的那份不可能的期待里。",
+      "body": "<h2>声音的恐怖谷，为什么会让人不舒服</h2>\n<p>恐怖谷声音可能在技术上做得很漂亮，却还是让你肩膀一紧。音高接近，口音也对，接着某个停顿慢了半拍，或者一句他绝不会说的话后面，冒出了你熟悉的笑声。粗糙的模仿一听就是模仿，反而安全；太像人的声音会让记忆先把它认成熟悉的人，再被那些细小的错处推开。</p>\n<p>这不说明你使用方式有问题，只是记忆发现了不一致。你记住的不止声波，还包括他在对谁说话、什么事会让他犹豫、哪种玩笑才配得上那个笑声，以及什么时候沉默就是完整答案。模型能学到表面的规律，却没有经历那些来龙去脉。</p>\n<h2>人先听见、却不一定马上说得出的细节</h2>\n<ul>\n<li>节奏：他本来会立刻回答的地方，声音却多停了半拍</li>\n<li>呼吸：整句话太平，少了旧录音里那一点费力</li>\n<li>情绪：一条实际的嘱咐被说得过分温柔，原本会不耐烦的地方却很平静</li>\n<li>用词：口音像，句子却像另一个人写的</li>\n<li>瑕疵：清嗓、结巴、没说完的尾音都被磨掉了，而你认出的恰恰是这些</li>\n</ul>\n<p>单拿一处看都不严重，叠在一起，声音就朝错误的方向靠近。人们常把这种感觉叫吓人，其实它有时没那么猛烈，只是太整齐、太顺，然后很确定地不像他。</p>\n<h2>为什么太完美比粗糙更伤人</h2>\n<p>旧语音的边界很清楚。它属于某个星期二、某个房间、某一次谈话，你知道它不会回答今天的新问题。生成声音改变了这份约定，因为它能在此刻回应。一旦它说出从未被录下的句子，语气准确就容易被误听成想法准确，可这根本是两回事。</p>\n<p>声音越接近，人越容易忘记这些话从哪来；这时一句说错的话，反而比机器腔更扎人。这就是我们<a href='/blog/why-we-cap-how-human-it-feels'>限制回想有多像人</a>的原因。那段距离不是漏掉的功能，它把记忆和生成内容分开放着。</p>\n<h2>把声音放进记忆时，怎么留住边界</h2>\n<table>\n<thead><tr><th>材料</th><th>适合做什么</th><th>要留下的边界</th></tr></thead>\n<tbody>\n<tr><td>原始录音</td><td>回到一个具体时刻</td><td>把日期和当时的背景一起保存</td></tr>\n<tr><td>文字稿</td><td>录音听不清时留下原话</td><td>听不准的字标出来，不替他补齐</td></tr>\n<tr><td>生成朗读</td><td>把你写的文字读出来</td><td>明确标注，不把它当作原始录音分享</td></tr>\n<tr><td>文字回想</td><td>从自己的记忆里找出反复出现的线索</td><td>一直说明文字是根据你的材料生成的</td></tr>\n</tbody>\n</table>\n<p>如果你把声音工具和胶囊放在一起用，从一段很短、很普通的内容开始。别先做那句你一直希望听到的告别。可以选一张菜谱上的备注，或者他常用的一句描述，只听一次，先留意自己的身体反应，再决定要不要调设置。如果每听一遍都只想把它改得更像，这个冲动本身已经给了答案，先停在这里。</p>\n<h2>当一个声音落得不对</h2>\n<ul>\n<li>关掉音频，不用反复播放来证明自己受得了</li>\n<li>把具体的不对写下来，比如节奏，或一句他不会用的话</li>\n<li>如果你只是想听见他的声音，回到一段原始录音</li>\n<li>声音开始盖住记忆时，换回文字</li>\n<li>关掉之后那种不适还跟着你，就告诉一个信得过的人</li>\n</ul>\n<p>听完一段难受的音频没有分数。一个工具对别人有安慰，也可以不适合你。你完全不用生成声音，胶囊仍然属于你。<a href='/blog/describe-them-like-themselves'>把他写成他自己</a>讲的是你真正知道的细节，<a href='/blog/its-not-them-and-ok'>它不是他，这没关系</a>把最重要的那条边界留在眼前。</p>\n<h2>人们常问</h2>\n<ul>\n<li><strong>为什么九成像的声音反而比五成像更难受？</strong> 五成像时，你很容易把它当成模仿。九成像会抬高期待，于是一处不对的停顿、一句他不会说的话，都会显得格外刺耳。</li>\n<li><strong>生成的声音让我不舒服，要不要停？</strong> 要。先关掉，什么时候想再碰由你决定。你也可以只保留原始录音或文字，记住一个人不需要可互动的声音。</li>\n<li><strong>StillHere 会追求完美复刻声音吗？</strong> 不会。StillHere 会让回想与你记得的那个人之间保留一条看得见的缝。具体感应当来自你的记忆，而不是让系统假装成他。</li>\n</ul>\n<p>在 stillherememory.com，回想是用来陪你重新看见自己记得的东西，不会把一个生成的声音说成新的事实来源。你可以<a href='/'>私密地开始</a>，也可以先读完<a href='/blog'>记忆与边界文章</a>再决定。</p>",
+      "faq": [
+        {
+          "q": "为什么九成像的声音反而比五成像更难受？",
+          "a": "五成像时，你很容易把它当成模仿。九成像会抬高期待，于是一处不对的停顿、一句他不会说的话，都会显得格外刺耳。"
+        },
+        {
+          "q": "生成的声音让我不舒服，要不要停？",
+          "a": "要。先关掉，什么时候想再碰由你决定。你也可以只保留原始录音或文字，记住一个人不需要可互动的声音。"
+        },
+        {
+          "q": "StillHere 会追求完美复刻声音吗？",
+          "a": "不会。StillHere 会让回想与你记得的那个人之间保留一条看得见的缝。具体感应当来自你的记忆，而不是让系统假装成他。"
+        }
+      ]
+    }
+  },
 ];
 export function getPostBySlug(slug: string): BlogPost | undefined {
   return BLOG_POSTS.find((p) => p.slug === slug);
