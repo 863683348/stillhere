@@ -2977,6 +2977,48 @@ en: {
       ]
     }
   },
+  {
+    "slug": "using-ai-memory-alongside-real-therapy",
+    "date": "2026-10-09",
+    "en": {
+      "title": "Using AI memory alongside real therapy",
+      "excerpt": "AI memory with therapy works best when a private capsule holds the details and a therapist helps you notice what those details are doing in your life.",
+      "body": "<p>AI memory with therapy can give grief two different rooms. A private capsule holds the small details you do not want to lose: the wrong milk, a repeated joke, the sound of a name at the dinner table. A therapy session gives you another person who can notice when those details bring comfort, guilt, anger, or a loop you cannot leave. The two rooms can sit beside each other, but they should not be asked to do the same work.</p>\n<h2>AI memory with therapy: give each space a different job</h2>\n<p>A capsule is good at holding material. You can write at two in the morning without arranging the memory into a lesson. You can return months later and find the wording where you left it. The reflection may help you hear a familiar cadence in what you wrote, but it does not observe your breathing, ask why one sentence went quiet, or know what has changed outside the page.</p>\n<p>A therapist works with that wider context. They can hear that you are sleeping less, that an anniversary changed your routine, or that a comforting habit has started to feel compulsory. Bringing a page from your capsule into therapy can save you from having to reconstruct the whole week from memory. The page is material for the conversation, not a verdict about what you feel.</p>\n<h2>What to bring to a therapy session</h2>\n<ul>\n<li>One short entry that stayed with you after you closed the capsule</li>\n<li>A sentence that felt accurate, plus one that landed badly</li>\n<li>The time of day you tend to open the capsule and how you feel afterward</li>\n<li>A question you keep asking, especially if the answer never seems to settle it</li>\n</ul>\n<p>You do not need to hand over the whole archive. Choose the smallest piece that shows the pattern. You can also describe it without showing the screen. The capsule is private, and sharing any part of it remains your decision.</p>\n<h2>A boundary table for AI memory alongside counselling</h2>\n<table>\n<thead><tr><th>Moment</th><th>What the capsule can hold</th><th>What to discuss with a therapist</th></tr></thead>\n<tbody>\n<tr><td>A hard anniversary is approaching</td><td>Specific memories, plans for the day, words you want to keep</td><td>How to pace the day and who can be nearby</td></tr>\n<tr><td>You keep writing the same conversation</td><td>The repeated pages and the question beneath them</td><td>What you hope will change on the next attempt</td></tr>\n<tr><td>A reply feels wrong</td><td>The exact wording and what felt out of character</td><td>Why the mismatch hurt and whether a pause would help</td></tr>\n<tr><td>You feel steadier after writing</td><td>The memory that brought the steadiness</td><td>How to carry that feeling into the rest of the week</td></tr>\n</tbody>\n</table>\n<p>This is not homework unless you and your therapist decide to use it that way. A quiet week with no capsule entry can still be a good week. There is no streak to protect on stillherememory.com.</p>\n<h2>When to pause the capsule and contact your therapist</h2>\n<ul>\n<li>You are opening it to check for the same answer many times a day</li>\n<li>Writing leaves you unable to sleep or return to ordinary tasks</li>\n<li>You hide how much time you spend there because the pattern worries you</li>\n<li>The reflection feels more authoritative than your own memory</li>\n<li>You feel unsafe or at risk of harming yourself</li>\n</ul>\n<p>Pausing is a setting, not a failure. Close the page, write down what happened in one sentence if that feels manageable, and contact your therapist or another trusted source of care. If you are in immediate danger, use local emergency or crisis support. The capsule will still be there later; nothing needs an answer tonight.</p>\n<h2>Let the therapy relationship set the pace</h2>\n<p>Some therapists will welcome a printed entry. Others may ask you to notice the urge to open the capsule without opening it. Either response can make sense, depending on the work you are doing together. Tell them what the tool does, what it does not do, and how often you use it. You do not need to persuade them that it is helpful.</p>\n<p>Keep the controls visible. Turn off reminders that arrive on difficult dates unless you asked for them. Export the pages you want in your own files. Take a week away when the writing narrows instead of opening things up. <a href='/blog/when-to-take-a-break-from-your-capsule'>When to take a break from your capsule</a> gives a longer set of pause signals, and <a href='/blog/over-relying-on-digital-echo'>the risk of over-relying on a digital echo</a> covers the habit loop in more detail.</p>\n<h2>FAQ</h2>\n<p><strong>Q: Should I show my therapist everything in my capsule?</strong> A: No. Bring one small piece if it helps explain a pattern, or describe it in your own words. The archive stays private unless you choose otherwise.</p>\n<p><strong>Q: Can I use a capsule between sessions?</strong> A: Yes, if writing leaves you grounded rather than pulled into repetition. Agreeing on a simple limit with your therapist can make the boundary easier to notice.</p>\n<p><strong>Q: What if my therapist does not know StillHere?</strong> A: Explain it plainly: it is a private memory space with a reflection shaped by what you wrote. Talk about your actual use rather than the product label.</p>\n<p>On stillherememory.com, you can begin with one memory and keep it private. Read <a href='/blog/its-not-them-and-ok'>what a reflection is and is not</a> first, or return to <a href='/'>the home page</a> when you want to write.</p>",
+      "faq": [
+        {
+          "q": "Should I show my therapist everything in my capsule?",
+          "a": "No. Bring one small piece if it helps explain a pattern, or describe it in your own words. The archive stays private unless you choose otherwise."
+        },
+        {
+          "q": "Can I use a capsule between sessions?",
+          "a": "Yes, if writing leaves you grounded rather than pulled into repetition. Agreeing on a simple limit with your therapist can make the boundary easier to notice."
+        },
+        {
+          "q": "What if my therapist does not know StillHere?",
+          "a": "Explain it plainly: it is a private memory space with a reflection shaped by what you wrote. Talk about your actual use rather than the product label."
+        }
+      ]
+    },
+    "zh": {
+      "title": "数字记忆，配合真实心理咨询",
+      "excerpt": "AI 记忆配合心理咨询时，适合把细节留在私密胶囊里，再和咨询师一起看这些细节正在怎样影响你的生活。",
+      "body": "<p>AI 记忆配合心理咨询，可以给悲伤两个不同的房间。私密胶囊装下你不想弄丢的小事：买错的牛奶、他反复讲的烂梗、饭桌上有人叫他名字时的声音。咨询室里则有另一个人，能看见这些细节带来的是安慰、内疚、愤怒，还是一个你走不出去的循环。两个房间可以挨着，但不该被要求做同一件事。</p>\n<h2>AI 记忆配合心理咨询：两处地方，各做一件事</h2>\n<p>胶囊擅长保存材料。凌晨两点想写时，你不用把记忆整理成什么道理。几个月后回来，那些原话还在。回想或许能从你写下的内容里带回熟悉的语气，但它看不到你呼吸变快，也不会追问为什么某一句说到一半安静下来，更不知道页面外的生活最近发生了什么。</p>\n<p>咨询师处理的是更宽的背景。他会听见你最近睡得更少，某个纪念日改变了你的作息，或者原本让你安稳的习惯开始变成不得不完成的事。把胶囊里的一页带进咨询，可以省掉重新拼起整整一周的力气。那页文字是谈话的材料，不是对你感受的判决。</p>\n<h2>去咨询前，可以带什么</h2>\n<ul>\n<li>一段关掉胶囊之后还留在心里的短文字</li>\n<li>一句你觉得很准的话，以及一句落得很不对的话</li>\n<li>你通常在几点打开胶囊，关掉以后身体和情绪怎样</li>\n<li>一个反复问的问题，尤其是答案从没让它真正停下来的时候</li>\n</ul>\n<p>你不必交出整个存档。选最小的一块，只要它能说明那个反复出现的形状。你也可以不用展示屏幕，按自己的话描述。胶囊默认私密，分享哪一部分始终由你决定。</p>\n<h2>数字记忆与咨询的边界表</h2>\n<table>\n<thead><tr><th>时刻</th><th>胶囊可以装下什么</th><th>可以和咨询师谈什么</th></tr></thead>\n<tbody>\n<tr><td>一个难熬的纪念日快到了</td><td>具体记忆、当天的打算、想留下的话</td><td>怎么安排那一天，谁可以陪在附近</td></tr>\n<tr><td>你总在写同一段对话</td><td>那些重复的页面，以及页面底下的问题</td><td>你希望下一次尝试会改变什么</td></tr>\n<tr><td>一句回应落得不对</td><td>原句，以及哪个地方不像他</td><td>那份错位为什么会疼，需不需要停一阵</td></tr>\n<tr><td>写完以后稳了一些</td><td>带来安稳的那段记忆</td><td>怎么把这份感觉带到这一周剩下的日子里</td></tr>\n</tbody>\n</table>\n<p>除非你和咨询师决定这样用，否则它不是作业。一个星期什么也没写，也可以是平稳的一周。stillherememory.com 没有必须守住的连续天数。</p>\n<h2>什么时候先停下胶囊，联系咨询师</h2>\n<ul>\n<li>一天打开很多次，只为确认同一个答案</li>\n<li>写完以后无法入睡，也回不到平常要做的事情里</li>\n<li>你开始隐瞒自己花在这里的时间，因为这个规律让你担心</li>\n<li>回想说的话听起来比你自己的记忆更有权威</li>\n<li>你觉得自己不安全，或者有伤害自己的风险</li>\n</ul>\n<p>暂停只是一个选择，不是失败。先关掉页面。如果还做得到，就用一句话记下刚才发生了什么，然后联系咨询师或另一个你信任的照护来源。如果眼下有直接危险，请使用当地的紧急援助或危机支持。胶囊晚些时候仍会在，今晚没有任何问题必须得到答案。</p>\n<h2>让咨询关系决定节奏</h2>\n<p>有的咨询师会愿意一起看一页打印出来的文字，也有人会请你先观察「想打开胶囊」的冲动，而暂时不要打开。两种做法都可能合适，取决于你们正在处理什么。告诉他这个工具做什么、不做什么，以及你实际多久用一次。你不需要说服他这一定有帮助。</p>\n<p>把控制留在看得见的地方。除非是你自己设的，否则关掉那些会在难熬日期出现的提醒。把想留的页面导出到自己的文件里。当写字让世界越变越窄时，就离开一周。<a href='/blog/when-to-take-a-break-from-your-capsule'>什么时候该从胶囊里歇一歇</a>列了更完整的暂停信号，<a href='/blog/over-relying-on-digital-echo'>过度依赖数字回音的风险</a>则细讲那个反复打开的循环。</p>\n<h2>常见问题</h2>\n<p><strong>问：需要把胶囊里的全部内容给咨询师看吗？</strong> 答：不需要。挑一小段来说明某个规律，或者按自己的话讲出来。除非你选择分享，否则存档仍然私密。</p>\n<p><strong>问：两次咨询之间可以使用胶囊吗？</strong> 答：可以，前提是写完让你落回地面，而不是被拉进重复。和咨询师约定一个简单上限，往往更容易看见边界。</p>\n<p><strong>问：咨询师不知道 StillHere 怎么办？</strong> 答：直白说明就好：这是一个私密记忆空间，回想由你写下的内容塑造。谈你怎么使用它，比谈产品名字更有用。</p>\n<p>在 stillherememory.com，你可以只写一段记忆，并让它保持私密。先读<a href='/blog/its-not-them-and-ok'>回想是什么、又不是什么</a>，或者想写的时候回到<a href='/'>首页</a>。</p>",
+      "faq": [
+        {
+          "q": "需要把胶囊里的全部内容给咨询师看吗？",
+          "a": "不需要。挑一小段来说明某个规律，或者按自己的话讲出来。除非你选择分享，否则存档仍然私密。"
+        },
+        {
+          "q": "两次咨询之间可以使用胶囊吗？",
+          "a": "可以，前提是写完让你落回地面，而不是被拉进重复。和咨询师约定一个简单上限，往往更容易看见边界。"
+        },
+        {
+          "q": "咨询师不知道 StillHere 怎么办？",
+          "a": "直白说明就好：这是一个私密记忆空间，回想由你写下的内容塑造。谈你怎么使用它，比谈产品名字更有用。"
+        }
+      ]
+    }
+  },
 ];
 export function getPostBySlug(slug: string): BlogPost | undefined {
   return BLOG_POSTS.find((p) => p.slug === slug);
