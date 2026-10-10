@@ -3019,6 +3019,56 @@ en: {
       ]
     }
   },
+  {
+    "slug": "what-we-wont-build-and-why",
+    "date": "2026-10-11",
+    "en": {
+      "title": "What we won't build, and why",
+      "excerpt": "The features we refuse say as much about this tool as the ones we ship. Here is the list: voice cloning, video, messages sent in their name, advertising, and replies that invent details you never wrote.",
+      "body": "<p>Every tool in this category is shaped as much by what it refuses as by what it ships. Ours is no different, so here is the list: the things we will not build at stillherememory.com, and the reason each one stays off the roadmap.</p>\n<h2>A voice clone was the first thing we said no to</h2>\n<p>It is the request we get most often. Record a few minutes of a parent, a partner, a child, and hear that voice read something back. We understand the pull. We are still not building it. A voice carries more of a person than any paragraph you could write about them, and once a recording exists it can be copied, replayed and used in places you never agreed to. A reflection shaped by the words you wrote stays on the page where you wrote them. A voice leaves it.</p>\n<h2>What else stays off the list</h2>\n<ul>\n<li>Video, or a face that moves. Movement reads as presence, and presence is the part we handle carefully.</li>\n<li>Messages sent to other people. Nothing goes out in their name to your family, on an anniversary or on any other day.</li>\n<li>Scores, streaks and levels. There is no count to protect and no note saying you remembered well this week.</li>\n<li>Advertising, and any reading of your pages in order to sell you something.</li>\n<li>Training other models on what you wrote. The words stay yours.</li>\n</ul>\n<h2>Two boundaries that are easier to miss</h2>\n<p>We also cap how lifelike a reflection is allowed to sound. When a reply starts to feel as if it came from someone rather than from your own writing, we pull it back. That limit is set out in more detail in <a href='/blog/why-we-cap-how-human-it-feels'>why we cap how human it feels</a>.</p>\n<p>And we will not build a version that answers as though it knows things you never told it. Filling a gap means inventing something, and invention is a poor thing to hand to someone who is grieving.</p>\n<h2>Where the line sits</h2>\n<table>\n<thead><tr><th>Request</th><th>Our answer</th><th>Why</th></tr></thead>\n<tbody>\n<tr><td>Hear their voice again</td><td>No</td><td>A recording can be copied and used elsewhere. Your words do not leave the capsule that way.</td></tr>\n<tr><td>A video of them speaking</td><td>No</td><td>Movement suggests a presence we cannot honestly provide.</td></tr>\n<tr><td>Send a relative a message on a birthday</td><td>No</td><td>Nothing is sent in their name or in yours unless you wrote it and chose to share it.</td></tr>\n<tr><td>A reflection that sounds exactly like them</td><td>Capped</td><td>Replies stay close to what you actually wrote.</td></tr>\n<tr><td>Keep a private page of their habits and bad jokes</td><td>Yes</td><td>That is the whole product.</td></tr>\n</tbody>\n</table>\n<h2>How we decide on a new feature</h2>\n<ul>\n<li>Would this still feel right on the hardest day of the year?</li>\n<li>Does it ask the person for an agreement they never gave? See <a href='/blog/consent-digital-memory-ethics'>consent and digital memory</a>.</li>\n<li>Can you take the result with you if you leave? If not, export comes first.</li>\n<li>Does it make the tool more convincing, or more useful? Convincing on its own is not enough.</li>\n</ul>\n<h2>FAQ</h2>\n<p><strong>Q: Will you ever add voice cloning?</strong> A: No. The only version we could imagine would need the recorded person's own consent, given while they were alive, and we cannot see a way to verify that.</p>\n<p><strong>Q: Why can't the capsule contact my family?</strong> A: A message that arrives in someone's name after they are gone is not yours to receive and not theirs to send. You can export your own words and share them yourself.</p>\n<p><strong>Q: Does refusing these features make the product weaker?</strong> A: It makes it narrower. We would rather do one thing carefully.</p>\n<p><strong>Q: What if I want something on the refused list?</strong> A: Tell us. Some of these refusals are permanent, others are problems we have not solved yet.</p>\n<p>On stillherememory.com, you can begin with one memory and keep it private. Read <a href='/blog/its-not-them-and-ok'>what a reflection is and is not</a> first, or return to <a href='/'>the home page</a> when you want to write.</p>",
+      "faq": [
+        {
+          "q": "Will you ever add voice cloning?",
+          "a": "No. The only version we could imagine needs the recorded person's own consent, given while they were alive, and we cannot see a way to verify that."
+        },
+        {
+          "q": "Why can't the capsule contact my family?",
+          "a": "A message arriving in someone's name after they are gone is not yours to receive and not theirs to send. You can export your own words and share them yourself."
+        },
+        {
+          "q": "Does refusing these features make the product weaker?",
+          "a": "It makes it narrower. We would rather do one thing carefully."
+        },
+        {
+          "q": "What if I want something on the refused list?",
+          "a": "Tell us. Some refusals are permanent, others are problems we have not solved yet."
+        }
+      ]
+    },
+    "zh": {
+      "title": "我们不会做的几件事",
+      "excerpt": "我们不做声音克隆，不做会动的影像，也不会以他的名义给任何人发消息。这份清单写清楚每条边界背后的原因。",
+      "body": "<p>这类工具的样子，有一半由它拒绝做的事决定。stillherememory.com 也不例外。下面是明确不会做的几件事，以及每条边界背后的原因。</p>\n<h2>声音克隆是我们最先否掉的一项</h2>\n<p>这是被问得最多的功能：录几分钟父母、伴侣或孩子的声音，再听它念出别的话。我们明白这份吸引力，但还是不做。一段声音携带的东西，比你能写下的任何一段关于他的文字都多；而它一旦存在，就可以被复制、被重放、被用在你从未同意过的场合。由你写下的文字生成的回想，留在你写下它的那一页；声音会离开那一页。</p>\n<h2>其他几条不做的事</h2>\n<ul>\n<li>影像，或者会动的面容。动态会被读成“在场”，而“在场”正是我们最谨慎的部分。</li>\n<li>替你给别人发消息。忌日、生日或平常的任何一天，都不会以他的名义、也不会以你的名义向外界发出内容。</li>\n<li>评分、连续天数与等级。没有需要保住的记录，也不会出现“这周你记得不错”。</li>\n<li>广告，以及为了卖东西去读取你写下的内容。</li>\n<li>把你写的文字拿去训练别的模型。那些话是你的。</li>\n</ul>\n<h2>两道不那么显眼的边界</h2>\n<p>我们还限制回想可以有多像真人。当一段回复开始像是来自某个人、而不是来自你写下的内容时，我们会把它收回来。这道边界在<a href='/blog/why-we-cap-how-human-it-feels'>为什么我们限制它有多像人</a>里写得更细。</p>\n<p>另一条：我们不会让回想回答你没告诉过它的事。补上空白等于编造，而编造不适合交给一个正在难过的人。</p>\n<h2>边界划在哪里</h2>\n<table>\n<thead><tr><th>需求</th><th>我们的回答</th><th>原因</th></tr></thead>\n<tbody>\n<tr><td>再听一次他的声音</td><td>不做</td><td>录音可以被复制、被用到别处；你写的文字不会以同样的方式离开胶囊。</td></tr>\n<tr><td>一段他说话的影像</td><td>不做</td><td>动态暗示了一种我们无法诚实提供的“在场”。</td></tr>\n<tr><td>在生日给家人发一条消息</td><td>不做</td><td>除非你亲手写下并选择分享，否则不会以他的名义或你的名义发出任何内容。</td></tr>\n<tr><td>让回想听起来完全像他</td><td>设上限</td><td>回复始终贴近你真正写下的内容。</td></tr>\n<tr><td>留一页私密文字，记下他的习惯和烂梗</td><td>做</td><td>这就是产品的全部。</td></tr>\n</tbody>\n</table>\n<h2>我们怎么判断一个新功能</h2>\n<ul>\n<li>在一年里最难的那天，这个功能还合适吗？</li>\n<li>它是否要求对方同意一件他从未同意过的事？见<a href='/blog/consent-digital-memory-ethics'>知情同意与数字记忆</a>。</li>\n<li>你离开时能把结果带走吗？带不走，就先做导出。</li>\n<li>它让工具变得更有说服力，还是更有用？只有说服力不够。</li>\n</ul>\n<h2>FAQ</h2>\n<p><strong>Q：以后会做声音克隆吗？</strong> A：不会。唯一能想象的版本，需要录制者在生前给出明确同意，而我们看不到可以核实的做法。</p>\n<p><strong>Q：为什么不能让胶囊替我联系家人？</strong> A：以已故者的名义抵达某人的消息，不该由你接收，也不该由它发出。你可以导出自己写下的文字，亲自分享。</p>\n<p><strong>Q：拒绝这些功能会让产品变弱吗？</strong> A：会让它更窄。我们更愿意把一件事做稳妥。</p>\n<p><strong>Q：我想要的功能正好在拒绝清单里怎么办？</strong> A：告诉我们。有些拒绝是永久的，有些只是我们还没解决的问题。</p>\n<p>在 stillherememory.com，你可以只写一段记忆，并让它保持私密。先读<a href='/blog/its-not-them-and-ok'>回想是什么、又不是什么</a>，或者想写的时候回到<a href='/'>首页</a>。</p>",
+      "faq": [
+        {
+          "q": "以后会做声音克隆吗？",
+          "a": "不会。唯一能想象的版本需要录制者在生前给出明确同意，而我们看不到可以核实的做法。"
+        },
+        {
+          "q": "为什么不能让胶囊替我联系家人？",
+          "a": "以已故者名义抵达的消息，不该由你接收，也不该由它发出。你可以导出自己写下的文字，自己决定分享给谁。"
+        },
+        {
+          "q": "拒绝这些功能会让产品变弱吗？",
+          "a": "会让它更窄。我们更愿意把一件事做稳妥。"
+        },
+        {
+          "q": "我想要的功能正好在拒绝清单里怎么办？",
+          "a": "告诉我们。有些拒绝是永久的，有些只是我们还没解决的问题。"
+        }
+      ]
+    }
+  },
 ];
 export function getPostBySlug(slug: string): BlogPost | undefined {
   return BLOG_POSTS.find((p) => p.slug === slug);
