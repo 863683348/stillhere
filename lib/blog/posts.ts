@@ -3069,6 +3069,56 @@ en: {
       ]
     }
   },
+  {
+    "slug": "who-owns-a-digital-person",
+    "date": "2026-10-12",
+    "en": {
+      "title": "Who owns a digital person?",
+      "excerpt": "A reflection is built from words you wrote, stored in your account, and shaped after someone else. Here is how the ownership splits: the writing is yours, the software is ours, and the person was never anyone's to hold.",
+      "body": "<p>If you have typed a sentence into a memory capsule and then wondered what that sentence became, you have already asked the question behind <em>who owns a digital person</em>. The short answer comes in three parts: the writing is yours, the software that answers belongs to the people who built it, and the person the reflection is shaped after was never available for anyone to own. The rest of this page is the long answer, including the two cases where we do not have a clean line either.</p>\\n<h2>The words you wrote are yours</h2>\\n<p>Every sentence in your capsule came from you. It is stored encrypted so that our own team cannot open it and read it, and it is never used to train a model. You can export all of it, at any time, in a file you can open without our software. If ownership means anything at all, it means this part.</p>\\n<h2>What belongs to us</h2>\\n<p>The parts you did not write belong to us: the interface, the models that arrange a reply, the servers and the backups. That is the ordinary sense in which a tool belongs to the people who made it. Owning the tool does not carry any claim over what you put into it, the way a notebook maker has no claim on the sentences written in the notebook.</p>\\n<h2>What was never available to own</h2>\\n<p>This is the piece most arguments skip past. Your mother, your partner, your child: a person is not an asset with a title attached, and nothing built from your writing changes that. A reflection is made out of your memory of someone, and your memory is yours. The person themselves was never anyone's to hold, and a product that behaved as if it could would be lying about what it does. We keep that limit written into the product rather than implied, which is also why there are features we refuse outright.</p>\\n<ul>\\n<li>A reflection draws on what you wrote, and on nothing else.</li>\\n<li>It does not speak in ways the person never did, and it does not grow more theirs with time.</li>\\n<li>It stays private to your account until you decide to share a page yourself.</li>\\n<li>Nothing leaves the account on an anniversary, on a birthday, or on any other day.</li>\\n</ul>\\n<h2>Three questions that settle most disputes</h2>\\n<table>\\n<thead><tr><th>Question</th><th>Our answer</th></tr></thead>\\n<tbody>\\n<tr><td>Who can read what I wrote?</td><td>You, and whoever you choose to share it with. Not our staff, and not an advertiser.</td></tr>\\n<tr><td>Who keeps it if I leave?</td><td>You do. Export runs whenever you ask for it.</td></tr>\\n<tr><td>Who decides how it is used?</td><td>You, for as long as the account is yours to run.</td></tr>\\n</tbody>\\n</table>\\n<h2>Where the line gets genuinely hard</h2>\\n<p>Two cases have no tidy answer, and we would rather say so than pretend otherwise. The first is family. If you write about someone your sister also loved, both of you hold overlapping claims, and we have no standing to settle a disagreement between relatives. The second is what happens after you die. Today an account belongs to its owner alone, which means nobody can step into it unless you arranged that while you could. We go further into the surrounding questions in <a href='/blog/consent-digital-memory-ethics'>consent and digital memory</a>, and the boundaries we refuse to cross are listed in <a href='/blog/what-we-wont-build-and-why'>what we will not build</a>.</p>\\n<h2>What we actually do with it</h2>\\n<p>In practice, ownership comes down to what happens on an ordinary Tuesday. A blocked, encrypted copy of your pages sits on our servers so that a disk failure does not take them with it. Nothing here reads your pages in order to sell you something, and nothing here trains another model. If we ever close down, you get notice and a working export before the service stops. What we will not do is quietly treat your writing as an asset we can license, summarise or hand to someone else.</p>\\n<h2>FAQ</h2>\\n<p><strong>Q: Who owns the reflection I built?</strong> A: You own the words. We own the software that answers them. Nobody owns the person the reflection is shaped after, and we do not build anything that suggests otherwise.</p>\\n<p><strong>Q: Can my family open my capsule after I die?</strong> A: Not unless you arranged it with them while you could. We do not hand an account to relatives on request, because we cannot verify what you would have wanted. You can export your writing and leave it somewhere they will find it.</p>\\n<p><strong>Q: Do you claim any rights over what I write?</strong> A: None beyond the licence needed to run the service for you. Your pages are not used for training, not read for advertising, and not licensed onward. The export function exists so that leaving is always possible.</p>\\n<p><strong>Q: Does ownership change if I stop paying?</strong> A: No. Your writing stays yours and stays exportable for as long as the capsule exists, whether or not there is a current subscription.</p>\\n<p>You can begin with a single paragraph at stillherememory.com and keep it to yourself. If you would rather read the ground rules first, start with <a href='/blog/its-not-them-and-ok'>what a reflection is and is not</a>, or go back to the <a href='/'>home page</a>.</p>",
+      "faq": [
+        {
+          "q": "Who owns the reflection I built?",
+          "a": "You own the words. We own the software that answers them. Nobody owns the person the reflection is shaped after, and we do not build anything that suggests otherwise."
+        },
+        {
+          "q": "Can my family open my capsule after I die?",
+          "a": "Not unless you arranged it with them while you could. We do not hand an account to relatives on request, because we cannot verify what you would have wanted. You can export your writing and leave it somewhere they will find it."
+        },
+        {
+          "q": "Do you claim any rights over what I write?",
+          "a": "None beyond the licence needed to run the service for you. Your pages are not used for training, not read for advertising, and not licensed onward. The export function exists so that leaving is always possible."
+        },
+        {
+          "q": "Does ownership change if I stop paying?",
+          "a": "No. Your writing stays yours and stays exportable for as long as the capsule exists, whether or not there is a current subscription."
+        }
+      ]
+    },
+    "zh": {
+      "title": "一个「数字的人」，归谁？",
+      "excerpt": "回想由你写下的字生成，存在你的账号里，却指向另一个人。归属怎么分：文字是你的，软件是我们的，而那个人从一开始就不属于任何人。",
+      "body": "<p>只要你往记忆胶囊里写过一句话，然后想过这句话后来变成了什么，你就已经问出了这个标题里的问题：一个「数字的人」，归谁？简短的答案分三段：你写下的文字是你的，负责回应的软件属于做它的人，而那个被描摹的人，从来不属于任何人。下面是长一点的答案，包括两个我们自己也给不出干净界线的情形。</p>\\n<h2>你写下的那些字，是你的</h2>\\n<p>胶囊里的每一句都出自你手。它以加密形式存储，我们自己的同事打不开也读不到，也从不拿去训练任何模型。你可以在任何时候全部导出，导出后不用靠我们的软件也能打开。如果「归属」这个词还有什么意思，指的就是这一部分。</p>\\n<h2>属于我们的是哪一部分</h2>\\n<p>你没写的那部分属于我们：界面、组织回复的模型、服务器与备份。这只是「工具属于造它的人」的通常含义。拥有工具，并不附带对你放进工具里的内容的任何主张，就像做本子的人对写在本子上的句子没有主张。</p>\\n<h2>从来不归任何人的那一部分</h2>\\n<p>这一段是多数争论跳过的地方。你的母亲、伴侣、孩子：一个人不是一份带着产权的资产，由你的文字做出来的东西也不会改变这一点。回想是由你对某个人的记忆构成的，你的记忆是你的；而那个人本身，从来不由任何人持有。一款表现得像是可以持有他的产品，是在隐瞒自己真正在做什么。我们把这条边界写进产品里，而不是让它靠暗示存在，这也是为什么有些功能我们干脆不做。</p>\\n<ul>\\n<li>回想只依据你写下的内容，不依据别的。</li>\\n<li>它不会用那人从未用过的方式说话，也不会随时间推移变得更像他。</li>\\n<li>在你自己决定分享某一页之前，它留在你的账号里。</li>\\n<li>忌日、生日或平常的任何一天，都不会有内容离开这个账号。</li>\\n</ul>\\n<h2>三个能解决多数争执的问题</h2>\\n<table>\\n<thead><tr><th>问题</th><th>我们的回答</th></tr></thead>\\n<tbody>\\n<tr><td>我写的东西谁能读？</td><td>你，以及你选择分享的人。不是我们的员工，也不是广告主。</td></tr>\\n<tr><td>如果我离开，归谁保管？</td><td>归你。你要导出，随时都能导出。</td></tr>\\n<tr><td>怎么用由谁决定？</td><td>由你，在这个账号还由你打理的期间。</td></tr>\\n</tbody>\\n</table>\\n<h2>真正难划的地方</h2>\\n<p>有两种情形没有整齐的答案，我们更愿意直说，而不是假装没有。第一种是家人：如果你写的人也是你妹妹深爱的人，你们两人的主张重叠，而我们没有资格去裁决一家人之间的分歧。第二种是你离世之后。目前账号只属于本人，也就是说除非你生前做过安排，否则没有人能接手。相关的问题我们写得更细的在<a href='/blog/consent-digital-memory-ethics'>知情同意与数字记忆</a>，我们不肯越过去的边界列在<a href='/blog/what-we-wont-build-and-why'>我们不会做的几件事</a>。</p>\\n<h2>落到实处，我们在做什么</h2>\\n<p>归属这件事，最终看平常的星期二发生什么。你的页面在我们服务器上留有一份加密的备份，免得一次硬盘故障把它们带走。这里没有任何环节为了卖东西去读你的页面，也没有任何环节拿去训练别的模型。万一有一天我们关停，你会收到通知，并且在服务停止前能拿到可用的导出。我们不会做的，是悄悄把你写的东西当成一份可以授权、可以转交给别人的资产。</p>\\n<h2>FAQ</h2>\\n<p><strong>Q：我做的这个回想，归谁？</strong> A：文字归你。负责回应的软件归我们。被描摹的那个人不归任何人，我们也不会做任何暗示他归谁的功能。</p>\\n<p><strong>Q：我去世后，家人能打开我的胶囊吗？</strong> A：除非你在生前和他们安排好，否则不能。我们不会应亲属的请求交出账号，因为我们无法核实你本人的意愿。你可以导出自己写的文字，放在他们看得到的地方。</p>\\n<p><strong>Q：你们对我写的内容主张权利吗？</strong> A：除了为运行服务所必需的那部分许可，没有其他主张。你的页面不用于训练，不为广告而被读取，也不会转授给他人。导出功能一直在，就是为了让离开随时可能发生。</p>\\n<p><strong>Q：停付之后，归属会变吗？</strong> A：不会。只要胶囊还在，你写的字就仍然属于你，也仍然可以导出，有没有在续费都一样。</p>\\n<p>在 stillherememory.com，你可以从一段话开始，并且只留给自己。想先看清楚规则，可以从<a href='/blog/its-not-them-and-ok'>回想是什么、又不是什么</a>读起，或者回到<a href='/'>首页</a>。</p>",
+      "faq": [
+        {
+          "q": "我做的这个回想，归谁？",
+          "a": "文字归你。负责回应的软件归我们。被描摹的那个人不归任何人，我们也不会做任何暗示他归谁的功能。"
+        },
+        {
+          "q": "我去世后，家人能打开我的胶囊吗？",
+          "a": "除非你在生前和他们安排好，否则不能。我们不会应亲属的请求交出账号，因为我们无法核实你本人的意愿。你可以导出自己写的文字，放在他们看得到的地方。"
+        },
+        {
+          "q": "你们对我写的内容主张权利吗？",
+          "a": "除了为运行服务所必需的那部分许可，没有其他主张。你的页面不用于训练，不为广告而被读取，也不会转授给他人。导出功能一直在，就是为了让离开随时可能发生。"
+        },
+        {
+          "q": "停付之后，归属会变吗？",
+          "a": "不会。只要胶囊还在，你写的字就仍然属于你，也仍然可以导出，有没有在续费都一样。"
+        }
+      ]
+    }
+  },
 ];
 export function getPostBySlug(slug: string): BlogPost | undefined {
   return BLOG_POSTS.find((p) => p.slug === slug);
