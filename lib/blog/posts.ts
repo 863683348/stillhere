@@ -3119,6 +3119,56 @@ en: {
       ]
     }
   },
+  {
+    "slug": "a-letter-to-mom-on-mothers-day",
+    "date": "2026-10-13",
+    "en": {
+      "title": "A letter to mom on Mother's Day, years later",
+      "excerpt": "Mother's Day stops being an event and goes back to being a date only you are keeping. What to write in a letter to mom years later: the small details worth opening with, the letters people actually write, what to do when the relationship was complicated, and where the page goes afterward.",
+      "body": "<h2>Why the day gets heavier with time</h2>\n<p>In the first year people check on you. By year four or five they have stopped asking, and Mother's Day arrives with nothing built around it: no plan, no card to buy, nobody to phone. The quiet is the hard part, and it is easy to mistake that quiet for the feeling fading. It usually means the opposite. The day stopped being an event and went back to being a date on the calendar that only you are still keeping.</p>\n<h2>What to write when the obvious words feel wrong</h2>\n<p>\"Happy Mother's Day\" is the sentence most people get stuck on, because it no longer fits. Skip it. Open with something you can still see clearly. A physical fact carries more weight than a summary of what she meant to you.</p>\n<ul>\n<li>Name one object: her handwriting on a shopping list, the mug she used every morning, the coat that still smells like her shampoo.</li>\n<li>Write the ordinary part of the day. What you ate, what the weather did, who else was in the room.</li>\n<li>Say the thing you owed her. An apology, a thank you, or the sentence you were too young to say at the time.</li>\n<li>Write to the version of her you only understand now. At twenty-five you knew your mother; at forty-five you know a woman who was also somebody's daughter, with tired years of her own.</li>\n</ul>\n<h2>Letters people actually write</h2>\n<table>\n<thead><tr><th>What the letter is for</th><th>A line to open with</th></tr></thead>\n<tbody>\n<tr><td>To say thank you</td><td>\"I want to write down what you did that year, because I was too young to notice it happening.\"</td></tr>\n<tr><td>To apologise</td><td>\"There is a conversation I keep rewriting in my head. This is the version I should have said.\"</td></tr>\n<tr><td>To report on the family</td><td>\"The children are taller. One of them has your hands. Here is what happened this year.\"</td></tr>\n<tr><td>To argue, still</td><td>\"I am still angry about that decision, and I still love you. Both of those are true at once.\"</td></tr>\n</tbody>\n</table>\n<h2>If the relationship was complicated</h2>\n<p>Not every letter to a mother is warm, and pretending otherwise makes the page useless. You are allowed to write the unkind sentences. The paper does not owe her gentleness. What many people find halfway down is that the anger and the missing sit next to each other without cancelling out. Write only the grief and leave the rest unsaid, and the letter tends to stay unfinished year after year.</p>\n<h2>What to do with it afterward</h2>\n<ul>\n<li>Keep it where you will find it again next May, and write another one then. The second letter is usually easier.</li>\n<li>Read it out loud once. Hearing your own voice say the words does something the page cannot.</li>\n<li>Do not send it to relatives as a way of opening a conversation you do not want to have.</li>\n<li>If writing it leaves you worse for an hour, that is not failure. Some feelings get louder before they settle.</li>\n</ul>\n<h2>FAQ</h2>\n<p><strong>Q: Should I write it by hand or type it?</strong> A: Whichever you will actually finish. Handwriting slows you down and some people need that. Typing is easier to keep and easier to find again next year.</p>\n<p><strong>Q: What if I start crying and cannot finish?</strong> A: Stop. Leave the letter open and come back in two days. A letter written across three sittings is still one letter.</p>\n<p><strong>Q: Is it strange to write to her years later?</strong> A: No. Most people who do this are five, ten or twenty years out. The date on the calendar is the reason, but the letter was waiting anyway.</p>\n<p><strong>Q: Should I share it with my family?</strong> A: Only if you want the conversation it will start. Sharing turns a private page into something other people have opinions about, and you can decide that later.</p>\n<p>StillHere is a quiet place at stillherememory.com to hold a letter like this, private and openable only by you. If you have not started one, <a href=\"/blog/what-to-say-first\">what to write first</a> is where most people begin, and <a href=\"/blog/writing-to-someone-who-cant-reply\">writing to someone who cannot reply</a> covers the part where it gets difficult. For the day itself, <a href=\"/blog/talking-on-their-birthday-years-later\">the birthdays that arrive years later</a> sits close to this one.</p>",
+      "faq": [
+        {
+          "q": "Should I write it by hand or type it?",
+          "a": "Whichever you will actually finish. Handwriting slows you down and some people need that. Typing is easier to keep and easier to find again next year."
+        },
+        {
+          "q": "What if I start crying and cannot finish?",
+          "a": "Stop. Leave the letter open and come back in two days. A letter written across three sittings is still one letter."
+        },
+        {
+          "q": "Is it strange to write to her years later?",
+          "a": "No. Most people who do this are five, ten or twenty years out. The date on the calendar is the reason, but the letter was waiting anyway."
+        },
+        {
+          "q": "Should I share it with my family?",
+          "a": "Only if you want the conversation it will start. Sharing turns a private page into something other people have opinions about, and you can decide that later."
+        }
+      ]
+    },
+    "zh": {
+      "title": "多年后，母亲节给妈妈写一封信",
+      "excerpt": "母亲节不再是一件「事」，重新变回日历上一个只有你还在记着的日子。过了很多年，给妈妈写一封信该写什么：可以开头的具体物件、人们真正写下的几种信、关系本来就复杂时怎么写，以及写完以后这页纸怎么办。",
+      "body": "<h2>为什么这个日子是越来越沉，而不是越来越淡</h2>\n<p>第一年，身边人会来看看你。到第四、第五年，他们不再问了，母亲节就那样到来，周围什么都没有：没有安排，没有要买的卡片，没有人可以打电话。难的是这份安静，而人很容易把这份安静误以为感情淡了。通常恰恰相反。这一天不再是一件「事」，重新变回日历上一个只有你还在记着的日子。</p>\n<h2>最顺手的那些话不对劲时，写什么</h2>\n<p>「母亲节快乐」是多数人卡住的那句，因为它已经不合适了。跳过它。从一件你还看得清的东西开头。一个具体的物件，比「你对我意味着什么」那种总结更有分量。</p>\n<ul>\n<li>写一件东西：购物清单上她的字、她每天早上用的那个杯子、那件还有她洗发水味道的外套。</li>\n<li>写这天里最平常的部分。你吃了什么，天气怎样，屋里还有谁。</li>\n<li>写你欠她的那句话。一句道歉、一句谢谢，或者当时太年轻、没说出口的那句。</li>\n<li>写给那个你现在才懂的她。二十五岁时你认识的是妈妈；四十五岁时你认识的是一个也曾是谁的女儿、也有过疲惫岁月的女人。</li>\n</ul>\n<h2>人们真正写下的几种信</h2>\n<table>\n<thead><tr><th>这封信是为了什么</th><th>可以用哪一句开头</th></tr></thead>\n<tbody>\n<tr><td>道谢</td><td>「我想把那一年你做的事写下来，因为当时我太小，看不出它正在发生。」</td></tr>\n<tr><td>道歉</td><td>「有一段对话我在脑子里重写了很多遍。这是我本该说出口的那一版。」</td></tr>\n<tr><td>向她汇报家里</td><td>「孩子们长高了。其中一个有一双和你一样的手。今年发生了这些。」</td></tr>\n<tr><td>还在跟她吵</td><td>「我还在为那个决定生气，我也仍然爱你。这两件事同时成立。」</td></tr>\n</tbody>\n</table>\n<h2>如果你们的关系本来就复杂</h2>\n<p>不是每封写给妈妈的信都是暖的，硬装成暖的，这页纸就没用了。你被允许写那些不善良的句子。纸不欠她温柔。很多人写到一半会发现，生气和想念是并排放着的，谁也不会抵消谁。只写想念、把别的都留在心里不给，这封信往往年复一年地写不完。</p>\n<h2>写完以后怎么办</h2>\n<ul>\n<li>放在明年五月你还能找到的地方，到时再写一封。第二封通常容易些。</li>\n<li>念出声一次。听见自己说出这些话，纸做不到这一点。</li>\n<li>别把它发给亲戚，用它去开启一场你并不想进行的对话。</li>\n<li>如果写完反而难受了一个小时，那不是失败。有些情绪是先变响，才慢慢平下来的。</li>\n</ul>\n<h2>FAQ</h2>\n<p><strong>Q：手写还是打字？</strong> A：哪种你能真的写完，就用哪种。手写会让你慢下来，有些人需要这个。打字更容易保存，明年也更容易找回来。</p>\n<p><strong>Q：一哭就写不下去怎么办？</strong> A：停下，留着不结尾，过两天再来。分三次写完的信，也还是一封信。</p>\n<p><strong>Q：过了这么多年还写，会不会奇怪？</strong> A：不会。写这些的人，多数已经过了五年、十年、二十年。日历上的这个日子是个由头，那封信本来就在等着。</p>\n<p><strong>Q：要不要给家人看？</strong> A：只在你想要那场随之而来的对话时再给。分享会把一张私密的纸变成别人有意见的东西，这件事可以以后再决定。</p>\n<p>StillHere 是 stillherememory.com 上一个安静的地方，用来安放这样一封信，私密，只有你能打开。如果还没动笔，多数人从<a href=\"/blog/what-to-say-first\">第一次该写什么</a>开始；写到难处的那部分在<a href=\"/blog/writing-to-someone-who-cant-reply\">给无法回复的人写信</a>。至于这一天本身，<a href=\"/blog/talking-on-their-birthday-years-later\">多年后的生日与那些日子</a>和这篇很近。</p>",
+      "faq": [
+        {
+          "q": "手写还是打字？",
+          "a": "哪种你能真的写完，就用哪种。手写会让你慢下来，有些人需要这个。打字更容易保存，明年也更容易找回来。"
+        },
+        {
+          "q": "一哭就写不下去怎么办？",
+          "a": "停下，留着不结尾，过两天再来。分三次写完的信，也还是一封信。"
+        },
+        {
+          "q": "过了这么多年还写，会不会奇怪？",
+          "a": "不会。写这些的人，多数已经过了五年、十年、二十年。日历上的这个日子是个由头，那封信本来就在等着。"
+        },
+        {
+          "q": "要不要给家人看？",
+          "a": "只在你想要那场随之而来的对话时再给。分享会把一张私密的纸变成别人有意见的东西，这件事可以以后再决定。"
+        }
+      ]
+    }
+  },
 ];
 export function getPostBySlug(slug: string): BlogPost | undefined {
   return BLOG_POSTS.find((p) => p.slug === slug);
