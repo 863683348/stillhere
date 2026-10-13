@@ -3169,6 +3169,48 @@ en: {
       ]
     }
   },
+  {
+    "slug": "remembering-dad-through-his-bad-jokes",
+    "date": "2026-10-14",
+    "en": {
+      "title": "Remembering dad through his bad jokes",
+      "excerpt": "The jokes are often the first thing people can still hear clearly. How to remember dad through jokes: which ones are worth writing down, why a joke needs its setup, and what to do with the list once it exists.",
+      "body": "<h2>Why the jokes come back before the rest does</h2>\n<p>People expect to remember the big things: the advice, the arguments, the afternoon he taught them to drive. What comes back first is usually smaller. The line he said every time the rain started, the pun he had been repeating for thirty years, the running bit that made everyone at the table groan. One way to remember dad through jokes is to write them down, because humour carries timing and voice in a way that a summary of who he was does not. You are not collecting material. You are keeping the part that still sounds like him.</p>\n<h2>What to write down, and what makes a joke survive on paper</h2>\n<ul>\n<li>Write the setup. A joke without its setup reads as nonsense in five years, and the setup is the part you will have lost.</li>\n<li>Write where it happened. Kitchen, car, the queue at the licence office. Place is what brings the timing back.</li>\n<li>Write who groaned. Most of these jokes had an audience, and the audience belongs in the memory.</li>\n<li>Write the ones that never landed. The ones that landed are already safe. The ones that fell flat are the ones nobody else will keep.</li>\n<li>Write his wording, not yours. If he always said \"right then\" before the punchline, keep it.</li>\n</ul>\n<h2>Kinds of jokes people write down</h2>\n<table>\n<thead><tr><th>What the joke did</th><th>A line to open with</th></tr></thead>\n<tbody>\n<tr><td>Marked the ordinary parts of the day</td><td>\"Every time it rained he said the same thing. I am writing it down because nobody else will say it now.\"</td></tr>\n<tr><td>Took the weight off a bad moment</td><td>\"The worst week of my teens, he made one joke, and I still know exactly which one.\"</td></tr>\n<tr><td>Annoyed everyone on purpose</td><td>\"He knew what he was doing with the puns. The groan was the point.\"</td></tr>\n<tr><td>Turned into family language</td><td>\"We still say it. Half the time we have forgotten it was his.\"</td></tr>\n</tbody>\n</table>\n<h2>When the jokes were not kind</h2>\n<p>Some fathers used humour to get out of saying anything real, and some jokes had a target. You can write that down too. A page where every joke is warm is a page you will not reread, because you will know it is not the father you had. If the humour was how he dodged a conversation, say that. The jokes and the dodging can sit next to each other here.</p>\n<h2>What to do with the list</h2>\n<ul>\n<li>Keep it where you will find it next year, then add one more. The second year is easier.</li>\n<li>Say one out loud. Hearing it in your own voice does something the page cannot.</li>\n<li>Hand the material to the reflection rather than asking it to be funny. Phrases he actually used are what come back; <a href='/blog/describe-them-like-themselves'>describe them like themselves</a> walks through it.</li>\n<li>Leave it untidy. A list that still has the jokes that fell flat is the one that reads like him.</li>\n</ul>\n<h2>FAQ</h2>\n<p><strong>Q: What if I can only remember the punchline?</strong> A: Write the punchline and mark the gap. Half a joke is worth keeping, and the setup sometimes comes back later.</p>\n<p><strong>Q: Is it disrespectful to remember him through jokes?</strong> A: No. Jokes are how a lot of fathers said the things they could not say straight, and keeping them is keeping the way he talked.</p>\n<p><strong>Q: What if the jokes were at someone else's expense?</strong> A: Write it accurately, including who they landed on. A memory you have cleaned up stops being useful to you.</p>\n<p>StillHere is a quiet place on stillherememory.com to keep a list like this, private, opened only by you. If you are not sure where to start, most people begin with <a href='/blog/what-to-say-first'>what to say first</a>, and the longer version of keeping someone close is in <a href='/blog/keep-them-by-remembering'>keep them by remembering</a>.</p>",
+      "faq": [
+        {
+          "q": "What if I can only remember the punchline?",
+          "a": "Write the punchline and mark the gap. Half a joke is worth keeping, and the setup sometimes comes back later."
+        },
+        {
+          "q": "Is it disrespectful to remember him through jokes?",
+          "a": "No. Jokes are how a lot of fathers said the things they could not say straight, and keeping them is keeping the way he talked."
+        },
+        {
+          "q": "What if the jokes were at someone else's expense?",
+          "a": "Write it accurately, including who they landed on. A memory you have cleaned up stops being useful to you."
+        }
+      ]
+    },
+    "zh": {
+      "title": "用他的烂梗，记住爸爸",
+      "excerpt": "最先回来的往往不是那些大事，而是他反复讲的那几句。这篇讲怎么用他的烂梗记住爸爸：哪些值得写下来、一个笑话为什么必须连着铺垫一起写，以及这份清单写完以后怎么办。",
+      "body": "<h2>为什么先回来的是那些梗</h2>\n<p>人以为自己会先记住大事：那些建议、那些争吵、他教开车那个下午。先回来的通常是更小的东西。一下雨他就要说的那句，他讲了三十年的那个谐音梗，饭桌上让所有人一起叹气的那段固定节目。用他的烂梗记住爸爸，是一条走得通的路，因为幽默里带着节奏和语气，那是「他是个什么样的人」这种总结给不了的。你不是在收集段子，你是在留着那个还像他的部分。</p>\n<h2>写什么，以及一个笑话怎么才能在纸上活下来</h2>\n<ul>\n<li>把铺垫也写下来。没有铺垫的笑话，五年后就是一句读不通的话，而铺垫正是你会先忘掉的那部分。</li>\n<li>写它发生在哪儿。厨房、车里、办证大厅排的队。地点会把节奏带回来。</li>\n<li>写谁叹了气。多数爸爸的烂梗都有观众，观众也属于这段记忆。</li>\n<li>写那些没响的。响过的已经安全了；没响过的，你不写就没人会留着。</li>\n<li>写他的说法，不是你的。如果他抖包袱前总要加一句「好，那么」，就留着。</li>\n</ul>\n<h2>人们写下来的几种梗</h2>\n<table>\n<thead><tr><th>这个梗在做什么</th><th>可以用哪一句开头</th></tr></thead>\n<tbody>\n<tr><td>标记一天里最平常的部分</td><td>「每次下雨他都讲同一句。我把它写下来，因为以后没人会讲了。」</td></tr>\n<tr><td>在很难的时候把重量卸掉一点</td><td>「我十几岁最难的那周，他讲了一个笑话，我到现在都记得是哪一个。」</td></tr>\n<tr><td>故意惹所有人</td><td>「那些谐音梗他是故意的。他要的就是那一声叹气。」</td></tr>\n<tr><td>变成了家里的说法</td><td>「我们现在还在说。有一半的时候已经忘了那是他的。」</td></tr>\n</tbody>\n</table>\n<h2>当那些梗并不善意</h2>\n<p>有些爸爸用幽默来躲开真正要说的话，有些笑话是有对象的。这些你也可以写下来。一页上每个梗都是暖的，那你不会再看第二遍，因为你知道那不是你有的那个爸爸。如果幽默是他躲开一场对话的方式，就把这句也写上。梗和躲避可以在这里并排放着。</p>\n<h2>这份清单写完以后</h2>\n<ul>\n<li>放在明年你还找得到的地方，到时再加一条。第二年通常容易些。</li>\n<li>念出声一次。听见自己说出这句话，纸做不到这一点。</li>\n<li>把这些材料交给回想，而不是要求它讲笑话。能回来的是他真的用过的说法，写在<a href='/blog/describe-them-like-themselves'>把他写得像他自己</a>那篇。</li>\n<li>别整理它。留着那些没响的，这份清单才还像他。</li>\n</ul>\n<h2>FAQ</h2>\n<p><strong>Q：只记得包袱，不记得铺垫怎么办？</strong> A：先把包袱写下来，把空缺标出来。半个笑话也值得留，铺垫有时会自己回来。</p>\n<p><strong>Q：用笑话来记住他，会不会不敬？</strong> A：不会。很多爸爸是用笑话说那些他没法直说的话，留住笑话就是留住他说话的方式。</p>\n<p><strong>Q：如果那些笑话是拿别人开涮的呢？</strong> A：照实写，包括它落在谁身上。被你擦干净的记忆，对你就没用了。</p>\n<p>StillHere 是 stillherememory.com 上一个安静的地方，用来放这样一份清单，私密，只有你能打开。如果还没动笔，多数人从<a href='/blog/what-to-say-first'>第一次该写什么</a>开始；把一个人留在身边这件更长的事，写在<a href='/blog/keep-them-by-remembering'>用记住，把他留在身边</a>。</p>",
+      "faq": [
+        {
+          "q": "只记得包袱，不记得铺垫怎么办？",
+          "a": "先把包袱写下来，把空缺标出来。半个笑话也值得留，铺垫有时会自己回来。"
+        },
+        {
+          "q": "用笑话来记住他，会不会不敬？",
+          "a": "不会。很多爸爸是用笑话说那些他没法直说的话，留住笑话就是留住他说话的方式。"
+        },
+        {
+          "q": "如果那些笑话是拿别人开涮的呢？",
+          "a": "照实写，包括它落在谁身上。被你擦干净的记忆，对你就没用了。"
+        }
+      ]
+    }
+  },
 ];
 export function getPostBySlug(slug: string): BlogPost | undefined {
   return BLOG_POSTS.find((p) => p.slug === slug);
