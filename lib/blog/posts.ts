@@ -3211,6 +3211,106 @@ en: {
       ]
     }
   },
+  {
+    slug: 'remembering-a-miscarriage',
+    date: '2026-10-15',
+    en: {
+      title: 'A miscarriage remembered, quietly',
+      excerpt:
+        'Pregnancy loss often has no funeral and no date anyone else marks. This is a quiet way to remember it: what to write down, why it goes silent, and how to keep it without explaining it to anyone.',
+      body: `<h2>A loss that often has no funeral</h2>
+<p>Remembering a miscarriage works differently from remembering most losses. There is usually no service, no date that anyone else marks, and often nobody outside a small circle knows it happened. The pregnancy ends and the week keeps going. That missing ritual is part of what makes it hard: nothing in the calendar tells you today is the day, and nobody is going to bring it up.</p>
+<p>What was lost still mattered to the people who were waiting for it. Writing it down is one of the few ways to give it somewhere to sit.</p>
+<h2>What people write down</h2>
+<ul>
+<li>The date, and how many weeks along it was.</li>
+<li>What they had already started to imagine. A name, a corner of a room, a due date circled on a calendar.</li>
+<li>The appointment. Who was in the room, what the doctor said, what happened in the hour after.</li>
+<li>The name, if there was one. Plenty of people choose one later, even if they never said it out loud at the time.</li>
+<li>What a partner said, or did not say. The silence belongs in the record too.</li>
+<li>What they wish somebody had asked.</li>
+</ul>
+<h2>Why it goes quiet</h2>
+<p>Two different things cause the silence, and they are worth separating. Some people never knew. Others knew and had no idea what to say, so they said nothing, and then enough time passed that starting now felt late. Neither one is the same as forgetting. That is worth writing down, because the quiet can start to read as evidence that the loss did not count.</p>
+<p>Partners often move through it on different schedules, which adds its own difficulty. One person wants to talk in the first week, the other in the third month, and both can feel abandoned by the other. A private capsule does not require anyone to be ready at the same moment.</p>
+<h2>What helps, and what does not</h2>
+<table>
+<thead><tr><th>What people say</th><th>Why it lands badly</th></tr></thead>
+<tbody>
+<tr><td>You can always try again</td><td>It points at the future while the person is still standing in this one. The loss was of a particular pregnancy, not of the idea of having children.</td></tr>
+<tr><td>It was early, it hardly counts</td><td>Weeks are not a unit of grief. Ten weeks of planning does not vanish because it ended at ten.</td></tr>
+<tr><td>At least you know you can get pregnant</td><td>True, and beside the point. Knowing that does not make this smaller.</td></tr>
+<tr><td>I am here when you want to talk</td><td>Usually the one that helps. It leaves the timing with the person who is grieving.</td></tr>
+</tbody>
+</table>
+<h2>How to keep it</h2>
+<ul>
+<li>Keep the capsule private. This is one of the few memories where sharing is not the point.</li>
+<li>Set the reminder yourself, on the date you pick. A yearly note on the day itself gives the loss somewhere to sit.</li>
+<li>Export a copy. Your words stay yours, in your own files, whether or not you keep using the tool.</li>
+<li>Write the ordinary parts alongside the hospital. The scan photo, the food craving, the argument about names at week eight.</li>
+<li>Leave it rough. A tidied version of this tends to read like somebody else wrote it.</li>
+</ul>
+<h2>FAQ</h2>
+<p><strong>Q: Is it strange to keep a memory for a pregnancy that ended early?</strong> A: No. There is no threshold of weeks below which a loss stops being worth remembering. If it mattered to you, it belongs here.</p>
+<p><strong>Q: Should I tell people what happened?</strong> A: Only if you want to. Plenty of people keep it to a small circle for years. A private capsule works either way, and nothing here is shared unless you make a link yourself.</p>
+<p><strong>Q: My partner and I are grieving at different speeds. Is that normal?</strong> A: It is common, and it is not a verdict on the relationship. Writing separately in the same capsule is one way through it.</p>
+<p>StillHere is a quiet place on stillherememory.com to keep something like this, private by default. If you have not started writing, <a href='/blog/what-to-say-first'>what to say first</a> is where most people begin, and the longer question of keeping someone close sits in <a href='/blog/keep-them-by-remembering'>keeping them by remembering</a>.</p>`,
+      faq: [
+        { q: 'Is it strange to keep a memory for a pregnancy that ended early?', a: 'No. There is no threshold of weeks below which a loss stops being worth remembering. If it mattered to you, it belongs here.' },
+        { q: 'Should I tell people what happened?', a: 'Only if you want to. Plenty of people keep it to a small circle for years. Nothing here is shared unless you make a link yourself.' },
+        { q: 'My partner and I are grieving at different speeds. Is that normal?', a: 'It is common, and it is not a verdict on the relationship. Writing separately in the same capsule is one way through it.' }
+      ],
+    },
+    zh: {
+      title: '安静地，记住一次流产',
+      excerpt:
+        '流产通常没有仪式，也没有几个人知道它发生过。这篇讲一个安静的记住方式：该写下什么、它为什么会变得沉默，以及一份不需要向任何人解释的留存办法。',
+      body: `<h2>一场通常没有仪式的失去</h2>
+<p>安静地记住一次流产，和记住大多数失去不一样。通常没有告别仪式，没有一个别人会标记的日子，圈子之外往往没人知道这件事发生过。妊娠结束，那一周照常往下走。正是这种仪式的缺席让它难熬：日历上没有任何东西告诉你今天是哪一天，也没有人会主动提起。</p>
+<p>但对等待过它的人来说，这次失去是真的。写下来，是为数不多能给它一个地方放着的办法。</p>
+<h2>人们会写下什么</h2>
+<ul>
+<li>日期，以及当时是第几周。</li>
+<li>已经开始想象的东西。一个名字，房间的一角，日历上圈起来的预产期。</li>
+<li>那次就诊本身。谁在房间里，医生说了什么，之后那一小时发生了什么。</li>
+<li>名字，如果有过的话。很多人是后来才取的，哪怕当时从没说出口。</li>
+<li>伴侣说了什么，或者没说什么。沉默也属于这段记录。</li>
+<li>希望当时有人问过的那句话。</li>
+</ul>
+<h2>它为什么会变安静</h2>
+<p>造成沉默的是两件不同的事，值得分开说。一种是别人根本不知道。另一种是知道，却不知道该说什么，于是就什么都没说，等时间过去，再开口就显得太晚了。这两者都不等于忘记。这一点值得写下来，因为沉默久了，会被读成这件事不算数的证据。</p>
+<p>伴侣的节奏也常常不一样，这是额外的难处。一个人第一周就想说，另一个人到第三个月才想说，双方都可能觉得自己被丢下了。一个私密的胶囊不需要两个人同时准备好。</p>
+<h2>哪些话有用，哪些没用</h2>
+<table>
+<thead><tr><th>人们会说什么</th><th>为什么听上去不对</th></tr></thead>
+<tbody>
+<tr><td>你们还可以再要一个</td><td>它把人推向未来，而对方还站在此刻。失去的是这一胎，不是要不要孩子这个念头。</td></tr>
+<tr><td>还早，算不上什么</td><td>周数不是悲伤的单位。十周的期待不会因为停在第十周就消失。</td></tr>
+<tr><td>至少你知道自己能怀上</td><td>这句话没错，但说偏了。知道这一点不会让这次变得更小。</td></tr>
+<tr><td>你想说的时候，我在</td><td>通常是管用的那句。它把时间留给正在难过的人。</td></tr>
+</tbody>
+</table>
+<h2>怎么留着它</h2>
+<ul>
+<li>胶囊保持私密。这是少数几类记忆里，分享并不是重点的。</li>
+<li>提醒自己设，日期自己挑。每年在那一天的一条提醒，能让这次失去有个地方待着。</li>
+<li>导出一份。你的话留在你自己的文件里，用不用这个工具都在。</li>
+<li>把平常的部分也写上，不只是医院。那张 B 超照，那阵子想吃的味道，第八周那场关于名字的争执。</li>
+<li>别整理它。这类记忆一旦被收拾干净，读起来就像别人写的。</li>
+</ul>
+<h2>常见问题</h2>
+<p><strong>Q：为一次很早就结束的妊娠留一段记忆，会不会很奇怪？</strong> A：不会。不存在一个周数门槛，低于它就不值得记住。它对你重要，就该在这里。</p>
+<p><strong>Q：要不要告诉别人发生过什么？</strong> A：看你愿不愿意。很多人多年只让很小的圈子知道。私密胶囊两种情况下都成立，这里没有任何东西会被分享，除非你自己建了链接。</p>
+<p><strong>Q：我和伴侣难过的节奏不一样，正常吗？</strong> A：常见，也不是对这段关系的判决。在同一个胶囊里各自写，是走过去的一种办法。</p>
+<p>StillHere 是 stillherememory.com 上一个安静的地方，用来放这样一段记忆，默认私密。如果还没动笔，多数人从<a href='/blog/what-to-say-first'>第一次该写什么</a>开始；把一个人留在身边这件更长的事，写在<a href='/blog/keep-them-by-remembering'>用记住，把他留在身边</a>。</p>`,
+      faq: [
+        { q: '为一次很早就结束的妊娠留一段记忆，会不会很奇怪？', a: '不会。不存在一个周数门槛，低于它就不值得记住。它对你重要，就该在这里。' },
+        { q: '要不要告诉别人发生过什么？', a: '看你愿不愿意。很多人多年只让很小的圈子知道。这里没有任何东西会被分享，除非你自己建了链接。' },
+        { q: '我和伴侣难过的节奏不一样，正常吗？', a: '常见，也不是对这段关系的判决。在同一个胶囊里各自写，是走过去的一种办法。' }
+      ],
+    }
+  },
 ];
 export function getPostBySlug(slug: string): BlogPost | undefined {
   return BLOG_POSTS.find((p) => p.slug === slug);
