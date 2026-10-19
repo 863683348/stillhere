@@ -3311,6 +3311,92 @@ en: {
       ],
     }
   },
+  {
+    slug: 'the-coworker-who-became-family',
+    date: '2026-10-20',
+    en: {
+      title: 'The co-worker who became family',
+      excerpt:
+        'When a colleague dies there is often no script for the people left at the office. This is about the grief that has no name, the parts you miss, and somewhere private to keep them.',
+      body: `<h2>The loss nobody has a script for</h2>
+<p>When a co-worker dies, the people around them often get less room to grieve than they would for a family member. There is a condolence email, maybe an afternoon off, and then the standup continues. Yet some colleagues become family in the plain sense of the word: you saw them more weekday hours than you saw your siblings, they knew the version of you that exists at work, and they were present for the years when everything else changed.</p>
+<p>This is for the people still carrying that and unsure where to put it.</p>
+<h2>Why it sits oddly</h2>
+<ul>
+<li>The relationship had no name other people recognise. Saying "my colleague" undersells it, and saying "my friend" can feel like you are claiming too much.</li>
+<li>The workplace moves on quickly. The desk is cleared, access is revoked, the project is reassigned by Friday.</li>
+<li>What you miss is small and specific, and none of it fits in an obituary. How they said good morning. The sound of their keyboard two rows over.</li>
+<li>You may never have met their family, so nobody else holds the work version of them the way you do.</li>
+</ul>
+<h2>What people write down</h2>
+<p>The entries that help tend to be concrete rather than grand. Not a summary of a career, but the ordinary details that only someone at the next desk would know.</p>
+<ul>
+<li>The running joke, written out in full, because in five years you will remember that it existed and not what it was.</li>
+<li>How they took their coffee, and the meeting they always ran five minutes over.</li>
+<li>The thing they were quietly good at that never appeared in a review. Fixing the printer. Defusing the client who called every Thursday.</li>
+<li>The advice they gave you in your first month, and whether you took it.</li>
+<li>The last ordinary conversation, which you probably did not know was the last one.</li>
+</ul>
+<h2>When the office was the only place they existed</h2>
+<p>Some colleagues you only ever knew at work. You never met their partner, never saw their kitchen, never learned what they did on a Sunday. That can make the loss feel thin to other people while it feels enormous to you, and the mismatch is disorienting.</p>
+<p>It also means you may be the only person holding a large part of them. A private capsule is one way to keep that without needing anyone else to agree it mattered.</p>
+<h2>Keeping it somewhere that is yours</h2>
+<ul>
+<li>Keep it private. This is one of the few memories where sharing is not the point, and a shared link would put you in the position of explaining a relationship to people who never saw it.</li>
+<li>Do not tidy it. The version that reads well is usually the version that sounds like someone else wrote it.</li>
+<li>Set a reminder on a date you choose, not the date on the HR email. The day their desk was cleared means nothing to you.</li>
+<li>Export a copy. Your words stay in your own files whether or not you keep using the tool.</li>
+</ul>
+<h2>Frequently asked</h2>
+<p>StillHere is a quiet, private place on stillherememory.com to keep someone like this, and it stays yours alone by default. If you have not started, most people begin with <a href='/blog/what-to-say-first'>what to write first</a>, and the longer question of keeping a person close is written about in <a href='/blog/keep-them-by-remembering'>keeping them by keeping what you remember</a>.</p>`,
+      faq: [
+        { q: 'Is it strange to grieve a colleague this much?', a: 'No. People spend more waking hours with colleagues than with almost anyone else. The amount of grief has to do with the hours and the closeness, not with whether you were related.' },
+        { q: 'What if I only knew them at work?', a: 'That is common, and it does not make the memory smaller. You may be the only person who holds the version of them that existed in that building.' },
+        { q: 'Should I share this with the team?', a: 'Only if you want to. Plenty of people keep this private for years, and a capsule does not require an audience.' }
+      ],
+    },
+    zh: {
+      title: '像家人一样的那位同事',
+      excerpt:
+        '一位同事离开时，留在办公室的人往往没有现成的悲伤脚本。这篇写这种没有名字的难过、你会想念的那些细处，以及一个可以私密安放它们的地方。',
+      body: `<h2>一场没有脚本的失去</h2>
+<p>一位同事离开的时候，留在办公室的人能得到的空间，往往比家人离世时要小。一封慰问邮件，也许半天假，然后晨会照常进行。可有些同事确实成了家人，这不是修辞：你工作日见他的时间比见自己兄弟姐妹还多，他认识的是你在工作里的那一面，你人生发生变化的那些年，他都在。</p>
+<p>这篇是写给还在扛着这件事、又不知道该把它放在哪里的人。</p>
+<h2>它为什么让人不适</h2>
+<ul>
+<li>这段关系没有一个别人认得的名字。说「我同事」太轻，说「我朋友」又像是在给自己加戏。</li>
+<li>职场翻篇很快。工位清掉，权限收回，周五之前项目已经分给别人。</li>
+<li>你想念的东西都很小很具体，而且没有一样进得了讣告。他道早安的方式。隔着两排座位传来的键盘声。</li>
+<li>你可能从没见过他的家人，于是那个在工作里的他，只有你一个人记得。</li>
+</ul>
+<h2>人们会写下什么</h2>
+<p>真正有用的记录往往很具体，不宏大。不是一份职业总结，而是只有坐在旁边的人才会知道的那些平常细节。</p>
+<ul>
+<li>那个长期的内部梗，完整写下来。五年后你会记得有这个梗，但想不起它是什么。</li>
+<li>他怎么喝咖啡，还有那个他每次都要拖五分钟的会。</li>
+<li>他悄悄擅长、却从没写进考核里的事。修打印机。安抚那个每周四都打电话来的客户。</li>
+<li>你入职第一个月他给过你的建议，以及你听没听。</li>
+<li>最后一次平常的对话，当时你并不知道那是最后一次。</li>
+</ul>
+<h2>当办公室是他唯一存在过的地方</h2>
+<p>有些同事你只在工作里认识。你没见过他的伴侣，没去过他家，不知道他周日做什么。这会让这场失去在别人看来很轻，在你这里却很重，这种错位本身就让人晕。</p>
+<p>它也意味着，他身上相当大的一部分可能只有你记得。一个私密的胶囊是留住这部分的一个办法，不需要别人先承认它重要。</p>
+<h2>把它留在一个只属于你的地方</h2>
+<ul>
+<li>保持私密。这是少数几类记忆里分享并不是重点的，一个分享链接会逼你向从没见过这段关系的人解释它。</li>
+<li>别整理。读起来通顺的那一版，通常听起来像别人写的。</li>
+<li>提醒设在你自己挑的日子，不要用 HR 邮件里那个日期。他的工位被清空那天，对你没有任何意义。</li>
+<li>导出一份。你的话留在你自己的文件里，用不用这个工具都在。</li>
+</ul>
+<h2>常见问题</h2>
+<p>StillHere 是 stillherememory.com 上一个安静、私密的地方，用来放这样一个人，默认只属于你自己。如果还没动笔，多数人从<a href='/blog/what-to-say-first'>第一次该写什么</a>开始；把一个人留在身边这件更长的事，写在<a href='/blog/keep-them-by-remembering'>用记住，把他留在身边</a>。</p>`,
+      faq: [
+        { q: '为一位同事难过到这个程度，正常吗？', a: '正常。人和同事相处的时间，比和绝大多数人相处的清醒时间都长。悲伤的分量取决于相处的时间和亲近的程度，跟有没有血缘无关。' },
+        { q: '如果我只在工作中认识他呢？', a: '这很常见，也不代表这段记忆更轻。那个存在于那栋楼里的他，可能只有你一个人记得。' },
+        { q: '要不要分享给团队？', a: '看你愿不愿意。很多人多年只把它留在私密处，一段记忆并不需要观众。' }
+      ],
+    }
+  },
 ];
 export function getPostBySlug(slug: string): BlogPost | undefined {
   return BLOG_POSTS.find((p) => p.slug === slug);
