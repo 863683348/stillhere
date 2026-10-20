@@ -3397,6 +3397,96 @@ en: {
       ],
     }
   },
+  {
+    slug: 'pets-last-walk-written',
+    date: '2026-10-21',
+    en: {
+      title: 'A pet\u2019s last walk, written down',
+      excerpt:
+        'The last walk is one of the few parts of losing a pet that people try to write down, and one of the most common places to get stuck. Here is what tends to go in it, why it is worth the discomfort, and what keeping it private changes.',
+      body: `<h2>Why that walk is hard to write</h2>
+<p>It is not that there is nothing to say. It is that you were doing two things at once that day: keeping them company, and making the decision. Afterwards those two fuse together, and years later the first thing that surfaces may be the decision rather than the way they walked. Writing it down is one way to separate them yourself.</p>
+<p>Some people have the opposite problem. The day is too clear, and going back into it feels like too much. Then do not write it that day. Three days later or three months later works. You are recording what you remember, not a timeline.</p>
+<h2>What people put in</h2>
+<p>What still reads well years later is physical detail, not judgement.</p>
+<ul>
+<li>Their pace that day. Where they stopped, how long they stood there, whether they looked back at you.</li>
+<li>The hand holding the leash. Whether the lead was slack, the sound of the collar tag.</li>
+<li>The weather, the ground, whether the post they always had to sniff was still there.</li>
+<li>The last thing they walked toward on their own. Grass, water, the front door.</li>
+<li>What you said. Even if it was just "come on", that sentence is worth keeping.</li>
+<li>The first thing that happened back home. Where they lay down, and whether you stayed next to them.</li>
+</ul>
+<h2>About the decision</h2>
+<p>A lot of people leave that part out, because writing it turns into an interrogation. You can write only the facts: the time, who was in the room, what the vet said, whether they were on your lap or on the table. Facts do not need a verdict. Months from now you will be glad you did not force yourself to reach one.</p>
+<p>If you are blaming yourself for it right now, that is not something a page can carry. Talk to someone who knows what they are doing before you write about it.</p>
+<h2>Some details come back first, some arrive late</h2>
+<p>In the first days what returns is how they suffered. Weeks later what tends to return is the ordinary machinery of them when they were well: the noise at the sound of keys, where they stood at the kitchen door at dinner time. Those two batches of detail arrive at different times, and writing them down is what stops one from covering the other.</p>
+<ul>
+<li>Write the hard part first, while it is still there and before it softens.</li>
+<li>Start a second section later for how they usually were, even weeks later.</li>
+<li>You can still add two years on. Write "I cannot remember this bit" where you cannot. That is part of the record too.</li>
+</ul>
+<h2>Keeping it somewhere that is yours</h2>
+<p>There is something specific about a pet memory. Other people in the house may remember it differently, and the grief is often treated as smaller than it is. Private here does not mean hidden. It means you do not have to establish how much it counted before you are allowed to keep it.</p>
+<ul>
+<li>Private by default, and no one you need to explain that to.</li>
+<li>Leave it untidy. The broken sentences and the repetitions stay.</li>
+<li>Set the reminder on a date that belongs to you two, which may not be the day at the clinic.</li>
+<li>Export a copy into your own files. Your words stay there whether or not you keep using the tool.</li>
+</ul>
+<h2>Frequently asked</h2>
+<p>StillHere is a quiet, private place on stillherememory.com to keep something like this, and it stays yours alone by default. If you have not started, most people begin with <a href='/blog/what-to-say-first'>what to write first</a>, and the longer question of keeping someone close is written about in <a href='/blog/keep-them-by-remembering'>keeping them by keeping what you remember</a>.</p>`,
+      faq: [
+        { q: 'Is it strange to grieve a pet this long?', a: 'No. They were in your ordinary days, and the size of the hole has to do with how much of your daily life they were in, not with the species.' },
+        { q: 'I only remember the hard part. What do I do?', a: 'Write that part first. The small healthy details usually come back weeks later, and you can add them as a separate section.' },
+        { q: 'Should I show this to my family?', a: 'Only if you want to. Plenty of people keep it private for years and decide later, once they can read it without shaking.' }
+      ],
+    },
+    zh: {
+      title: '写下宠物最后的那段路',
+      excerpt:
+        '宠物最后那段路，是很多人唯一想写下来、又最容易写不下去的一段。这篇写它可以记些什么，为什么值得顶着难受写下来，以及把它放在一个私密的地方是什么意思。',
+      body: `<h2>最后一段路为什么难写</h2>
+<p>难写不是因为没话说。是因为那天你同时在扮演两个角色：陪它的人，和做决定的人。事后回想，这两件事会粘在一起，很多年后你想起那天，先浮上来的可能是那个决定，而不是它走路的样子。写下来是你自己能把这两件事分开的办法之一。</p>
+<p>也有人反过来：那天太清楚了，清楚到不想再碰。这种时候不必当天写。三天后、三个月后写都可以，写的是你记得的，不是时间表。</p>
+<h2>可以写进去的东西</h2>
+<p>真正让人读得下去的，是具体到身体的细节，不是评价。</p>
+<ul>
+<li>它那天的速度。在哪里停下了，停了多久，有没有回头看你。</li>
+<li>你牵绳的那只手。绳子是松的还是紧的，它的项圈是什么声音。</li>
+<li>天气、地面、路上有没有它平时一定要闻的那根柱子。</li>
+<li>它最后一次主动走向什么。是草地、是水、还是家门。</li>
+<li>你说了什么。哪怕只是「走吧」，那句话也值得留着。</li>
+<li>回家之后的第一件事。它躺下的位置，你有没有一直在旁边。</li>
+</ul>
+<h2>关于那个决定</h2>
+<p>很多人在记录里绕开这个部分，因为一写就会变成自问。你可以只写事实：几点，谁在场，医生说了什么，它在你怀里还是趴在桌上。事实不需要结论。几个月后你再读，会感谢自己当初没有逼自己下判断。</p>
+<p>如果你现在正在为这件事自责，那不是这篇能处理的东西。找一个真的懂的人说，比写下来更优先。</p>
+<h2>有些细节会先回来，有些晚一点</h2>
+<p>头几天回来的是它难受的样子；几周之后开始回来的，往往是它健康时那些固定的小事：听到钥匙响的声音、饭点站在厨房门口的位置。这两批细节隔着时间，写下来它们才不会互相盖住。</p>
+<ul>
+<li>先写难受的那一段，趁它还在，别等它软化。</li>
+<li>再另起一段写它平时的样子，可以晚几周。</li>
+<li>两年后还能加：你已经想不起的部分，直接写「想不起来了」，这也是记录。</li>
+</ul>
+<h2>放在一个只属于你的地方</h2>
+<p>宠物这段记忆有个特别的地方：家里其他人可能记得不一样，而这场难过在别人眼里常常被认为「没那么重」。私密不是因为要藏，是因为你不必先向谁证明它有多重。</p>
+<ul>
+<li>默认只有你自己能看，不需要给谁解释为什么。</li>
+<li>不用整理成一篇通顺的文章，断句和重复都留着。</li>
+<li>提醒设在你们自己的日子，不一定是医院那天。</li>
+<li>导出一份放在你自己的文件里，用不用这个工具都在。</li>
+</ul>
+<h2>常见问题</h2>
+<p>StillHere 是 stillherememory.com 上一个安静、私密的地方，用来放这样一段记忆，默认只属于你自己。如果还没动笔，多数人从<a href='/blog/what-to-say-first'>第一次该写什么</a>开始；把一个人（或一只狗）留在身边这件更长的事，写在<a href='/blog/keep-them-by-remembering'>用记住，把他留在身边</a>。</p>`,
+      faq: [
+        { q: '为一只宠物难过这么久，正常吗？', a: '常见。它参与的是你每天的日常，日常空下来的那块有多大，跟你们相处得多深有关，跟是不是人无关。' },
+        { q: '我只记得那天难受的部分，怎么办？', a: '先写这部分。健康的那些小事通常几周之后才会回来，另起一段加进去就好。' },
+        { q: '要不要给家人看？', a: '看你愿不愿意。很多人先放几年，等自己读起来不再发抖再决定。' }
+      ],
+    }
+  },
 ];
 export function getPostBySlug(slug: string): BlogPost | undefined {
   return BLOG_POSTS.find((p) => p.slug === slug);
