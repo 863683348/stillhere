@@ -3487,6 +3487,88 @@ en: {
       ],
     }
   },
+  {
+    slug: 'the-first-year-of-anniversaries',
+    date: '2026-10-22',
+    en: {
+      title: 'The first year of anniversaries',
+      excerpt:
+        'The first year hands you every date at full strength: the birthday, the wedding date, the ordinary Tuesday they died on, then the one-year mark. Here is what tends to happen, and what people have found worth doing.',
+      body: `<h2>Why the first year is its own thing</h2>
+<p>Every date in that first year arrives for the first time. The first anniversary after loss gets most of the attention, but it is one date among a dozen: the birthday, the wedding date, the ordinary Tuesday they died on, the holiday they always hosted. There is no stored version of what any of them will feel like, no way to tell in advance whether one will land hard or pass without much, and no evidence yet that it will ever get lighter. For a lot of people the not knowing is worse than the day. The week before a date can go on arithmetic, working out how bad it is going to be, and the arithmetic is nearly always wrong.</p>
+<p>What does settle, slowly, is that the dates are not all the same size. A birthday arrives with the person in it, the way they were at that age, the kind of cake they tolerated. The date they died arrives with the room, the phone call, the weather on the way home. They ask different things of you. Knowing which one is coming is half of being ready for it.</p>
+<h2>The week before is often worse than the day</h2>
+<p>Almost nobody warns you about this part. The anniversary reaction after death often starts days or weeks early: broken sleep, a short temper, a low hum of dread with nothing attached to it. Then the day arrives and it is quieter than expected, which confuses people into thinking they did not care as much as they thought.</p>
+<p>Both halves are ordinary. The run-up is your body keeping time even when your head has stopped counting. The flatness on the day is often just relief that the waiting is over.</p>
+<ul>
+<li>Tell one person the date. Not so you get looked after, just so it is not only in your head.</li>
+<li>Put something ordinary in the day. A walk, a shift, a school run. Empty days are harder.</li>
+<li>Decide in advance whether you want to be alone or with someone, and leave room to change it.</li>
+<li>Do not book anything that needs you to appear cheerful in public on that date.</li>
+</ul>
+<h2>What people do on the day</h2>
+<p>There is no right version, and the versions that get written about are the loud ones. Most people do something small.</p>
+<ul>
+<li>Write to them. One paragraph, on the day, is enough. Our notes on <a href='/blog/talking-on-their-birthday-years-later'>talking to them years later</a> cover how people keep that going.</li>
+<li>Look at one photograph and stop at one. Going through the whole folder in a single sitting is a different kind of day.</li>
+<li>Cook the thing they always cooked badly.</li>
+<li>Go to the place. Or deliberately do not.</li>
+<li>Nothing at all, and then feel strange about it for a week.</li>
+</ul>
+<h2>Birthdays, and the dates that belong to them</h2>
+<p>The first birthday after loss tends to catch people off guard, because it is the one date about the person rather than about what happened. There is no medical detail hanging off it, no hospital, no paperwork. It is the day they were born, and the fact that everyone else has stopped marking it.</p>
+<p>Some people mark it by writing down what they remember of them at that age. Others set a reminder and let the day come and go. Either is fine. A yearly reminder on a date you pick yourself, which we wrote about in <a href='/blog/set-yearly-reminder-revisit-memory'>setting a yearly reminder</a>, is one way to stop carrying the whole calendar in your head.</p>
+<h2>The second year is not a repeat</h2>
+<p>It is often described as easier, and then people feel guilty for finding it easier. What changes is usually not the size of the feeling but the surprise. The second time, you know what is coming, you know it passes, and you know roughly how long it takes to pass. Getting through the first year of grief does not mean the dates stop mattering. It means you stop being ambushed by them.</p>
+<p>Some dates stay heavy for a long time. That is not a failure of the year, and it is not something you have to fix before you are allowed to feel better on the other days.</p>
+<h2>Frequently asked</h2>
+<p>StillHere is a quiet, private place on stillherememory.com to keep what you want to keep about someone, and it stays yours alone by default. If a date is coming up and you have not written anything yet, most people start with <a href='/blog/what-to-say-first'>what to say first</a>. The longer question of keeping someone close is written about in <a href='/blog/keep-them-by-remembering'>keeping them by remembering</a>, and the hours that arrive without warning are in <a href='/blog/relief-that-comes-with-remembering'>the relief that comes with remembering</a>.</p>`,
+      faq: [
+        { q: 'Why is the build-up worse than the day itself?', a: 'The anticipation runs for days and the day often arrives flat. Both are common, and neither says anything about how much you cared.' },
+        { q: 'Should I do something on the anniversary?', a: 'Only if you want to. Most people do something small and private. Doing nothing is also a choice, and it does not mean the date did not count.' },
+        { q: 'Is the second year the same?', a: 'Usually lighter, and more predictable. You know it is coming and roughly how long before it passes. That is most of what changes.' }
+      ],
+    },
+    zh: {
+      title: '第一年的那些纪念日',
+      excerpt:
+        '第一年把这些日子一个个按原样递给你：生日、结婚纪念日、那个再普通不过的星期二，然后是满一年。这篇写它通常是什么样子，以及人们觉得值得做的那几件事。',
+      body: `<h2>为什么第一年是另一回事</h2>
+<p>第一年里的每一个日子都是第一次来。离开之后的第一个周年（first anniversary after loss）最容易被当成唯一的难关，但它只是十几个日子中的一个：生日、结婚纪念日、那个再普通不过的星期二、每年都是他张罗的那个节日。其中任何一个会怎样，你都没有存档可以对照，不知道它会狠狠砸下来还是轻轻过去，也还没有任何证据能说明它会变轻。对很多人来说，「不知道」比那天本身更难熬。日子到来前的那一周，人常常在做算术，算它会有多糟，而算出来的结果几乎总是错的。</p>
+<p>慢慢能确定下来的一件事是：这些日子并不一样大。生日那天带来的是这个人本身，他那个年纪的样子，他能接受的那种蛋糕。离开的那天带来的是那间屋子、那通电话、回家路上的天气。它们要的东西不一样。知道来的是哪一个，就已经算是准备好一半了。</p>
+<h2>之前那一周，常常比当天更难</h2>
+<p>几乎没有人事先提醒过这一段。anniversary reaction after death（丧亲之后的周年反应）往往提前几天甚至几周就开始了：睡不安稳、脾气短、一种没有来由的低沉。然后那天到了，比预想的平静，于是有人反过来怀疑自己是不是没那么在乎。</p>
+<p>这两半边都平常。提前发作的是身体在记时间，哪怕你的脑子已经不数了。当天的平静，常常只是因为等的那一段结束了。</p>
+<ul>
+<li>把那个日子告诉一个人。不是为了被照顾，只是让它不只存在于你脑子里。</li>
+<li>给那天安排一件普通的事。散一次步、上一班、接送一次。空着的那天更难。</li>
+<li>提前想好那天要独处还是有人陪，也给自己留改主意的余地。</li>
+<li>不要在那天安排任何需要你在人前撑着高兴的事。</li>
+</ul>
+<h2>人们在那一天做的事</h2>
+<p>没有标准答案，而被写下来的往往是那些声势大的。多数人做的是很小的一件事。</p>
+<ul>
+<li>给他们写一段话。当天写一段就够。<a href='/blog/talking-on-their-birthday-years-later'>多年之后仍然跟他们说话</a>那篇写过有人是怎么把这件事做下去的。</li>
+<li>看一张照片，只看一张。一次翻完整个相册是另一种日子。</li>
+<li>做那道他们一直做不好的菜。</li>
+<li>去那个地方。或者故意不去。</li>
+<li>什么都不做，然后为这件事别扭一个星期。</li>
+</ul>
+<h2>生日，和那些属于他们的日子</h2>
+<p>first birthday after loss（离开之后的第一个生日）特别容易让人措手不及，因为它是唯一一个关于这个人本身、而不是关于那件事的日子。它不附着任何医疗细节，没有医院，没有手续。就是他出生的那天，以及别人都已经不再记得它这件事。</p>
+<p>有人在那一天写下自己记得的他那个年纪的样子。也有人设个提醒，让那天来、让那天走。两种都可以。按你自己挑的日子设一个年度提醒，我们在<a href='/blog/set-yearly-reminder-revisit-memory'>设置年度提醒</a>里写过，可以把整本日历从脑子里卸下来。</p>
+<h2>第二年不是重播</h2>
+<p>它常被形容为轻松一些，然后人们又会因为轻松而内疚。变的通常不是感受的大小，而是意外感：第二次，你知道它要来，知道它会过去，也大致知道要多久才过去。getting through first year of grief（熬过第一年）不等于这些日子不再重要，只是你不再被它们偷袭。</p>
+<p>有些日子会重很久。这不是这一年白做了，也不必先把它修好，才允许自己在别的日子里好过一点。</p>
+<h2>常见问题</h2>
+<p>StillHere 是 stillherememory.com 上一个安静、私密的地方，用来放你想留下的关于一个人的东西，默认只属于你自己。如果有个日子将近、而你还没写过什么，多数人从<a href='/blog/what-to-say-first'>第一次该写什么</a>开始；把一个人留在身边这件更长的事，写在<a href='/blog/keep-them-by-remembering'>用记住，把他留在身边</a>；那些不打招呼就来的时刻，在<a href='/blog/relief-that-comes-with-remembering'>记起来时那一点轻松</a>里。</p>`,
+      faq: [
+        { q: '为什么之前那几天比当天还难？', a: '提前的那段煎熬会持续好几天，而当天常常反而很平。两者都常见，也都不说明你在乎得少。' },
+        { q: '周年那天要做点什么吗？', a: '想做就做。多数人做的是很小很私密的一件事。什么都不做也是一种选择，不代表那天不重要。' },
+        { q: '第二年还是一样吗？', a: '通常轻一些，也更可预期。你知道它要来，也大致知道多久会过去，变化主要在这里。' }
+      ],
+    }
+  },
 ];
 export function getPostBySlug(slug: string): BlogPost | undefined {
   return BLOG_POSTS.find((p) => p.slug === slug);
