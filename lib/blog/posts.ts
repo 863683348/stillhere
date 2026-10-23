@@ -3655,6 +3655,72 @@ en: {
       ],
     }
   },
+  {
+    slug: 'the-teacher-who-changed-you',
+    date: '2026-10-23',
+    en: {
+      title: 'The teacher who changed you',
+      excerpt:
+        'Most people can name one. The teacher who said a sentence in a bad year that went on to matter for decades. How to remember them accurately, including the parts that were not kind.',
+      body: `<h2>Why teachers land differently</h2>
+<p>They saw you for a year, or three, at an age when you were still being assembled by whoever happened to be in the room. That is a strange amount of access. A teacher notices what you are good at before you have any words for it, says it out loud, and you spend the next twenty years walking in the direction of that sentence without noticing that you are doing it.</p>
+<p>The other reason is repetition. You saw them most weekdays, in a room you did not choose, doing something you could not leave. Nobody else outside your family gets that kind of sample size, and it is why teacher who changed me is such a common thing to search for years later.</p>
+<h2>What people actually remember</h2>
+<p>Almost never the syllabus. What comes back is smaller and more specific.</p>
+<ul>
+<li>One sentence, usually offhand, usually said in front of other people.</li>
+<li>The thing they would not give up on: a remark they made you redo, a phone call home, a chair moved next to theirs.</li>
+<li>Being treated as somebody who had a position, instead of somebody to be managed.</li>
+<li>The moment they were wrong about you, if it ever came.</li>
+</ul>
+<p>That last one is underrated. Being underestimated by a teacher and then outgrowing it is a real memory, and plenty of people write about it before they write about anything kind.</p>
+<h2>When the memory is complicated</h2>
+<p>A teacher who changed you is not always a teacher who was kind. Some people are writing about someone who was harsh, or who embarrassed them in front of a class, and who also happened to be right about what they could do. Both of those can sit in the same entry. You do not have to tidy a person up before writing about them.</p>
+<p>If the only honest thing you have is that they were unfair, that is a complete entry too. This is not a place that requires gratitude.</p>
+<h2>What comes back while writing</h2>
+<p>Details first, judgement later. The room, how the desks were arranged, the smell of the corridor, what they wrote on the board. Most people begin with an assessment of the person and get stuck; beginning with the room usually unsticks it.</p>
+<p>The second thing that returns is timing. Which year of your life it was, and what else was happening then. A teacher can be knotted up with a bad year at home in a way that has nothing to do with them, and noticing that is often the part that helps.</p>
+<h2>Frequently asked</h2>
+<p>StillHere is a quiet, private place on stillherememory.com to keep what you want to keep about someone, and it stays yours alone by default. If you are stuck on the first line, <a href='/blog/what-to-say-first'>what to say first</a> is the usual starting point, and turning a person into something that sounds like them is written about in <a href='/blog/describe-them-like-themselves'>describing them so they sound like themselves</a>.</p>`,
+      faq: [
+        { q: 'Can I write about a teacher who was not kind?', a: 'Yes. An entry does not have to be warm to be honest, and you do not need to make someone sound better than they were.' },
+        { q: 'What if I only remember one sentence?', a: 'That is enough. Plenty of entries are a single sentence plus the year it was said.' },
+        { q: 'They may still be alive. Is that all right?', a: 'Yes. People write about teachers who are gone, and about who someone was to them at the time. Entries are private by default and sharing stays your decision.' },
+        { q: 'I was a difficult student. Does that matter?', a: 'No. Nobody here is grading you. Write what you remember and stop where you want.' }
+      ],
+    },
+    zh: {
+      title: '那个改变了你的老师',
+      excerpt:
+        '多数人都能说出一位。他在你不太好的那一年说了一句话，而这句话在之后的几十年里一直有用。这篇写怎么如实地记住他们，包括那些并不温和的部分。',
+      body: `<h2>为什么老师留下的印记不一样</h2>
+<p>他们看着你一年，或者三年，而那个年纪的你还在被"正好在场的那个人"组装着。这种接触量是很特别的。老师会在你还没词形容自己擅长什么之前就先看见了，然后说出来；接下来的二十年，你会一直朝那句话的方向走，却没察觉自己在这么做。</p>
+<p>另一个原因是重复。你每个工作日都见到他，在一个你没得选的房间里，做一件你没法走掉的事。除了家人，没有别人能拿到这么大的样本量。这也是为什么多年之后，"老师 影响"这类词一直有人搜。</p>
+<h2>人们真正记住的是什么</h2>
+<p>几乎从来不是教学大纲。回来的东西更小、更具体。</p>
+<ul>
+<li>一句话，通常是随口说的，通常当着别人的面。</li>
+<li>他不肯放过的那件事：让你重做的一句批语、打到家里的一通电话、把你换到他旁边的那个座位。</li>
+<li>被当成"有自己看法的人"来对待，而不是一个需要被管住的人。</li>
+<li>如果有的话，他看错你的那一刻。</li>
+</ul>
+<p>最后这一条被低估了。被一位老师低估、然后长过了那个判断，是一段真实的记忆；很多人是先写下这个，才写得出别的。</p>
+<h2>当这段记忆并不单纯</h2>
+<p>改变你的那位老师，不总是温和的那位。有人要写的是一个严厉的人，或者一个当着全班让自己难堪的人，而这个人又恰好说对了自己能做成什么。这两件事可以放在同一个条目里。你不必先把一个人收拾干净，才写他。</p>
+<p>如果你唯一诚实的感受是"他当时不公平"，那也是一条完整的条目。这里不要求感激。</p>
+<h2>写着写着，会回来的是什么</h2>
+<p>先回来细节，后回来判断。那间教室、课桌怎么摆、走廊的味道、他在黑板上写了什么。多数人从"评价这个人"开始，然后卡住；从房间开始写，通常就顺了。</p>
+<p>第二件回来的是时间。那是你人生里的哪一年，当时还发生了什么别的事。一位老师可能和你家里很糟的那一年缠在一起，而那跟他本人无关；看见这一点，往往是最有用的部分。</p>
+<h2>常见问题</h2>
+<p>StillHere 是 stillherememory.com 上一个安静、私密的地方，用来放你想留下的、关于一个人的东西，默认只属于你自己。如果卡在第一句，多数人从<a href='/blog/what-to-say-first'>第一次该写什么</a>开始；把一个人写成像他自己的那件事，写在<a href='/blog/describe-them-like-themselves'>把他描述成他自己</a>里。</p>`,
+      faq: [
+        { q: '可以写一位并不温和的老师吗？', a: '可以。一条条目不必是温暖的才算诚实，你也不需要把一个人写得比他本人更好。' },
+        { q: '如果我只记得一句话呢？', a: '那就够了。很多条目就是一句话，加上它是哪一年说的。' },
+        { q: '他可能还在世，这样可以吗？', a: '可以。有人写已经离开的老师，也有人写那个人在当时对自己意味着什么。条目默认私密，分享与否由你自己决定。' },
+        { q: '我当时是个难搞的学生，有关系吗？', a: '没关系。这里没有人给你打分。写下你记得的，想停就停。' }
+      ],
+    }
+  },
 ];
 export function getPostBySlug(slug: string): BlogPost | undefined {
   return BLOG_POSTS.find((p) => p.slug === slug);
