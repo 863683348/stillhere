@@ -3569,6 +3569,92 @@ en: {
       ],
     }
   },
+  {
+    slug: 'the-neighbor-who-was-always-there',
+    date: '2026-10-24',
+    en: {
+      title: 'The neighbor who was always there',
+      excerpt:
+        'Not family, and not exactly a friend. The person next door who knew your schedule better than most relatives did. How people remember them, and why that kind of closeness gets overlooked.',
+      body: `<h2>Grief with no ceremony attached to it</h2>
+<p>When a neighbor dies, there is usually no service you are expected at, nobody who thinks to call, and no clear place to put the feeling. Across twenty years you may not have exchanged more than a few hundred words. What you had instead was proximity: the same stairwell, the same bin collection day, the same view of the street. Losing that leaves a gap shaped like a routine rather than a relationship, and that is exactly why it is hard to explain to other people.</p>
+<p>Search interest in this is small but steady, which says something. People look up remembering a neighbor who died, or how to write about a neighbor, usually months later, usually at night, usually after something small sets it off. The bins going out. A parcel left in the wrong place. A window that stays dark.</p>
+<h2>What they actually did</h2>
+<p>Neighbors rarely do anything that could be called care. What they do is notice. That is the whole of it, and it adds up.</p>
+<ul>
+<li>Taking a delivery in, and not mentioning it for three days.</li>
+<li>Knowing which car belongs in which space, so a stranger stands out at once.</li>
+<li>Watching the street without ever being asked, and without ever calling it that.</li>
+<li>Being the person who would have heard, if something had gone wrong.</li>
+<li>Saying the same six sentences, in the same order, every single time you met.</li>
+</ul>
+<p>That last one is what people write about most. A fixed greeting, a fixed complaint about the weather, a fixed question about work. It felt like nothing while it was happening. Once it stops, it turns out to have been a landmark.</p>
+<h2>Why it is easy to underrate</h2>
+<p>Because the closeness was never declared. Family is declared. Friends are declared. A neighbor is someone you ended up beside, and neither of you ever had to say what the other one meant. So when they go, the people around you measure the loss by how often you spoke, arrive at a small number, and you find yourself agreeing with them out loud.</p>
+<p>Grief does not run on frequency. It runs on what the person was holding up. Someone who saw your door every day was holding up an ordinary piece of safety, and that kind of thing is usually only visible once it is gone.</p>
+<h2>What people write down</h2>
+<p>Most entries about a neighbor are short and specific, and that is the right length. What comes back is nearly always sensory.</p>
+<ul>
+<li>The sound they made before they spoke: a cough, a key turning, a particular way of clearing a throat.</li>
+<li>What their window looked like at night, and when the light usually went off.</li>
+<li>The thing they were always doing: watering something, sweeping, standing on the step.</li>
+<li>One sentence they said often enough that you can still hear the timing of it.</li>
+</ul>
+<p>Describing someone in those terms is what makes a reflection sound like them later. The notes on <a href='/blog/describe-them-like-themselves'>describing them so they sound like themselves</a> go into this in more detail, and it holds just as well for somebody you never once sat down with.</p>
+<h2>When you did not know them well</h2>
+<p>Some people come here for a neighbor they actively avoided, or one they only ever nodded at, and ask whether that counts. It counts. You can miss a presence you never spoke to. You can also feel nothing at all, and that is not a verdict on the person. There is no required amount.</p>
+<p>What tends to help is writing the ordinary facts down while they are still easy to recall: which door, which years, what the street sounded like from inside your own place. Those details thin out faster than people expect, and they are the part that makes a memory usable later on.</p>
+<h2>Frequently asked</h2>
+<p>StillHere is a quiet, private place on stillherememory.com to keep what you want to keep about someone, and it stays yours alone by default. If you are not sure where to begin, <a href='/blog/what-to-say-first'>what to say first</a> is the usual starting point, and the longer question of holding on to someone is written about in <a href='/blog/keep-them-by-remembering'>keeping them by remembering</a>.</p>`,
+      faq: [
+        { q: 'Is it strange to grieve a neighbor this much?', a: 'No. Closeness built on proximity is real closeness. It is just harder for other people to see, because none of it was ever announced.' },
+        { q: 'I only nodded at them. Can I still write something?', a: 'Yes. Plenty of people start with the ordinary facts: which door, which years, what you could hear from inside your own home.' },
+        { q: 'What if I feel nothing at all?', a: 'That happens, and it is not a judgement on the person. You do not need a feeling before you begin, and you can stop whenever you want.' },
+        { q: 'Should the family be told I wrote this?', a: 'Only if you want to. Entries here are private by default, and sharing is a separate decision that belongs to you.' }
+      ],
+    },
+    zh: {
+      title: '总在身边的那位邻居',
+      excerpt:
+        '不是家人，也算不上朋友。隔壁那位比你多数亲戚都清楚你作息的人。这篇写人们怎么记住他们，以及这种亲近为什么容易被低估。',
+      body: `<h2>没有仪式的那种悲伤</h2>
+<p>邻居离开的时候，通常没有一场你要出席的告别，没有人想到要通知你，也没有一个现成的地方安放这种感觉。二十年里，你们说过的话加起来可能不超过几百句。你们之间真正有的，是"挨着"这件事：同一段楼梯，同一个收运垃圾的日子，同一片看出去的街景。失去它留下的是一个"日常"形状的缺口，而不是一段关系的缺口，也正因为这样，很难跟别人解释。</p>
+<p>网上搜这类词的人不多，但一直有人搜。多数是在几个月之后、深夜、被一件小事勾起来的：垃圾桶推出去的声音、放错地方的包裹、那扇一直黑着的窗。</p>
+<h2>他们其实做了什么</h2>
+<p>邻居很少做能被称作"照顾"的事。他们做的是"看见"。这就是全部，而它会累积。</p>
+<ul>
+<li>替你收了快递，三天之后才提一句。</li>
+<li>清楚哪辆车属于哪个车位，所以陌生人一眼就显眼。</li>
+<li>从没被谁拜托过，也从没把这叫"照看"。</li>
+<li>万一出了事，会是那个听得见的人。</li>
+<li>每次见面都说同样的那几句，顺序都不变。</li>
+</ul>
+<p>最后这一条，是被写得最多的。一句固定的招呼、一句固定对天气的抱怨、一句固定问你近况的话。正在发生的时候它什么都不是。停下来之后，才发现那是个地标。</p>
+<h2>为什么它容易被低估</h2>
+<p>因为这份亲近从来没有被宣布过。家人是宣布过的，朋友也是。邻居是你刚好挨着的一个人，你们谁都不必说明对方意味着什么。所以他走了之后，身边的人用"你们多久说一次话"来量这件事，量出一个很小的数字，然后你发现自己也在嘴上同意了他们。</p>
+<p>悲伤不按频率算，按"这个人替你撑住了什么"算。一个每天都看见你那扇门的人，撑住的是一块很普通的安心；这类东西往往要等到没了，才被看见。</p>
+<h2>人们写下来的东西</h2>
+<p>关于邻居的条目大多很短、很具体，这个长度是对的。回来的细节几乎都是感官上的。</p>
+<ul>
+<li>他开口之前的那个声音：一声咳嗽、钥匙转动、清嗓子的那种方式。</li>
+<li>他家那扇窗在夜里是什么样，灯通常几点灭。</li>
+<li>他一直在做的那件事：浇点什么、扫点什么、在台阶上站一会儿。</li>
+<li>他说得足够多的某一句，多到你现在还能听见它的节奏。</li>
+</ul>
+<p>用这些去描述一个人，后来的"映照"才会像他。<a href='/blog/describe-them-like-themselves'>把他描述成他自己</a>那篇讲得更细，对一个你从没坐下来聊过的人，同样适用。</p>
+<h2>如果你们其实不熟</h2>
+<p>有人来这里，是为了一个自己一直躲着的邻居，或者一个只点过头的人，然后问这算不算。算。你可以想念一个从没说过话的存在。你也可以什么感觉都没有，那也不是对这个人的评价。这里没有规定分量。</p>
+<p>通常有用的是趁还容易想起来，先把那些平常的事实写下来：哪扇门、哪几年、从你自己屋里听见的街上是什么声音。这些细节比人们以为的淡得更快，而它们正是让一段记忆以后还能用的东西。</p>
+<h2>常见问题</h2>
+<p>StillHere 是 stillherememory.com 上一个安静、私密的地方，用来放你想留下的、关于一个人的东西，默认只属于你自己。如果不知道从哪里开始，多数人从<a href='/blog/what-to-say-first'>第一次该写什么</a>开始；把一个人留在身边这件更长的事，写在<a href='/blog/keep-them-by-remembering'>用记住，把他留在身边</a>里。</p>`,
+      faq: [
+        { q: '为一个邻居难过成这样，正常吗？', a: '正常。靠"挨着"长出来的亲近，是真的亲近。只是别人不容易看出来，因为它从来没被宣布过。' },
+        { q: '我们只点过头，也可以写吗？', a: '可以。很多人从最平常的事实开始：哪扇门、哪几年、从你自己屋里能听见什么。' },
+        { q: '如果我什么感觉都没有呢？', a: '会有这种情况，这不是对那个人的评价。开始之前不必先有感觉，随时可以停下。' },
+        { q: '要不要告诉他家人我写了这些？', a: '你想说才说。这里的条目默认私密，分享是另外一件、由你自己来决定的事。' }
+      ],
+    }
+  },
 ];
 export function getPostBySlug(slug: string): BlogPost | undefined {
   return BLOG_POSTS.find((p) => p.slug === slug);
