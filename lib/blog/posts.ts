@@ -3721,6 +3721,78 @@ en: {
       ],
     }
   },
+  {
+    slug: 'writing-to-the-version-of-them-you-miss',
+    date: '2026-10-25',
+    en: {
+      title: 'Writing to the version of them you miss',
+      excerpt:
+        'Most people are not missing a whole person. They are missing one version: the one from a particular year, in a particular room. How to write to that version without pretending it was the whole of them.',
+      body: `<h2>You are missing a version, not a whole person</h2>
+<p>People say they miss a person, but what comes back is usually narrower than that: them at a certain age, in a certain house, during the years when one particular thing was true. That is what the search phrase write to version you miss points at, and it points at something real.</p>
+<p>That is not a problem to fix. It is useful. Once you know which version you are writing to, the first sentence stops being impossible.</p>
+<p>Naming it precisely also helps when the memory is tangled. If the version you are reaching for is the one from before a diagnosis, saying so in the first line lets you write about that person without having to write about the hospital first, unless you want to.</p>
+<h2>Why one version comes back more than the others</h2>
+<p>Three patterns show up again and again in what people write here.</p>
+<ul>
+<li>The version from the year you needed them most, which is often not the year they died.</li>
+<li>The version from before the illness, before the move, or before the divorce changed the shape of the relationship.</li>
+<li>The version you only ever saw in one place: the kitchen, the car, the garden, a particular chair.</li>
+</ul>
+<h2>How to write to that version</h2>
+<p>Put the year in the first line. Not as a heading, just inside the sentence: the summer you were twelve, the year we lived on Ash Street, the months before the diagnosis. One clause is enough, and everything after it has somewhere to sit.</p>
+<p>Then write to the person who was there, in the second person, about one small thing. Entries that work are usually a single scene rather than a summary of a life. If the scene will not come, start with the room and let them arrive on their own.</p>
+<p>People sometimes worry that naming a year turns the entry into a history lesson. It does the opposite. A year is a piece of furniture; you set the scene in front of it and the scene does the work.</p>
+<h2>What changes once you name the year</h2>
+<p>Grief that felt shapeless often has a shape once the year is named. People describe the same discovery in different words: they were not missing the whole person, they were missing the three years when things were steady, and seeing that made the rest far less frightening to write about.</p>
+<p>It also settles the worry that stops a lot of entries. Writing about one version is not dishonest. A life holds several, and the one you reach for today is allowed to be the one from a good year.</p>
+<p>The other change is practical. Once one version has an entry of its own, the next one is much easier to start. People who write about a good year often find the harder year arrives in a second entry a few weeks later, which it never did while both were stuck together on one blank page.</p>
+<h2>When the version you miss was not a kind one</h2>
+<p>Some people find they are writing to a version from a hard stretch: the years of arguing, the year of drinking, the parent who could not be relied on. That is worth writing too. An entry is not a tribute, and the difficult version is often the one that most needs to come out of your head and into sentences.</p>
+<p>There is no rule that an entry has to be warm. This is a place to put what was true, and a person you loved can also be a person who was difficult in one particular year.</p>
+<h2>Frequently asked</h2>
+<p>StillHere is a quiet, private place on <a href='/'>stillherememory.com</a> to keep what you want to keep about someone, and it stays yours alone by default. If you are stuck on the first line, <a href='/blog/what-to-say-first'>what to say first</a> is the usual starting point.</p>`,
+      faq: [
+        { q: 'Is it dishonest to write about only one version of them?', a: 'No. A life holds several versions, and the one you reach for today is a real part of the record. You can add an entry for a different year whenever you want.' },
+        { q: 'What if the version I miss is from a difficult year?', a: 'That is worth writing too. Entries do not have to be warm, and the years that were complicated usually carry as much as the good ones.' },
+        { q: 'Can I write to a version of someone who is still alive?', a: 'Yes. Plenty of entries are about who someone was to you at a particular time. Entries are private by default, and sharing stays your decision.' }
+      ],
+    },
+    zh: {
+      title: '写给那个你最想念的他',
+      excerpt:
+        '多数人想念的并不是一个人的全部，而是某一版：某个年份里、某个房间里的那一版。这篇写怎么写给那一版，同时不假装那就是他的一生。',
+      body: `<h2>你想念的不是一个完整的人</h2>
+<p>人们脱口而出的词是"他"，但真正回来的东西通常要窄得多。是某个年纪的他、某个房子里的他、某件事还成立的那些年里的他。搜索的词也是这个意思：想念 版本 比"一个人的一生"更接近人们真正想找的东西。</p>
+<p>这不是需要修的问题，它是有用的信息。一旦你知道自己在写给哪一版，第一句就不再写不出来了。</p>
+<p>说得精确还有一个好处。如果你要找的是确诊之前那一版，那么在第一行就写出来，你就能直接写那个人，而不必先写医院那一段，除非你自己想写。</p>
+<h2>为什么某一版回来得比别的多</h2>
+<p>大家写下的东西里，有三个模式反复出现。</p>
+<ul>
+<li>你最需要他的那一年的他，而那一年往往不是他离开的那一年。</li>
+<li>生病之前、搬家之前、或者那场离婚改变关系形状之前的他。</li>
+<li>你只在某一个地方见过的他：厨房里、车里、院子里、某张椅子上。</li>
+</ul>
+<h2>怎么写给那一版</h2>
+<p>把年份放进第一行。不用做成标题，就放在句子里：你十二岁的那个夏天、我们住在榆树街的那年、确诊前的那几个月。一个从句就够了，后面所有内容就有了落脚的地方。</p>
+<p>然后用第二人称，写给当时在那里的那个人，写一件小事。写得成的条目通常是一个场景，而不是一生的总结。如果场景出不来，就从那个房间开始写，让他自己走进来。</p>
+<p>有人担心写出年份会让条目变成一段历史交代。效果正好相反。年份是一件家具，你把场景摆在它前面，干活的是场景。</p>
+<h2>说出年份之后会变的是什么</h2>
+<p>原本没有形状的悲伤，往往在年份被说出来之后就有了形状。人们用不同的话描述同一个发现：他们想念的并不是那个人的全部，而是事情还稳定的那三年；看见这一点之后，剩下的部分写起来就没那么可怕了。</p>
+<p>它也解决了一个卡住很多条目的顾虑。只写某一版并不算不诚实。一个人的一生有好几版，而你今天伸手去拿的那一版，完全可以来自一个好的年份。</p>
+<p>另一个变化更实际。一旦某一版有了自己的条目，下一版就好开头得多。写过好年头的人，常常会在几周后写下那个更难的年份；而在两版堵在同一张空白页上时，它从来没出来过。</p>
+<h2>当你想念的那一版并不温和</h2>
+<p>有些人发现自己写的是一个艰难时期的他：争吵的那些年、酗酒的那一年、靠不住的那个父亲。这也值得写。条目不是颂词，而那个不温和的版本，常常是最需要从脑子里拿出来、放进句子里的那一版。</p>
+<p>没有哪条规定要求条目必须是暖的。这里是放真实发生过什么的地方，你爱过的那个人，也可以是在某一年的确很难相处的那个人。</p>
+<h2>常见问题</h2>
+<p>StillHere 是 <a href='/'>stillherememory.com</a> 上一个安静、私密的地方，用来放你想留下的、关于一个人的东西，默认只属于你自己。如果卡在第一句，多数人从<a href='/blog/what-to-say-first'>第一次该写什么</a>开始。</p>`,
+      faq: [
+        { q: '只写他的某一版，算不算不诚实？', a: '不算。一个人的一生有好几版，你今天伸手去拿的那一版也是真实记录的一部分。想写别的年份，随时可以再加一条。' },
+        { q: '如果我思念的那一版来自很糟的年份呢？', a: '也值得写。条目不必是温暖的，而那些复杂的年份往往和好的年份承载着一样多的东西。' },
+        { q: '可以写给还在世的人的某一版吗？', a: '可以。很多条目写的是某个人在某一时期对你意味着什么。条目默认私密，分享与否由你自己决定。' }
+      ],
+    }
+  },
 ];
 export function getPostBySlug(slug: string): BlogPost | undefined {
   return BLOG_POSTS.find((p) => p.slug === slug);
