@@ -3793,6 +3793,78 @@ en: {
       ],
     }
   },
+  {
+    slug: 'the-first-holiday-without-them',
+    date: '2026-10-26',
+    en: {
+      title: 'The first holiday without them',
+      excerpt:
+        'The date arrives whether you are ready or not. What people say helps on the first holiday after a loss, how to decide the day in advance, and what to do when the rest of the table is celebrating.',
+      body: `<h2>Why the first holiday after a loss lands differently</h2>
+<p>An ordinary day leaves you alone with it. A holiday brings a script. There is a meal at a certain hour, an expectation that the room will be cheerful, and a chair that reads as missing rather than empty. The first holiday without them is rarely harder than the worst night you have already had, but it is harder to get out of, because someone else usually picked the plan.</p>
+<p>What catches people off guard is not the sadness itself. It is the distance between how the day looks from outside and what it costs to sit inside it. You can be in a room full of people you love and still be doing something difficult the whole time.</p>
+<h2>Three ways people get through it</h2>
+<ul>
+<li><strong>Keep the whole thing as it was.</strong> Same house, same food, same order of events. This holds up best when the group is small and everyone wants the continuity.</li>
+<li><strong>Change one thing on purpose.</strong> A different room, two fewer dishes, a walk before dessert. Much easier to carry than changing everything at once.</li>
+<li><strong>Sit the year out.</strong> Some people find the first one is better spent quietly. That is allowed, and it is not the same as losing the tradition.</li>
+</ul>
+<p>None of the three is the correct answer. The option that fails most often is the fourth one: no decision at all, where you turn up to somebody else's plan and absorb whatever it turns out to be.</p>
+<h2>Decide before the day, while you still have the bandwidth to</h2>
+<p>Write the shape of the day down about a week early. Not a timetable, just three lines: where you will be, who will be there, and what you will do if it becomes too much. Someone who has decided in advance that they can leave after the main course usually makes it through the main course.</p>
+<p>Say it out loud to one person beforehand. You do not owe the whole table an explanation. One person knowing you might step outside is enough to make stepping outside possible.</p>
+<h2>When the room is not grieving</h2>
+<p>Holidays gather people who knew them differently. A cousin who visits twice a year, a neighbour who heard the news but did not live through it, children who are mainly thinking about the food. Their cheerfulness is not disrespect. It is a different relationship to the same absence.</p>
+<p>Two things help here. Decide what you will say when someone asks how you are, so the question does not ambush you in a doorway. And give yourself one part of the day that belongs only to you: a ten minute walk, the drive home, the kitchen while the coffee is on.</p>
+<h2>The chair, and what to do with it</h2>
+<p>Some families leave the place set. Others move the chair away. Both have been done well. What tends to hurt is the decision made by somebody other than the person closest to the loss, in front of everyone, ten minutes before eating.</p>
+<p>If you want them in the day without setting a physical place, say one sentence about them early. A toast, a name, a story about something they always did badly. Saying it first makes it easier for everyone else to follow, and it stops the day from running on the assumption that nobody is thinking about them.</p>
+<h2>Write it down afterwards</h2>
+<p>The day passes and the detail goes with it. People often find the second year easier when the first one was written down: what worked, what was too much, which moment was the hard one. An entry does not have to be a full account. One paragraph about the meal and one about the walk home is enough to turn next year into a decision instead of a surprise.</p>
+<h2>Frequently asked</h2>
+<p>StillHere is a quiet, private place on <a href='/'>stillherememory.com</a> to keep what you want to keep about someone, and it stays yours alone by default. If you are deciding how to spend the day, <a href='/blog/keep-them-by-remembering'>keeping what you remember</a> is a good place to start.</p>`,
+      faq: [
+        { q: 'Is it okay to skip the holiday entirely the first year?', a: 'Yes. Plenty of people sit the first one out and come back to it later. Skipping a year is not the same as giving up a tradition.' },
+        { q: 'Should we leave an empty place at the table?', a: 'Only if the people closest to the loss want it. There is no rule, and the decision should not be made for you in front of a room full of guests.' },
+        { q: 'What if nobody mentions them?', a: 'You can be the one to mention them. One sentence early in the day usually gives everyone else permission to follow.' },
+        { q: 'How do I handle being asked how I am?', a: 'Pick one short answer before the day and keep using it. Something like "I am getting through it" is a complete reply, and it does not open a longer conversation you do not want.' }
+      ],
+    },
+    zh: {
+      title: '没有他的，第一个节',
+      excerpt:
+        '日子到了就是到了。这篇写的是失去之后第一次过节：怎么提前把那天定下来、桌上的其他人并不都在悲伤时怎么办，以及那把椅子该怎么处理。',
+      body: `<h2>为什么第一个节比平常的日子更难</h2>
+<p>平常的日子，你只需要自己扛着。节日不一样，它带着一套流程：几点开饭、房间应该热闹、那把椅子不是空着，而是少了人。没有他的第一个节，未必比你熬过的最糟的那个夜晚更难，但它更难躲开，因为那天的安排通常不是你定的。</p>
+<p>让人措手不及的往往不是难过本身，而是那个落差：在别人眼里这天应该是什么样，和你坐在里面实际要付出多少，这两者之间隔着很远。你可以在一屋子你爱的人中间，仍然整整一天都在做一件很吃力的事。</p>
+<h2>人们常用的三种过法</h2>
+<ul>
+<li><strong>照原样过。</strong>同一个房子、同一桌菜、同一个顺序。人不多、大家都想要延续感的时候，这样最稳。</li>
+<li><strong>故意改掉一样。</strong>换个房间、少做两个菜、甜点之前先出去走一圈。比全部推翻好扛得多。</li>
+<li><strong>这一年先不过。</strong>有人发现第一年安静地过更好。这是允许的，也不等于把这个传统弄丢了。</li>
+</ul>
+<p>三种都不是标准答案。最容易出问题的是第四种：不做任何决定，去到别人的安排里，然后全盘接着。</p>
+<h2>提前把那天定下来</h2>
+<p>提前一周左右，把那天的大致形状写下来。不用排时间表，三行就够：你在哪儿、谁会在、撑不住的时候你打算怎么办。一个提前想好"主食上完就可以走"的人，通常真的能坐到主食上完。</p>
+<p>再先对一个人说出来。你不需要向整桌人解释，只要有一个人知道你可能会出去待一会儿，你就真的能出去待一会儿。</p>
+<h2>当这一屋子人并不都在悲伤</h2>
+<p>节日会把和那个人关系各不相同的人聚到一起：一年见两次的表亲、听说了消息但没有一起经历过那些年的邻居、只惦记着吃什么的小孩。他们的高兴不是不敬，只是面对同一个缺席，关系不同而已。</p>
+<p>两件事有用。先想好别人问"你还好吗"的时候你要怎么答，别让这个问题在门口把你拦住。然后给自己留一段只属于你的时间：出门走十分钟、开车回家的那段路、或者煮咖啡时待在厨房里。</p>
+<h2>那把椅子，怎么处理</h2>
+<p>有的家庭把位置留着，有的把椅子挪开，两种都过得不错。真正伤人的，往往是由离那场失去不是最近的人，在开饭前十分钟、当着所有人做出的那个决定。</p>
+<p>如果你想让他留在这一天里，又不想摆一个实体的位置，就早点说一句关于他的话。一次举杯、一个名字、一件他一直做不太好的小事。先说出来，后面的人就更容易跟着说，这一天也就不用在"好像大家都没有想起他"的沉默里过下去。</p>
+<h2>过完之后写下来</h2>
+<p>那天会过去，细节也会跟着走。很多人发现第二年好过一些，是因为第一年被记下来了：哪些安排有用、什么太多了、哪个瞬间最难熬。一条不用写全，一段写那顿饭、一段写回家的路，就足够让明年变成一个你做的决定，而不是又一次措手不及。</p>
+<h2>常见问题</h2>
+<p>StillHere 是 <a href='/'>stillherememory.com</a> 上一个安静、私密的地方，用来放你想留下的、关于一个人的东西，默认只属于你自己。如果你正在决定那天怎么过，可以先看<a href='/blog/keep-them-by-remembering'>留住他们，就是留住你记得的</a>。</p>`,
+      faq: [
+        { q: '第一年整个节都不过，可以吗？', a: '可以。很多人第一年先安静地过，之后第二年再回来。跳过一年不等于放弃了这个传统。' },
+        { q: '桌上要不要留一个空位？', a: '只要离那场失去最近的人愿意。这件事没有规定，也不该当着一屋子客人替你做决定。' },
+        { q: '如果一直没人提起他怎么办？', a: '你可以先提。那天早些时候说一句，通常就等于给了其他人跟着说的许可。' },
+        { q: '别人问我"你还好吗"，该怎么回？', a: '提前挑一个短答案，然后一直用它。比如"我在慢慢过"，说完就够了，也不会引出你不想进行的长谈。' }
+      ],
+    }
+  },
 ];
 export function getPostBySlug(slug: string): BlogPost | undefined {
   return BLOG_POSTS.find((p) => p.slug === slug);
