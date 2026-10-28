@@ -4047,6 +4047,102 @@ en: {
       ],
     }
   },
+  {
+    slug: 'birthday-candle-lit-for-two',
+    date: '2026-10-27',
+    en: {
+      title: 'A birthday candle lit for two',
+      excerpt:
+        'A birthday candle for two is a small, repeatable way to keep someone in the room without stopping the party. What it looks like in practice, and why the second candle is the one that does the work.',
+      body: `<h2>A birthday candle for two</h2>
+<p>Two candles on the cake. One for the person whose birthday it is, one for the person who is not there. A birthday candle for two is a small ritual that families keep coming back to, because it asks nothing of anybody and it takes about four seconds. No speech, no toast, no moment where the room has to decide how sad it is allowed to be. Just a second flame, lit and blown out along with the first.</p>
+<h2>Why the second candle works better than a speech</h2>
+<p>A spoken tribute puts the room in a difficult position. Everyone has to match the tone you set, and people who did not know the person well have to perform something. A candle skips that. It is visible, it is quiet, and it lets each person in the room decide privately what it means to them.</p>
+<ul>
+<li>Nobody has to find words on the spot.</li>
+<li>Children can take part without understanding the whole story.</li>
+<li>It ends when the candles are out, so the party keeps its own shape.</li>
+<li>It can happen every year without anyone having to agree to it again.</li>
+</ul>
+<h2>How families actually do it</h2>
+<p>There is no single correct version. The details people settle on tend to be unremarkable, which is the point.</p>
+<table>
+<thead><tr><th>Version</th><th>What happens</th><th>Fits</th></tr></thead>
+<tbody>
+<tr><td>Second candle on the cake</td><td>Lit with the others, blown out together</td><td>Birthdays with children present</td></tr>
+<tr><td>Candle in another room</td><td>Lit in the kitchen, left burning through dinner</td><td>People who want it private</td></tr>
+<tr><td>Empty chair and a candle</td><td>Set at the table, no explanation given</td><td>Families who talk about things directly</td></tr>
+<tr><td>One candle, said out loud</td><td>"This one is for Grandad", then happy birthday</td><td>Small gatherings, no cake</td></tr>
+</tbody>
+</table>
+<p>One practical note. Use a real candle and let it burn down somewhere safe, or use the LED kind if there are small children leaning over the cake. People worry about the wrong part of this. The flame is not the ritual; the fact that you did it again is.</p>
+<h2>When somebody in the room objects</h2>
+<p>It happens. A relative thinks it is morbid, or thinks the children will be upset, or simply does not want to be reminded. You do not have to win that argument in front of the cake. The version where you light a candle in the kitchen and tell nobody is just as real, and it costs less.</p>
+<h2>What to do with the years it does not happen</h2>
+<p>Some years you will forget, or be somewhere else, or not have the stomach for it. That is not a failure. The ritual is not a contract. Most families we hear from do it in some years and skip others, and the skipping years do not undo the ones where it happened.</p>
+<p>Other years the candle is not only about them. The birthday you reach the age they were when they died, or the first one after another loss, the second flame carries more than one absence. That is fine. Two candles can hold both, and nobody has to be told which one they are looking at.</p>
+<h2>Writing it down afterwards</h2>
+<p>A candle lasts a minute. What lasts longer is a sentence about who it was for and what that birthday was like. StillHere is a quiet place on <a href='/'>stillherememory.com</a> to keep what you want to keep about someone, private by default. If you are unsure what to write, <a href='/blog/what-to-say-first'>What to say first</a> is the shortest way in, <a href='/blog/talking-with-someone-who-is-gone'>What it feels like to talk with someone who is gone</a> explains why a short note tends to help, and <a href='/blog/keep-them-by-remembering'>Keep them by keeping what you remember</a> covers the wider habit.</p>`,
+      faq: [
+        {
+          q: 'Is a second birthday candle too sad for children?',
+          a: 'Usually no. Children tend to read it as a fact rather than a sad event, especially when nobody explains it at length. If you are unsure, keep it to one short sentence.',
+        },
+        {
+          q: 'What if the birthday person does not want it?',
+          a: 'Then it does not happen. The ritual belongs to whoever is grieving, and it should not be added to a day that already belongs to somebody else.',
+        },
+        {
+          q: 'Do we have to explain the candle to guests?',
+          a: 'No. Most people work it out. A candle that goes unexplained is easier for everyone than one that comes with a speech.',
+        },
+        {
+          q: 'Can we do this for someone who died years ago?',
+          a: 'Yes. Plenty of families start the habit long after the loss, sometimes because a child asks about the person.',
+        },
+      ],
+    },
+    zh: {
+      title: '两支蜡烛的生日',
+      excerpt:
+        '生日蛋糕上点两支蜡烛，是一个很小、可以年年重复的做法：让人留在房间里，又不打断这场聚会。这里讲它实际操作起来是什么样，以及为什么真正起作用的是第二支。',
+      body: `<h2>两支蜡烛的生日</h2>
+<p>蛋糕上两支蜡烛。一支给过生日的人，一支给不在的那个人。两支蜡烛的生日，是很多家庭会一直用下去的小仪式，因为它不要求任何人做什么，前后也就四秒钟。没有致辞，没有举杯，也没有一个"这屋子现在可以难过到什么程度"的时刻。只是第二簇火苗，跟着第一支一起点上，一起吹灭。</p>
+<h2>为什么第二支蜡烛比一段致辞更好用</h2>
+<p>开口说一段，会把在场的人放进一个很为难的位置：每个人都要跟着你定的调子走，而那些不太认识他的人得演点什么。蜡烛跳过了这一步。它看得见，不出声，也让屋里每个人私下决定它对自己意味着什么。</p>
+<ul>
+<li>没有人需要当场找词。</li>
+<li>孩子可以参与，不必了解全部来龙去脉。</li>
+<li>蜡烛吹灭，它就结束了，聚会还是聚会。</li>
+<li>它可以年年重复，不需要每年重新取得共识。</li>
+</ul>
+<h2>各家实际是怎么做的</h2>
+<p>没有唯一正确的版本。人们最后定下来的细节往往很平常，而这正是关键。</p>
+<table>
+<thead><tr><th>版本</th><th>怎么做</th><th>适合</th></tr></thead>
+<tbody>
+<tr><td>蛋糕上多一支</td><td>和别的蜡烛一起点，一起吹</td><td>有孩子在场的生日</td></tr>
+<tr><td>点在另一个房间</td><td>在厨房点着，一顿饭的时间里一直亮着</td><td>想让它保持私密的人</td></tr>
+<tr><td>空椅子加一支蜡烛</td><td>摆在桌边，不做任何解释</td><td>习惯把话说开的家庭</td></tr>
+<tr><td>一支蜡烛，说一句</td><td>"这支是给外公的"，然后照旧唱生日歌</td><td>小聚会，没有蛋糕</td></tr>
+</tbody>
+</table>
+<p>一个实际的小提醒。用真蜡烛的话，就放在安全的地方让它自己烧完；如果蛋糕边上围着小孩子，就用那种 LED 的。大家常常担心错地方。火苗不是仪式，你又做了一次这件事，才是。</p>
+<h2>当屋里有人反对</h2>
+<p>这种事会发生。某位亲戚觉得太晦气，觉得孩子会难过，或者只是不想被提醒。你不必在蛋糕面前赢下这场争论。那个"在厨房点一支、谁也不告诉"的版本同样成立，而且代价更小。</p>
+<h2>有些年份没做，怎么办</h2>
+<p>有些年份你会忘，或者在别的地方，或者那天就是提不起劲。这不算失败。仪式不是合同。我们听到的家庭大多是有些年做、有些年不做，那些跳过的年份，并不会把做过的那些年抵消掉。</p>
+<p>还有一些年份，那支蜡烛不只是为他点的。当你长到他离开时的那个年纪，或者刚经历另一场失去之后的第一个生日，第二簇火苗就承载了不止一份缺席。这也没问题。两支蜡烛装得下两者，不必告诉任何人他们看的是哪一支。</p>
+<h2>之后把它写下来</h2>
+<p>蜡烛只亮一分钟。留得更久的，是关于"这一支是给谁的"、以及那个生日是什么样的一句话。StillHere 是 <a href='/'>stillherememory.com</a> 上一个安静的地方，用来放你想留下的、关于一个人的东西，默认只属于你自己。如果不知道写什么，<a href='/blog/what-to-say-first'>开口第一句说什么</a>是最短的入口，<a href='/blog/talking-with-someone-who-is-gone'>和已经离开的人说话，是什么感觉</a>讲的是为什么短短一句往往管用，而<a href='/blog/keep-them-by-remembering'>留住他们，就是留住你记得的</a>说得更广一些。</p>`,
+      faq: [
+        { q: '生日上多一支蜡烛，对孩子来说太难过吗？', a: '通常不会。孩子往往把它当成一个事实，而不是一件伤心事，尤其是在没有人长篇解释的时候。拿不准的话，就只说一句短的话。' },
+        { q: '如果过生日的那个人不愿意呢？', a: '那就不做。这个仪式属于正在难过的人，不该被加到一个本来就属于别人的日子里。' },
+        { q: '需要向客人解释这支蜡烛吗？', a: '不需要。大多数人自己会明白。一支没有被解释的蜡烛，比一支配着一段发言的蜡烛让所有人都更轻松。' },
+        { q: '人已经走了很多年，还可以这样做吗？', a: '可以。很多家庭是在很久之后才开始的，有时是因为孩子问起了那个人。' },
+      ],
+    }
+  },
 ];
 export function getPostBySlug(slug: string): BlogPost | undefined {
   return BLOG_POSTS.find((p) => p.slug === slug);
