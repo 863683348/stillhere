@@ -3959,6 +3959,94 @@ en: {
       ],
     }
   },
+  {
+    slug: 'fathers-day-dad-you-cant-call',
+    date: '2026-10-28',
+    en: {
+      title: 'Father\'s Day for a dad you can\'t call',
+      excerpt:
+        'Fathers Day without dad lands differently every year. What to do with a day built around a relationship when the call has nowhere to go, and how to mark it without performing grief for anyone.',
+      body: `<h2>Fathers Day without dad</h2>
+<p>The day arrives on a Sunday, advertised for a week beforehand, and the one thing you want to do is make a call that has nowhere to go. Fathers Day without dad is not a date most grief writing handles well. It is not the first Christmas and it is not a birthday. It is a whole day built around one relationship, arriving on a fixed date, with no script for what to do when the other half of it is missing.</p>
+<h2>Why this Sunday is louder than the birthday</h2>
+<p>A birthday for someone who has died is mostly private; almost nobody else is marking it. Fathers Day is public. Shop windows, group chats and feeds fill up with other people's fathers. You can sidestep a birthday. You cannot sidestep a Sunday that comes at you from every direction, with roughly ten days of advertising running up to it.</p>
+<ul>
+<li>The build-up is longer than the day itself, so the dread arrives early.</li>
+<li>Feeds fill with photographs of living fathers, which is hard to scroll past.</li>
+<li>People ask whether you have plans, as if the answer could be neutral.</li>
+</ul>
+<h2>Decide what the day is for</h2>
+<p>The common mistake is waiting to see how you feel on the morning. That hands the whole day over to chance. Pick one thing in advance and let it be small. A decision made on Thursday is easier to live with than a decision made at nine in the morning while you are already raw.</p>
+<table>
+<thead><tr><th>Option</th><th>What it looks like</th><th>Who it suits</th></tr></thead>
+<tbody>
+<tr><td>Do what he did</td><td>Cook his breakfast, or mow the lawn the way he did it</td><td>People who grieve through routine</td></tr>
+<tr><td>Write to him</td><td>One letter that morning, kept or thrown away afterwards</td><td>People with something specific left to say</td></tr>
+<tr><td>Deliberately nothing</td><td>Treat it as an ordinary Sunday, no ceremony</td><td>People worn out by anniversaries</td></tr>
+<tr><td>Do it for someone else</td><td>Call a friend who is also missing their dad</td><td>People who hate sitting alone with it</td></tr>
+</tbody>
+</table>
+<h2>What to write if you sit down to write</h2>
+<p>Do not aim for a summary of the relationship. Aim for one thing you still remember clearly and one thing you wish you had said. The second half is the part people avoid, and it is the part that tends to matter a year later. Write it badly. Nobody is grading it, and a clumsy sentence written today beats the clean one you never got around to.</p>
+<h2>When you are the one receiving the cards</h2>
+<p>If you have children, Fathers Day keeps moving even when you would rather it stopped. Being handed a drawing on a day you are grieving your own father is a strange double. Both halves are allowed to happen: take the card, and later, alone, write something for him. Nobody needs to see both.</p>
+<h2>The phone number in your contacts</h2>
+<p>Plenty of people keep the number for years. Some keep the voicemail. If hearing his voice on an old message steadies you, that is allowed. If it costs you the rest of the week, that is worth knowing too, and you can decide not to this year. Either way it is your call, not anyone else's.</p>
+<h2>Somewhere to put the day</h2>
+<p>A day this loaded needs a container, otherwise it leaks into the week around it. StillHere is a quiet place on <a href='/'>stillherememory.com</a> to keep what you want to keep about someone, private by default. If the page is the hard part, <a href='/blog/what-to-say-first'>What to say first</a> is the shortest way in, and <a href='/blog/talking-with-someone-who-is-gone'>Talking with someone who is gone</a> covers what it means to keep writing when nobody answers. For the wider calendar of firsts, <a href='/blog/the-first-holiday-without-them'>The first holiday without them</a> is the companion piece.</p>`,
+      faq: [
+        {
+          q: 'Is it normal for Fathers Day to get harder years later?',
+          a: 'Yes. The first year is often numb. Year three or four can hit harder because the loss has settled into ordinary life and the day has nowhere to go.',
+        },
+        {
+          q: 'Should I skip the day entirely?',
+          a: 'You can. Skipping it deliberately is different from being ambushed by it. The part that helps most people is deciding which one it is going to be.',
+        },
+        {
+          q: 'What do I tell my own children about why I am quiet?',
+          a: 'Something short and true. "I am missing Grandad today" is enough for most ages, and it gives them permission to mention him too.',
+        },
+      ],
+    },
+    zh: {
+      title: '给打不通电话的爸爸，过父亲节',
+      excerpt:
+        '没有爸爸的父亲节，每一年落下来的分量都不一样。这个日子天生围着一段关系转，当那通电话没有地方可打，该怎么过，又怎么不为任何人表演你的悲伤。',
+      body: `<h2>没有爸爸的父亲节</h2>
+<p>这一天落在一个周日，提前一周就开始到处做广告，而你最想做的那件事，是打一通没有地方可打的电话。没有爸爸的父亲节，是大多数关于悲伤的文字都处理不好的一天。它不是第一个圣诞节，也不是生日。它是整整一天，天生围着一段关系转，日期固定，而当另一半缺席时，没有任何现成的脚本告诉你该做什么。</p>
+<h2>为什么这个周日比生日更吵</h2>
+<p>一个已经离开的人的生日，大体是私事，几乎没有别人在过。父亲节是公共的。商店橱窗、群聊、信息流，全都塞满了别人的爸爸。生日你可以绕开。一个从四面八方朝你涌来的周日你绕不开，而且前面还压着大约十天的广告。</p>
+<ul>
+<li>铺垫比那一天本身更长，所以难受来得更早。</li>
+<li>信息流里全是和健在的父亲的合影，很难滑过去。</li>
+<li>别人会问你"有什么安排吗"，好像这个答案是中性的。</li>
+</ul>
+<h2>先决定这一天用来干什么</h2>
+<p>最常见的错误，是等到当天早上看自己什么心情。那等于把一整天交给了运气。提前挑一件事，让它很小。周四做好的决定，比早上九点在你已经很脆弱的时候做的决定更好承受。</p>
+<table>
+<thead><tr><th>选项</th><th>具体是什么</th><th>适合谁</th></tr></thead>
+<tbody>
+<tr><td>做他做过的事</td><td>做他那顿早餐，或者按他的方式把草坪修一遍</td><td>靠日常习惯来消化悲伤的人</td></tr>
+<tr><td>给他写信</td><td>那天早上写一封，留着或之后扔掉都行</td><td>还有一句具体的话没说出口的人</td></tr>
+<tr><td>故意什么都不做</td><td>当成一个普通的周日，不办任何仪式</td><td>被各种纪念日耗光了的人</td></tr>
+<tr><td>为别人做点什么</td><td>给同样在想念爸爸的朋友打个电话</td><td>受不了独自坐着的人</td></tr>
+</table>
+<h2>如果坐下来写，写什么</h2>
+<p>别想着给这段关系做总结。挑一件你至今记得很清楚的事，再挑一件你希望自己当年说过的话。后半句是大多数人会躲开的部分，也往往是一年之后最有用的部分。写得笨也没关系。没有人在打分，今天写下一句笨拙的话，胜过那句你一直没来得及说的漂亮话。</p>
+<h2>当你是收卡片的那个人</h2>
+<p>如果你有孩子，父亲节会继续往前走，哪怕你更希望它停一停。在你正为自己的父亲难过的这天被递上一张画，是一种奇怪的双重感受。两半都可以同时发生：收下那张画，然后一个人待着的时候，再为他写点什么。不必有人同时看见这两半。</p>
+<h2>通讯录里那个号码</h2>
+<p>很多人把这个号码留了好几年。有些人留着语音信箱。如果听一段旧留言里他的声音能让你稳下来，那就可以听。如果它会赔掉你这一周剩下的几天，那也是值得知道的事，那么今年你可以选择不听。不管怎么选，都是你自己的事。</p>
+<h2>给这一天找个地方放</h2>
+<p>分量这么重的一天需要一个容器，否则它会渗进前后那一周。StillHere 是 <a href='/'>stillherememory.com</a> 上一个安静的地方，用来放你想留下的、关于一个人的东西，默认只属于你自己。如果难的是空白页，<a href='/blog/what-to-say-first'>开口第一句说什么</a>是最短的入口；<a href='/blog/talking-with-someone-who-is-gone'>和已经离开的人说话，是什么感觉</a>讲的是没人回应时继续写下去意味着什么。至于一整年里那些"第一次"，配套的一篇是<a href='/blog/the-first-holiday-without-them'>没有他的，第一个节</a>。</p>`,
+      faq: [
+        { q: '父亲节过了好几年反而更难熬，正常吗？', a: '正常。第一年常常是麻木的。第三年、第四年反而可能更重，因为这份失去已经落进了日常生活，而这一天没有地方可去。' },
+        { q: '我可以干脆不过这一天吗？', a: '可以。有意地跳过，和被它打个措手不及，是两件不同的事。最帮得上忙的，是提前决定今年属于哪一种。' },
+        { q: '孩子问我为什么今天话少，我怎么说？', a: '说一句短的、真的话就够了。"我今天在想外公"，对大多数年纪的孩子都够用，也等于允许他们跟着提起他。' },
+      ],
+    }
+  },
 ];
 export function getPostBySlug(slug: string): BlogPost | undefined {
   return BLOG_POSTS.find((p) => p.slug === slug);
