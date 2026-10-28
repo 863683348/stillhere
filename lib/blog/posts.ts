@@ -3865,6 +3865,100 @@ en: {
       ],
     }
   },
+  {
+    slug: 'remembering-a-baby-you-never-held',
+    date: '2026-10-29',
+    en: {
+      title: 'Remembering a baby you never held',
+      excerpt:
+        'There is no photograph and no shared story, so the usual words miss. A practical note on remembering a baby you never held: what to write down, which date to mark, and how to answer something kindly meant.',
+      body: `<h2>Remembering a baby you never held</h2>
+<p>There is no photograph to point at, no first word, no age anyone agrees on. When someone asks how old the baby would be, you may catch yourself doing arithmetic on a date that never arrived. Remembering a baby you never held is its own kind of grief, and it does not need a box of hospital keepsakes to count. What it needs is somewhere to put the sentences you have been carrying around for months.</p>
+<h2>Why a loss without a photograph is harder to explain</h2>
+<p>Most sympathy scripts are built around a shared image. People know what to say about a service they attended. They go quiet when the person they are comforting has nothing to show, because the loss happened before anyone outside the room saw it. That quiet gets read as a verdict: it was early, so it probably did not count. It counted.</p>
+<ul>
+<li>You may grieve the version of a life you had already started planning.</li>
+<li>You may grieve the pregnancy itself: the appointments, the names, the due date on the calendar.</li>
+<li>You may grieve for your partner, who is grieving too and possibly in a different shape.</li>
+<li>None of these need to be ranked against each other.</li>
+</ul>
+<p>Partners often grieve on different clocks. One of you may want to talk about it daily, while the other goes quiet and handles it alone. That mismatch is not evidence that one of you cared less, and it is worth saying out loud at least once.</p>
+<h2>What to write when there is nothing to describe</h2>
+<p>The blank page is brutal here. Without shared memories to lean on, the usual prompts go nowhere, because there is no laugh to describe and no habit to recall. Smaller and stranger details work better. The names you had narrowed it down to. The week you told people. The sound in the room when the monitor went quiet. One sentence counts as a complete entry.</p>
+<table>
+<thead><tr><th>Stuck on</th><th>Write this instead</th></tr></thead>
+<tbody>
+<tr><td>A name</td><td>The names you considered, and why each one got crossed off</td></tr>
+<tr><td>A date</td><td>The due date, and what that week of the year means now</td></tr>
+<tr><td>A face</td><td>What you pictured, in plain words, with no apology attached</td></tr>
+<tr><td>A story</td><td>The day you found out, and the drive home afterwards</td></tr>
+</tbody>
+</table>
+<h2>The due date, and the birthday that was never going to happen</h2>
+<p>A due date is a strange anniversary. It was always conditional, and it still lands harder than most people expect. Some parents mark it quietly. Some write a letter that nobody reads. Some deliberately do nothing that day and feel guilty either way. There is no correct amount of ceremony. What helps most people is deciding in advance how the day goes, rather than being ambushed by it at four in the afternoon.</p>
+<h2>When other people get the wording wrong</h2>
+<p>They will get it wrong. "At least you know you can get pregnant." "It was probably for the best." The reflex is to correct them, and that costs energy you may not have. A short line you can reuse saves more than the honest answer you actually want to give. Something like "we are getting through it, thank you for asking" closes the exchange without opening a longer one.</p>
+<h2>Keeping the memory without turning it into a shrine</h2>
+<p>Grief that has nowhere to go tends to leak into unrelated afternoons. Putting it in one place on purpose gives it a container. StillHere is a quiet place on <a href='/'>stillherememory.com</a> to keep what you want to keep about someone, private by default. If you want a starting point, <a href='/blog/keep-them-by-remembering'>Keep them by keeping what you remember</a> is about exactly that, and <a href='/blog/remembering-a-miscarriage'>A miscarriage remembered, quietly</a> covers the days right afterwards. If you would rather begin with something small, <a href='/blog/what-to-say-first'>What to say first</a> is the shortest way in.</p>`,
+      faq: [
+        {
+          q: 'Is it normal to grieve a baby I never met?',
+          a: 'Yes. Grief attaches to the future you were expecting, not only to time you actually spent together. The absence of shared days does not make the loss smaller.',
+        },
+        {
+          q: 'Which date should I mark, the due date or the date of the loss?',
+          a: 'Whichever one hits harder. Some people mark both and some mark neither. The useful part is choosing on purpose instead of being surprised by it.',
+        },
+        {
+          q: 'How do I answer people who say the wrong thing?',
+          a: 'Keep one short sentence ready and reuse it. It ends the conversation without asking you to educate anyone while you are in the middle of it.',
+        },
+        {
+          q: 'What can I put in StillHere if I have no photos?',
+          a: 'Names, dates, and the plain sentences you have been carrying. A memory capsule does not need images to hold something real.',
+        },
+      ],
+    },
+    zh: {
+      title: '记住那个你从未抱过的宝宝',
+      excerpt:
+        '没有照片，也没有共同的回忆，所以那些惯常的安慰话常常落空。这篇写给从未抱过的那个宝宝：可以写下什么、纪念哪一天、以及别人好心却说错时该怎么回。',
+      body: `<h2>记住那个你从未抱过的宝宝</h2>
+<p>没有照片可以指给别人看，没有第一句话，也没有一个大家公认的年龄。有人问起"宝宝现在该多大了"，你可能会发现自己在一算一个从未到来的日期。记住那个你从未抱过的宝宝，是一种真实存在的悲伤，它不需要一盒子医院留存的物件才算数。它需要的是：一个能放下你揣了好几个月那些话的地方。</p>
+<h2>为什么没有照片的失去更难说清</h2>
+<p>大多数安慰的话，都是围绕着一个共同的画面建立的。人们知道该怎么谈一场他们参加过的告别。可当要安慰的人拿不出任何东西给人看时，他们会安静下来，因为这场失去发生在房间以外的人看见它之前。那种安静很容易被读成一句判决：还早，所以大概不算数。它算数。</p>
+<ul>
+<li>你可能在为一个你其实已经开始规划的版本伤心。</li>
+<li>你可能在为那次怀孕本身伤心：那些产检、那些名字、日历上的预产期。</li>
+<li>你可能在为你的伴侣伤心，对方也在难过，只是形状可能不一样。</li>
+<li>这些都不必分出高下。</li>
+</ul>
+<p>伴侣之间的节奏常常不一样。你们中可能有一个每天都想谈，另一个则安静下来、自己扛着。这种错位不代表谁在乎得更少，这句话值得至少说出口一次。</p>
+<h2>当没有什么可以描述时，写什么</h2>
+<p>这里的空白页格外难熬。没有共同记忆可以依靠，那些常见的提示也无处落脚：没有笑声可以形容，也没有习惯可以回想。更小、更零散的细节反而更好用。你们当时缩小到哪几个名字。你告诉别人的那一周。仪器安静下来那一刻房间里的声音。一句话，就是一条完整的记录。</p>
+<table>
+<thead><tr><th>卡在哪里</th><th>换个写法</th></tr></thead>
+<tbody>
+<tr><td>名字</td><td>你们考虑过的那些名字，以及每个为什么被划掉</td></tr>
+<tr><td>日期</td><td>那个预产期，以及一年里的那一周现在意味着什么</td></tr>
+<tr><td>一张脸</td><td>你当时想象的样子，用平实的话写，不用道歉</td></tr>
+<tr><td>一个故事</td><td>你知道消息的那一天，以及之后回家的那段路</td></tr>
+</tbody>
+</table>
+<h2>预产期，和那个本来就不会到来的生日</h2>
+<p>预产期是一个奇怪的纪念日。它始终带有条件，可落下来的时候，比大多数人预期的更重。有些父母安静地过。有些写一封没有人读的信。有些那天故意什么都不做，然后不管怎么选都觉得愧疚。仪式感没有正确剂量。真正帮得上忙的，是提前想好那天怎么过；被它在某个下午四点打个措手不及，是最难受的一种。</p>
+<h2>当别人用词不对的时候</h2>
+<p>他们会说错的。"至少你知道自己还能怀上。""可能本来就不合适。"第一反应是纠正他们，可那要花掉你可能并不具备的力气。准备一句能反复用的短句子，比说出你真正想说的那句话更省力气。"我们还在慢慢过，谢谢你想着我们"这种，可以把对话收住，又不开启一场新的。</p>
+<h2>把记忆留下来，但不必变成一座灵堂</h2>
+<p>无处安放的悲伤，往往会渗进一些毫不相干的下午。有意地把它放进一个地方，等于给了它一个容器。StillHere 是 <a href='/'>stillherememory.com</a> 上一个安静的地方，用来放你想留下的、关于一个人的东西，默认只属于你自己。如果你想找个开头，<a href='/blog/keep-them-by-remembering'>留住他们，就是留住你记得的</a>说的正是这件事，<a href='/blog/remembering-a-miscarriage'>安静地，记住一次流产</a>讲的是刚发生后的那些日子。要是你更想从很小的地方开始，<a href='/blog/what-to-say-first'>开口第一句说什么</a>是最短的入口。</p>`,
+      faq: [
+        { q: '我从未见过这个宝宝，这样难过正常吗？', a: '正常。悲伤依附的是你一直在等的那个未来，不只是你们真正一起度过的时间。缺少共同的日子，并不让这场失去变小。' },
+        { q: '该纪念哪一天：预产期，还是失去那天？', a: '哪一个更让你难受，就选哪一个。有人两个都过，有人两个都不过。有用的是你自己先决定，而不是被它打个措手不及。' },
+        { q: '别人说错话时，我该怎么回？', a: '准备一句短句子，然后一直用它。这样能把对话收住，也不必在你正难过的时候去教育谁。' },
+        { q: '没有照片，StillHere 里能放什么？', a: '名字、日期，还有你一直揣着的那些平实的句子。一个记忆胶囊不需要照片，也能装住真实的东西。' },
+      ],
+    }
+  },
 ];
 export function getPostBySlug(slug: string): BlogPost | undefined {
   return BLOG_POSTS.find((p) => p.slug === slug);
