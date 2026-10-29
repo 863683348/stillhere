@@ -4143,6 +4143,124 @@ en: {
       ],
     }
   },
+  {
+    slug: 'a-divorce-and-the-person-you-lost-too',
+    date: '2026-10-30',
+    en: {
+      title: 'A divorce, and the person you lost too',
+      excerpt:
+        'Divorce can leave you grieving someone who is still alive, or grieving an ex after death with no clear place at the funeral. A plain guide to recording the person without rewriting the marriage.',
+      body: `<h2>Divorce and lost person: two losses in one room</h2>
+<p>The phrase divorce and lost person sounds awkward because the grief itself has no tidy name. You lost a marriage, but you may also have lost the person who knew your first flat, the bad car, and the version of you that existed before the paperwork. They may still be alive. They may have died years after the separation. Either way, the usual sympathy script rarely fits. Friends may treat the divorce as proof that you should feel nothing, while your memory keeps returning to a Tuesday morning that belonged to both of you.</p>
+<p>Missing that person does not revise the reasons you left. Affection can survive beside anger. Relief can arrive on the same day as a memory you want to keep.</p>
+
+<h2>Grieving someone after divorce without a public role</h2>
+<p>Grieving someone after divorce often happens without a recognised seat in the room. If an ex dies, the current partner and family stand closest at the service. You may be unsure whether to attend, where to sit, or whether telling a story will look like claiming a place that is no longer yours. If the person is alive but absent from your life, there may be no service at all. The loss still has dates, rooms and habits attached to it.</p>
+<ul>
+<li>You may miss the witness to a period of your life, even when you do not miss the relationship.</li>
+<li>You may grieve a former in-law or a shared friend who disappeared with the marriage.</li>
+<li>You may want one photograph while wanting no contact.</li>
+<li>You may feel relief, and then feel guilty about the relief.</li>
+</ul>
+<p>Those contradictions need room more than they need a verdict. The note on <a href='/blog/guilt-about-moving-on'>guilt about moving on</a> may help when a good day feels like betrayal.</p>
+
+<h2>How to remember an ex after divorce honestly</h2>
+<p>How to remember an ex after divorce starts with a narrow scene. Skip the summary of the marriage. Pick one year, one room, or one job you both hated. Then write what happened in plain terms. Include the detail that makes the scene theirs: the mug they used, the shortcut they always took, or the song they ruined by singing the wrong line.</p>
+<table>
+<thead><tr><th>If you are stuck on</th><th>Try recording</th></tr></thead>
+<tbody>
+<tr><td>Whether the marriage was happy</td><td>One ordinary evening that you can still picture</td></tr>
+<tr><td>Who was at fault</td><td>What changed, with no closing argument</td></tr>
+<tr><td>Whether you still loved them</td><td>One thing you missed after the keys were returned</td></tr>
+<tr><td>What belongs in the record</td><td>A detail you would hate to forget</td></tr>
+</tbody>
+</table>
+<p>If one period keeps coming back, <a href='/blog/writing-to-the-version-of-them-you-miss'>writing to the version of them you miss</a> gives that year its own place. You do not have to make the kind years cover the hard ones.</p>
+
+<h2>When an ex-spouse dies after divorce</h2>
+<p>When an ex-spouse dies after divorce, news often arrives through a child, a former relative, or a message from someone who has not contacted you in years. Should you send flowers? Can you contact the family? Is an old photograph yours to share?</p>
+<p>Use the smallest honest action. Send a private note if contact is welcome. Give adult children room to choose what they tell you. Keep the photograph for now if sharing it could make the week harder. There is no deadline for deciding what the death means to you. The funeral belongs to the people organising it; your memory still belongs to you.</p>
+
+<h2>Complicated grief after divorce needs a private place</h2>
+<p>Complicated grief after divorce can feel embarrassing because every sentence seems to require a footnote. A private entry removes the audience. You can write, "I left, and I still remember how you made coffee," without defending either half. Start with one page and stop before it becomes a case for or against the marriage.</p>
+<p>StillHere is a quiet place on <a href='/'>stillherememory.com</a> to keep what you want to keep about someone, private by default. If the first line will not come, <a href='/blog/what-to-say-first'>what to say first</a> offers a smaller opening. Write the scene you can see. The rest can wait.</p>`,
+      faq: [
+        {
+          q: 'Is it normal to grieve an ex I chose to leave?',
+          a: 'Yes. Ending a marriage does not erase shared years or the person you were during them. Grief and certainty about the divorce can exist together.',
+        },
+        {
+          q: 'Should I attend my ex-spouse\'s funeral?',
+          a: 'Consider the family\'s wishes, your current relationship with them, and whether your presence would add strain. A private note or visit on another day can carry the same respect.',
+        },
+        {
+          q: 'Can I keep memories without contacting my ex?',
+          a: 'Yes. Remembering is private. You can keep a photograph or write a scene without reopening contact or asking anyone else to take part.',
+        },
+        {
+          q: 'What if most of my memories are angry?',
+          a: 'Write one true scene at a time. The entry does not need to forgive anyone, and it does not need to turn the marriage into a single judgement.',
+        },
+      ],
+    },
+    zh: {
+      title: '一段离婚，与那个也失去的人',
+      excerpt:
+        '离婚之后，你可能在想念一个仍然活着的人；也可能在前任离世后，发现葬礼上没有一个清楚的位置留给自己。这里写的是怎样留下那个人，又不改写那段婚姻。',
+      body: `<h2>离婚和失去一个人，是同一间屋里的两件事</h2>
+<p>离婚和失去一个人，很难被一个顺口的词装下。你失去了一段婚姻，也可能失去了那个记得第一间出租屋、那辆总坏的车、以及签字以前那个版本的你的人。他可能还活着，也可能在分开多年后离世。无论是哪一种，常见的安慰话都对不上。朋友会把离婚当成你不该再难过的理由，可记忆还是会回到一个只属于你们的星期二早晨。</p>
+<p>想念这个人，不会推翻你当初离开的原因。喜欢可以和生气挨在一起，松了一口气的同一天，也可能回来一段你想留下的记忆。一条记录可以把这些互相打架的事实都放下，不急着给婚姻判定好坏。</p>
+
+<h2>离婚后想念一个人，却没有公开的位置</h2>
+<p>离婚后想念一个人，常常意味着你在屋里没有一个大家认可的位置。如果前任离世，现在的伴侣和家人会站在告别式最靠前的地方。你可能不知道要不要去、坐在哪里，也不知道讲一段往事会不会像是在拿回早已不属于自己的位置。如果那个人还活着，只是从你的生活里消失，连告别式也不会有。可这场失去仍然带着日期、房间和习惯。</p>
+<ul>
+<li>你可能想念那个见证过一段人生的人，却并不想念那段关系。</li>
+<li>你可能也失去了一位前姻亲，或者随婚姻一起离开的共同朋友。</li>
+<li>你想留一张照片，同时不想再联系。</li>
+<li>你感到轻松，随后又因为这份轻松内疚。</li>
+</ul>
+<p>这些矛盾很平常，它们需要的是空间，不是裁决。当一个好日子让你觉得自己背叛了过去，可以读一读<a href='/blog/guilt-about-moving-on'>继续生活带来的内疚</a>。</p>
+
+<h2>离婚后怎样如实记住前任</h2>
+<p>离婚后怎样记住前任，可以从一个很窄的场景开始。先别总结整段婚姻，挑一年、一个房间，或者一份你们都讨厌的工作。用平实的话写当时发生了什么，再放进那个只属于他的细节：他用的杯子、总走的近路、或者被他唱错一句后再也听不回原样的歌。</p>
+<table>
+<thead><tr><th>如果你卡在这里</th><th>可以改写这些</th></tr></thead>
+<tbody>
+<tr><td>这段婚姻到底幸不幸福</td><td>一个你仍然看得见的普通晚上</td></tr>
+<tr><td>究竟是谁的错</td><td>事情怎么变了，不做结案陈词</td></tr>
+<tr><td>你是不是还爱他</td><td>交还钥匙后，你最先少掉的那样东西</td></tr>
+<tr><td>哪些事值得留下</td><td>一个你不愿忘掉的细节</td></tr>
+</tbody>
+</table>
+<p>如果某个时期总是回来，<a href='/blog/writing-to-the-version-of-them-you-miss'>写给那个你最想念的他</a>可以让那一年单独有个位置。你不必让温和的年份遮住艰难的年份，也不必在一段柔软的记忆后面附上每一次争吵。</p>
+
+<h2>离婚多年后，前任离世了</h2>
+<p>离婚多年后前任离世，消息可能来自孩子、以前的亲戚，或者一个多年没有联络的人。第一反应常常先落在身体上，过一会儿才变成句子。紧接着来的都是实际问题：要不要送花？可以联系家人吗？手里的旧照片适合发出去吗？</p>
+<p>先做最小、最诚实的那件事。如果联系不会添麻烦，就发一条私下的信息。让已经成年的孩子自己决定愿意告诉你多少。如果分享照片可能让这一周更难，就先留在手里。你不用赶着弄明白这场离世对自己意味着什么。葬礼属于操办它的人，你的记忆仍然属于你。</p>
+
+<h2>离婚后的复杂悲伤，需要一个私下的位置</h2>
+<p>离婚后的复杂悲伤很容易让人难为情，因为每句话后面似乎都得加一条注释。私密记录拿走了观众。你可以写下"我离开了，可我还记得你怎么煮咖啡"，不用替前后两半辩护。先写一页，在它变成一份支持或反对那段婚姻的材料以前停下来。</p>
+<p>StillHere 是 <a href='/'>stillherememory.com</a> 上一个安静的地方，用来放你想留下的、关于一个人的东西，默认只属于你自己。如果第一句话迟迟不来，<a href='/blog/what-to-say-first'>开口第一句说什么</a>提供了一个更小的入口。先写你看得见的那个场景，剩下的可以以后再来。</p>`,
+      faq: [
+        {
+          q: '我主动离开了前任，还为他难过，正常吗？',
+          a: '正常。结束婚姻不会抹掉共同生活过的年份，也不会抹掉那几年里的你。悲伤和确认离婚是对的，可以同时存在。',
+        },
+        {
+          q: '我该参加前任的葬礼吗？',
+          a: '先考虑家人的意愿、你现在和他们的关系，以及你的出现会不会增加压力。私下写一张卡，或者改天再去，也可以表达同样的尊重。',
+        },
+        {
+          q: '不联系前任，也可以留下记忆吗？',
+          a: '可以。记住是私人的事。你可以留一张照片，或者写下一个场景，不需要重新联系，也不必请别人参与。',
+        },
+        {
+          q: '如果我记得的大多是生气的事呢？',
+          a: '一次写一个真实场景。记录不需要原谅谁，也不用把整段婚姻压成一个判断。',
+        },
+      ],
+    }
+  },
 ];
 export function getPostBySlug(slug: string): BlogPost | undefined {
   return BLOG_POSTS.find((p) => p.slug === slug);
