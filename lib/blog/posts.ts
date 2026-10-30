@@ -4261,6 +4261,134 @@ en: {
       ],
     }
   },
+  {
+    slug: 'ai-that-sounds-like-my-mom',
+    date: '2026-10-31',
+    en: {
+      title: 'AI that sounds like my mom: what to know',
+      excerpt:
+        'People who search for an AI that sounds like my mom want one particular voice back, not a friendly assistant. What actually shapes her tone, what to check before you paste old messages, and where this goes wrong.',
+      body: `<h2>What people mean by AI that sounds like my mom</h2>
+<p>Someone searching for an ai that sounds like my mom is rarely asking for a chatty assistant with a warm tone. They want one voice back: the phrase she used when the phone rang past ten, the version of your name nobody else said, the moment she would have told you to eat before you left. Most tools answer this with a persona menu, so the reply comes out like a stranger doing an impression.</p>
+<p>Tone imitation is the easy part and models do it quickly. What goes missing is any account of which woman you mean.</p>
+
+<h2>Where her voice comes from, and what AI learns from old messages</h2>
+<p>The material you already hold decides how close any tool can get. Four sources do most of the work, and each one leaves something out.</p>
+<table>
+<thead><tr><th>What you already have</th><th>What it gives back</th><th>Where it falls short</th></tr></thead>
+<tbody>
+<tr><td>Old texts and chat threads</td><td>Exact wording, spelling habits, running jokes</td><td>Replies are short, so everyday speech is often missing</td></tr>
+<tr><td>Voice notes and video</td><td>Pace, pauses, the way she laughed</td><td>Transcription slips can change what a sentence meant</td></tr>
+<tr><td>Letters, cards and email</td><td>Full sentences and her written rhythm</td><td>She may not have written the way she talked at home</td></tr>
+<tr><td>Stories you write yourself</td><td>Places, routines, the arguments that shaped you</td><td>Your own phrasing can take over the description</td></tr>
+</tbody>
+</table>
+<p>Mixing two of these covers most of the gaps. One thread of short messages plus one letter works better than a folder of screenshots. <a href='/blog/describe-them-like-themselves'>Describe them so they sound like themselves</a> goes into this in more detail.</p>
+
+<h2>How to make it sound like my mother instead of an assistant</h2>
+<p>Write scenes and quotes, not adjectives. "Kind" produces a generic reply. "She said let us not make a thing of it, every birthday, and then made a thing of it" produces her.</p>
+<ul>
+<li>Start with one ordinary moment rather than a summary of the relationship.</li>
+<li>Give the sentences she actually used, keeping her grammar and her spelling mistakes.</li>
+<li>Include what she refused to say. Refusing a subject is part of a voice.</li>
+<li>Read the reply aloud. If it sounds like a help centre, the input was thin, not the tool.</li>
+</ul>
+
+<h2>Is it safe to upload her messages: three checks first</h2>
+<p>These three questions separate tools that respect the person from tools that profit from her.</p>
+<ul>
+<li>Training. Does anything you paste improve somebody else's model? <a href='/blog/your-words-are-not-training-data'>Your words are not training data</a> sets out what to look for.</li>
+<li>Access. Who else can read it: support staff, moderators, an advertising partner?</li>
+<li>Exit. If you close the account or stop paying, does the record go with it, or stay on a server you no longer control?</li>
+</ul>
+<p>Our answer to all three is in <a href='/blog/private-by-design'>Private by design</a>, along with what encryption does and does not cover.</p>
+
+<h2>When the reply gets her wrong</h2>
+<p>It will. Sometimes it borrows a phrase for the wrong occasion, sometimes it answers a question she dodged for twenty years. Neither mistake is a comment on your grief. Products that chase total likeness tend to overshoot in exactly this way, which is why we cap how human this can feel; that reasoning is in <a href='/blog/why-we-cap-how-human-it-feels'>Why we cap how human it feels</a>. If you catch yourself checking the reply before you check your own memory, read <a href='/blog/over-relying-on-digital-echo'>Over-relying on a digital echo</a>.</p>
+
+<p>StillHere is a quiet place on <a href='/'>stillherememory.com</a> to keep what you want to keep about someone, private by default, and built so her voice comes from what you wrote and from nothing else. Start with <a href='/blog/what-to-say-first'>the first line</a> if the blank page is the hard part, then shape the details with <a href='/blog/describe-them-like-themselves'>Describe them so they sound like themselves</a>.</p>`,
+      faq: [
+        {
+          q: 'Can an AI really sound like my mom from a few hundred messages?',
+          a: 'Close enough to recognise, not identical. Short messages carry her phrasing and her habits, and you can supply the rest by writing scenes in her words rather than describing her.',
+        },
+        {
+          q: 'Is it wrong to want this?',
+          a: 'No. Wanting to hear a particular voice again is common after a loss. What matters is whether the tool treats it as care or as content, and how much control you keep over what you wrote.',
+        },
+        {
+          q: 'Will my messages be used to train a model?',
+          a: 'That depends on the service. Check whether inputs are excluded from training in writing, and avoid pasting anything you would not want copied onto another server.',
+        },
+        {
+          q: 'How much do I need to write before it sounds like her?',
+          a: 'Less than most people expect. A handful of messages plus one scene described in her own wording will usually get further than a long biography written in yours.',
+        },
+      ],
+    },
+    zh: {
+      title: '「像妈妈的 AI」：你需要知道的',
+      excerpt:
+        '搜「像妈妈的 AI」的人，想找回的是一个具体的人说话的样子，而不是一个友善的助手。这篇讲哪些材料真正决定了她的语气、粘贴旧聊天记录之前该确认什么，以及这件事容易在哪些地方出岔子。',
+      body: `<h2>「像妈妈的 AI」，大家到底在找什么</h2>
+<p>搜索"像妈妈的 AI"的人，多半不是想要一个语气亲切的通用助手。他们想找回的是那一个人的声音：晚上十点以后电话响时她说的那句话，只有她会用的那个称呼，出门前她一定会让你先吃点东西。多数产品给出的答案是个人设菜单，于是第一句回复听起来像一个陌生人在模仿。</p>
+<p>语气好模仿，模型很快就做得到。容易缺的是她究竟是哪一个。</p>
+
+<h2>她的声音从哪来：AI 能从旧消息里学到什么</h2>
+<p>你手上已有的材料，决定了任何工具能靠得多近。主要有四种来源，每一种都缺一点东西。</p>
+<table>
+<thead><tr><th>你已经有的</th><th>它能还原什么</th><th>它还差在哪</th></tr></thead>
+<tbody>
+<tr><td>旧短信、聊天记录</td><td>原话、打字习惯、只有你们懂的玩笑</td><td>都是短句，日常说话的样子常常缺失</td></tr>
+<tr><td>语音留言和视频</td><td>语速、停顿、她笑的方式</td><td>转写出错会让一句话的意思变掉</td></tr>
+<tr><td>书信、卡片、邮件</td><td>完整的句子，以及她书写的节奏</td><td>她写字的方式未必等于在家说话的方式</td></tr>
+<tr><td>你自己写的回忆</td><td>地点、习惯、塑造过你们的那些争执</td><td>你的措辞可能反过来压过对她的描述</td></tr>
+</tbody>
+</table>
+<p>把其中两种混在一起，大多数空缺就补上了。一段短消息对话加一封信，通常比一个装满截图的文件夹更有用。<a href='/blog/describe-them-like-themselves'>把他描述成他自己</a>讲得更细一些。</p>
+
+<h2>怎样让它像妈妈，而不像客服</h2>
+<p>写场景、写原话，不要用形容词。"她很善良"只会得到模板式回答。"每年生日她都说别搞了，然后自己搞了一场"才会得到她。</p>
+<ul>
+<li>从一个普通的瞬间开始，别从总结整段关系开始。</li>
+<li>写她真正用过的句子，连语法和错别字一起留着。</li>
+<li>也写她从来不说什么。拒绝开口本身也是语气的一部分。</li>
+<li>把回复念出来。如果听着像客服，说明输入太薄，和产品无关。</li>
+</ul>
+
+<h2>把聊天记录传进去之前，先确认三件事</h2>
+<p>这三个问题区分了尊重她的工具和利用她的工具。</p>
+<ul>
+<li>会不会拿去训练。你粘贴进去的东西，会不会用来改进别人的模型？<a href='/blog/your-words-are-not-training-data'>你的话不是训练数据</a>列出了要看哪几条。</li>
+<li>谁能看见。除了你之外，客服、审核人员、广告合作方能不能读到。</li>
+<li>离开时怎么办。注销账号或者不再付费之后，记录是随你走，还是留在你已经管不到的服务器上。</li>
+</ul>
+<p>我们自己对这三个问题的回答写在<a href='/blog/private-by-design'>为私密而设计</a>里，包括加密能覆盖和不能覆盖的部分。</p>
+
+<h2>当它说错的时候</h2>
+<p>它一定会说错。有时把一句话用错了场合，有时回答了一个她躲了二十年的问题。这两种出错都不代表你的悲伤有什么问题。越是把"一模一样"当目标的产品，越容易在这个地方过头，所以我们给"像"设了上限，理由是<a href='/blog/why-we-cap-how-human-it-feels'>《我们给"像"设了上限》</a>讲的那些。如果你发现自己先看回复、再去看自己的记忆，可以读读<a href='/blog/over-relying-on-digital-echo'>过度依赖数字回声</a>。</p>
+
+<p>StillHere 是 <a href='/'>stillherememory.com</a> 上一个安静的地方，用来放你想留下的、关于一个人的东西，默认只属于你自己，她的语气只来自你写下的那些话。空白页最难的话，先从<a href='/blog/what-to-say-first'>开口第一句说什么</a>开始，之后再用<a href='/blog/describe-them-like-themselves'>把他描述成他自己</a>去补充细节。</p>`,
+      faq: [
+        {
+          q: '几百条消息，真的能让 AI 像妈妈吗？',
+          a: '足够认得出来，做不到一模一样。短消息里藏着她的用语和习惯，剩下那部分靠你用她的话写场景来补，而不是靠形容词去描述她。',
+        },
+        {
+          q: '想要这个，是不是不太对？',
+          a: '不是。失去之后想再听见那个声音很常见。真正有区别的是产品把它当成陪伴还是当成内容，以及你写的东西还能不能由你说了算。',
+        },
+        {
+          q: '我的聊天记录会被拿去训练模型吗？',
+          a: '取决于具体服务。要看它是否明文写着输入不参与训练；凡是复制到你不放心的地方会有负担的内容，就先不要粘贴。',
+        },
+        {
+          q: '要写多少，它才会像她？',
+          a: '比多数人以为的少。一小批消息，加上一个用她的原话写的场景，通常比一篇用你的措辞写的长篇生平更有效。',
+        },
+      ],
+    }
+  },
 ];
 export function getPostBySlug(slug: string): BlogPost | undefined {
   return BLOG_POSTS.find((p) => p.slug === slug);
