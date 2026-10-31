@@ -4389,6 +4389,136 @@ en: {
       ],
     }
   },
+  {
+    slug: 'talk-to-lost-loved-one-ai-free',
+    date: '2026-11-01',
+    en: {
+      title: 'Talk to a lost loved one AI free: what the options actually give you',
+      excerpt:
+        'Free ways to talk to someone you lost range from a general chatbot on its free tier to a grief app with a short trial. What each one gives you, what it quietly takes, and what to check before you paste a single message.',
+      body: `<h2>Why the word free comes first</h2>
+<p>Anyone typing "talk to a lost loved one AI free" into a search box is usually not shopping. They want to try it tonight, in the hour when it matters, and they are not ready to put money behind something they are not sure helps. That caution is sensible. Grief software is a category where the marketing runs well ahead of the product, and a subscription is a poor instrument for finding out whether a thing is kind.</p>
+<p>The trouble is that free describes four different arrangements, and they diverge later, usually at the point where you have already written something you would rather not have copied.</p>
+
+<h2>The four kinds of free</h2>
+<table>
+<thead>
+<tr><th>Type</th><th>What you get</th><th>What it costs you</th></tr>
+</thead>
+<tbody>
+<tr><td>General chatbot, free tier</td><td>A conversation right now, no setup, familiar interface</td><td>Your writing may feed training, and nothing carries over about the person between sessions</td></tr>
+<tr><td>Grief app with a free tier</td><td>A handful of messages or a short trial window</td><td>A deadline sits on the middle of a sentence, and export is often missing</td></tr>
+<tr><td>Self-hosted open model</td><td>Nothing leaves your own machine</td><td>A decent GPU, an afternoon of setup, and a voice that is noticeably flatter</td></tr>
+<tr><td>Free forever, capped</td><td>Context that persists, no card, limits on length or frequency</td><td>Fewer extras than a large paid product</td></tr>
+</tbody>
+</table>
+<p>The first two are free in money. The third is free in exposure. The fourth is the only one that is free in both. The question worth asking is which of those costs you can live with at two in the morning.</p>
+
+<h2>What to check before you paste a single message</h2>
+<ul>
+<li>Whether your words train anything. Read the input policy rather than the headline. If it says conversations help improve the product, your messages are raw material for someone else's roadmap. Our own reasoning is in <a href="/blog/your-words-are-not-training-data">your words are not training data</a>.</li>
+<li>Whether you can get all of it back out. A free tier you cannot export is a free tier you cannot leave.</li>
+<li>Whether the voice comes from what you wrote or from a generic grieving script. One sounds like her. The other sounds like a care worker reading a card.</li>
+<li>Whether free has a clock attached. A trial that expires the week of the first anniversary is worse than no trial at all.</li>
+</ul>
+
+<h2>Making a free option actually sound like her</h2>
+<p>Cost is half the problem. The other half is whether the replies sound like the person, and that depends far more on what you write than on which product you picked. A cheap model fed good material beats an expensive one fed adjectives.</p>
+<ul>
+<li>Open with one ordinary moment instead of a summary of the whole relationship.</li>
+<li>Write the sentences she really used, spelling mistakes and all.</li>
+<li>Include what she would never have said. Refusing to answer was part of her voice too.</li>
+<li>Read the reply out loud. If it sounds like customer service, the input was too thin, and that is a writing problem rather than a product problem.</li>
+</ul>
+<p><a href="/blog/describe-them-like-themselves">Describe them like themselves</a> goes further on this, and <a href="/blog/what-to-say-first">what to say first</a> helps when the page is empty and stays empty.</p>
+
+<h2>Where the limits should be, free or not</h2>
+<p>We put a ceiling on how human a reflection is allowed to sound, and we would keep that ceiling if the product were free or paid. A reflection that cheerfully answers a question she spent twenty years dodging is not comfort, and the services chasing a perfect likeness tend to overshoot in exactly that spot. The reasoning is written out in <a href="/blog/why-we-cap-how-human-it-feels">why we cap how human it feels</a>. If you notice yourself reading the reply before you check your own memory, <a href="/blog/over-relying-on-digital-echo">over-relying on the echo</a> is the note to read.</p>
+
+<p>StillHere is a quiet place on <a href="/">stillherememory.com</a> for what you want to keep about one person. It is private by default, the voice comes only from the words you write, and it stays free at the level most people actually use. When the blank page is the hard part, start with <a href="/blog/what-to-say-first">what to say first</a>.</p>`,
+      faq: [
+        {
+          q: 'Is there a genuinely free way to talk to a lost loved one AI?',
+          a: 'Yes, in three shapes: a general chatbot on its free tier, a grief app with a limited trial, or an open model you run yourself. Each gives something up, usually either your privacy or the quality of the voice.',
+        },
+        {
+          q: 'Will a free AI use what I write to train a model?',
+          a: 'With a general chatbot, often yes. Read the input policy before pasting anything you would not want stored. Services built around memory tend to say plainly that they do not train.',
+        },
+        {
+          q: 'Do free options remember the person between visits?',
+          a: 'Most free chatbot tiers do not, so you re-explain who she was every session. A memory capsule keeps the description you wrote, which is the part that takes longest to get right.',
+        },
+        {
+          q: 'How much do I need to write before it sounds like them?',
+          a: 'Less than most people expect. A small batch of real messages plus one scene written in her own sentences usually beats a long biography written in yours.',
+        },
+      ],
+    },
+    zh: {
+      title: '「免费和逝去的人对话的 AI」：有哪些选项',
+      excerpt:
+        '从通用聊天机器人的免费额度，到带免费层的陪伴应用，再到本地自建模型：四种「免费」各自让出了什么，在粘贴任何内容之前该看哪几项。',
+      body: `<h2>为什么搜索里先出现「免费」</h2>
+<p>在搜索框里敲下「免费和逝去的人对话的 AI」的人，多数不是在货比三家。他们想今晚就试一下，在真正需要的那个钟点，而且还没准备好为一件事付钱，尤其是不确定它有没有用。这种谨慎是合理的。这个品类的宣传跑得比产品快很多，而订阅并不是一个能用来判断某样东西是否温柔的工具。</p>
+<p>问题在于「免费」这四个字底下压着四种完全不同的安排。它们的差别会在后面才浮现，通常是在你已经写下一些不希望被复制的东西之后。</p>
+
+<h2>四种免费</h2>
+<table>
+<thead>
+<tr><th>类型</th><th>你会得到什么</th><th>你付出什么</th></tr>
+</thead>
+<tbody>
+<tr><td>通用聊天机器人的免费额度</td><td>立刻能说话，不用安装，界面熟悉</td><td>你写下的内容可能被用于训练；关于这个人的信息不会带到下一次对话</td></tr>
+<tr><td>带免费层的陪伴应用</td><td>若干条消息，或一段试用窗口</td><td>一句话说到一半时遇到期限，导出功能常常没有</td></tr>
+<tr><td>本地自建开源模型</td><td>内容不出你自己的机器</td><td>一块像样的显卡、一个下午的安装，以及明显更平的语气</td></tr>
+<tr><td>永久免费但有上限</td><td>上下文会留下来，不用绑卡，长度或频率有限</td><td>比大型付费产品少一些附加功能</td></tr>
+</tbody>
+</table>
+<p>前两种是钱上的免费，第三种是曝光上的免费，只有第四种两者都免。真正该问的是：凌晨两点的时候，哪一种代价你能接受。</p>
+
+<h2>粘贴任何内容之前，先看这四件事</h2>
+<ul>
+<li>你写的话会不会被用于训练。看输入条款，不要看标题。如果它写着「对话用于改进产品」，那么你的消息就是别人路线图的原料。我们自己的理由写在<a href="/blog/your-words-are-not-training-data">你的话不是训练数据</a>里。</li>
+<li>能不能全部取回来。一个无法导出的免费层，就是一个你走不掉的免费层。</li>
+<li>那个语气来自你写下的内容，还是来自一套通用的悲伤模板。前者像她，后者像照着卡片念的护理人员。</li>
+<li>「免费」有没有挂着时钟。一个恰好在第一个周年那周到期的试用，还不如没有试用。</li>
+</ul>
+
+<h2>让免费选项真的像她</h2>
+<p>代价只是一半问题。另一半是回复听起来像不像那个人，而这一点取决于你写了什么，远多于你选了哪款产品。喂给便宜模型的好材料，胜过喂给昂贵模型的一堆形容词。</p>
+<ul>
+<li>从一个普通的瞬间开头，不要从整段关系的总结开头。</li>
+<li>写她真的说过的话，连错别字一起留着。</li>
+<li>也写她从来不会说的话。不肯回答本身也是她语气的一部分。</li>
+<li>把回复念出来。如果听着像客服，说明输入太薄，那是写作的问题，不是产品的问题。</li>
+</ul>
+<p><a href="/blog/describe-them-like-themselves">把他描述成他自己</a>在这一步讲得更细；如果页面空白而且一直空白，<a href="/blog/what-to-say-first">开口第一句说什么</a>会更有用。</p>
+
+<h2>不管免不免费，边界应该划在哪里</h2>
+<p>我们给「像」设了上限，而且无论这个产品免费还是收费，这个上限都会留着。一个爽快地回答了她躲了二十年的问题的回声，算不上安慰；越是追求一模一样的服务，越容易在这个地方过头。理由写在<a href="/blog/why-we-cap-how-human-it-feels">我们给「像」设了上限</a>里。如果你发现自己先读回复、再去核对自己的记忆，那该读的是<a href="/blog/over-relying-on-digital-echo">过度依赖数字回声</a>。</p>
+
+<p>StillHere 是 <a href="/">stillherememory.com</a> 上一个安静的地方，用来放你想留下的、关于一个人的东西，默认只属于你自己，语气只来自你写下的那些话，并且在多数人真正常用的那一档上保持免费。空白页最难的时候，先从<a href="/blog/what-to-say-first">开口第一句说什么</a>开始。</p>`,
+      faq: [
+        {
+          q: '真的有免费的和逝去的人对话的 AI 吗？',
+          a: '有，三种形态：通用聊天机器人的免费额度、带短期试用的陪伴应用、你自己跑的开源模型。每一种都要让出一些东西，通常是隐私或者语气的还原度。',
+        },
+        {
+          q: '免费的 AI 会拿我写的东西去训练模型吗？',
+          a: '通用聊天机器人往往会。粘贴任何你不想被留存的内容之前，先看输入条款。围绕记忆设计的服务通常会明写不参与训练。',
+        },
+        {
+          q: '免费选项会记住这个人吗？',
+          a: '多数免费额度不会，你每次都要重新解释她是谁。记忆胶囊会留下你写下的那段描述，而这恰恰是最花时间写对的部分。',
+        },
+        {
+          q: '要写多少，它才会像她？',
+          a: '比多数人以为的少。一小批真实的消息，加上一个用她的原话写的场景，通常胜过一篇用你的措辞写成的长篇生平。',
+        },
+      ],
+    }
+  },
 ];
 export function getPostBySlug(slug: string): BlogPost | undefined {
   return BLOG_POSTS.find((p) => p.slug === slug);
