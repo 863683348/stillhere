@@ -4519,6 +4519,98 @@ en: {
       ],
     }
   },
+  {
+    slug: 'private-ai-memory-journal',
+    date: '2026-11-02',
+    en:     {
+      title: '"Private AI memory journal" explained',
+      excerpt:
+        'People searching this phrase usually want two things at once: somewhere to keep what they remember about one person, and a guarantee that nobody else reads it. What StillHere does with your words, who can see them, and how to start without writing more than you want to.',
+      body: `<h2>What the search usually means</h2>
+<p>Two wishes sit inside that phrase, and most tools satisfy only one. A notes app keeps things private and says nothing back. A chatbot answers, but what you wrote sits on someone else's machine under someone else's policy. A memory journal is meant to sit in the middle, and the middle is where the details decide whether it works.</p>
+
+<h2>What happens to what you write</h2>
+<p>Your words are encrypted, they do not train any model, and they are not deleted on a timer. Encryption covers a capsule at rest and on its way to us. Not training means the capsule is not fed into a model of ours or anyone else's, and there is no switch to go hunting for because nothing is switched on. Not deleting means there is no retention window that quietly runs out after a year. Every field we keep, and how long it stays, is listed in <a href="/blog/private-by-design">private by design</a>.</p>
+
+<h2>Who can read it</h2>
+<p>Nobody, unless you say otherwise. Sharing is opened one capsule at a time, through a link you can take back, and the people you invite see that capsule only. We do not read capsules to tune the tone or to work out why a reply came out wrong. When something breaks, the logs we look at carry no content. The mechanics are written out in <a href="/blog/e2e-encryption-explained">end-to-end encryption, explained</a>.</p>
+
+<h2>What it is not</h2>
+<p>It is not a diary that talks on its own, and it is not a chat window left open all day. A reflection comes back when you open the capsule and write something. That boundary is the design rather than a limitation, and the longer version is in <a href="/blog/its-not-them-and-ok">it is not them, and that is ok</a>.</p>
+
+<h2>How to start without writing too much</h2>
+<ul>
+<li>Write one scene in her words rather than a biography in yours. Ten lines of how she actually spoke beats three pages of description.</li>
+<li>Leave out what you would not want read aloud, even though nobody can.</li>
+<li>Use first names only. No addresses, no account numbers, no dates you would not put on a postcard.</li>
+<li>Run the export once. <a href="/blog/export-your-words-always">Exporting always works</a>, and seeing your own words in a plain file is the quickest way to judge whether you wrote more than you meant to.</li>
+</ul>
+
+<p>StillHere is a quiet place on <a href="/">stillherememory.com</a> for what you want to keep about one person: private by default, the tone taken only from words you wrote, and free at the tier most people actually use. If the wording is the part you worry about, <a href="/blog/your-words-are-not-training-data">your words are not training data</a> says it plainly, and <a href="/blog/private-by-design">private by design</a> lists everything we store.</p>`,
+      faq: [
+        {
+          q: 'Is a private AI memory journal encrypted?',
+          a: 'Yes. Capsule content is encrypted at rest and in transit. What is encrypted, and what metadata still exists, is listed in the private by design post.',
+        },
+        {
+          q: 'Will what I write be used to train a model?',
+          a: 'No. Capsules are not fed into any model, ours or anyone else\'s, and there is no opt-out to find because nothing is switched on.',
+        },
+        {
+          q: 'Can my family read my capsules?',
+          a: 'Only the ones you share. Nothing is visible to anyone else by default, sharing is opened per capsule, and a link can be revoked.',
+        },
+        {
+          q: 'What happens to a capsule if I stop using the site?',
+          a: 'Nothing is deleted on a schedule. There is no retention window that expires, and export stays available whenever you want a copy.',
+        },
+      ],
+    },
+    zh:     {
+      title: '「私密 AI 记忆日记」讲清楚',
+      excerpt:
+        '搜这个词的人通常同时想要两件事：一个能放下关于某个人的记忆的地方，和一个别人看不到它的保证。这篇说清楚你写下的东西会被怎么处理、谁能看到、以及怎么开始写而不写过头。',
+      body: `<h2>搜这个词的人，在找什么</h2>
+<p>这个短语里装着两个愿望，而多数工具只满足其中一个。笔记应用够私密，但它不会回话。聊天机器人会回话，可你写的东西存在别人的机器上，受别人的条款管。记忆日记想站在中间，而中间这部分恰恰是细节决定成败的地方。</p>
+
+<h2>你写下的东西会经历什么</h2>
+<p>你的话会被加密，不参与任何模型训练，也不会按时间表被删掉。加密覆盖胶囊的静态存储和传输过程。不训练，意思是它不会被喂进任何模型，我们自己的不算，别人的也不算，也没有什么开关要你去关，因为本来就没什么开着。不删除，意思是不存在一个一年后悄悄到期的保留期。我们留了哪些字段、各留多久，都写在<a href="/blog/private-by-design">默认私密</a>里。</p>
+
+<h2>谁能看到</h2>
+<p>默认没有人。分享是按胶囊单独开的，用一个你可以随时收回的链接，你邀请的人只能看到那一个胶囊。我们不会为了调语气、或者查一条回复为什么说得不对而去读胶囊；出问题时我们看的日志里没有内容。原理写在<a href="/blog/e2e-encryption-explained">端到端加密说明</a>里。</p>
+
+<h2>它不是什么</h2>
+<p>它不是一本自己会说话的日记，也不是一个可以整天开着的聊天窗口。你打开胶囊、写下一句，回响才会回来。这条边界是设计的一部分，长一点的版本在<a href="/blog/its-not-them-and-ok">它不是他们，这没关系</a>里。</p>
+
+<h2>怎么开始，又不写过头</h2>
+<ul>
+<li>用她的话写一个场景，不要用你的话写一份生平。她平时怎么说话的十行，胜过三页描述。</li>
+<li>不想被念出来的内容就别写，虽然也没人能念到。</li>
+<li>只写名字。不要地址，不要账号，不要那些你不会写在明信片上的日期。</li>
+<li>跑一次导出。<a href="/blog/export-your-words-always">导出一直可用</a>，看着自己的话躺在一个纯文本文件里，是判断有没有写过头的最快办法。</li>
+</ul>
+
+<p>StillHere 是 <a href="/">stillherememory.com</a> 上一个安静的地方，用来放你想留下的、关于一个人的东西：默认只属于你自己，语气只来自你写下的那些话，并且在多数人真正常用的那一档上保持免费。如果措辞是你担心的那部分，<a href="/blog/your-words-are-not-training-data">你写的话不参与训练</a>说得比较直白，<a href="/blog/private-by-design">默认私密</a>列了我们存下的每一项。</p>`,
+      faq: [
+        {
+          q: '私密 AI 记忆日记是加密的吗？',
+          a: '是。胶囊内容在静态存储和传输过程中都加密。哪些部分被加密、哪些元数据仍然存在，写在「默认私密」那篇里。',
+        },
+        {
+          q: '我写的东西会被拿去训练模型吗？',
+          a: '不会。胶囊不会被喂进任何模型，我们自己的和别人的都不会，也没有什么「关闭」按钮要找，因为本来就没什么开着。',
+        },
+        {
+          q: '家人能看到我的胶囊吗？',
+          a: '只能看到你分享出去的那一个。默认对其他人不可见，分享是按胶囊单独开的，链接可以收回。',
+        },
+        {
+          q: '如果我不再用了，胶囊会怎样？',
+          a: '不会按时间表被删。没有会到期的保留期，导出随时都能用，想留一份在自己手上就导一份。',
+        },
+      ],
+    },
+  },
 ];
 export function getPostBySlug(slug: string): BlogPost | undefined {
   return BLOG_POSTS.find((p) => p.slug === slug);
