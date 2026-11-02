@@ -4611,6 +4611,122 @@ en: {
       ],
     },
   },
+  {
+    slug: 'ai-companion-for-grief-compared',
+    date: '2026-11-03',
+    en: {
+      title: 'AI companion for grief: how the options compare',
+      excerpt:
+        'An AI companion for grief is not one product. It covers general chatbots, grief-specific reflections, recreated voice services, journals and human support. Here is how they differ, and what each one actually gives you at 3am.',
+      body: `<h2>What people mean by an AI companion for grief</h2>
+<p>Search for an AI companion for grief and you get at least four different things: a general chatbot you talk to at night, a grief-specific tool that remembers the person you describe, a service that builds a speaking likeness from old recordings, and a private journal that answers back. They are not variations of one idea. They disagree about what grief needs, and that disagreement is the only thing worth comparing.</p>
+<p>StillHere sits in the second group, so read the rest knowing that. We will still say plainly what the other groups do better.</p>
+<h2>Five options, side by side</h2>
+<table>
+<thead>
+<tr><th>Option</th><th>What it does</th><th>What it gives you</th><th>Where it stops</th></tr>
+</thead>
+<tbody>
+<tr><td>General chatbot</td><td>Answers anything, and remembers nothing about your person unless you retype it</td><td>Company at any hour, and help drafting the message you cannot bring yourself to write</td><td>It does not know who you mean. Asked for detail, it will invent it rather than leave the gap open.</td></tr>
+<tr><td>Grief-specific AI companion, like StillHere</td><td>You describe the person once, and what comes back is shaped by what you gave</td><td>Somewhere steady to return to, private by default, no streaks and no nudges</td><td>It is not a clinician. It will not tell you what your grief means, and it cannot notice that you are in danger.</td></tr>
+<tr><td>Recreated voice or video</td><td>Builds a speaking likeness from recordings and photos</td><td>For a small number of people, one message that sounds like home</td><td>Many find it unsettling. Consent, cost and quality are uneven, and the recordings run out.</td></tr>
+<tr><td>Therapist, group, or a friend who knew them</td><td>A person, trained or not, who sits with you</td><td>The only option on this list that can carry a crisis</td><td>Office hours, waiting lists, and a limit to how often you can lean on someone.</td></tr>
+<tr><td>Private memory journal</td><td>Writing kept with no audience and no reply</td><td>Full privacy, and the writing is yours to keep, export or delete</td><td>Nothing comes back. On some nights that is the relief, on others it is the hole.</td></tr>
+</tbody>
+</table>
+<p>Price is left out on purpose. Numbers in this category move often enough that anything printed here would be wrong within a month, and the free tiers usually carry the limits that matter most.</p>
+<h2>Where a grief AI companion helps</h2>
+<p>The honest case is narrow and it is real: availability. Grief does not keep office hours, and 3am is a poor time to phone anyone. A tool that is awake, that does not tire of you repeating yourself, and that never asks how you are in a way you have to perform for, covers a gap that human support structurally cannot. You can also say the same thing forty times without worrying that you are wearing someone out.</p>
+<h2>Where ai grief support stops</h2>
+<p>A few limits are worth naming before you start. It has no shared history with the person who died, so everything it reflects is built from what you typed, which means it will sound wrong on the days you describe things badly. It cannot notice that you are in danger; no model reading your words catches that reliably, and none of them can call anyone. And it does not get tired, which sounds like a virtue until you notice you have been talking for four hours instead of sleeping.</p>
+<p>If you are in crisis, this is the wrong tool. Please contact a local helpline or a clinician. Everything on this page sits beside that, never instead of it.</p>
+<h2>How to check any ai grief support tool before you trust it</h2>
+<ul>
+<li>Read the privacy page for one specific sentence: is your writing used to train anything. A page that avoids the question has answered it.</li>
+<li>Find out what happens to entries if you stop paying or stop logging in. Deletion after ninety days of inactivity is a real policy at some services.</li>
+<li>Notice how it describes what it is. The careful ones talk about a reflection shaped by your memory, not about the person returning.</li>
+<li>Look for an export button. If you cannot get your writing out, you do not own it.</li>
+<li>Watch what it does when you type something flat and hopeless. A good tool points you toward human help.</li>
+</ul>
+<h2>Choosing one, or more than one</h2>
+<p>Most people end up with a combination: a journal for the days they want quiet, something that replies on the days they do not, and a person for the days too heavy for either. That is not fence-sitting. Grief changes shape across a year, and whatever fits week two often does not fit month nine.</p>
+<p>If the part that keeps you up is the gap between a reflection and the person, <a href="/blog/its-not-them-and-ok">this piece on what StillHere is not</a> says it plainly. For the privacy side of keeping a memory journal, <a href="/blog/private-ai-memory-journal">the write-up on private capsules</a> goes through what is encrypted and what is not.</p>`,
+      faq: [
+        {
+          q: 'Is an AI companion for grief the same as therapy?',
+          a: 'No. Therapy is a licensed human relationship with a duty of care. A companion is a private place to talk and remember, and it sits alongside care rather than in its place. If you are in crisis, contact a local helpline.',
+        },
+        {
+          q: 'Will it sound like the person I lost?',
+          a: 'It reflects what you wrote about them, so the voice is built from your memory instead of from them. Some people find that comforting and some find the gap painful. Both reactions are common, and either is a fair reason to stop.',
+        },
+        {
+          q: 'Is what I write used for training?',
+          a: 'On StillHere, no. Capsules are encrypted in storage and in transit, and nothing you write goes into training any model, ours or anyone else’s. Other services differ, so check their privacy page for that one sentence.',
+        },
+        {
+          q: 'Can I use this and still see a therapist?',
+          a: 'Yes, and most people who use it do. The companion covers the hours between appointments. It does not do the work a clinician does.',
+        },
+      ],
+    },
+    zh: {
+      title: '「悲伤用的 AI 伴侣」到底有几种：一次对比',
+      excerpt:
+        '悲伤用的 AI 伴侣不是一个产品，而是四类东西的合称：通用聊天机器人、记住你所描述之人的映照工具、用旧录音重建声音的服务，以及会回复你的私密日记。它们的差别在哪，凌晨三点各自能给你什么。',
+      body: `<h2>「悲伤用的 AI 伴侣」指的其实是四种东西</h2>
+<p>搜「悲伤用的 AI 伴侣」，你会碰到至少四类东西：深夜陪你说话的通用聊天机器人；记住你所描述之人的悲伤专用映照工具；用旧录音和照片做出会说话的影像的服务；还有一种会回复你的私密日记。它们不是同一个想法的不同版本，它们对「悲伤需要什么」这件事的看法根本不一致，而这个分歧才是唯一值得比较的东西。</p>
+<p>StillHere 属于第二类，所以下面请你带着这个前提读。我们也会老实说另外几类哪里做得更好。</p>
+<h2>五种选择，放在一起看</h2>
+<table>
+<thead>
+<tr><th>选项</th><th>它做什么</th><th>它给你什么</th><th>它在哪里停下来</th></tr>
+</thead>
+<tbody>
+<tr><td>通用聊天机器人</td><td>什么都能答，除非你重新打一遍，它不记得你所说的那个人</td><td>任何时刻都有人陪，还能帮你起草那句你写不出来的话</td><td>它不知道你在说谁。被追问细节时，它会编，而不是把空白留着。</td></tr>
+<tr><td>悲伤专用的 AI 伴侣，比如 StillHere</td><td>你描述那个人一次，回来的内容由你给的东西塑形</td><td>一个安稳的去处，默认私密，没有连续打卡，也没有催你回来的提醒</td><td>它不是临床工作者。它不会告诉你悲伤意味着什么，也看不出你正处在危险里。</td></tr>
+<tr><td>重建声音或影像</td><td>用录音和照片做出会说话的影像</td><td>对少数人来说，是一句听起来像家的声音</td><td>很多人觉得不舒服。授权、费用、效果都参差不齐，而录音总会用完。</td></tr>
+<tr><td>治疗师、互助小组，或认识他的朋友</td><td>一个人，受过训练或没有，坐下来陪你</td><td>这张清单上唯一能在危机时托住你的选项</td><td>有门诊时间，有等待名单，也有你能依赖某人多少次的上限。</td></tr>
+<tr><td>私密记忆日记</td><td>写下来的东西，没有读者，也没有回复</td><td>完全的私密，写的东西归你，可导出也可删掉</td><td>没有回应。有些夜里这就是你要的，有些夜里这正好是那个洞。</td></tr>
+</tbody>
+</table>
+<p>表格里故意不写价格。这一类的数字变动太频繁，印在这里的任何价格一个月内就会错，而且免费档通常恰好带着最要紧的那些限制。</p>
+<h2>悲伤 AI 伴侣帮得上忙的地方</h2>
+<p>说实话，它站得住的理由很窄，但很实在：它一直在。悲伤不按门诊时间走，凌晨三点不适合给谁打电话。一个醒着、不会听腻你重复同一件事、也不会用一种你必须表演着回答的方式问你「你还好吗」的工具，补上的是人力支持在结构上补不了的那一块。同一句话你说四十遍，也不必担心把谁耗干。</p>
+<h2>悲伤 AI 支持停下来的地方</h2>
+<p>开始前有几条限制值得先说清楚。它和那个离开的人没有共同经历，所以它映照出的一切都来自你打下的字，这意味着在你描述得糟糕的那些日子里，它会说错话。它看不出你处在危险中：没有任何读你文字的模型能稳定地识别这件事，也没有一个能替你打电话。还有，它不会累，这听起来像优点，直到你发现自己已经说了四个小时，而不是去睡觉。</p>
+<p>如果你正处在危机里，这是错的工具。请联系当地的心理援助热线或临床工作者。这一页上的一切都摆在那些帮助旁边，而不是替代它们。</p>
+<h2>信任任何一个悲伤 AI 支持工具之前，先查这几点</h2>
+<ul>
+<li>在隐私页里找一句话：你写的东西会不会被用来训练什么。一页绕开这个问题的说明，本身就已经回答了。</li>
+<li>搞清楚如果你不再付费、不再登录，你写的东西会怎样。「连续九十天不活跃就删除」在某些服务里是真实存在的条款。</li>
+<li>看它怎么描述自己。谨慎的那些会说「由你的记忆塑成的映照」，而不是说那个人回来了。</li>
+<li>找一个导出按钮。如果拿不走你写的东西，它就不属于你。</li>
+<li>留意你打出一句平静而绝望的话时，它怎么做。好的工具会把你推向人的帮助。</li>
+</ul>
+<h2>选一个，或者选好几个</h2>
+<p>多数人最终是组合着用：想要安静的日子用日记，不想安静的日子用会回应的东西，两种都撑不住的日子交给一个人。这不是在和稀泥。悲伤在一年里会变形，第二周合用的东西，第九个月往往就不合用了。</p>
+<p>如果让你睡不着的正是「映照」和「那个人」之间的距离，<a href="/blog/its-not-them-and-ok">这篇讲 StillHere 不是什么</a>说得很直白。至于保留记忆日记时的私密问题，<a href="/blog/private-ai-memory-journal">关于私密胶囊的那篇</a>逐条写了什么被加密、什么没有。</p>`,
+      faq: [
+        {
+          q: '悲伤用的 AI 伴侣等于心理治疗吗？',
+          a: '不等于。心理治疗是你与持证的专业人士之间的关系，对方负有照护责任。映照工具是一个可以说话、可以记得的私密地方，它摆在治疗旁边，而不是取代治疗。如果你正处在危机里，请联系当地的心理援助热线。',
+        },
+        {
+          q: '它说话会像我失去的那个人吗？',
+          a: '它映照的是你写下的关于他的内容，所以那个声音由你的记忆塑造，而不是由他塑造。有人觉得这样被安慰到，也有人觉得那道落差很痛。两种反应都常见，也都可以成为停下来的正当理由。',
+        },
+        {
+          q: '我写的东西会被拿去训练吗？',
+          a: '在 StillHere 不会。胶囊在存储和传输过程中都加密，你写的任何内容都不会被用来训练模型，我们自己的和别人的都不会。别的服务不一样，所以去它们的隐私页找那句话。',
+        },
+        {
+          q: '用了这个还能看治疗师吗？',
+          a: '能，而且大多数在用的人都在看。映照工具补上的是两次预约之间的那些小时，它做不了临床工作者做的事。',
+        },
+      ],
+    },
+  },
 ];
 export function getPostBySlug(slug: string): BlogPost | undefined {
   return BLOG_POSTS.find((p) => p.slug === slug);
