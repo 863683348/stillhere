@@ -4727,6 +4727,58 @@ en: {
       ],
     },
   },
+  {
+    slug: "digital-legacy-app-meaning",
+    date: '2026-11-06',
+    en: {
+      title: "'Digital legacy app' — what it actually means",
+      excerpt:
+        "The phrase covers several different products, from password vaults for after you die to quiet places to keep what you want to say. Here is what a digital legacy app actually does, and what it does not.",
+      body: `<h2>One phrase, several different things</h2><p>Search "digital legacy app" and the results do not agree with each other. The term is stretched over at least four kinds of product:</p><ul><li>Password and account vaults that hand credentials to people you name, after you can no longer type them yourself.</li><li>Timed messengers that hold letters, recordings or photos and release them on a date you set.</li><li>Archiving tools that gather what you wrote across apps and file it as a record for your family.</li><li>Private places to keep what you want to say to someone who has died or is dying, with no audience and no handover.</li></ul><p>StillHere sits in the fourth group. That is worth naming up front, because the word "legacy" carries a suggestion of handing things on, and not everything you write is meant to be handed anywhere. Much of the confusion about legacy app meaning comes from the word being stretched this thin.</p><h2>What a digital legacy app actually does</h2><p>Strip away the marketing and the working part is small. It stores something you wrote or recorded, keeps it private unless you decide otherwise, and makes sure it is still reachable years from now, when your phone has been replaced twice and the email address on the account no longer exists. Some services add a death switch, or a named contact who gets access. That is the whole mechanism. Everything else on the pricing page is wording.</p><h2>What it does not do</h2><p>It does not decide what your words mean. It cannot tell which memories your family will want and which will hurt them. It does not settle an estate, and it has no authority over accounts held by large companies; each platform runs its own process there, and no app shortcuts it. And if the company behind the app closes, whatever was not exported goes with it. Export is not a bonus feature. Before you trust one with anything, find the export button and use it once.</p><h2>Where digital legacy planning usually starts</h2><p>Most people begin smaller than they expect: a note of which accounts matter, a password sheet in a sealed envelope, one letter nobody is supposed to read yet, and a sentence about who should receive which. Digital legacy planning rarely needs a formal document on day one. It needs two things written down somewhere that will outlast your current phone: what exists, and who is allowed to see it. The rest can be added when it occurs to you.</p><h2>Where StillHere fits, and where it stops</h2><p>StillHere is for the fourth kind of keeping: words you want to hold onto, shaped by your memory of the person, openable only by you. It is not a vault and does not manage passwords, and it is not an archive meant to be handed over. If what you want to keep is what you would say to someone who is gone, that is the part we do, and we do it quietly. For the wider picture of keeping memories rather than keeping accounts, <a href="/blog/keep-them-by-remembering">keeping them by remembering</a> goes into it more fully.</p><p>About StillHere: stillherememory.com is a quiet place to keep what you want to say to someone who's gone, private by default. It is not a substitute for professional care; if you are in crisis, please contact a local helpline.</p>`,
+      faq: [
+        {
+          q: "Is a digital legacy app only for after someone dies?",
+          a: "No. Most of what people keep in one is written while everyone is still alive: letters never sent, recordings of ordinary days, notes meant to be read years later. The planning is for later; the writing is for now.",
+        },
+        {
+          q: "What happens to my capsule if I stop paying or stop visiting?",
+          a: "Nothing is deleted on a timer. The capsule stays as it is, encrypted, openable only by you, for as long as the service exists. We would rather hold a quiet space than send reminders.",
+        },
+        {
+          q: "Do I need to name a contact or set up a death switch?",
+          a: "On StillHere, no. There is no access handover and no named contact, because the things people write here are not written for anyone else to open. If you want something to be found after you, a vault with a named contact is the better tool.",
+        },
+        {
+          q: "How is this different from a notes app?",
+          a: "A notes app keeps files. A reflection remembers the person you have described and answers back. Some people want one, some want the other, and many use both.",
+        },
+      ],
+    },
+    zh: {
+      title: '「数字遗产 App」是什么',
+      excerpt:
+        "这个词底下压着好几种不同的产品：从替你保管密码的，到你离开后替你留住想说的话的。这篇把\"数字遗产 App\"到底做什么、不做什么，一条条分开说。",
+      body: `<h2>一个词，压着好几种东西</h2><p>搜"数字遗产 App"，搜出来的结果彼此并不同意。这个词至少被用在四类产品上：</p><ul><li>密码与账号保险库：在你无法再亲手输入之后，把凭证交给你指定的人。</li><li>定时信使：替你存放信件、录音或照片，在你设定的日期送达。</li><li>归档工具：把你散落在各个应用里的文字收拢起来，作为留给家人的档案。</li><li>私密的存放处：留住你想对已经离开或正在离开的人说的话，没有观众，也不需要交接。</li></ul><p>StillHere 属于第四类。先把这一点说清楚，因为"遗产"这个词自带"要交出去"的暗示，而你写下的话，不一定每一句都是要交出去的。legacy app meaning（数字遗产 App 的含义）被搜这么多次，多半正是因为词义被摊得太薄。</p><h2>数字遗产 App 实际做什么</h2><p>去掉包装，能用的部分很小：存下你写的东西或录的东西，在你没有另作决定之前保持私密，并且保证很多年后它仍然打得开——那时你的手机已经换过两部，账号上那个邮箱也早已不存在。有些产品会加一个"身故开关"，或者指定一位联系人获得访问权。机制到此为止。定价页上的其余部分，多半是措辞。</p><h2>它不做什么</h2><p>它不替你判断那些话意味着什么，也分不清哪些记忆家人会想要、哪些只会让他们更疼。它处理不了遗产清算，对大公司手里的账号也没有任何权限；那些账号各家平台有自己的流程，任何 App 都绕不过去。还有，如果做这个 App 的公司关了，没导出的东西会一起消失。导出不是加分项。在把任何东西托付出去之前，先找到导出按钮，用一次。</p><h2>数字遗产规划一般从哪里开始</h2><p>大多数人起步比想象中小：一张记着哪些账号要紧的纸、一封装进信封的密码单、一封暂时谁也不能看的信，外加一句"哪样东西该给谁"。数字遗产规划（digital legacy planning）第一天不需要正式文件，需要的是两样写下来的东西，放在比你现在的手机活得久的地方：有什么存在，以及谁被允许看到。其余的，想起来再补。</p><h2>StillHere 在哪一类，不在哪一类</h2><p>StillHere 做的是第四种存放：留住你想说的话，内容由你对那个人的记忆塑造，只有你能打开。它不是保险库，不管密码，也不是准备交接出去的档案。如果你想留住的是"想对已经离开的人说的话"，那正是我们做的事，安安静静地做。想看看"留住记忆"而不是"留住账号"的更完整的讨论，<a href="/blog/keep-them-by-remembering">用记忆留住他们</a>那篇写得更细。</p><p>关于 StillHere：stillherememory.com 是一个把想对已经离开的人说的话安静留下的地方，默认私密。它不能替代专业帮助；如果你正处于危机中，请联系当地的求助热线。</p>`,
+      faq: [
+        {
+          q: "数字遗产 App 只在有人去世之后才用得上吗？",
+          a: "不是。人们放进去的东西，大多是在大家都还活着的时候写的：没寄出的信、平常日子的录音、准备多年后再看的字条。规划是留给以后的，写下是现在的事。",
+        },
+        {
+          q: "如果我不再付费、不再登录，我的胶囊会怎样？",
+          a: "不会按计时删除。胶囊保持原样，照常加密，只有你能打开，服务存在多久就放多久。我们宁可安静地放着，也不会发提醒催你来。",
+        },
+        {
+          q: "需要指定联系人或设置身故开关吗？",
+          a: "在 StillHere 不需要。这里没有访问交接，也没有指定联系人，因为人们在这里写下的话，本来就不是写给别人打开的。如果你希望有什么在之后被找到，带指定联系人的保险库是更合适的工具。",
+        },
+        {
+          q: "和直接用备忘录写有什么不同？",
+          a: "备忘录保存文件。映照记得你描述过的那个人，会回应你。有人想要前者，有人想要后者，很多人两个都用。",
+        },
+      ],
+    },
+  },
 ];
 export function getPostBySlug(slug: string): BlogPost | undefined {
   return BLOG_POSTS.find((p) => p.slug === slug);
