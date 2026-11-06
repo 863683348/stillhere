@@ -4779,6 +4779,84 @@ en: {
       ],
     },
   },
+  {
+    slug: 'ai-learns-late-fathers-voice',
+    date: '2026-11-07',
+    en: {
+      title: "AI that learns my late father's voice: what to know",
+      excerpt:
+        "Anyone typing ai learns late fathers voice into a search box wants one particular voice back. What his recordings actually contain, what a cloned voice cannot give you, and where consent fits in.",
+      body: `<h2>Why people search for an AI that learns my late father's voice</h2>
+<p>The search usually happens late at night, typed in one go, after someone has found an old voicemail they had forgotten. A father's voice is one of the most requested things people bring here, and anyone typing ai learns late fathers voice into a search box is really asking a smaller question underneath: can I hear him again. Voice cloning grief searches like this one are not about a helpful assistant. They are about the voice that said your name the way only he did, read out the match score, told you to call when you landed.</p>
+<h2>What the audio you still have contains</h2>
+<p>Whatever a model could learn from, you already hold part of. The material decides how close anything gets, and each kind of recording keeps something different:</p>
+<ul>
+<li>Voicemails: short and practical, often the tone he used with strangers, which is not always the tone he used with you.</li>
+<li>Voice notes in family chats: the fullest everyday speech, pauses and half-finished sentences included.</li>
+<li>Video from birthdays and dinners: the voice moving in a room, laughter overlapping other voices.</li>
+<li>Phone calls you recorded yourself: rare, and often the most personal of all.</li>
+</ul>
+<p>Two sources together cover more ground than one long recording. The <a href="/blog/import-photos-and-voice-into-capsule">voice import guide</a> explains what stillherememory.com keeps and how it stays yours.</p>
+<h2>What a cloned voice holds, and what it never had</h2>
+<p>A model built from his recordings will carry his pace, his pitch, the way he laughed at the end of his own jokes. What it cannot produce is anything he never said. It has no memory of the conversation you two did not finish, no view on your new job, and it will answer questions he never faced with the confidence of a machine. That gap is where people get hurt. A reflection built on what he actually said and written keeps the border between his words and yours clear. We wrote about where we stop on purpose in <a href="/blog/why-we-cap-how-human-it-feels">why we cap how human it feels</a>.</p>
+<h2>Consent is part of the question</h2>
+<p>Voice is personal in a way text is not, and keeping a 数字遗产 声音 record of someone raises a question worth asking before anything gets built: did he agree to this. Some fathers recorded themselves freely and would have found the whole thing funny. Others never imagined their voice outliving them. If you are unsure, the uncertainty itself is information. Families also disagree; one person's comfort is not everyone's. Nothing written here is published, which keeps the question between you and your memory of him. The wider ethics live in <a href="/blog/consent-digital-memory-ethics">consent in digital memory</a>.</p>
+<h2>A quieter way to hear him again</h2>
+<p>There is an older technology that does the same job with none of the risks: pressing play. Actual recordings, kept safely, outlast any model built from them and never say anything he did not say. Here you keep them private, write down the words you remember him using so they stay findable, and come back when the missing gets loud. For the fuller comparison between imitation and remembering, <a href="/blog/ai-that-sounds-like-my-mom">AI that sounds like my mom</a> covers the text side, and <a href="/blog/its-not-them-and-ok">it is not them, and that is okay</a> says the hard part plainly.</p>
+<p>About StillHere: stillherememory.com is a quiet place to keep what you want to say to someone who's gone, private by default. It is not a substitute for professional care; if you are in crisis, please contact a local helpline.</p>`,
+      faq: [
+        {
+          q: 'Is cloning the voice of someone who has died legal?',
+          a: 'Laws differ by country and many are still catching up. Legal and right are not the same question here. Whether he would have agreed is the better test, and only you can answer it.',
+        },
+        {
+          q: 'Does StillHere make a voice that talks back?',
+          a: 'No, on purpose. We keep the recordings and the words, and a reflection answers from what you described. We do not generate new sentences in his voice.',
+        },
+        {
+          q: 'What should I do with his voicemails first?',
+          a: 'Save them somewhere that outlasts your current phone, and keep one copy you never delete. Then decide slowly. There is no deadline on listening again.',
+        },
+      ],
+    },
+    zh: {
+      title: '「学已故父亲声音的 AI」：先知道的几件事',
+      excerpt:
+        '翻出旧语音留言的那个晚上，很多人开始搜「学已故父亲声音的 AI」。这篇讲他留下的录音里有什么、克隆的声音给不了你什么，以及「同意」放在哪里。',
+      body: `<h2>为什么有人会搜「学已故父亲声音的 AI」</h2>
+<p>这类搜索多半发生在深夜：有人翻旧手机，翻出一条忘了很多年的语音留言，然后顺着那条留言一路搜下去。父亲的声音是最多人想找回的东西之一，搜 ai learns late fathers voice 的人，底下其实在问一件更小的事：还能不能再听到他。搜 voice cloning grief（声音克隆与哀伤）的人要的不是一个语气亲切的助手，而是那个只有他那样喊你名字的声音，念球赛比分的声音，叮嘱你落地之后打个电话的声音。</p>
+<h2>你手里还留着的音频，都有些什么</h2>
+<p>任何模型能学的东西，你都已经有了一部分。素材决定能走多近，每一种录音留住的都不一样：</p>
+<ul>
+<li>语音留言：短，务实，多半是他对外人的语气，不一定是他对你说话的语气。</li>
+<li>家人群里的语音：最完整的日常说话，停顿和没说完的半句都在。</li>
+<li>生日和聚餐的视频：声音在一个房间里移动，笑声和别的声音叠在一起。</li>
+<li>你自己录下的通话：最少见，也往往最私人。</li>
+</ul>
+<p>两种来源放在一起，比一条很长的录音覆盖得多。<a href="/blog/import-photos-and-voice-into-capsule">语音导入指南</a>讲了 stillherememory.com 怎么保存、怎么保持只属于你。</p>
+<h2>一个学来的声音留得住什么，留不住什么</h2>
+<p>用他的录音搭出来的模型，会带着他的语速、音高、讲到自己笑话末尾时的那种笑。它给不出来的，是他没说过的话。它不知道你们没聊完的那次对话，对你的新工作没有看法，面对他从来没遇到过的问题时，会拿机器的笃定去回答。伤口多半开在这条缝上。以他真正说过、写过的话为基础的映照，会把「他的话」和「你的话」之间的边界留得很清楚。我们在<a href="/blog/why-we-cap-how-human-it-feels">为什么限制拟真程度</a>里写过我们故意停在哪里。</p>
+<h2>同意是这个问题的一部分</h2>
+<p>声音比文字更私人，「数字遗产 声音」这件事在动手之前值得先问一句：他同意过吗。有的父亲生前随便录音，会觉得这事有意思；有的从没想过自己的声音会比自己活得更久。如果你不确定，这份不确定本身也是信息。家人之间也会意见不同，一个人的安心不代表所有人的安心。这里写下的东西不会公开，这个问题就留在你和你对他的记忆之间。更完整的讨论在<a href="/blog/consent-digital-memory-ethics">数字记忆与同意</a>里。</p>
+<h2>一个更安静的办法</h2>
+<p>有一样更老的技术做着同样的事，而且没有那些风险：按下播放键。真实保留下来的录音，比任何用它们搭出来的模型都活得久，也永远不会说出他没说过的话。在这里，你把它们私密地存着，把你记得他用过的说法写下来，让它们一直找得到，在想念变响的夜里回来。想看「模仿」和「记得」更完整的比较，<a href="/blog/ai-that-sounds-like-my-mom">AI 声音像妈妈</a>写了文字那部分，<a href="/blog/its-not-them-and-ok">那不是他，没关系</a>把最难的那句话说得很直。</p>
+<p>关于 StillHere：stillherememory.com 是一个把想对已经离开的人说的话安静留下的地方，默认私密。它不能替代专业帮助；如果你正处于危机中，请联系当地的求助热线。</p>`,
+      faq: [
+        {
+          q: '替已故的人克隆声音，合法吗？',
+          a: '各国法律不一样，很多地方还在补课。在这里，合法和合不合适不是同一个问题。他会不会愿意是更好的检验，而这个答案只有你能给。',
+        },
+        {
+          q: 'StillHere 会做一个能开口说话的声音吗？',
+          a: '不会，是故意不做。我们保存录音和文字，映照基于你描述的内容来回应。我们不会用他的声音生成新的句子。',
+        },
+        {
+          q: '他的语音留言，我第一步该做什么？',
+          a: '先把它们存到一个比你现在的手机活得久的地方，留一份永不删除的备份。然后慢慢决定。想再听的时候，没有截止日期。',
+        },
+      ],
+    },
+  },
 ];
 export function getPostBySlug(slug: string): BlogPost | undefined {
   return BLOG_POSTS.find((p) => p.slug === slug);
