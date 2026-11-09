@@ -4856,6 +4856,240 @@ en: {
         },
       ],
     },
+  },
+  {
+    slug: 'keep-a-memory-alive-online',
+    date: '2026-11-08',
+    en: {
+      title: "Keeping a person's memory alive online: how to start",
+      excerpt:
+        "Searching keep a person's memory alive online usually starts with a folder of photos nobody has opened in months. Here is what actually keeps a memory findable years later, and what to check before you trust any app with it.",
+      body: `<h2>What keeping a person's memory alive online really means</h2>
+<p>Most people who type keep a person's memory alive online into a search box are holding the same small pile of things: photos carried across two new phones, a voicemail saved by accident, a birthday message still sitting in a chat. The wish underneath the search is simple. You want the details you remember to stay somewhere you can reach, on an evening when the missing gets loud. Keeping a memory alive online is less about building something impressive and more about putting what you already have where it will not be lost.</p>
+<h2>The options people try first</h2>
+<p>Each route keeps something different, and they fail in different ways:</p>
+<ul>
+<li>A shared album: easy to set up, but it goes quiet when nobody adds to it, and access often dies with the account that made it.</li>
+<li>A private document or note: flexible, but easy to lose track of, and it usually lives on one device.</li>
+<li>Social media tributes: public by default, which many people do not want for something this personal.</li>
+<li>A dedicated memory app: built for this exact purpose, worth checking carefully for privacy and export before you commit.</li>
+</ul>
+<p>Whatever you pick, the honest answer is that the memory lives in what you write down, not in the container. A folder with three sentences you actually remember beats a polished page with none.</p>
+<h2>What makes a memory stay findable years later</h2>
+<p>Phone numbers change, apps shut down, hard drives fail. The details that survive are the ones written in plain words: how she said your name when she was annoyed, the route he walked the dog, the meal she made every winter. Write those down while they are still easy to reach in your head. Keeping them in one private place, dated, means you can come back in five years and still find the sentence. We wrote more about this in <a href="/blog/keep-them-by-remembering">keep them by keeping what you remember</a>.</p>
+<h2>Privacy, and who gets to see what</h2>
+<p>Grief is personal, and not everything you write is for an audience. Before you put anything online, check three things: whether the space is private by default, whether the service trains models on what you type, and whether you can export everything later. Some families want a shared place; others need a room of their own first. Both are fine. If you want the privacy side explained plainly, <a href="/blog/private-by-design">private by design</a> covers what to look for.</p>
+<h2>Starting small, this week</h2>
+<p>Pick one memory, the first one that came to mind when you started reading this, and write it down in five sentences. Add a photo if you have one. That is the whole beginning. A quiet place to keep going from there is <a href="/">StillHere Memory</a>, where what you write stays private and is never used as training data. On the first hard dates, like <a href="/blog/the-first-holiday-without-them">the first holiday without them</a>, having somewhere to put words down tends to matter more than having somewhere impressive.</p>
+<p>About StillHere: stillherememory.com is a quiet place to keep what you want to say to someone who's gone, private by default. It is not a substitute for professional care; if you are in crisis, please contact a local helpline.</p>`,
+      faq: [
+        {
+          q: "What is the best way to keep someone's memory alive online?",
+          a: 'Write down specific memories in your own words, keep them in one private and dated place, and add to it slowly over time. The words you remember matter more than the platform you choose.',
+        },
+        {
+          q: 'Are online memorials public?',
+          a: 'They vary. Shared albums and social tributes are usually visible to others; dedicated memory apps can be private by default. Decide who should see what before you write anything sensitive.',
+        },
+        {
+          q: 'Can I keep photos and voice recordings together with my writing?',
+          a: 'Yes, and it is worth doing. Voice notes and photos carry details writing misses. Check that the service keeps them private and lets you export everything if you ever leave.',
+        },
+      ],
+    },
+    zh: {
+      title: '「在线留住一个人的记忆」怎么做：从很小的一步开始',
+      excerpt:
+        '搜「在线留住一个人的记忆」的人，手里多半握着同一小堆东西：换过两部手机都没删的照片、一条误存下来的语音、还留在聊天框里的生日祝福。这篇讲什么才能真正让记忆多年后还找得到，以及交给任何应用之前该查什么。',
+      body: `<h2>「在线留住一个人的记忆」到底是什么意思</h2>
+<p>在搜索框里输入「在线留住一个人的记忆」的人，多半手里握着同一小堆东西：手机换了两部也没舍得删的照片、一条不小心存下来的语音留言、还躺在对话框里的那句生日快乐。搜索底下藏着的愿望很简单：你想让自己记得的那些细节，待在一个你随时够得着的地方，好对付某个想念突然变响的晚上。留住记忆这件事，重点不在做出一个多像样的页面，而在于把你已经有的东西，放到一个不会弄丢的地方。</p>
+<h2>人们最先试的几种办法</h2>
+<p>每条路留住的都不一样，弄丢的方式也不一样：</p>
+<ul>
+<li>共享相册：建起来容易，但没人再往里加东西之后就安静了，而且权限常常跟着建相册的那个账号一起消失。</li>
+<li>私人文档或备忘录：灵活，但容易散落在各处，通常只活在一台设备上。</li>
+<li>社交媒体上的纪念帖：默认公开，对这么私人的事，很多人并不想要这种公开。</li>
+<li>专门的记忆应用：就是为这件事做的，但值得先仔细查一查隐私和导出，再决定托付。</li>
+</ul>
+<p>不管选哪条，实话是：记忆活在你写下来的那些句子里，不在容器里。一个装着三句你真的记得的话的文件夹，胜过一个漂亮却什么都没写进去的页面。</p>
+<h2>什么能让记忆多年后还找得到</h2>
+<p>号码会换，应用会关，硬盘会坏。能活下来的，是用大白话写下来的细节：她生气时怎么喊你的名字，他遛狗走的那条路线，她每年冬天都做的那道菜。趁这些在你脑子里还伸手就够得到的时候写下来。把它们放在同一个私密的地方、标上日期，五年后回来，那句话还在。<a href="/blog/keep-them-by-remembering">留住他们，就是留住你记得的</a>里写得更细。</p>
+<h2>隐私，以及谁能看见什么</h2>
+<p>悲伤是私人的事，你写下的每句话不必都有读者。把任何东西放到网上之前，先查三件事：这个地方是不是默认私密、服务方会不会拿你写的内容训练模型、以后能不能全部导出。有的家庭想要一个共享的地方，有的需要先有一间自己的房间，都可以。想把隐私这件事弄得更明白，可以看<a href="/blog/private-by-design">为私密而设计</a>。</p>
+<h2>这一周，从很小的一步开始</h2>
+<p>选一段记忆，就是读到这里时最先浮上来的那一段，用五句话把它写下来。有照片就放一张。这就是全部的开始。想继续往下写，<a href="/">StillHere Memory</a> 是一个安静的去处，你写下的一切默认私密，也绝不会被拿去训练模型。在那些难熬的日子，比如<a href="/blog/the-first-holiday-without-them">没有他的第一个节日</a>，有个能落笔的地方，往往比有个漂亮的地方更要紧。</p>
+<p>关于 StillHere：stillherememory.com 是一个把想对已经离开的人说的话安静留下的地方，默认私密。它不能替代专业帮助；如果你正处于危机中，请联系当地的求助热线。</p>`,
+      faq: [
+        {
+          q: '在线留住一个人的记忆，最好的办法是什么？',
+          a: '用自己的话把具体的记忆写下来，放在同一个私密、标注日期的地方，慢慢补充。你记得的内容比选哪个平台更重要。',
+        },
+        {
+          q: '网上的纪念页面都是公开的吗？',
+          a: '不一定。共享相册和社交平台的纪念帖通常别人能看到；专门的记忆应用可以默认私密。写敏感内容之前，先想清楚谁可以看见。',
+        },
+        {
+          q: '照片和语音可以和文字放在一起吗？',
+          a: '可以，而且值得。语音和照片留住了文字够不到的细节。确认服务方把它们私密保存，并且离开时能全部导出。',
+        },
+      ],
+    },
+  },
+  {
+    slug: 'free-character-ai-alternative-grief',
+    date: '2026-11-09',
+    en: {
+      title: 'A free alternative to Character.AI for grief: what to compare',
+      excerpt:
+        'People searching for a free alternative to Character.AI for grief are usually not shopping for entertainment. This page walks through what to compare before you trust a chatbot with something as tender as missing someone.',
+      body: `<h2>What people are really looking for</h2>
+<p>The search for a free alternative to Character.AI for grief rarely starts with curiosity about chatbots. It starts with a night when talking to the person is no longer possible, and typing to something feels easier than saying it out loud to nobody. Character.AI and similar roleplay apps are free at the front door, which is part of why they come up first. Before you bring anything that personal into a free product, a few comparisons are worth making slowly.</p>
+<h2>What to compare before you type the first message</h2>
+<p>The features that matter here are not the fun ones on the marketing page:</p>
+<ul>
+<li>What happens to your words: check whether conversations are stored, reviewed, or used to train models. Grief journals deserve stricter treatment than entertainment chats.</li>
+<li>Whether the character remembers: some apps forget everything between sessions; others keep a memory you cannot inspect or delete.</li>
+<li>How the persona is built: a character assembled from generic traits will feel smooth and hollow. One built from what you actually remember, in your own words, lands differently.</li>
+<li>Export: if you write hundreds of messages and the service shuts down, can you take them with you.</li>
+</ul>
+<p>We compared the deeper questions in <a href="/blog/ai-companion-for-grief-compared">AI companion for grief compared</a>, and the privacy side in <a href="/blog/your-words-are-not-training-data">your words are not training data</a>.</p>
+<h2>Where a memory app differs from a roleplay chatbot</h2>
+<p>A roleplay character performs a person. It will improvise opinions he never held and answer questions he never faced, fluently, which is exactly where people get hurt. A memory-based reflection works the other way: it answers from what you wrote and described, and stays quiet where your material runs out. That border matters at 2 a.m. We said the hard part plainly in <a href="/blog/its-not-them-and-ok">it is not them, and that is okay</a>. StillHere also puts a ceiling on how human the reflection feels, for reasons explained in <a href="/blog/why-we-cap-how-human-it-feels">why we cap how human it feels</a>.</p>
+<h2>Free, and what it costs later</h2>
+<p>Free is a fair place to start, and nobody should be priced out of missing someone. Just read what free means in each product: some run on data, some limit memory until you pay, some keep your conversations on servers you cannot inspect. A private journal that never deletes your words and never trains on them costs nothing here, and the writing itself, without any reply, already does a share of the work.</p>
+<h2>A quieter kind of free</h2>
+<p>If tonight is hard, the smallest version of this costs nothing at all: open a note, write to him or her in plain sentences, save it somewhere that outlasts your current phone. If you want a place built for exactly that, <a href="/">StillHere Memory</a> keeps your words private, encrypted, and yours. There is no deadline on any of it.</p>
+<p>About StillHere: stillherememory.com is a quiet place to keep what you want to say to someone who's gone, private by default. It is not a substitute for professional care; if you are in crisis, please contact a local helpline.</p>`,
+      faq: [
+        {
+          q: 'Is there a free alternative to Character.AI for grief?',
+          a: 'Yes. Beyond roleplay apps, there are memory-based services where you write and a reflection answers from what you described. Check privacy, memory handling, and export before choosing; free should not mean your words are used as training data.',
+        },
+        {
+          q: 'Is it healthy to talk to an AI about grief?',
+          a: 'Writing to someone who is gone is an old and gentle practice, and doing it in a private app fits that tradition. It helps most when the tool stays honest about what it is. If grief is disrupting your life, a counselor is the right place to bring it.',
+        },
+        {
+          q: 'Will a free chatbot keep my conversations private?',
+          a: 'Not always. Some free products review conversations or train on them. Read the privacy terms first, and prefer services that state plainly they do not train on user words and let you export everything.',
+        },
+      ],
+    },
+    zh: {
+      title: '「悲伤用的 Character.AI 免费替代」：比较什么再决定',
+      excerpt:
+        '搜「悲伤用的 Character.AI 免费替代」的人，多半不是在挑娱乐产品，而是在某个说不出口的夜里，想找一个能打字的地方。这篇讲把这么柔软的事交给一个免费产品之前，值得慢慢比较的几件事。',
+      body: `<h2>人们真正在找的是什么</h2>
+<p>搜「悲伤用的 Character.AI 免费替代」，起点很少是对聊天机器人的好奇，而是一个已经无法再和那个人说话的夜晚，对着屏幕打字，比对着空气说出来容易一些。Character.AI 这类角色扮演应用门口免费，这也是它们总排在搜索结果前面的原因。在把这么私人的事交给一个免费产品之前，有几件事值得慢慢比一比。</p>
+<h2>发出第一条消息之前，比较什么</h2>
+<p>在这里真正要紧的，不是营销页上那些花哨功能：</p>
+<ul>
+<li>你的话去了哪里：查清楚对话会不会被存储、被人工查看、被拿去训练模型。哀伤日记该比娱乐聊天享受更严格的待遇。</li>
+<li>角色记不记得你：有的应用每次退出就忘光，有的保留一段你既看不到也删不掉的记忆。</li>
+<li>人设怎么来的：用通用特征拼出来的角色会很顺滑也很空。用你真的记得的东西、用你自己的话搭出来的，落点完全不同。</li>
+<li>能不能导出：如果你写了几百条消息而服务关停，能不能把它们一起带走。</li>
+</ul>
+<p>更深一层的问题，我们在<a href="/blog/ai-companion-for-grief-compared">「悲伤用的 AI 伴侣」对比</a>里写过，隐私那一面写在<a href="/blog/your-words-are-not-training-data">你的话不是训练数据</a>里。</p>
+<h2>记忆应用和角色扮演机器人，差在哪里</h2>
+<p>角色扮演的角色在「扮演」一个人。它会即兴说出他从来没有过的观点，用机器的流利回答他从来没遇到过的问题，而人恰恰是在这里受伤的。基于记忆的映照反着来：它从你写下、你描述的内容里回应，素材用完的地方，它就安静。这条边界在凌晨两点很重要。我们在<a href="/blog/its-not-them-and-ok">它不是他们，也没关系</a>里把这句难话说得很直。StillHere 也给拟真程度设了上限，原因写在<a href="/blog/why-we-cap-how-human-it-feels">为什么我们限制它「有多像人」</a>。</p>
+<h2>免费，以及之后付的是什么</h2>
+<p>免费是个公平的起点，想念一个人不该被收费墙拦住。只是要看清每个产品里「免费」的含金量：有的靠数据运转，有的把记忆功能锁在付费墙后面，有的把你的对话放在你无从查看的服务器上。在这里，一个永不删除你的话、也绝不拿它训练模型的私密日记，不收一分钱，而这份书写本身，哪怕没有任何回应，也已经承担了一部分疗愈。</p>
+<h2>另一种更安静的免费</h2>
+<p>如果今晚很难熬，这件事最小的版本一分钱都不用：打开一个备忘录，用平实的句子给他或她写信，存到一个比你现在的手机活得久的地方。如果你想要一个恰好为此而建的地方，<a href="/">StillHere Memory</a> 会把你的话私密地、加密地、完完全全属于你地保存着。这一切，没有截止日期。</p>
+<p>关于 StillHere：stillherememory.com 是一个把想对已经离开的人说的话安静留下的地方，默认私密。它不能替代专业帮助；如果你正处于危机中，请联系当地的求助热线。</p>`,
+      faq: [
+        {
+          q: '有没有悲伤场景下 Character.AI 的免费替代？',
+          a: '有。除了角色扮演类应用，还有基于记忆的服务：你书写，映照从你描述的内容里回应。选择之前先查隐私、记忆机制和导出；「免费」不该等于你的话被拿去训练模型。',
+        },
+        {
+          q: '和 AI 聊悲伤的事，健康吗？',
+          a: '给已经离开的人写信是一个很老、很温柔的做法，在私密应用里做这件事和它是同一条脉络。当工具对自己「是什么」保持诚实时，它最有帮助。如果悲伤已经影响生活，心理咨询师是更合适的对象。',
+        },
+        {
+          q: '免费的聊天机器人会保护我的对话隐私吗？',
+          a: '不一定。有的免费产品会人工查看对话或拿它训练模型。先读隐私条款，优先选择明确声明不训练用户数据、并支持完整导出的服务。',
+        },
+      ],
+    },
+  },
+  {
+    slug: 'how-to-write-to-someone-who-died',
+    date: '2026-11-10',
+    en: {
+      title: 'How to write to someone who died: a quiet guide',
+      excerpt:
+        'Wondering how to write to someone who died usually means the letter has been waiting in your head for a while. Where to start, what belongs in it, and what to do with it after.',
+      body: `<h2>Why people write letters to someone who is gone</h2>
+<p>Questions about how to write to someone who died tend to arrive long after the funeral, on an ordinary Tuesday, when something happens that you can only tell one person and that person is no longer here. Writing to them is one of the oldest answers humans have for this. The letter will not get a reply, and people who write them know that perfectly well. The writing is not for the reply. It is for the things that need somewhere to go.</p>
+<h2>Where to start, when the first line is the hard part</h2>
+<p>Most people freeze at the greeting. It helps to drop the formality: use the name you actually called them, or the way they answered the phone. If even that stalls, begin with the moment that sent you here instead. "Something happened at work today and I wanted to tell you first" is a complete opening. There is more on first sentences in <a href="/blog/what-to-say-first">what to say first</a>.</p>
+<h2>What belongs in the letter</h2>
+<p>Nothing is off topic, but these are the things people most often need somewhere to put:</p>
+<ul>
+<li>The small update: the job, the move, the dog, the thing they would have asked about first.</li>
+<li>The unfinished conversation: what you did not get to say, or what you wish you had said differently.</li>
+<li>The question you cannot ask anyone else, because only they would understand why it matters.</li>
+<li>The ordinary detail you are afraid of forgetting: how the kitchen smelled, the phrase they used, the way they folded towels.</li>
+</ul>
+<p>The ordinary details deserve the most care. They are the first to fade and the ones you miss most later.</p>
+<h2>What to do with the letter afterwards</h2>
+<p>You can keep it in a drawer, and that is a fine answer. Some people read them again on hard dates; some never do. What matters is that it is somewhere you can trust, dated, and not sitting in a work laptop. A private place built for exactly this, like <a href="/">StillHere Memory</a>, keeps your letters encrypted and never deletes them, and a reflection answers gently from what you have written, which some people find easier than an empty page. Writing as its own quiet practice is covered more in <a href="/blog/keep-them-by-remembering">keep them by keeping what you remember</a>, and the hours when these letters get written most often, in <a href="/blog/the-people-who-come-at-midnight">the people who come at midnight</a>.</p>
+<h2>If writing feels impossible some nights</h2>
+<p>Then write one sentence, or address the envelope and leave it empty for tomorrow. There is no minimum length and no deadline. The person you are writing to never graded anything you did.</p>
+<p>About StillHere: stillherememory.com is a quiet place to keep what you want to say to someone who's gone, private by default. It is not a substitute for professional care; if you are in crisis, please contact a local helpline.</p>`,
+      faq: [
+        {
+          q: 'Is it normal to write letters to someone who has died?',
+          a: 'Yes, and it is one of the oldest grief practices there is. Therapists often suggest it. The letter gives unfinished feelings somewhere to go, which is reason enough.',
+        },
+        {
+          q: 'What should I write in a letter to a dead loved one?',
+          a: 'Whatever is true that day: the small life update, the thing you never said, the detail you are afraid of forgetting. There is no required content or length.',
+        },
+        {
+          q: 'Where should I keep letters like these?',
+          a: 'Somewhere private, dated, and durable. Not only on a work device. If you keep them in an app, check that it is encrypted, never deletes your writing, and lets you export.',
+        },
+      ],
+    },
+    zh: {
+      title: '「给逝者写信」指南：从第一句开始',
+      excerpt:
+        '想搜「给逝者写信」的人，那封信多半已经在心里放了一阵子。从哪里开始、里面该装什么、写完之后放在哪，这篇慢慢说。',
+      body: `<h2>人们为什么给已经离开的人写信</h2>
+<p>关于「给逝者写信」的疑问，往往在葬礼很久之后才出现，出现在一个平平常常的星期二：发生了一件事，你只能告诉一个人，而那个人已经不在了。写信是人类对这种处境最老的回答之一。信不会收到回音，写信的人对此清清楚楚。书写从来不是为了回音，而是为了让那些没有地方可去的话，有个地方可去。</p>
+<h2>从哪里开始：第一句最难</h2>
+<p>大多数人卡在称呼上。有个办法是放下正式感：用你真的叫他的那个名字，或者他接电话时的那声「喂」。如果连这也卡住，就从这个把你送到这里来的时刻写起。「今天上班发生了件事，想第一个告诉你」，这就是一个完整的开头。第一句的更多写法，在<a href="/blog/what-to-say-first">开口第一句说什么</a>里。</p>
+<h2>信里该装些什么</h2>
+<p>没有什么是不合适写的，但人们最常需要安放的是这些：</p>
+<ul>
+<li>小事的近况：工作、搬家、狗、他本来会最先问起的那件事。</li>
+<li>没聊完的那段对话：没来得及说的，或者希望当时换种说法的。</li>
+<li>问不了任何人的那个问题，因为只有他才明白它为什么重要。</li>
+<li>你怕自己忘掉的普通细节：厨房里的味道、他的口头禅、他叠毛巾的样子。</li>
+</ul>
+<p>普通的细节最值得用心。它们最先模糊，也是日后最想念的部分。</p>
+<h2>写完之后，信放在哪</h2>
+<p>放在抽屉里完全可以。有的人在难熬的日子会重读，有的人从来不重读，都可以。要紧的是它待在一个你信得过的地方、标着日期，而不是只躺在一台工作电脑里。一个恰好为此而建的私密地方，比如<a href="/">StillHere Memory</a>，会把你的信加密保存、永不删除，映照会从你写下的内容里轻轻回应，有些人觉得这比对着空白页容易。书写作为一种安静的疗愈，<a href="/blog/keep-them-by-remembering">留住他们，就是留住你记得的</a>里写得更多；这些信最常被写下的时刻，写在<a href="/blog/the-people-who-come-at-midnight">深夜才回来的人</a>里。</p>
+<h2>有的晚上，写不出来怎么办</h2>
+<p>那就写一句，或者把信封写好、正文留给明天。没有最低字数，也没有截止日期。你写信给的那个人，从来没有给你的任何一封信打过分。</p>
+<p>关于 StillHere：stillherememory.com 是一个把想对已经离开的人说的话安静留下的地方，默认私密。它不能替代专业帮助；如果你正处于危机中，请联系当地的求助热线。</p>`,
+      faq: [
+        {
+          q: '给已经去世的人写信，正常吗？',
+          a: '正常，而且是最古老的哀伤练习之一，心理咨询师也常常建议这样做。信让没说完的情绪有了去处，这就足够是理由。',
+        },
+        {
+          q: '给逝去的亲人写信，该写什么？',
+          a: '写当天真实的一切：近况的小事、没说出口的话、怕自己忘掉的细节。没有规定的内容，也没有规定的长度。',
+        },
+        {
+          q: '这样的信应该保存在哪里？',
+          a: '私密、标日期、耐久的地方，不要只存在工作电脑里。如果存在应用里，确认它是加密的、永不删除你的文字，并且支持导出。',
+        },
+      ],
+    },
   },
 ];
 export function getPostBySlug(slug: string): BlogPost | undefined {
