@@ -5091,6 +5091,100 @@ en: {
       ],
     },
   },
+  {
+    slug: 'private-chatbot-no-data-training',
+    date: '2026-11-11',
+    en: {
+      title: 'Private chatbot, no data training: a checklist',
+      excerpt:
+        'A private chatbot that does not train on your data is a promise worth verifying, not assuming. This checklist covers what to check in the privacy policy, the settings and the product itself before you trust it with personal words.',
+      body: `<h2>Why a checklist, and why now</h2>
+<p>Anyone typing a private chatbot no data training checklist into a search box has usually already had the uncomfortable thought: the conversation I am about to have is personal, and I do not know where it goes afterwards. That thought is reasonable. Training is invisible from the outside, terms of service change quietly, and the words people write when they miss someone are among the most sensitive things they type all week. A checklist turns a vague worry into seven things you can actually verify.</p>
+<h2>The checklist: seven things to verify</h2>
+<ul>
+<li><strong>Training is named, and switched off.</strong> The policy should say in plain words that your inputs are not used to train models. "We may use data to improve our services" is not the same sentence.</li>
+<li><strong>Retention has a number.</strong> How long conversations are kept, and whether deleting removes them from backups too. A "delete" that leaves copies is storage, not deletion.</li>
+<li><strong>No resale, no advertising.</strong> Your words should not be sold, shared with advertisers, or folded into a data partnership you never heard about.</li>
+<li><strong>Encryption at rest, not only in transit.</strong> Transport encryption protects the trip; encryption at rest protects the copy that stays behind.</li>
+<li><strong>Export exists.</strong> A private place you cannot leave is not fully private. You should be able to take your words out, in a readable format, at any time.</li>
+<li><strong>Memory is scoped and optional.</strong> If the service remembers details, check where they are stored, whether they are tied to your account, and whether you can clear them.</li>
+<li><strong>The policy is readable in one sitting.</strong> If understanding the privacy terms would require a lawyer, treat that as an answer.</li>
+</ul>
+<h2>How common options phrase the promise</h2>
+<table>
+<thead><tr><th>Where you write</th><th>What usually happens to your words</th><th>What to verify first</th></tr></thead>
+<tbody>
+<tr><td>General chatbot, free tier</td><td>Input may be reviewed or used for training, depending on settings and region</td><td>The training toggle, and whether it is off by default</td></tr>
+<tr><td>Notes app on your own device</td><td>Stays local, but answers nothing back, and syncing only happens if you enable it</td><td>Sync settings and backup encryption</td></tr>
+<tr><td>A service built for private memory</td><td>What you write is the product itself, so the no-training promise is usually explicit</td><td>That the promise is written down, dated, and covers deletion as well</td></tr>
+</tbody>
+</table>
+<h2>How to verify without taking the marketing at its word</h2>
+<p>Three checks take about ten minutes. First, read the privacy policy for the word "training"; if it appears only inside a sentence about what you agree to, keep looking. Second, open the settings and count the controls you actually hold: deletion, export, memory. Third, look for the date the no-training promise was made, in the company's blog or changelog, because a promise without a date is hard to hold anyone to. The reasons behind our own promise are written out in <a href="/blog/your-words-are-not-training-data">your words are not training data</a>, and the encryption half of the same promise in <a href="/blog/private-by-design">private by design</a>.</p>
+<h2>What belongs in a space like this</h2>
+<p>Once the checklist is satisfied, the question changes from "is this safe" to "what is this for". A private chatbot that never trains on your data is a place for the sentences that have nowhere else to go: the small update about your week, the question you cannot ask anyone else, the memory you are afraid of forgetting. Keeping those words in one dated, durable place matters more than people expect, which is what we wrote about in <a href="/blog/on-never-deleting-what-you-remember">on never deleting what you remember</a>.</p>
+<p>If you want a place that was built around this checklist from the first day, <a href="/">StillHere Memory</a> keeps your words encrypted, never trains on them, and never deletes them.</p>`,
+      faq: [
+        {
+          q: 'Does "no training" mean nobody ever sees my conversations?',
+          a: 'No. Training and human review are different things. A no-training promise does not rule out review, so check both, and prefer services that state their position on each one separately.',
+        },
+        {
+          q: 'Can I check whether a chatbot has trained on my data?',
+          a: 'Not directly from the outside. The practical check is documentary: the privacy policy, the settings, and dated public statements from the company. If none of these exist, treat the answer as yes.',
+        },
+        {
+          q: 'Is a paid plan always more private than a free one?',
+          a: 'Often, but not automatically. Some free tiers train by default and let you switch it off; some paid plans retain data longer than you would expect. The checklist applies to both.',
+        },
+      ],
+    },
+    zh: {
+      title: '不训练数据的私密聊天机器人：一份核对清单',
+      excerpt:
+        '选一个「不用你的数据做训练」的私密聊天机器人，这句承诺值得核对，而不是默认相信。这份清单列出要在隐私政策、设置和产品本身里逐条确认的事。',
+      body: `<h2>为什么要一份清单</h2>
+<p>会去搜「私密聊天机器人 不训练数据 清单」的人，多半已经有过那个不太舒服的念头：接下来要写的话很私密，但我不知道它之后会去哪。这个念头是合理的。训练从外部看不见，服务条款会悄悄改版，而人在想念一个人时写下的那些句子，是一周里最敏感的文字。清单的作用，是把一团模糊的担心变成七件可以逐条核对的事。</p>
+<h2>清单：七件要核对的事</h2>
+<ul>
+<li><strong>「训练」被明确写出，并且是关闭的。</strong>政策里应该有「你的输入不用于训练模型」这样直白的话。「我们可能使用数据改进服务」不是同一句话。</li>
+<li><strong>保存期限有具体数字。</strong>对话保存多久，删除时会不会连备份一起删。会留下副本的「删除」只是存储，不是删除。</li>
+<li><strong>不出售、不投广告。</strong>你的话不应该被卖掉、被分享给广告商，或者被塞进一个你从没听说过的数据合作。</li>
+<li><strong>静态加密，不只是传输加密。</strong>传输加密保护的是路上，静态加密保护的是留下来的那份。</li>
+<li><strong>能导出。</strong>一个走不出去的私密空间不算完全私密。你随时应该能把文字带走，并且是可读的格式。</li>
+<li><strong>记忆是可选的、有边界的。</strong>如果服务会记住细节，要确认它存在哪、是否绑定账号、能不能清空。</li>
+<li><strong>政策一坐下就能读完。</strong>如果读懂隐私条款需要请律师，这本身就是一种答案。</li>
+</ul>
+<h2>常见选项各自怎么表述</h2>
+<table>
+<thead><tr><th>你在哪里写</th><th>你的话通常会遇到什么</th><th>先核对什么</th></tr></thead>
+<tbody>
+<tr><td>通用聊天机器人免费版</td><td>输入可能被抽检或用于训练，取决于设置和地区</td><td>训练开关，以及它默认是不是关的</td></tr>
+<tr><td>本机上的笔记应用</td><td>留在本地，但不会回应，同步也只有你打开才会发生</td><td>同步设置和备份加密</td></tr>
+<tr><td>为私密记忆而建的服务</td><td>你写的话就是产品本身，所以「不训练」通常写得明明白白</td><td>承诺有没有落成文字、标注日期，以及是否覆盖删除</td></tr>
+</tbody>
+</table>
+<h2>怎么核对，而不是听信宣传页</h2>
+<p>三件事，大约十分钟。第一，在隐私政策里搜「训练」这个词；如果它只出现在「你同意什么」的句子里，继续找。第二，打开设置，数一数你真正拥有的控制项：删除、导出、记忆。第三，去公司的博客或更新日志里找「不训练」承诺出现的日期，没有日期的承诺，很难追究。我们把自家承诺的理由写在<a href="/blog/your-words-are-not-training-data">你的话不是训练数据</a>里，加密这一半写在<a href="/blog/private-by-design">默认私密</a>里。</p>
+<h2>核对完之后，这里适合放什么</h2>
+<p>清单过了关，问题就从「安不安全」变成「它是用来做什么的」。一个不拿你的数据做训练的私密聊天机器人，是给那些无处可去的话准备的：这周的近况、问不了别人的问题、怕自己忘掉的回忆。把这些文字放在一个标注日期、耐久的地方，比很多人以为的更重要，我们在<a href="/blog/on-never-deleting-what-you-remember">永不删除你记得的</a>里写过这件事。</p>
+<p>如果你想要一个从第一天就按这份清单建起来的地方，<a href="/">StillHere Memory</a> 会把你的话加密保存、绝不用于训练、永不删除。</p>`,
+      faq: [
+        {
+          q: '「不训练」是不是意味着没有人会看到我的对话？',
+          a: '不是。训练和人工查看是两回事。不训练的承诺并不排除抽检，所以两件事都要核对，优先选把两者分开说明白的服务。',
+        },
+        {
+          q: '我能自己查出一个聊天机器人有没有拿我的数据做训练吗？',
+          a: '从外部没法直接查。实际可行的是查文件：隐私政策、设置项，以及公司带日期的公开说明。如果三样都找不到，就把答案当作「有」。',
+        },
+        {
+          q: '付费版一定比免费版更私密吗？',
+          a: '通常好一些，但不是必然。有的免费版默认训练但可以关掉，有的付费版保存数据的时间比你想的长。这份清单对两种都适用。',
+        },
+      ],
+    },
+  },
 ];
 export function getPostBySlug(slug: string): BlogPost | undefined {
   return BLOG_POSTS.find((p) => p.slug === slug);
